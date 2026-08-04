@@ -20,3 +20,7 @@ EPG 订阅地址
 
 
 https://raw.githubusercontent.com/tytestelle/sandiJMYG/main/epg_data/epg_perfect.xml
+
+
+
+https://raw.githubusercontent.com/tytestelle/sandiJMYG/main/ico/logo/
