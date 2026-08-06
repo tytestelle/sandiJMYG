@@ -10,15 +10,24 @@ from collections import defaultdict
 import ssl
 import json
 from datetime import datetime, timedelta
-from xml.dom import minidom  # 用于美化
+from xml.dom import minidom
 
-# ===================== 抓取 Kbro 频道 906（缩进与示例一致） =====================
+# ===================== 美化 XML =====================
+def pretty_xml(xml_string):
+    try:
+        dom = minidom.parseString(xml_string)
+        pretty = dom.toprettyxml(indent="  ")
+        lines = pretty.splitlines()
+        if lines and lines[0].startswith('<?xml'):
+            lines = lines[1:]
+        body = '\n'.join(lines)
+        return '<?xml version="1.0" encoding="UTF-8"?>\n' + body
+    except Exception as e:
+        print(f"⚠️ 美化失败: {e}")
+        return xml_string
+
+# ===================== 抓取 Kbro 频道 906 =====================
 def fetch_kbro_epg(days=7):
-    """
-    从 Kbro API 抓取频道 906 的节目，转换为 XMLTV 格式。
-    频道 ID 替换为 456841，节目包含 title, desc, date, audio 等完整标签。
-    输出格式与用户提供的示例完全一致（缩进、换行）。
-    """
     print("📡 开始抓取 Kbro 频道 906 节目...")
     ssl._create_default_https_context = ssl._create_unverified_context
     base_url = "https://epg.kbro.com.tw:2543/epg/epg_program.php"
@@ -33,7 +42,7 @@ def fetch_kbro_epg(days=7):
     tv.set("generator-info-name", "Kbro EPG Grabber")
     tv.set("source-info-name", "Kbro")
 
-    # 频道
+    # 频道定义（仅用于内部构造，最终合并时只取节目，不覆盖原有频道）
     channel = ET.SubElement(tv, "channel", id="456841")
     display_name = ET.SubElement(channel, "display-name", lang="TW")
     display_name.text = "驚豔成人電影台"
@@ -51,22 +60,18 @@ def fetch_kbro_epg(days=7):
         except Exception as e:
             print(f"   ⚠️ 抓取 {date_str} 失败: {e}")
             continue
-
         if not data or "PROG" not in data:
             continue
-
         for item in data["PROG"]:
             if item.get("channelid") != "906":
                 continue
             prog_name = item.get("programname", "")
-            start_str = item.get("starttime", "")   # YYYYMMDDHHMMSS
+            start_str = item.get("starttime", "")
             end_str = item.get("endtime", "")
             desc_str = item.get("programdescr", "")
             if not start_str or not end_str:
                 continue
-
             prog_date = start_str[:8] if len(start_str) >= 8 else ""
-
             start_xml = start_str + " +0800"
             stop_xml = end_str + " +0800"
 
@@ -77,40 +82,24 @@ def fetch_kbro_epg(days=7):
                 start=start_xml,
                 stop=stop_xml
             )
-
             title = ET.SubElement(programme, "title", lang="zh")
             title.text = prog_name
-
-            # desc 不带 lang 属性
             if desc_str:
                 desc = ET.SubElement(programme, "desc")
                 desc.text = desc_str
-
             if prog_date:
                 date_elem = ET.SubElement(programme, "date")
                 date_elem.text = prog_date
-
             audio = ET.SubElement(programme, "audio")
             stereo = ET.SubElement(audio, "stereo")
             stereo.text = "stereo"
-
             total_progs += 1
 
     print(f"   ✅ 共抓取 {total_progs} 个节目")
+    raw_xml = ET.tostring(tv, encoding='utf-8').decode()
+    return pretty_xml(raw_xml)
 
-    # 使用 minidom 美化输出，缩进 2 个空格，并去除自动添加的 <?xml> 声明
-    rough_string = ET.tostring(tv, encoding='utf-8').decode()
-    reparsed = minidom.parseString(rough_string)
-    pretty_xml = reparsed.toprettyxml(indent="  ")
-    # 去掉第一行（<?xml version="1.0" encoding="utf-8"?>）
-    lines = pretty_xml.splitlines()
-    if lines and lines[0].startswith('<?xml'):
-        lines = lines[1:]
-    body = '\n'.join(lines)
-    # 添加我们自己的声明（UTF-8）
-    return '<?xml version="1.0" encoding="UTF-8"?>\n' + body
-
-# ===================== 原脚本函数（不变） =====================
+# ===================== 原有功能函数 =====================
 def safe_download(url):
     try:
         print(f"📥 下载: {url}")
@@ -171,7 +160,8 @@ def simple_merge(contents):
         except Exception as e:
             print(f"❌ 处理 {src_name} 出错: {e}")
     print(f"📊 简单合并后总频道数: {total_channels}, 总节目数: {total_progs}")
-    return '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(merged_root, encoding='utf-8').decode()
+    raw = ET.tostring(merged_root, encoding='utf-8').decode()
+    return '<?xml version="1.0" encoding="UTF-8"?>\n' + raw
 
 def clean_unused_channels(xml_content):
     print("🧹 开始清理无节目频道...")
@@ -189,7 +179,8 @@ def clean_unused_channels(xml_content):
     for ch in to_remove:
         root.remove(ch)
     print(f"🧹 删除了 {len(to_remove)} 个无节目频道，剩余频道数: {len(root.findall('channel'))}")
-    return '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(root, encoding='utf-8').decode()
+    raw = ET.tostring(root, encoding='utf-8').decode()
+    return '<?xml version="1.0" encoding="UTF-8"?>\n' + raw
 
 def deduplicate_epg(xml_content):
     print("🔄 开始高级去重...")
@@ -254,7 +245,8 @@ def deduplicate_epg(xml_content):
         kept_count += 1
 
     print(f"📊 节目去重后: {kept_count} (原 {len(root.findall('programme'))})")
-    return '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(new_root, encoding='utf-8').decode()
+    raw = ET.tostring(new_root, encoding='utf-8').decode()
+    return '<?xml version="1.0" encoding="UTF-8"?>\n' + raw
 
 def simple_timezone_fix(xml_content):
     if xml_content:
@@ -263,6 +255,7 @@ def simple_timezone_fix(xml_content):
 
 def save_data(content, filename):
     os.makedirs('epg_data', exist_ok=True)
+    content = pretty_xml(content)
     filepath = f'epg_data/{filename}'
     if os.path.exists(filepath):
         with open(filepath, 'r', encoding='utf-8') as f:
@@ -280,22 +273,17 @@ def save_data(content, filename):
     with open(f'epg_data/{hash_filename}', 'w', encoding='utf-8') as f:
         f.write(md5_hash)
     print(f"💾 已保存: {filename} (大小: {len(content_bytes)/1024/1024:.2f} MB, MD5: {md5_hash})")
-    print(f"💾 哈希文件: {hash_filename}")
 
 # ===================== 主函数 =====================
 def main():
     print("🚀 开始处理EPG数据...")
-
-    # 1. 下载 epg.pw 数据
     raw_cn = safe_download('https://epg.pw/xmltv/epg_CN.xml')
     raw_tw = safe_download('https://epg.pw/xmltv/epg_TW.xml')
     raw_hk = safe_download('https://epg.pw/xmltv/epg_HK.xml')
-
     cn = simple_timezone_fix(raw_cn)
     tw = simple_timezone_fix(raw_tw)
     hk = simple_timezone_fix(raw_hk)
 
-    # 2. 抓取 Kbro 频道 906 数据
     kbro_xml = fetch_kbro_epg(days=7)
 
     sources = []
@@ -308,10 +296,9 @@ def main():
         print("❌ 所有源下载失败")
         return
 
-    # 3. 简单合并
     merged_content = simple_merge(sources)
 
-    # 4. 替换频道 456841 的节目为 Kbro 抓取数据
+    # 替换频道 456841 的节目（保留原有频道定义）
     print("🔄 替换频道 456841 的节目为 Kbro 抓取数据...")
     root = ET.fromstring(merged_content)
 
@@ -324,17 +311,15 @@ def main():
         root.remove(prog)
     print(f"   🗑️ 删除了 {len(to_remove)} 个原有节目")
 
-    # 从 kbro_xml 中提取节目并加入（频道已经存在）
+    # 添加 Kbro 新节目（不修改频道标签）
     if kbro_xml:
         kbro_root = ET.fromstring(kbro_xml)
+        # 只取节目，不添加频道（因为原有频道已存在）
         for prog in kbro_root.findall('programme'):
             root.append(prog)
         print(f"   ✅ 添加了 {len(kbro_root.findall('programme'))} 个新节目")
 
-    # 重新生成 merged_content
     merged_content = '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(root, encoding='utf-8').decode()
-
-    # 5. 后续处理
     save_data(merged_content, 'epg_merged.xml')
     cleaned_content = clean_unused_channels(merged_content)
     save_data(cleaned_content, 'epg_merged_clean.xml')
