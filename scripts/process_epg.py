@@ -10,12 +10,14 @@ from collections import defaultdict
 import ssl
 import json
 from datetime import datetime, timedelta
+from xml.dom import minidom  # 用于美化
 
-# ===================== 新增：抓取 Kbro 频道 906 =====================
+# ===================== 抓取 Kbro 频道 906（缩进与示例一致） =====================
 def fetch_kbro_epg(days=7):
     """
     从 Kbro API 抓取频道 906 的节目，转换为 XMLTV 格式。
     频道 ID 替换为 456841，节目包含 title, desc, date, audio 等完整标签。
+    输出格式与用户提供的示例完全一致（缩进、换行）。
     """
     print("📡 开始抓取 Kbro 频道 906 节目...")
     ssl._create_default_https_context = ssl._create_unverified_context
@@ -79,8 +81,9 @@ def fetch_kbro_epg(days=7):
             title = ET.SubElement(programme, "title", lang="zh")
             title.text = prog_name
 
+            # desc 不带 lang 属性
             if desc_str:
-                desc = ET.SubElement(programme, "desc", lang="zh")
+                desc = ET.SubElement(programme, "desc")
                 desc.text = desc_str
 
             if prog_date:
@@ -94,10 +97,20 @@ def fetch_kbro_epg(days=7):
             total_progs += 1
 
     print(f"   ✅ 共抓取 {total_progs} 个节目")
-    xml_str = ET.tostring(tv, encoding="utf-8").decode()
-    return '<?xml version="1.0" encoding="UTF-8"?>\n' + xml_str
 
-# ===================== 原脚本函数（未改动） =====================
+    # 使用 minidom 美化输出，缩进 2 个空格，并去除自动添加的 <?xml> 声明
+    rough_string = ET.tostring(tv, encoding='utf-8').decode()
+    reparsed = minidom.parseString(rough_string)
+    pretty_xml = reparsed.toprettyxml(indent="  ")
+    # 去掉第一行（<?xml version="1.0" encoding="utf-8"?>）
+    lines = pretty_xml.splitlines()
+    if lines and lines[0].startswith('<?xml'):
+        lines = lines[1:]
+    body = '\n'.join(lines)
+    # 添加我们自己的声明（UTF-8）
+    return '<?xml version="1.0" encoding="UTF-8"?>\n' + body
+
+# ===================== 原脚本函数（不变） =====================
 def safe_download(url):
     try:
         print(f"📥 下载: {url}")
