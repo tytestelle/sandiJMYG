@@ -10,7 +10,7 @@ from collections import defaultdict
 import ssl
 import json
 from datetime import datetime, timedelta
-from xml.sax.saxutils import escape   # 新增：用于转义XML特殊字符
+from xml.sax.saxutils import escape   # 用于转义XML特殊字符
 
 # ===================== 抓取 Kbro 节目数据（返回节目列表） =====================
 def fetch_kbro_programs(days=7):
@@ -75,7 +75,6 @@ def format_programs(programs):
     """
     lines = []
     for p in programs:
-        # 转义标题和描述中的特殊字符
         title_esc = escape(p["title"])
         desc_esc = escape(p["desc"]) if p["desc"] else ""
         lines.append(f'  <programme channel="456841" start="{p["start"]}" stop="{p["stop"]}">')
@@ -89,7 +88,7 @@ def format_programs(programs):
         lines.append('  </programme>')
     return '\n'.join(lines)
 
-# ===================== 原有功能函数（不变） =====================
+# ===================== 原有功能函数 =====================
 def safe_download(url):
     try:
         print(f"📥 下载: {url}")
@@ -260,15 +259,131 @@ def save_data(content, filename):
         f.write(md5_hash)
     print(f"💾 已保存: {filename} (大小: {len(content_bytes)/1024/1024:.2f} MB, MD5: {md5_hash})")
 
+# ===================== 新增：加载 epg_data.json 别名映射 =====================
+def load_epgid_alias_map():
+    """从脚本同目录的 epg_data.json 读取精确别名映射：alias -> epgid"""
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    json_path = os.path.join(script_dir, 'epg_data.json')
+
+    if not os.path.exists(json_path):
+        print(f"⚠️ 未找到 epg_data.json: {json_path}")
+        return {}
+
+    try:
+        with open(json_path, 'r', encoding='utf-8-sig') as f:
+            data = json.load(f)
+    except Exception as e:
+        print(f"❌ 读取 epg_data.json 失败: {e}")
+        return {}
+
+    alias_map = {}
+    for item in data.get('epgs', []):
+        epgid = (item.get('epgid') or '').strip()
+        if not epgid:
+            continue
+
+        names = item.get('name') or ''
+        for alias in names.split(','):
+            alias = alias.strip()
+            if not alias:
+                continue
+
+            old = alias_map.get(alias)
+            if old is not None and old != epgid:
+                print(f"⚠️ 别名冲突: {alias!r} -> {old!r} / {epgid!r}，保留 {old!r}")
+                continue
+            alias_map[alias] = epgid
+
+    print(f"📋 已加载 epg_data.json 精确别名: {len(alias_map)} 条")
+    return alias_map
+
+# ===================== 新增：精准替换中国大陆 EPG 的央视 display-name =====================
+def apply_epgid_display_names(xml_content, alias_map, only_cctv=True):
+    """
+    只处理中国大陆 EPG。
+    对 <channel> 的 <display-name> 做精确匹配：
+    display-name 文本 strip 后必须完全等于 epg_data.json 中 name 里的某个别名。
+    命中后，只把匹配上的那一个 display-name 的文本改成对应 epgid，
+    并把它移动到第一位，方便后续去重时取到它。
+    其他 display-name 保持原样。
+    """
+    if not xml_content or not alias_map:
+        return xml_content
+
+    print("🔧 精准替换中国大陆 EPG 的央视 display-name 为 epgid...")
+
+    try:
+        root = ET.fromstring(xml_content)
+    except Exception as e:
+        print(f"❌ 解析中国大陆 EPG 失败: {e}")
+        return xml_content
+
+    changed = 0
+
+    for ch in root.findall('channel'):
+        display_names = ch.findall('display-name')
+        if not display_names:
+            continue
+
+        match_index = -1
+        matched_epgid = None
+
+        # 逐个 display-name 精准匹配，命中第一个即停止
+        for i, dn in enumerate(display_names):
+            text = (dn.text or '').strip()
+            if not text:
+                continue
+
+            epgid = alias_map.get(text)
+            if not epgid:
+                continue
+
+            if only_cctv and not epgid.upper().startswith('CCTV'):
+                continue
+
+            match_index = i
+            matched_epgid = epgid
+            break
+
+        # 没匹配到，跳过
+        if match_index < 0:
+            continue
+
+        # 只改匹配上的那一个 display-name 的文本为 epgid
+        display_names[match_index].text = matched_epgid
+
+        # 如果匹配的不是第一个，就把它移到第一位（后续去重取第一个）
+        if match_index != 0:
+            infos = [(dn.tag, dict(dn.attrib), dn.text) for dn in display_names]
+            for dn in display_names:
+                ch.remove(dn)
+            new_order = [match_index] + [i for i in range(len(infos)) if i != match_index]
+            for pos, i in enumerate(new_order):
+                tag, attrib, text = infos[i]
+                new_dn = ET.Element(tag, attrib)
+                new_dn.text = text
+                ch.insert(pos, new_dn)
+
+        changed += 1
+
+    print(f"   ✅ 已替换 {changed} 个央视频道的 display-name 为 epgid")
+    return '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(root, encoding='utf-8').decode()
+
 # ===================== 主函数 =====================
 def main():
     print("🚀 开始处理EPG数据...")
     raw_cn = safe_download('https://epg.pw/xmltv/epg_CN.xml')
     raw_tw = safe_download('https://epg.pw/xmltv/epg_TW.xml')
     raw_hk = safe_download('https://epg.pw/xmltv/epg_HK.xml')
+
     cn = simple_timezone_fix(raw_cn)
     tw = simple_timezone_fix(raw_tw)
     hk = simple_timezone_fix(raw_hk)
+
+    # ===== 新增：先处理中国大陆节目预告，把央视 display-name 精准改成 epgid =====
+    alias_map = load_epgid_alias_map()
+    if cn:
+        cn = apply_epgid_display_names(cn, alias_map, only_cctv=True)
 
     # 抓取 Kbro 节目列表
     kbro_programs = fetch_kbro_programs(days=7)
@@ -293,9 +408,7 @@ def main():
 
     # 用正则替换所有 channel="456841" 的节目块
     print("🔄 替换频道 456841 的节目...")
-    # 匹配从 <programme channel="456841" 到对应的 </programme>，包括中间的换行和缩进，非贪婪，匹配所有连续节目
     pattern = r'(<programme channel="456841".*?</programme>\s*)+'
-    # 使用 re.DOTALL 让 . 匹配换行
     merged_content = re.sub(pattern, new_programs_str + '\n', merged_content, flags=re.DOTALL)
     print("   ✅ 替换完成")
 
