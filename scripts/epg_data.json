@@ -1,0 +1,5307 @@
+{
+  "epgs": [
+
+  {
+    "epgid": "CCTV-1 高清",
+    "name": "CCTV1,CCTV-1 高清,CCTV-1 高清 HD,CCTV-1 高清 超清,CCTV-1 高清 高清,CCTV-1 高清(HD),CCTV-1 高清-4K,CCTV-1 高清-HD,CCTV-1 高清-高清,CCTV-1 高清HD,"
+  },
+ 
+  {
+    "epgid": "CCTV-10科教",
+    "name": "CCTV-10科教,CCTV10,CCTV-10科教 HD,CCTV-10科教 超清,CCTV-10科教 高清,CCTV-10科教(HD),CCTV-10科教-4K,CCTV-10科教-HD,CCTV-10科教-高清,CCTV-10科教HD,"
+  },
+  {
+    "epgid": "CCTV-11 戏曲",
+    "name": "CCTV11,CCTV-11 戏曲,CCTV-11 戏曲 HD,CCTV-11 戏曲 超清,CCTV-11 戏曲 高清,CCTV-11 戏曲(HD),CCTV-11 戏曲-4K,CCTV-11 戏曲-HD,CCTV-11 戏曲-高清,CCTV-11 戏曲HD,"
+  },
+ 
+  {
+    "epgid": "CCTV-12 社会与法",
+    "name": "CCTV12,CCTV-12 社会与法,CCTV-12 社会与法 HD,CCTV-12 社会与法 超清,CCTV-12 社会与法 高清,CCTV-12 社会与法(HD),CCTV-12 社会与法-4K,CCTV-12 社会与法-HD,CCTV-12 社会与法-高清,CCTV-12 社会与法HD,"
+  },
+  
+  {
+    "epgid": "CCTV-13 新闻",
+    "name": "CCTV13,CCTV-13 新闻,CCTV-13 新闻 HD,CCTV-13 新闻 超清,CCTV-13 新闻 高清,CCTV-13 新闻(HD),CCTV-13 新闻-4K,CCTV-13 新闻-HD,CCTV-13 新闻-高清,CCTV-13 新闻HD,"
+  },
+  
+  {
+    "epgid": "CCTV-14 少儿",
+    "name": "CCTV14,CCTV-14 少儿,CCTV-14 少儿 HD,CCTV-14 少儿 超清,CCTV-14 少儿 高清,CCTV-14 少儿(HD),CCTV-14 少儿-4K,CCTV-14 少儿-HD,CCTV-14 少儿-高清,CCTV-14 少儿HD,"
+  },
+  
+ 
+  {
+    "epgid": "CCTV-15 高清",
+    "name": "CCTV15,CCTV-15 高清,CCTV-15 高清 HD,CCTV-15 高清 超清,CCTV-15 高清 高清,CCTV-15 高清(HD),CCTV-15 高清-4K,CCTV-15 高清-HD,CCTV-15 高清-高清,CCTV-15 高清HD,"
+  },
+ 
+  {
+    "epgid": "CCTV-16奥林匹克",
+    "name": "CCTV16,CCTV-16奥林匹克,CCTV-16奥林匹克 HD,CCTV-16奥林匹克 超清,CCTV-16奥林匹克 高清,CCTV-16奥林匹克(HD),CCTV-16奥林匹克-4K,CCTV-16奥林匹克-HD,CCTV-16奥林匹克-高清,CCTV-16奥林匹克HD,"
+  },
+  {
+    "epgid": "CCTV-17 农业农村",
+    "name": "CCTV17,CCTV-17 农业农村,CCTV-17 农业农村 HD,CCTV-17 农业农村 超清,CCTV-17 农业农村 高清,CCTV-17 农业农村(HD),CCTV-17 农业农村-4K,CCTV-17 农业农村-HD,CCTV-17 农业农村-高清,CCTV-17 农业农村HD,"
+  },
+
+  
+  {
+    "epgid": "CCTV-2 财经",
+    "name": "CCTV2,CCTV-2 财经,CCTV-2 财经 HD,CCTV-2 财经 超清,CCTV-2 财经 高清,CCTV-2 财经(HD),CCTV-2 财经-4K,CCTV-2 财经-HD,CCTV-2 财经-高清,CCTV-2 财经HD,"
+  },
+
+ 
+  {
+    "epgid": "CCTV-3 高清",
+    "name": "CCTV3,CCTV-3 高清,CCTV-3 高清 HD,CCTV-3 高清 超清,CCTV-3 高清 高清,CCTV-3 高清(HD),CCTV-3 高清-4K,CCTV-3 高清-HD,CCTV-3 高清-高清,CCTV-3 高清HD,"
+  },
+  
+  {
+    "epgid": "CCTV-4",
+    "name": "CCTV4,CCTV-4,CCTV-4 HD,CCTV-4 超清,CCTV-4 高清,CCTV-4(HD),CCTV-4-4K,CCTV-4-HD,CCTV-4-高清,CCTV-4HD,"
+  },
+  {
+    "epgid": "CCTV-4 (亚洲)",
+    "name": "CCTV-4 (亚洲),CCTV-4 (亚洲) HD,CCTV-4 (亚洲) 超清,CCTV-4 (亚洲) 高清,CCTV-4 (亚洲)(HD),CCTV-4 (亚洲)-4K,CCTV-4 (亚洲)-HD,CCTV-4 (亚洲)-高清,CCTV-4 (亚洲)HD,"
+  },
+  {
+    "epgid": "CCTV-4 (欧洲)",
+    "name": "CCTV-4 (欧洲),CCTV-4 (欧洲) HD,CCTV-4 (欧洲) 超清,CCTV-4 (欧洲) 高清,CCTV-4 (欧洲)(HD),CCTV-4 (欧洲)-4K,CCTV-4 (欧洲)-HD,CCTV-4 (欧洲)-高清,CCTV-4 (欧洲)HD,"
+  },
+  {
+    "epgid": "CCTV-4 (美洲)",
+    "name": "CCTV-4 (美洲),CCTV-4 (美洲) HD,CCTV-4 (美洲) 超清,CCTV-4 (美洲) 高清,CCTV-4 (美洲)(HD),CCTV-4 (美洲)-4K,CCTV-4 (美洲)-HD,CCTV-4 (美洲)-高清,CCTV-4 (美洲)HD,"
+  },
+  {
+    "epgid": "CCTV-4中文国际 欧",
+    "name": "CCTV-4中文国际 欧,CCTV-4中文国际 欧 HD,CCTV-4中文国际 欧 超清,CCTV-4中文国际 欧 高清,CCTV-4中文国际 欧(HD),CCTV-4中文国际 欧-4K,CCTV-4中文国际 欧-HD,CCTV-4中文国际 欧-高清,CCTV-4中文国际 欧HD,"
+  },
+  {
+    "epgid": "CCTV-4中文国际 美",
+    "name": "CCTV-4中文国际 美,CCTV-4中文国际 美 HD,CCTV-4中文国际 美 超清,CCTV-4中文国际 美 高清,CCTV-4中文国际 美(HD),CCTV-4中文国际 美-4K,CCTV-4中文国际 美-HD,CCTV-4中文国际 美-高清,CCTV-4中文国际 美HD,"
+  },
+  {
+    "epgid": "CCTV-4国际",
+    "name": "CCTV-4国际,CCTV-4国际 HD,CCTV-4国际 超清,CCTV-4国际 高清,CCTV-4国际(HD),CCTV-4国际-4K,CCTV-4国际-HD,CCTV-4国际-高清,CCTV-4国际HD,"
+  },
+  
+  {
+    "epgid": "CCTV-5 高清",
+    "name": "CCTV5,CCTV-5 高清,CCTV-5 高清 HD,CCTV-5 高清 超清,CCTV-5 高清 高清,CCTV-5 高清(HD),CCTV-5 高清-4K,CCTV-5 高清-HD,CCTV-5 高清-高清,CCTV-5 高清HD,"
+  },
+  {
+    "epgid": "CCTV-5+ 体育赛事",
+    "name": "CCTV5+,CCTV-5+ 体育赛事,CCTV-5+ 体育赛事 HD,CCTV-5+ 体育赛事 超清,CCTV-5+ 体育赛事 高清,CCTV-5+ 体育赛事(HD),CCTV-5+ 体育赛事-4K,CCTV-5+ 体育赛事-HD,CCTV-5+ 体育赛事-高清,CCTV-5+ 体育赛事HD,"
+  },
+  
+  
+  {
+    "epgid": "CCTV-6 高清",
+    "name": "CCTV6,CCTV-6 高清,CCTV-6 高清 HD,CCTV-6 高清 超清,CCTV-6 高清 高清,CCTV-6 高清(HD),CCTV-6 高清-4K,CCTV-6 高清-HD,CCTV-6 高清-高清,CCTV-6 高清HD,"
+  },
+  
+  
+  {
+    "epgid": "CCTV-7国防军事",
+    "name": "CCTV7,CCTV-7国防军事,CCTV-7国防军事 HD,CCTV-7国防军事 超清,CCTV-7国防军事 高清,CCTV-7国防军事(HD),CCTV-7国防军事-4K,CCTV-7国防军事-HD,CCTV-7国防军事-高清,CCTV-7国防军事HD,"
+  },
+ 
+  {
+    "epgid": "CCTV-8 高清",
+    "name": "CCTV8,CCTV-8 高清,CCTV-8 高清 HD,CCTV-8 高清 超清,CCTV-8 高清 高清,CCTV-8 高清(HD),CCTV-8 高清-4K,CCTV-8 高清-HD,CCTV-8 高清-高清,CCTV-8 高清HD,"
+  },
+  
+  
+  {
+    "epgid": "CCTV-9 纪录",
+    "name": "CCTV9,CCTV-9 纪录,CCTV-9 纪录 HD,CCTV-9 纪录 超清,CCTV-9 纪录 高清,CCTV-9 纪录(HD),CCTV-9 纪录-4K,CCTV-9 纪录-HD,CCTV-9 纪录-高清,CCTV-9 纪录HD,"
+  },
+ 
+  {
+    "epgid": "CCTV4K",
+    "name": "CCTV4K,CCTV4K HD,CCTV4K 超清,CCTV4K 高清,CCTV4K(HD),CCTV4K-4K,CCTV4K-HD,CCTV4K-高清,CCTV4KHD,"
+  },
+  {
+    "epgid": "CCTV4欧洲",
+    "name": "CCTV4欧洲,CCTV4欧洲 HD,CCTV4欧洲 超清,CCTV4欧洲 高清,CCTV4欧洲(HD),CCTV4欧洲-4K,CCTV4欧洲-HD,CCTV4欧洲-高清,CCTV4欧洲HD,"
+  },
+  {
+    "epgid": "CCTV4美洲",
+    "name": "CCTV4美洲,CCTV4美洲 HD,CCTV4美洲 超清,CCTV4美洲 高清,CCTV4美洲(HD),CCTV4美洲-4K,CCTV4美洲-HD,CCTV4美洲-高清,CCTV4美洲HD,"
+  },
+ 
+  {
+    "epgid": "CCTV怀旧剧场",
+    "name": "CCTV怀旧剧场,CCTV怀旧剧场 HD,CCTV怀旧剧场 超清,CCTV怀旧剧场 高清,CCTV怀旧剧场(HD),CCTV怀旧剧场-4K,CCTV怀旧剧场-HD,CCTV怀旧剧场-高清,CCTV怀旧剧场HD,"
+  },
+  {
+    "epgid": "CCTV第一剧场",
+    "name": "CCTV第一剧场,CCTV第一剧场 HD,CCTV第一剧场 超清,CCTV第一剧场 高清,CCTV第一剧场(HD),CCTV第一剧场-4K,CCTV第一剧场-HD,CCTV第一剧场-高清,CCTV第一剧场HD,"
+  },
+  {
+    "epgid": "CCTV风云剧场",
+    "name": "CCTV风云剧场,CCTV风云剧场 HD,CCTV风云剧场 超清,CCTV风云剧场 高清,CCTV风云剧场(HD),CCTV风云剧场-4K,CCTV风云剧场-HD,CCTV风云剧场-高清,CCTV风云剧场HD,"
+  },
+  {
+    "epgid": "ABC Australia",
+    "name": "ABC Australia,ABC Australia HD,ABC Australia 超清,ABC Australia 高清,ABC Australia(HD),ABC Australia-4K,ABC Australia-HD,ABC Australia-高清,ABC AustraliaHD,"
+  },
+  {
+    "epgid": "ABC Australia 澳洲公廣頻道",
+    "name": "ABC Australia 澳洲公廣頻道,ABC Australia 澳洲公廣頻道 HD,ABC Australia 澳洲公廣頻道 超清,ABC Australia 澳洲公廣頻道 高清,ABC Australia 澳洲公廣頻道(HD),ABC Australia 澳洲公廣頻道-4K,ABC Australia 澳洲公廣頻道-HD,ABC Australia 澳洲公廣頻道-高清,ABC Australia 澳洲公廣頻道HD,"
+  },
+  {
+    "epgid": "ARIRANG阿里郎頻道",
+    "name": "ARIRANG阿里郎頻道,ARIRANG阿里郎頻道 HD,ARIRANG阿里郎頻道 超清,ARIRANG阿里郎頻道 高清,ARIRANG阿里郎頻道(HD),ARIRANG阿里郎頻道-4K,ARIRANG阿里郎頻道-HD,ARIRANG阿里郎頻道-高清,ARIRANG阿里郎頻道HD,"
+  },
+  {
+    "epgid": "AXN",
+    "name": "AXN,AXN HD,AXN 超清,AXN 高清,AXN(HD),AXN-4K,AXN-HD,AXN-高清,AXNHD,"
+  },
+  {
+    "epgid": "AXN",
+    "name": "AXN,AXN HD,AXN 超清,AXN 高清,AXN(HD),AXN-4K,AXN-HD,AXN-高清,AXNHD,"
+  },
+  {
+    "epgid": "Action Hollywod Movies",
+    "name": "Action Hollywod Movies,Action Hollywod Movies HD,Action Hollywod Movies 超清,Action Hollywod Movies 高清,Action Hollywod Movies(HD),Action Hollywod Movies-4K,Action Hollywod Movies-HD,Action Hollywod Movies-高清,Action Hollywod MoviesHD,"
+  },
+  {
+    "epgid": "Animax",
+    "name": "Animax,Animax HD,Animax 超清,Animax 高清,Animax(HD),Animax-4K,Animax-HD,Animax-高清,AnimaxHD,"
+  },
+  {
+    "epgid": "Animax",
+    "name": "Animax,Animax HD,Animax 超清,Animax 高清,Animax(HD),Animax-4K,Animax-HD,Animax-高清,AnimaxHD,"
+  },
+  {
+    "epgid": "Animax",
+    "name": "Animax,Animax HD,Animax 超清,Animax 高清,Animax(HD),Animax-4K,Animax-HD,Animax-高清,AnimaxHD,"
+  },
+  {
+    "epgid": "Arirang TV",
+    "name": "Arirang TV,Arirang TV HD,Arirang TV 超清,Arirang TV 高清,Arirang TV(HD),Arirang TV-4K,Arirang TV-HD,Arirang TV-高清,Arirang TVHD,"
+  },
+  {
+    "epgid": "Arirang TV HD",
+    "name": "Arirang TV HD,Arirang TV HD HD,Arirang TV HD 超清,Arirang TV HD 高清,Arirang TV HD(HD),Arirang TV HD-4K,Arirang TV HD-HD,Arirang TV HD-高清,Arirang TV HDHD,"
+  },
+  {
+    "epgid": "Astro Cricket",
+    "name": "Astro Cricket,Astro Cricket HD,Astro Cricket 超清,Astro Cricket 高清,Astro Cricket(HD),Astro Cricket-4K,Astro Cricket-HD,Astro Cricket-高清,Astro CricketHD,"
+  },
+  {
+    "epgid": "BBC Earth",
+    "name": "BBC Earth,BBC Earth HD,BBC Earth 超清,BBC Earth 高清,BBC Earth(HD),BBC Earth-4K,BBC Earth-HD,BBC Earth-高清,BBC EarthHD,"
+  },
+  {
+    "epgid": "BBC Earth",
+    "name": "BBC Earth,BBC Earth HD,BBC Earth 超清,BBC Earth 高清,BBC Earth(HD),BBC Earth-4K,BBC Earth-HD,BBC Earth-高清,BBC EarthHD,"
+  },
+  {
+    "epgid": "BBC Earth HD",
+    "name": "BBC Earth HD,BBC Earth HD HD,BBC Earth HD 超清,BBC Earth HD 高清,BBC Earth HD(HD),BBC Earth HD-4K,BBC Earth HD-HD,BBC Earth HD-高清,BBC Earth HDHD,"
+  },
+  {
+    "epgid": "BBC Lifestyle",
+    "name": "BBC Lifestyle,BBC Lifestyle HD,BBC Lifestyle 超清,BBC Lifestyle 高清,BBC Lifestyle(HD),BBC Lifestyle-4K,BBC Lifestyle-HD,BBC Lifestyle-高清,BBC LifestyleHD,"
+  },
+  {
+    "epgid": "BBC Lifestyle",
+    "name": "BBC Lifestyle,BBC Lifestyle HD,BBC Lifestyle 超清,BBC Lifestyle 高清,BBC Lifestyle(HD),BBC Lifestyle-4K,BBC Lifestyle-HD,BBC Lifestyle-高清,BBC LifestyleHD,"
+  },
+  {
+    "epgid": "BBC Lifestyle HD",
+    "name": "BBC Lifestyle HD,BBC Lifestyle HD HD,BBC Lifestyle HD 超清,BBC Lifestyle HD 高清,BBC Lifestyle HD(HD),BBC Lifestyle HD-4K,BBC Lifestyle HD-HD,BBC Lifestyle HD-高清,BBC Lifestyle HDHD,"
+  },
+  {
+    "epgid": "BBC NEWS HD",
+    "name": "BBC NEWS HD,BBC NEWS HD HD,BBC NEWS HD 超清,BBC NEWS HD 高清,BBC NEWS HD(HD),BBC NEWS HD-4K,BBC NEWS HD-HD,BBC NEWS HD-高清,BBC NEWS HDHD,"
+  },
+  {
+    "epgid": "BBC News",
+    "name": "BBC News,BBC News HD,BBC News 超清,BBC News 高清,BBC News(HD),BBC News-4K,BBC News-HD,BBC News-高清,BBC NewsHD,"
+  },
+  {
+    "epgid": "BBC News",
+    "name": "BBC News,BBC News HD,BBC News 超清,BBC News 高清,BBC News(HD),BBC News-4K,BBC News-HD,BBC News-高清,BBC NewsHD,"
+  },
+  {
+    "epgid": "BRTV体育休闲",
+    "name": "BRTV体育休闲,BRTV体育休闲 HD,BRTV体育休闲 超清,BRTV体育休闲 高清,BRTV体育休闲(HD),BRTV体育休闲-4K,BRTV体育休闲-HD,BRTV体育休闲-高清,BRTV体育休闲HD,"
+  },
+  {
+    "epgid": "BRTV卡酷少儿",
+    "name": "BRTV卡酷少儿,BRTV卡酷少儿 HD,BRTV卡酷少儿 超清,BRTV卡酷少儿 高清,BRTV卡酷少儿(HD),BRTV卡酷少儿-4K,BRTV卡酷少儿-HD,BRTV卡酷少儿-高清,BRTV卡酷少儿HD,"
+  },
+  {
+    "epgid": "Bloomberg",
+    "name": "Bloomberg,Bloomberg HD,Bloomberg 超清,Bloomberg 高清,Bloomberg(HD),Bloomberg-4K,Bloomberg-HD,Bloomberg-高清,BloombergHD,"
+  },
+  {
+    "epgid": "Bloomberg TV",
+    "name": "Bloomberg TV,Bloomberg TV HD,Bloomberg TV 超清,Bloomberg TV 高清,Bloomberg TV(HD),Bloomberg TV-4K,Bloomberg TV-HD,Bloomberg TV-高清,Bloomberg TVHD,"
+  },
+  {
+    "epgid": "Bloomberg Television",
+    "name": "Bloomberg Television,Bloomberg Television HD,Bloomberg Television 超清,Bloomberg Television 高清,Bloomberg Television(HD),Bloomberg Television-4K,Bloomberg Television-HD,Bloomberg Television-高清,Bloomberg TelevisionHD,"
+  },
+  {
+    "epgid": "CARTOONITO",
+    "name": "CARTOONITO,CARTOONITO HD,CARTOONITO 超清,CARTOONITO 高清,CARTOONITO(HD),CARTOONITO-4K,CARTOONITO-HD,CARTOONITO-高清,CARTOONITOHD,"
+  },
+  {
+    "epgid": "CARTOONITO HD",
+    "name": "CARTOONITO HD,CARTOONITO HD HD,CARTOONITO HD 超清,CARTOONITO HD 高清,CARTOONITO HD(HD),CARTOONITO HD-4K,CARTOONITO HD-HD,CARTOONITO HD-高清,CARTOONITO HDHD,"
+  },
+  {
+    "epgid": "CATCHPLAY電影台",
+    "name": "CATCHPLAY電影台,CATCHPLAY電影台 HD,CATCHPLAY電影台 超清,CATCHPLAY電影台 高清,CATCHPLAY電影台(HD),CATCHPLAY電影台-4K,CATCHPLAY電影台-HD,CATCHPLAY電影台-高清,CATCHPLAY電影台HD,"
+  },
+  {
+    "epgid": "CBeebies",
+    "name": "CBeebies,CBeebies HD,CBeebies 超清,CBeebies 高清,CBeebies(HD),CBeebies-4K,CBeebies-HD,CBeebies-高清,CBeebiesHD,"
+  },
+  {
+    "epgid": "CBeebies",
+    "name": "CBeebies,CBeebies HD,CBeebies 超清,CBeebies 高清,CBeebies(HD),CBeebies-4K,CBeebies-HD,CBeebies-高清,CBeebiesHD,"
+  },
+  {
+    "epgid": "CETV-1",
+    "name": "CETV-1,CETV-1 HD,CETV-1 超清,CETV-1 高清,CETV-1(HD),CETV-1-4K,CETV-1-HD,CETV-1-高清,CETV-1HD,"
+  },
+  {
+    "epgid": "CETV-2",
+    "name": "CETV-2,CETV-2 HD,CETV-2 超清,CETV-2 高清,CETV-2(HD),CETV-2-4K,CETV-2-HD,CETV-2-高清,CETV-2HD,"
+  },
+  {
+    "epgid": "CETV-3",
+    "name": "CETV-3,CETV-3 HD,CETV-3 超清,CETV-3 高清,CETV-3(HD),CETV-3-4K,CETV-3-HD,CETV-3-高清,CETV-3HD,"
+  },
+  {
+    "epgid": "CETV-4",
+    "name": "CETV-4,CETV-4 HD,CETV-4 超清,CETV-4 高清,CETV-4(HD),CETV-4-4K,CETV-4-HD,CETV-4-高清,CETV-4HD,"
+  },
+  {
+    "epgid": "CGTN (中國環球電視網)英語頻道",
+    "name": "CGTN (中國環球電視網)英語頻道,CGTN (中國環球電視網)英語頻道 HD,CGTN (中國環球電視網)英語頻道 超清,CGTN (中國環球電視網)英語頻道 高清,CGTN (中國環球電視網)英語頻道(HD),CGTN (中國環球電視網)英語頻道-4K,CGTN (中國環球電視網)英語頻道-HD,CGTN (中國環球電視網)英語頻道-高清,CGTN (中國環球電視網)英語頻道HD,"
+  },
+  {
+    "epgid": "CGTN (中國環球電視網)記錄頻道",
+    "name": "CGTN (中國環球電視網)記錄頻道,CGTN (中國環球電視網)記錄頻道 HD,CGTN (中國環球電視網)記錄頻道 超清,CGTN (中國環球電視網)記錄頻道 高清,CGTN (中國環球電視網)記錄頻道(HD),CGTN (中國環球電視網)記錄頻道-4K,CGTN (中國環球電視網)記錄頻道-HD,CGTN (中國環球電視網)記錄頻道-高清,CGTN (中國環球電視網)記錄頻道HD,"
+  },
+  {
+    "epgid": "CGTN俄语",
+    "name": "CGTN俄语,CGTN俄语 HD,CGTN俄语 超清,CGTN俄语 高清,CGTN俄语(HD),CGTN俄语-4K,CGTN俄语-HD,CGTN俄语-高清,CGTN俄语HD,"
+  },
+  {
+    "epgid": "CGTN法语",
+    "name": "CGTN法语,CGTN法语 HD,CGTN法语 超清,CGTN法语 高清,CGTN法语(HD),CGTN法语-4K,CGTN法语-HD,CGTN法语-高清,CGTN法语HD,"
+  },
+  {
+    "epgid": "CGTN纪录",
+    "name": "CGTN纪录,CGTN纪录 HD,CGTN纪录 超清,CGTN纪录 高清,CGTN纪录(HD),CGTN纪录-4K,CGTN纪录-HD,CGTN纪录-高清,CGTN纪录HD,"
+  },
+  {
+    "epgid": "CGTN西语",
+    "name": "CGTN西语,CGTN西语 HD,CGTN西语 超清,CGTN西语 高清,CGTN西语(HD),CGTN西语-4K,CGTN西语-HD,CGTN西语-高清,CGTN西语HD,"
+  },
+  {
+    "epgid": "CGTN阿语",
+    "name": "CGTN阿语,CGTN阿语 HD,CGTN阿语 超清,CGTN阿语 高清,CGTN阿语(HD),CGTN阿语-4K,CGTN阿语-HD,CGTN阿语-高清,CGTN阿语HD,"
+  },
+  {
+    "epgid": "CHC动作电影",
+    "name": "CHC动作电影,CHC动作电影 HD,CHC动作电影 超清,CHC动作电影 高清,CHC动作电影(HD),CHC动作电影-4K,CHC动作电影-HD,CHC动作电影-高清,CHC动作电影HD,"
+  },
+  {
+    "epgid": "CHC家庭影院",
+    "name": "CHC家庭影院,CHC家庭影院 HD,CHC家庭影院 超清,CHC家庭影院 高清,CHC家庭影院(HD),CHC家庭影院-4K,CHC家庭影院-HD,CHC家庭影院-高清,CHC家庭影院HD,"
+  },
+  {
+    "epgid": "CI 罪案偵查頻道",
+    "name": "CI 罪案偵查頻道,CI 罪案偵查頻道 HD,CI 罪案偵查頻道 超清,CI 罪案偵查頻道 高清,CI 罪案偵查頻道(HD),CI 罪案偵查頻道-4K,CI 罪案偵查頻道-HD,CI 罪案偵查頻道-高清,CI 罪案偵查頻道HD,"
+  },
+  {
+    "epgid": "CINEMAX",
+    "name": "CINEMAX,CINEMAX HD,CINEMAX 超清,CINEMAX 高清,CINEMAX(HD),CINEMAX-4K,CINEMAX-HD,CINEMAX-高清,CINEMAXHD,"
+  },
+  {
+    "epgid": "CINEMAX",
+    "name": "CINEMAX,CINEMAX HD,CINEMAX 超清,CINEMAX 高清,CINEMAX(HD),CINEMAX-4K,CINEMAX-HD,CINEMAX-高清,CINEMAXHD,"
+  },
+  {
+    "epgid": "CLASSICA 古典樂",
+    "name": "CLASSICA 古典樂,CLASSICA 古典樂 HD,CLASSICA 古典樂 超清,CLASSICA 古典樂 高清,CLASSICA 古典樂(HD),CLASSICA 古典樂-4K,CLASSICA 古典樂-HD,CLASSICA 古典樂-高清,CLASSICA 古典樂HD,"
+  },
+  {
+    "epgid": "CMusic",
+    "name": "CMusic,CMusic HD,CMusic 超清,CMusic 高清,CMusic(HD),CMusic-4K,CMusic-HD,CMusic-高清,CMusicHD,"
+  },
+  {
+    "epgid": "CNBC",
+    "name": "CNBC,CNBC HD,CNBC 超清,CNBC 高清,CNBC(HD),CNBC-4K,CNBC-HD,CNBC-高清,CNBCHD,"
+  },
+  {
+    "epgid": "CNBC Asia",
+    "name": "CNBC Asia,CNBC Asia HD,CNBC Asia 超清,CNBC Asia 高清,CNBC Asia(HD),CNBC Asia-4K,CNBC Asia-HD,CNBC Asia-高清,CNBC AsiaHD,"
+  },
+  {
+    "epgid": "CNBC Asia 財經台",
+    "name": "CNBC Asia 財經台,CNBC Asia 財經台 HD,CNBC Asia 財經台 超清,CNBC Asia 財經台 高清,CNBC Asia 財經台(HD),CNBC Asia 財經台-4K,CNBC Asia 財經台-HD,CNBC Asia 財經台-高清,CNBC Asia 財經台HD,"
+  },
+  {
+    "epgid": "CNN",
+    "name": "CNN,CNN HD,CNN 超清,CNN 高清,CNN(HD),CNN-4K,CNN-HD,CNN-高清,CNNHD,"
+  },
+  {
+    "epgid": "CNN 國際新聞網絡",
+    "name": "CNN 國際新聞網絡,CNN 國際新聞網絡 HD,CNN 國際新聞網絡 超清,CNN 國際新聞網絡 高清,CNN 國際新聞網絡(HD),CNN 國際新聞網絡-4K,CNN 國際新聞網絡-HD,CNN 國際新聞網絡-高清,CNN 國際新聞網絡HD,"
+  },
+  {
+    "epgid": "CNNI HD",
+    "name": "CNNI HD,CNNI HD HD,CNNI HD 超清,CNNI HD 高清,CNNI HD(HD),CNNI HD-4K,CNNI HD-HD,CNNI HD-高清,CNNI HDHD,"
+  },
+  {
+    "epgid": "COLORS",
+    "name": "COLORS,COLORS HD,COLORS 超清,COLORS 高清,COLORS(HD),COLORS-4K,COLORS-HD,COLORS-高清,COLORSHD,"
+  },
+  {
+    "epgid": "Cartoon Network",
+    "name": "Cartoon Network,Cartoon Network HD,Cartoon Network 超清,Cartoon Network 高清,Cartoon Network(HD),Cartoon Network-4K,Cartoon Network-HD,Cartoon Network-高清,Cartoon NetworkHD,"
+  },
+  {
+    "epgid": "CatchPlay HD",
+    "name": "CatchPlay HD,CatchPlay HD HD,CatchPlay HD 超清,CatchPlay HD 高清,CatchPlay HD(HD),CatchPlay HD-4K,CatchPlay HD-HD,CatchPlay HD-高清,CatchPlay HDHD,"
+  },
+  {
+    "epgid": "Cbeebies HD",
+    "name": "Cbeebies HD,Cbeebies HD HD,Cbeebies HD 超清,Cbeebies HD 高清,Cbeebies HD(HD),Cbeebies HD-4K,Cbeebies HD-HD,Cbeebies HD-高清,Cbeebies HDHD,"
+  },
+  {
+    "epgid": "Channel NewsAsia",
+    "name": "Channel NewsAsia,Channel NewsAsia HD,Channel NewsAsia 超清,Channel NewsAsia 高清,Channel NewsAsia(HD),Channel NewsAsia-4K,Channel NewsAsia-HD,Channel NewsAsia-高清,Channel NewsAsiaHD,"
+  },
+  {
+    "epgid": "Channel NewsAsia",
+    "name": "Channel NewsAsia,Channel NewsAsia HD,Channel NewsAsia 超清,Channel NewsAsia 高清,Channel NewsAsia(HD),Channel NewsAsia-4K,Channel NewsAsia-HD,Channel NewsAsia-高清,Channel NewsAsiaHD,"
+  },
+  {
+    "epgid": "CinemaWorld",
+    "name": "CinemaWorld,CinemaWorld HD,CinemaWorld 超清,CinemaWorld 高清,CinemaWorld(HD),CinemaWorld-4K,CinemaWorld-HD,CinemaWorld-高清,CinemaWorldHD,"
+  },
+  {
+    "epgid": "CinemaWorld",
+    "name": "CinemaWorld,CinemaWorld HD,CinemaWorld 超清,CinemaWorld 高清,CinemaWorld(HD),CinemaWorld-4K,CinemaWorld-HD,CinemaWorld-高清,CinemaWorldHD,"
+  },
+  {
+    "epgid": "CinemaWorld HD",
+    "name": "CinemaWorld HD,CinemaWorld HD HD,CinemaWorld HD 超清,CinemaWorld HD 高清,CinemaWorld HD(HD),CinemaWorld HD-4K,CinemaWorld HD-HD,CinemaWorld HD-高清,CinemaWorld HDHD,"
+  },
+  {
+    "epgid": "Concerto",
+    "name": "Concerto,Concerto HD,Concerto 超清,Concerto 高清,Concerto(HD),Concerto-4K,Concerto-HD,Concerto-高清,ConcertoHD,"
+  },
+  {
+    "epgid": "DAZN 1",
+    "name": "DAZN 1,DAZN 1 HD,DAZN 1 超清,DAZN 1 高清,DAZN 1(HD),DAZN 1-4K,DAZN 1-HD,DAZN 1-高清,DAZN 1HD,"
+  },
+  {
+    "epgid": "DAZN 2",
+    "name": "DAZN 2,DAZN 2 HD,DAZN 2 超清,DAZN 2 高清,DAZN 2(HD),DAZN 2-4K,DAZN 2-HD,DAZN 2-高清,DAZN 2HD,"
+  },
+  {
+    "epgid": "DAZN 2",
+    "name": "DAZN 2,DAZN 2 HD,DAZN 2 超清,DAZN 2 高清,DAZN 2(HD),DAZN 2-4K,DAZN 2-HD,DAZN 2-高清,DAZN 2HD,"
+  },
+  {
+    "epgid": "DAZN 3",
+    "name": "DAZN 3,DAZN 3 HD,DAZN 3 超清,DAZN 3 高清,DAZN 3(HD),DAZN 3-4K,DAZN 3-HD,DAZN 3-高清,DAZN 3HD,"
+  },
+  {
+    "epgid": "DMAX",
+    "name": "DMAX,DMAX HD,DMAX 超清,DMAX 高清,DMAX(HD),DMAX-4K,DMAX-HD,DMAX-高清,DMAXHD,"
+  },
+  {
+    "epgid": "DMAX",
+    "name": "DMAX,DMAX HD,DMAX 超清,DMAX 高清,DMAX(HD),DMAX-4K,DMAX-HD,DMAX-高清,DMAXHD,"
+  },
+  {
+    "epgid": "DMAX HD",
+    "name": "DMAX HD,DMAX HD HD,DMAX HD 超清,DMAX HD 高清,DMAX HD(HD),DMAX HD-4K,DMAX HD-HD,DMAX HD-高清,DMAX HDHD,"
+  },
+  {
+    "epgid": "DONGFANG1",
+    "name": "DONGFANG1,DONGFANG1 HD,DONGFANG1 超清,DONGFANG1 高清,DONGFANG1(HD),DONGFANG1-4K,DONGFANG1-HD,DONGFANG1-高清,DONGFANG1HD,"
+  },
+  {
+    "epgid": "DOX4K",
+    "name": "DOX4K,DOX4K HD,DOX4K 超清,DOX4K 高清,DOX4K(HD),DOX4K-4K,DOX4K-HD,DOX4K-高清,DOX4KHD,"
+  },
+  {
+    "epgid": "DREAMWORKS",
+    "name": "DREAMWORKS,DREAMWORKS HD,DREAMWORKS 超清,DREAMWORKS 高清,DREAMWORKS(HD),DREAMWORKS-4K,DREAMWORKS-HD,DREAMWORKS-高清,DREAMWORKSHD,"
+  },
+  {
+    "epgid": "DREAMWORKS",
+    "name": "DREAMWORKS,DREAMWORKS HD,DREAMWORKS 超清,DREAMWORKS 高清,DREAMWORKS(HD),DREAMWORKS-4K,DREAMWORKS-HD,DREAMWORKS-高清,DREAMWORKSHD,"
+  },
+  {
+    "epgid": "DW",
+    "name": "DW,DW HD,DW 超清,DW 高清,DW(HD),DW-4K,DW-HD,DW-高清,DWHD,"
+  },
+  {
+    "epgid": "DW (English)",
+    "name": "DW (English),DW (English) HD,DW (English) 超清,DW (English) 高清,DW (English)(HD),DW (English)-4K,DW (English)-HD,DW (English)-高清,DW (English)HD,"
+  },
+  {
+    "epgid": "DW德國之聲",
+    "name": "DW德國之聲,DW德國之聲 HD,DW德國之聲 超清,DW德國之聲 高清,DW德國之聲(HD),DW德國之聲-4K,DW德國之聲-HD,DW德國之聲-高清,DW德國之聲HD,"
+  },
+  {
+    "epgid": "Discovery",
+    "name": "Discovery,Discovery HD,Discovery 超清,Discovery 高清,Discovery(HD),Discovery-4K,Discovery-HD,Discovery-高清,DiscoveryHD,"
+  },
+  {
+    "epgid": "Discovery Asia",
+    "name": "Discovery Asia,Discovery Asia HD,Discovery Asia 超清,Discovery Asia 高清,Discovery Asia(HD),Discovery Asia-4K,Discovery Asia-HD,Discovery Asia-高清,Discovery AsiaHD,"
+  },
+  {
+    "epgid": "Discovery Asia",
+    "name": "Discovery Asia,Discovery Asia HD,Discovery Asia 超清,Discovery Asia 高清,Discovery Asia(HD),Discovery Asia-4K,Discovery Asia-HD,Discovery Asia-高清,Discovery AsiaHD,"
+  },
+  {
+    "epgid": "Discovery Asia HD",
+    "name": "Discovery Asia HD,Discovery Asia HD HD,Discovery Asia HD 超清,Discovery Asia HD 高清,Discovery Asia HD(HD),Discovery Asia HD-4K,Discovery Asia HD-HD,Discovery Asia HD-高清,Discovery Asia HDHD,"
+  },
+  {
+    "epgid": "Discovery Channel",
+    "name": "Discovery Channel,Discovery Channel HD,Discovery Channel 超清,Discovery Channel 高清,Discovery Channel(HD),Discovery Channel-4K,Discovery Channel-HD,Discovery Channel-高清,Discovery ChannelHD,"
+  },
+  {
+    "epgid": "Discovery 科學頻道",
+    "name": "Discovery 科學頻道,Discovery 科學頻道 HD,Discovery 科學頻道 超清,Discovery 科學頻道 高清,Discovery 科學頻道(HD),Discovery 科學頻道-4K,Discovery 科學頻道-HD,Discovery 科學頻道-高清,Discovery 科學頻道HD,"
+  },
+  {
+    "epgid": "Discovery科學HD",
+    "name": "Discovery科學HD,Discovery科學HD HD,Discovery科學HD 超清,Discovery科學HD 高清,Discovery科學HD(HD),Discovery科學HD-4K,Discovery科學HD-HD,Discovery科學HD-高清,Discovery科學HDHD,"
+  },
+  {
+    "epgid": "Discovery科學頻道",
+    "name": "Discovery科學頻道,Discovery科學頻道 HD,Discovery科學頻道 超清,Discovery科學頻道 高清,Discovery科學頻道(HD),Discovery科學頻道-4K,Discovery科學頻道-HD,Discovery科學頻道-高清,Discovery科學頻道HD,"
+  },
+  {
+    "epgid": "DocsVille",
+    "name": "DocsVille,DocsVille HD,DocsVille 超清,DocsVille 高清,DocsVille(HD),DocsVille-4K,DocsVille-HD,DocsVille-高清,DocsVilleHD,"
+  },
+  {
+    "epgid": "DreamWorks 夢工廠動畫",
+    "name": "DreamWorks 夢工廠動畫,DreamWorks 夢工廠動畫 HD,DreamWorks 夢工廠動畫 超清,DreamWorks 夢工廠動畫 高清,DreamWorks 夢工廠動畫(HD),DreamWorks 夢工廠動畫-4K,DreamWorks 夢工廠動畫-HD,DreamWorks 夢工廠動畫-高清,DreamWorks 夢工廠動畫HD,"
+  },
+  {
+    "epgid": "ELTV生活英語台",
+    "name": "ELTV生活英語台,ELTV生活英語台 HD,ELTV生活英語台 超清,ELTV生活英語台 高清,ELTV生活英語台(HD),ELTV生活英語台-4K,ELTV生活英語台-HD,ELTV生活英語台-高清,ELTV生活英語台HD,"
+  },
+  {
+    "epgid": "ELTV生活英語台",
+    "name": "ELTV生活英語台,ELTV生活英語台 HD,ELTV生活英語台 超清,ELTV生活英語台 高清,ELTV生活英語台(HD),ELTV生活英語台-4K,ELTV生活英語台-HD,ELTV生活英語台-高清,ELTV生活英語台HD,"
+  },
+  {
+    "epgid": "ETtoday綜合台",
+    "name": "ETtoday綜合台,ETtoday綜合台 HD,ETtoday綜合台 超清,ETtoday綜合台 高清,ETtoday綜合台(HD),ETtoday綜合台-4K,ETtoday綜合台-HD,ETtoday綜合台-高清,ETtoday綜合台HD,"
+  },
+  {
+    "epgid": "EUROSPORT HD",
+    "name": "EUROSPORT HD,EUROSPORT HD HD,EUROSPORT HD 超清,EUROSPORT HD 高清,EUROSPORT HD(HD),EUROSPORT HD-4K,EUROSPORT HD-HD,EUROSPORT HD-高清,EUROSPORT HDHD,"
+  },
+  {
+    "epgid": "EVE",
+    "name": "EVE,EVE HD,EVE 超清,EVE 高清,EVE(HD),EVE-4K,EVE-HD,EVE-高清,EVEHD,"
+  },
+  {
+    "epgid": "EVE HD",
+    "name": "EVE HD,EVE HD HD,EVE HD 超清,EVE HD 高清,EVE HD(HD),EVE HD-4K,EVE HD-HD,EVE HD-高清,EVE HDHD,"
+  },
+  {
+    "epgid": "EYE TV戲劇台HD",
+    "name": "EYE TV戲劇台HD,EYE TV戲劇台HD HD,EYE TV戲劇台HD 超清,EYE TV戲劇台HD 高清,EYE TV戲劇台HD(HD),EYE TV戲劇台HD-4K,EYE TV戲劇台HD-HD,EYE TV戲劇台HD-高清,EYE TV戲劇台HDHD,"
+  },
+  {
+    "epgid": "EYE TV旅遊台HD",
+    "name": "EYE TV旅遊台HD,EYE TV旅遊台HD HD,EYE TV旅遊台HD 超清,EYE TV旅遊台HD 高清,EYE TV旅遊台HD(HD),EYE TV旅遊台HD-4K,EYE TV旅遊台HD-HD,EYE TV旅遊台HD-高清,EYE TV旅遊台HDHD,"
+  },
+  {
+    "epgid": "Euronews",
+    "name": "Euronews,Euronews HD,Euronews 超清,Euronews 高清,Euronews(HD),Euronews-4K,Euronews-HD,Euronews-高清,EuronewsHD,"
+  },
+  {
+    "epgid": "FRANCE24 英文台",
+    "name": "FRANCE24 英文台,FRANCE24 英文台 HD,FRANCE24 英文台 超清,FRANCE24 英文台 高清,FRANCE24 英文台(HD),FRANCE24 英文台-4K,FRANCE24 英文台-HD,FRANCE24 英文台-高清,FRANCE24 英文台HD,"
+  },
+  {
+    "epgid": "FRANCE24E HD",
+    "name": "FRANCE24E HD,FRANCE24E HD HD,FRANCE24E HD 超清,FRANCE24E HD 高清,FRANCE24E HD(HD),FRANCE24E HD-4K,FRANCE24E HD-HD,FRANCE24E HD-高清,FRANCE24E HDHD,"
+  },
+  {
+    "epgid": "FRANCE24F",
+    "name": "FRANCE24F,FRANCE24F HD,FRANCE24F 超清,FRANCE24F 高清,FRANCE24F(HD),FRANCE24F-4K,FRANCE24F-HD,FRANCE24F-高清,FRANCE24FHD,"
+  },
+  {
+    "epgid": "FZTV1",
+    "name": "FZTV1,FZTV1 HD,FZTV1 超清,FZTV1 高清,FZTV1(HD),FZTV1-4K,FZTV1-HD,FZTV1-高清,FZTV1HD,"
+  },
+  {
+    "epgid": "Fashion TV HD",
+    "name": "Fashion TV HD,Fashion TV HD HD,Fashion TV HD 超清,Fashion TV HD 高清,Fashion TV HD(HD),Fashion TV HD-4K,Fashion TV HD-HD,Fashion TV HD-高清,Fashion TV HDHD,"
+  },
+  {
+    "epgid": "FashionBox",
+    "name": "FashionBox,FashionBox HD,FashionBox 超清,FashionBox 高清,FashionBox(HD),FashionBox-4K,FashionBox-HD,FashionBox-高清,FashionBoxHD,"
+  },
+  {
+    "epgid": "Food Network",
+    "name": "Food Network,Food Network HD,Food Network 超清,Food Network 高清,Food Network(HD),Food Network-4K,Food Network-HD,Food Network-高清,Food NetworkHD,"
+  },
+  {
+    "epgid": "Food Network 美食台HD",
+    "name": "Food Network 美食台HD,Food Network 美食台HD HD,Food Network 美食台HD 超清,Food Network 美食台HD 高清,Food Network 美食台HD(HD),Food Network 美食台HD-4K,Food Network 美食台HD-HD,Food Network 美食台HD-高清,Food Network 美食台HDHD,"
+  },
+  {
+    "epgid": "France 24",
+    "name": "France 24,France 24 HD,France 24 超清,France 24 高清,France 24(HD),France 24-4K,France 24-HD,France 24-高清,France 24HD,"
+  },
+  {
+    "epgid": "France 24",
+    "name": "France 24,France 24 HD,France 24 超清,France 24 高清,France 24(HD),France 24-4K,France 24-HD,France 24-高清,France 24HD,"
+  },
+  {
+    "epgid": "France 24 (French)",
+    "name": "France 24 (French),France 24 (French) HD,France 24 (French) 超清,France 24 (French) 高清,France 24 (French)(HD),France 24 (French)-4K,France 24 (French)-HD,France 24 (French)-高清,France 24 (French)HD,"
+  },
+  {
+    "epgid": "Fun探索娛樂台 4K",
+    "name": "Fun探索娛樂台 4K,Fun探索娛樂台 4K HD,Fun探索娛樂台 4K 超清,Fun探索娛樂台 4K 高清,Fun探索娛樂台 4K(HD),Fun探索娛樂台 4K-4K,Fun探索娛樂台 4K-HD,Fun探索娛樂台 4K-高清,Fun探索娛樂台 4KHD,"
+  },
+  {
+    "epgid": "GINX Esports TV",
+    "name": "GINX Esports TV,GINX Esports TV HD,GINX Esports TV 超清,GINX Esports TV 高清,GINX Esports TV(HD),GINX Esports TV-4K,GINX Esports TV-HD,GINX Esports TV-高清,GINX Esports TVHD,"
+  },
+  {
+    "epgid": "GMA Life TV",
+    "name": "GMA Life TV,GMA Life TV HD,GMA Life TV 超清,GMA Life TV 高清,GMA Life TV(HD),GMA Life TV-4K,GMA Life TV-HD,GMA Life TV-高清,GMA Life TVHD,"
+  },
+  {
+    "epgid": "GMA News TV",
+    "name": "GMA News TV,GMA News TV HD,GMA News TV 超清,GMA News TV 高清,GMA News TV(HD),GMA News TV-4K,GMA News TV-HD,GMA News TV-高清,GMA News TVHD,"
+  },
+  {
+    "epgid": "GMA Pinoy TV",
+    "name": "GMA Pinoy TV,GMA Pinoy TV HD,GMA Pinoy TV 超清,GMA Pinoy TV 高清,GMA Pinoy TV(HD),GMA Pinoy TV-4K,GMA Pinoy TV-HD,GMA Pinoy TV-高清,GMA Pinoy TVHD,"
+  },
+  {
+    "epgid": "Getwin Sports運動台",
+    "name": "Getwin Sports運動台,Getwin Sports運動台 HD,Getwin Sports運動台 超清,Getwin Sports運動台 高清,Getwin Sports運動台(HD),Getwin Sports運動台-4K,Getwin Sports運動台-HD,Getwin Sports運動台-高清,Getwin Sports運動台HD,"
+  },
+  {
+    "epgid": "Global Trekker",
+    "name": "Global Trekker,Global Trekker HD,Global Trekker 超清,Global Trekker 高清,Global Trekker(HD),Global Trekker-4K,Global Trekker-HD,Global Trekker-高清,Global TrekkerHD,"
+  },
+  {
+    "epgid": "Global Trekker",
+    "name": "Global Trekker,Global Trekker HD,Global Trekker 超清,Global Trekker 高清,Global Trekker(HD),Global Trekker-4K,Global Trekker-HD,Global Trekker-高清,Global TrekkerHD,"
+  },
+  {
+    "epgid": "Global Trekker HD",
+    "name": "Global Trekker HD,Global Trekker HD HD,Global Trekker HD 超清,Global Trekker HD 高清,Global Trekker HD(HD),Global Trekker HD-4K,Global Trekker HD-HD,Global Trekker HD-高清,Global Trekker HDHD,"
+  },
+  {
+    "epgid": "Global Trekker 探索世界",
+    "name": "Global Trekker 探索世界,Global Trekker 探索世界 HD,Global Trekker 探索世界 超清,Global Trekker 探索世界 高清,Global Trekker 探索世界(HD),Global Trekker 探索世界-4K,Global Trekker 探索世界-HD,Global Trekker 探索世界-高清,Global Trekker 探索世界HD,"
+  },
+  {
+    "epgid": "Globetrotter",
+    "name": "Globetrotter,Globetrotter HD,Globetrotter 超清,Globetrotter 高清,Globetrotter(HD),Globetrotter-4K,Globetrotter-HD,Globetrotter-高清,GlobetrotterHD,"
+  },
+  {
+    "epgid": "HBO",
+    "name": "HBO,HBO HD,HBO 超清,HBO 高清,HBO(HD),HBO-4K,HBO-HD,HBO-高清,HBOHD,"
+  },
+  {
+    "epgid": "HBO",
+    "name": "HBO,HBO HD,HBO 超清,HBO 高清,HBO(HD),HBO-4K,HBO-HD,HBO-高清,HBOHD,"
+  },
+  {
+    "epgid": "HBO Family",
+    "name": "HBO Family,HBO Family HD,HBO Family 超清,HBO Family 高清,HBO Family(HD),HBO Family-4K,HBO Family-HD,HBO Family-高清,HBO FamilyHD,"
+  },
+  {
+    "epgid": "HBO HD",
+    "name": "HBO HD,HBO HD HD,HBO HD 超清,HBO HD 高清,HBO HD(HD),HBO HD-4K,HBO HD-HD,HBO HD-高清,HBO HDHD,"
+  },
+  {
+    "epgid": "HBO Hits",
+    "name": "HBO Hits,HBO Hits HD,HBO Hits 超清,HBO Hits 高清,HBO Hits(HD),HBO Hits-4K,HBO Hits-HD,HBO Hits-高清,HBO HitsHD,"
+  },
+  {
+    "epgid": "HBO Signature",
+    "name": "HBO Signature,HBO Signature HD,HBO Signature 超清,HBO Signature 高清,HBO Signature(HD),HBO Signature-4K,HBO Signature-HD,HBO Signature-高清,HBO SignatureHD,"
+  },
+  {
+    "epgid": "HBO 原創鉅獻",
+    "name": "HBO 原創鉅獻,HBO 原創鉅獻 HD,HBO 原創鉅獻 超清,HBO 原創鉅獻 高清,HBO 原創鉅獻(HD),HBO 原創鉅獻-4K,HBO 原創鉅獻-HD,HBO 原創鉅獻-高清,HBO 原創鉅獻HD,"
+  },
+  {
+    "epgid": "HBO 強檔鉅獻",
+    "name": "HBO 強檔鉅獻,HBO 強檔鉅獻 HD,HBO 強檔鉅獻 超清,HBO 強檔鉅獻 高清,HBO 強檔鉅獻(HD),HBO 強檔鉅獻-4K,HBO 強檔鉅獻-HD,HBO 強檔鉅獻-高清,HBO 強檔鉅獻HD,"
+  },
+  {
+    "epgid": "HBO 溫馨家庭",
+    "name": "HBO 溫馨家庭,HBO 溫馨家庭 HD,HBO 溫馨家庭 超清,HBO 溫馨家庭 高清,HBO 溫馨家庭(HD),HBO 溫馨家庭-4K,HBO 溫馨家庭-HD,HBO 溫馨家庭-高清,HBO 溫馨家庭HD,"
+  },
+  {
+    "epgid": "HGTV居家樂活頻道",
+    "name": "HGTV居家樂活頻道,HGTV居家樂活頻道 HD,HGTV居家樂活頻道 超清,HGTV居家樂活頻道 高清,HGTV居家樂活頻道(HD),HGTV居家樂活頻道-4K,HGTV居家樂活頻道-HD,HGTV居家樂活頻道-高清,HGTV居家樂活頻道HD,"
+  },
+  {
+    "epgid": "HISTORY",
+    "name": "HISTORY,HISTORY HD,HISTORY 超清,HISTORY 高清,HISTORY(HD),HISTORY-4K,HISTORY-HD,HISTORY-高清,HISTORYHD,"
+  },
+  {
+    "epgid": "HITS",
+    "name": "HITS,HITS HD,HITS 超清,HITS 高清,HITS(HD),HITS-4K,HITS-HD,HITS-高清,HITSHD,"
+  },
+  {
+    "epgid": "HITS",
+    "name": "HITS,HITS HD,HITS 超清,HITS 高清,HITS(HD),HITS-4K,HITS-HD,HITS-高清,HITSHD,"
+  },
+  {
+    "epgid": "HITS HD",
+    "name": "HITS HD,HITS HD HD,HITS HD 超清,HITS HD 高清,HITS HD(HD),HITS HD-4K,HITS HD-HD,HITS HD-高清,HITS HDHD,"
+  },
+  {
+    "epgid": "HITS MOVIES",
+    "name": "HITS MOVIES,HITS MOVIES HD,HITS MOVIES 超清,HITS MOVIES 高清,HITS MOVIES(HD),HITS MOVIES-4K,HITS MOVIES-HD,HITS MOVIES-高清,HITS MOVIESHD,"
+  },
+  {
+    "epgid": "HITS頻道",
+    "name": "HITS頻道,HITS頻道 HD,HITS頻道 超清,HITS頻道 高清,HITS頻道(HD),HITS頻道-4K,HITS頻道-HD,HITS頻道-高清,HITS頻道HD,"
+  },
+  {
+    "epgid": "HNXTTV1",
+    "name": "HNXTTV1,HNXTTV1 HD,HNXTTV1 超清,HNXTTV1 高清,HNXTTV1(HD),HNXTTV1-4K,HNXTTV1-HD,HNXTTV1-高清,HNXTTV1HD,"
+  },
+  {
+    "epgid": "HNZKTV1",
+    "name": "HNZKTV1,HNZKTV1 HD,HNZKTV1 超清,HNZKTV1 高清,HNZKTV1(HD),HNZKTV1-4K,HNZKTV1-HD,HNZKTV1-高清,HNZKTV1HD,"
+  },
+  {
+    "epgid": "HNZKTV2",
+    "name": "HNZKTV2,HNZKTV2 HD,HNZKTV2 超清,HNZKTV2 高清,HNZKTV2(HD),HNZKTV2-4K,HNZKTV2-HD,HNZKTV2-高清,HNZKTV2HD,"
+  },
+  {
+    "epgid": "HNZKTV3",
+    "name": "HNZKTV3,HNZKTV3 HD,HNZKTV3 超清,HNZKTV3 高清,HNZKTV3(HD),HNZKTV3-4K,HNZKTV3-HD,HNZKTV3-高清,HNZKTV3HD,"
+  },
+  {
+    "epgid": "HNZKTV4",
+    "name": "HNZKTV4,HNZKTV4 HD,HNZKTV4 超清,HNZKTV4 高清,HNZKTV4(HD),HNZKTV4-4K,HNZKTV4-HD,HNZKTV4-高清,HNZKTV4HD,"
+  },
+  {
+    "epgid": "HRBTV1",
+    "name": "HRBTV1,HRBTV1 HD,HRBTV1 超清,HRBTV1 高清,HRBTV1(HD),HRBTV1-4K,HRBTV1-HD,HRBTV1-高清,HRBTV1HD,"
+  },
+  {
+    "epgid": "HZTV1",
+    "name": "HZTV1,HZTV1 HD,HZTV1 超清,HZTV1 高清,HZTV1(HD),HZTV1-4K,HZTV1-HD,HZTV1-高清,HZTV1HD,"
+  },
+  {
+    "epgid": "HZTV2",
+    "name": "HZTV2,HZTV2 HD,HZTV2 超清,HZTV2 高清,HZTV2(HD),HZTV2-4K,HZTV2-HD,HZTV2-高清,HZTV2HD,"
+  },
+  {
+    "epgid": "Happy",
+    "name": "Happy,Happy HD,Happy 超清,Happy 高清,Happy(HD),Happy-4K,Happy-HD,Happy-高清,HappyHD,"
+  },
+  {
+    "epgid": "History 歷史頻道",
+    "name": "History 歷史頻道,History 歷史頻道 HD,History 歷史頻道 超清,History 歷史頻道 高清,History 歷史頻道(HD),History 歷史頻道-4K,History 歷史頻道-HD,History 歷史頻道-高清,History 歷史頻道HD,"
+  },
+  {
+    "epgid": "Hot",
+    "name": "Hot,Hot HD,Hot 超清,Hot 高清,Hot(HD),Hot-4K,Hot-HD,Hot-高清,HotHD,"
+  },
+  {
+    "epgid": "INULTRA",
+    "name": "INULTRA,INULTRA HD,INULTRA 超清,INULTRA 高清,INULTRA(HD),INULTRA-4K,INULTRA-HD,INULTRA-高清,INULTRAHD,"
+  },
+  {
+    "epgid": "JET綜合台",
+    "name": "JET綜合台,JET綜合台 HD,JET綜合台 超清,JET綜合台 高清,JET綜合台(HD),JET綜合台-4K,JET綜合台-HD,JET綜合台-高清,JET綜合台HD,"
+  },
+  {
+    "epgid": "JINHUATV1",
+    "name": "JINHUATV1,JINHUATV1 HD,JINHUATV1 超清,JINHUATV1 高清,JINHUATV1(HD),JINHUATV1-4K,JINHUATV1-HD,JINHUATV1-高清,JINHUATV1HD,"
+  },
+  {
+    "epgid": "JStar極限台電影頻道",
+    "name": "JStar極限台電影頻道,JStar極限台電影頻道 HD,JStar極限台電影頻道 超清,JStar極限台電影頻道 高清,JStar極限台電影頻道(HD),JStar極限台電影頻道-4K,JStar極限台電影頻道-HD,JStar極限台電影頻道-高清,JStar極限台電影頻道HD,"
+  },
+  {
+    "epgid": "K 頻道",
+    "name": "K 頻道,K 頻道 HD,K 頻道 超清,K 頻道 高清,K 頻道(HD),K 頻道-4K,K 頻道-HD,K 頻道-高清,K 頻道HD,"
+  },
+  {
+    "epgid": "KBS World",
+    "name": "KBS World,KBS World HD,KBS World 超清,KBS World 高清,KBS World(HD),KBS World-4K,KBS World-HD,KBS World-高清,KBS WorldHD,"
+  },
+  {
+    "epgid": "KFTV1",
+    "name": "KFTV1,KFTV1 HD,KFTV1 超清,KFTV1 高清,KFTV1(HD),KFTV1-4K,KFTV1-HD,KFTV1-高清,KFTV1HD,"
+  },
+  {
+    "epgid": "KIX",
+    "name": "KIX,KIX HD,KIX 超清,KIX 高清,KIX(HD),KIX-4K,KIX-HD,KIX-高清,KIXHD,"
+  },
+  {
+    "epgid": "KLT-靖天國際台",
+    "name": "KLT-靖天國際台,KLT-靖天國際台 HD,KLT-靖天國際台 超清,KLT-靖天國際台 高清,KLT-靖天國際台(HD),KLT-靖天國際台-4K,KLT-靖天國際台-HD,KLT-靖天國際台-高清,KLT-靖天國際台HD,"
+  },
+  {
+    "epgid": "KLT-靖天國際台HD",
+    "name": "KLT-靖天國際台HD,KLT-靖天國際台HD HD,KLT-靖天國際台HD 超清,KLT-靖天國際台HD 高清,KLT-靖天國際台HD(HD),KLT-靖天國際台HD-4K,KLT-靖天國際台HD-HD,KLT-靖天國際台HD-高清,KLT-靖天國際台HDHD,"
+  },
+  {
+    "epgid": "LOVE NATURE 4K",
+    "name": "LOVE NATURE 4K,LOVE NATURE 4K HD,LOVE NATURE 4K 超清,LOVE NATURE 4K 高清,LOVE NATURE 4K(HD),LOVE NATURE 4K-4K,LOVE NATURE 4K-HD,LOVE NATURE 4K-高清,LOVE NATURE 4KHD,"
+  },
+  {
+    "epgid": "LOVE NATURE 4K",
+    "name": "LOVE NATURE 4K,LOVE NATURE 4K HD,LOVE NATURE 4K 超清,LOVE NATURE 4K 高清,LOVE NATURE 4K(HD),LOVE NATURE 4K-4K,LOVE NATURE 4K-HD,LOVE NATURE 4K-高清,LOVE NATURE 4KHD,"
+  },
+  {
+    "epgid": "LS Time電影台",
+    "name": "LS Time電影台,LS Time電影台 HD,LS Time電影台 超清,LS Time電影台 高清,LS Time電影台(HD),LS Time電影台-4K,LS Time電影台-HD,LS Time電影台-高清,LS Time電影台HD,"
+  },
+  {
+    "epgid": "LUXE TV Channel",
+    "name": "LUXE TV Channel,LUXE TV Channel HD,LUXE TV Channel 超清,LUXE TV Channel 高清,LUXE TV Channel(HD),LUXE TV Channel-4K,LUXE TV Channel-HD,LUXE TV Channel-高清,LUXE TV ChannelHD,"
+  },
+  {
+    "epgid": "LUXE TV HD",
+    "name": "LUXE TV HD,LUXE TV HD HD,LUXE TV HD 超清,LUXE TV HD 高清,LUXE TV HD(HD),LUXE TV HD-4K,LUXE TV HD-HD,LUXE TV HD-高清,LUXE TV HDHD,"
+  },
+  {
+    "epgid": "Lifetime",
+    "name": "Lifetime,Lifetime HD,Lifetime 超清,Lifetime 高清,Lifetime(HD),Lifetime-4K,Lifetime-HD,Lifetime-高清,LifetimeHD,"
+  },
+  {
+    "epgid": "Lifetime",
+    "name": "Lifetime,Lifetime HD,Lifetime 超清,Lifetime 高清,Lifetime(HD),Lifetime-4K,Lifetime-HD,Lifetime-高清,LifetimeHD,"
+  },
+  {
+    "epgid": "Lifetime HD",
+    "name": "Lifetime HD,Lifetime HD HD,Lifetime HD 超清,Lifetime HD 高清,Lifetime HD(HD),Lifetime HD-4K,Lifetime HD-HD,Lifetime HD-高清,Lifetime HDHD,"
+  },
+  {
+    "epgid": "Lifetime 娛樂頻道",
+    "name": "Lifetime 娛樂頻道,Lifetime 娛樂頻道 HD,Lifetime 娛樂頻道 超清,Lifetime 娛樂頻道 高清,Lifetime 娛樂頻道(HD),Lifetime 娛樂頻道-4K,Lifetime 娛樂頻道-HD,Lifetime 娛樂頻道-高清,Lifetime 娛樂頻道HD,"
+  },
+  {
+    "epgid": "LiveABC互動英語頻道",
+    "name": "LiveABC互動英語頻道,LiveABC互動英語頻道 HD,LiveABC互動英語頻道 超清,LiveABC互動英語頻道 高清,LiveABC互動英語頻道(HD),LiveABC互動英語頻道-4K,LiveABC互動英語頻道-HD,LiveABC互動英語頻道-高清,LiveABC互動英語頻道HD,"
+  },
+  {
+    "epgid": "Love Nature",
+    "name": "Love Nature,Love Nature HD,Love Nature 超清,Love Nature 高清,Love Nature(HD),Love Nature-4K,Love Nature-HD,Love Nature-高清,Love NatureHD,"
+  },
+  {
+    "epgid": "Love Nature",
+    "name": "Love Nature,Love Nature HD,Love Nature 超清,Love Nature 高清,Love Nature(HD),Love Nature-4K,Love Nature-HD,Love Nature-高清,Love NatureHD,"
+  },
+  {
+    "epgid": "Love Nature 4K",
+    "name": "Love Nature 4K,Love Nature 4K HD,Love Nature 4K 超清,Love Nature 4K 高清,Love Nature 4K(HD),Love Nature 4K-4K,Love Nature 4K-HD,Love Nature 4K-高清,Love Nature 4KHD,"
+  },
+  {
+    "epgid": "Love Nature 4K",
+    "name": "Love Nature 4K,Love Nature 4K HD,Love Nature 4K 超清,Love Nature 4K 高清,Love Nature 4K(HD),Love Nature 4K-4K,Love Nature 4K-HD,Love Nature 4K-高清,Love Nature 4KHD,"
+  },
+  {
+    "epgid": "Love Nature HD",
+    "name": "Love Nature HD,Love Nature HD HD,Love Nature HD 超清,Love Nature HD 高清,Love Nature HD(HD),Love Nature HD-4K,Love Nature HD-HD,Love Nature HD-高清,Love Nature HDHD,"
+  },
+  {
+    "epgid": "Lucky 688",
+    "name": "Lucky 688,Lucky 688 HD,Lucky 688 超清,Lucky 688 高清,Lucky 688(HD),Lucky 688-4K,Lucky 688-HD,Lucky 688-高清,Lucky 688HD,"
+  },
+  {
+    "epgid": "MCE 我的歐洲電影台",
+    "name": "MCE 我的歐洲電影台,MCE 我的歐洲電影台 HD,MCE 我的歐洲電影台 超清,MCE 我的歐洲電影台 高清,MCE 我的歐洲電影台(HD),MCE 我的歐洲電影台-4K,MCE 我的歐洲電影台-HD,MCE 我的歐洲電影台-高清,MCE 我的歐洲電影台HD,"
+  },
+  {
+    "epgid": "MOMO 1台",
+    "name": "MOMO 1台,MOMO 1台 HD,MOMO 1台 超清,MOMO 1台 高清,MOMO 1台(HD),MOMO 1台-4K,MOMO 1台-HD,MOMO 1台-高清,MOMO 1台HD,"
+  },
+  {
+    "epgid": "MOMO 2台",
+    "name": "MOMO 2台,MOMO 2台 HD,MOMO 2台 超清,MOMO 2台 高清,MOMO 2台(HD),MOMO 2台-4K,MOMO 2台-HD,MOMO 2台-高清,MOMO 2台HD,"
+  },
+  {
+    "epgid": "MOMO綜合台",
+    "name": "MOMO綜合台,MOMO綜合台 HD,MOMO綜合台 超清,MOMO綜合台 高清,MOMO綜合台(HD),MOMO綜合台-4K,MOMO綜合台-HD,MOMO綜合台-高清,MOMO綜合台HD,"
+  },
+  {
+    "epgid": "MOMO親子台",
+    "name": "MOMO親子台,MOMO親子台 HD,MOMO親子台 超清,MOMO親子台 高清,MOMO親子台(HD),MOMO親子台-4K,MOMO親子台-HD,MOMO親子台-高清,MOMO親子台HD,"
+  },
+  {
+    "epgid": "MOMO親子台",
+    "name": "MOMO親子台,MOMO親子台 HD,MOMO親子台 超清,MOMO親子台 高清,MOMO親子台(HD),MOMO親子台-4K,MOMO親子台-HD,MOMO親子台-高清,MOMO親子台HD,"
+  },
+  {
+    "epgid": "MOVIE MOVIE",
+    "name": "MOVIE MOVIE,MOVIE MOVIE HD,MOVIE MOVIE 超清,MOVIE MOVIE 高清,MOVIE MOVIE(HD),MOVIE MOVIE-4K,MOVIE MOVIE-HD,MOVIE MOVIE-高清,MOVIE MOVIEHD,"
+  },
+  {
+    "epgid": "MTV",
+    "name": "MTV,MTV HD,MTV 超清,MTV 高清,MTV(HD),MTV-4K,MTV-HD,MTV-高清,MTVHD,"
+  },
+  {
+    "epgid": "MTV India",
+    "name": "MTV India,MTV India HD,MTV India 超清,MTV India 高清,MTV India(HD),MTV India-4K,MTV India-HD,MTV India-高清,MTV IndiaHD,"
+  },
+  {
+    "epgid": "MTV綜合台HD",
+    "name": "MTV綜合台HD,MTV綜合台HD HD,MTV綜合台HD 超清,MTV綜合台HD 高清,MTV綜合台HD(HD),MTV綜合台HD-4K,MTV綜合台HD-HD,MTV綜合台HD-高清,MTV綜合台HDHD,"
+  },
+  {
+    "epgid": "Medici-arts HD",
+    "name": "Medici-arts HD,Medici-arts HD HD,Medici-arts HD 超清,Medici-arts HD 高清,Medici-arts HD(HD),Medici-arts HD-4K,Medici-arts HD-HD,Medici-arts HD-高清,Medici-arts HDHD,"
+  },
+  {
+    "epgid": "Mezzo Live",
+    "name": "Mezzo Live,Mezzo Live HD,Mezzo Live 超清,Mezzo Live 高清,Mezzo Live(HD),Mezzo Live-4K,Mezzo Live-HD,Mezzo Live-高清,Mezzo LiveHD,"
+  },
+  {
+    "epgid": "Mezzo Live HD",
+    "name": "Mezzo Live HD,Mezzo Live HD HD,Mezzo Live HD 超清,Mezzo Live HD 高清,Mezzo Live HD(HD),Mezzo Live HD-4K,Mezzo Live HD-HD,Mezzo Live HD-高清,Mezzo Live HDHD,"
+  },
+  {
+    "epgid": "Moonbug",
+    "name": "Moonbug,Moonbug HD,Moonbug 超清,Moonbug 高清,Moonbug(HD),Moonbug-4K,Moonbug-HD,Moonbug-高清,MoonbugHD,"
+  },
+  {
+    "epgid": "My Cinema Europe HD 我的歐洲電影",
+    "name": "My Cinema Europe HD 我的歐洲電影,My Cinema Europe HD 我的歐洲電影 HD,My Cinema Europe HD 我的歐洲電影 超清,My Cinema Europe HD 我的歐洲電影 高清,My Cinema Europe HD 我的歐洲電影(HD),My Cinema Europe HD 我的歐洲電影-4K,My Cinema Europe HD 我的歐洲電影-HD,My Cinema Europe HD 我的歐洲電影-高清,My Cinema Europe HD 我的歐洲電影HD,"
+  },
+  {
+    "epgid": "NBA TV",
+    "name": "NBA TV,NBA TV HD,NBA TV 超清,NBA TV 高清,NBA TV(HD),NBA TV-4K,NBA TV-HD,NBA TV-高清,NBA TVHD,"
+  },
+  {
+    "epgid": "NHK",
+    "name": "NHK,NHK HD,NHK 超清,NHK 高清,NHK(HD),NHK-4K,NHK-HD,NHK-高清,NHKHD,"
+  },
+  {
+    "epgid": "NHK WORLD-JAPAN",
+    "name": "NHK WORLD-JAPAN,NHK WORLD-JAPAN HD,NHK WORLD-JAPAN 超清,NHK WORLD-JAPAN 高清,NHK WORLD-JAPAN(HD),NHK WORLD-JAPAN-4K,NHK WORLD-JAPAN-HD,NHK WORLD-JAPAN-高清,NHK WORLD-JAPANHD,"
+  },
+  {
+    "epgid": "NHK WORLD-JAPAN",
+    "name": "NHK WORLD-JAPAN,NHK WORLD-JAPAN HD,NHK WORLD-JAPAN 超清,NHK WORLD-JAPAN 高清,NHK WORLD-JAPAN(HD),NHK WORLD-JAPAN-4K,NHK WORLD-JAPAN-HD,NHK WORLD-JAPAN-高清,NHK WORLD-JAPANHD,"
+  },
+  {
+    "epgid": "NHK World Premium",
+    "name": "NHK World Premium,NHK World Premium HD,NHK World Premium 超清,NHK World Premium 高清,NHK World Premium(HD),NHK World Premium-4K,NHK World Premium-HD,NHK World Premium-高清,NHK World PremiumHD,"
+  },
+  {
+    "epgid": "NHK World-Japan",
+    "name": "NHK World-Japan,NHK World-Japan HD,NHK World-Japan 超清,NHK World-Japan 高清,NHK World-Japan(HD),NHK World-Japan-4K,NHK World-Japan-HD,NHK World-Japan-高清,NHK World-JapanHD,"
+  },
+  {
+    "epgid": "NHK新聞資訊台HD",
+    "name": "NHK新聞資訊台HD,NHK新聞資訊台HD HD,NHK新聞資訊台HD 超清,NHK新聞資訊台HD 高清,NHK新聞資訊台HD(HD),NHK新聞資訊台HD-4K,NHK新聞資訊台HD-HD,NHK新聞資訊台HD-高清,NHK新聞資訊台HDHD,"
+  },
+  {
+    "epgid": "NOW 70s",
+    "name": "NOW 70s,NOW 70s HD,NOW 70s 超清,NOW 70s 高清,NOW 70s(HD),NOW 70s-4K,NOW 70s-HD,NOW 70s-高清,NOW 70sHD,"
+  },
+  {
+    "epgid": "NOW 80s",
+    "name": "NOW 80s,NOW 80s HD,NOW 80s 超清,NOW 80s 高清,NOW 80s(HD),NOW 80s-4K,NOW 80s-HD,NOW 80s-高清,NOW 80sHD,"
+  },
+  {
+    "epgid": "NOW 90s00s",
+    "name": "NOW 90s00s,NOW 90s00s HD,NOW 90s00s 超清,NOW 90s00s 高清,NOW 90s00s(HD),NOW 90s00s-4K,NOW 90s00s-HD,NOW 90s00s-高清,NOW 90s00sHD,"
+  },
+  {
+    "epgid": "NOW ROCK",
+    "name": "NOW ROCK,NOW ROCK HD,NOW ROCK 超清,NOW ROCK 高清,NOW ROCK(HD),NOW ROCK-4K,NOW ROCK-HD,NOW ROCK-高清,NOW ROCKHD,"
+  },
+  {
+    "epgid": "New TV科教 (免費)",
+    "name": "New TV科教 (免費),New TV科教 (免費) HD,New TV科教 (免費) 超清,New TV科教 (免費) 高清,New TV科教 (免費)(HD),New TV科教 (免費)-4K,New TV科教 (免費)-HD,New TV科教 (免費)-高清,New TV科教 (免費)HD,"
+  },
+  {
+    "epgid": "NewTV功夫 (免費)",
+    "name": "NewTV功夫 (免費),NewTV功夫 (免費) HD,NewTV功夫 (免費) 超清,NewTV功夫 (免費) 高清,NewTV功夫 (免費)(HD),NewTV功夫 (免費)-4K,NewTV功夫 (免費)-HD,NewTV功夫 (免費)-高清,NewTV功夫 (免費)HD,"
+  },
+  {
+    "epgid": "NewTV古裝劇場 (免費)",
+    "name": "NewTV古裝劇場 (免費),NewTV古裝劇場 (免費) HD,NewTV古裝劇場 (免費) 超清,NewTV古裝劇場 (免費) 高清,NewTV古裝劇場 (免費)(HD),NewTV古裝劇場 (免費)-4K,NewTV古裝劇場 (免費)-HD,NewTV古裝劇場 (免費)-高清,NewTV古裝劇場 (免費)HD,"
+  },
+  {
+    "epgid": "NewTV養生 (免費)",
+    "name": "NewTV養生 (免費),NewTV養生 (免費) HD,NewTV養生 (免費) 超清,NewTV養生 (免費) 高清,NewTV養生 (免費)(HD),NewTV養生 (免費)-4K,NewTV養生 (免費)-HD,NewTV養生 (免費)-高清,NewTV養生 (免費)HD,"
+  },
+  {
+    "epgid": "NewsWorld",
+    "name": "NewsWorld,NewsWorld HD,NewsWorld 超清,NewsWorld 高清,NewsWorld(HD),NewsWorld-4K,NewsWorld-HD,NewsWorld-高清,NewsWorldHD,"
+  },
+  {
+    "epgid": "Nice TV 靖天歡樂台",
+    "name": "Nice TV 靖天歡樂台,Nice TV 靖天歡樂台 HD,Nice TV 靖天歡樂台 超清,Nice TV 靖天歡樂台 高清,Nice TV 靖天歡樂台(HD),Nice TV 靖天歡樂台-4K,Nice TV 靖天歡樂台-HD,Nice TV 靖天歡樂台-高清,Nice TV 靖天歡樂台HD,"
+  },
+  {
+    "epgid": "Nice TV 靖天歡樂台",
+    "name": "Nice TV 靖天歡樂台,Nice TV 靖天歡樂台 HD,Nice TV 靖天歡樂台 超清,Nice TV 靖天歡樂台 高清,Nice TV 靖天歡樂台(HD),Nice TV 靖天歡樂台-4K,Nice TV 靖天歡樂台-HD,Nice TV 靖天歡樂台-高清,Nice TV 靖天歡樂台HD,"
+  },
+  {
+    "epgid": "Nick Jr",
+    "name": "Nick Jr,Nick Jr HD,Nick Jr 超清,Nick Jr 高清,Nick Jr(HD),Nick Jr-4K,Nick Jr-HD,Nick Jr-高清,Nick JrHD,"
+  },
+  {
+    "epgid": "Nick Jr.",
+    "name": "Nick Jr.,Nick Jr. HD,Nick Jr. 超清,Nick Jr. 高清,Nick Jr.(HD),Nick Jr.-4K,Nick Jr.-HD,Nick Jr.-高清,Nick Jr.HD,"
+  },
+  {
+    "epgid": "Nick Jr.",
+    "name": "Nick Jr.,Nick Jr. HD,Nick Jr. 超清,Nick Jr. 高清,Nick Jr.(HD),Nick Jr.-4K,Nick Jr.-HD,Nick Jr.-高清,Nick Jr.HD,"
+  },
+  {
+    "epgid": "Nick Jr. 兒童頻道",
+    "name": "Nick Jr. 兒童頻道,Nick Jr. 兒童頻道 HD,Nick Jr. 兒童頻道 超清,Nick Jr. 兒童頻道 高清,Nick Jr. 兒童頻道(HD),Nick Jr. 兒童頻道-4K,Nick Jr. 兒童頻道-HD,Nick Jr. 兒童頻道-高清,Nick Jr. 兒童頻道HD,"
+  },
+  {
+    "epgid": "Nickelodeon",
+    "name": "Nickelodeon,Nickelodeon HD,Nickelodeon 超清,Nickelodeon 高清,Nickelodeon(HD),Nickelodeon-4K,Nickelodeon-HD,Nickelodeon-高清,NickelodeonHD,"
+  },
+  {
+    "epgid": "Nickelodeon",
+    "name": "Nickelodeon,Nickelodeon HD,Nickelodeon 超清,Nickelodeon 高清,Nickelodeon(HD),Nickelodeon-4K,Nickelodeon-HD,Nickelodeon-高清,NickelodeonHD,"
+  },
+  {
+    "epgid": "Now Golf 2",
+    "name": "Now Golf 2,Now Golf 2 HD,Now Golf 2 超清,Now Golf 2 高清,Now Golf 2(HD),Now Golf 2-4K,Now Golf 2-HD,Now Golf 2-高清,Now Golf 2HD,"
+  },
+  {
+    "epgid": "Now Golf 3",
+    "name": "Now Golf 3,Now Golf 3 HD,Now Golf 3 超清,Now Golf 3 高清,Now Golf 3(HD),Now Golf 3-4K,Now Golf 3-HD,Now Golf 3-高清,Now Golf 3HD,"
+  },
+  {
+    "epgid": "Now Sports 1",
+    "name": "Now Sports 1,Now Sports 1 HD,Now Sports 1 超清,Now Sports 1 高清,Now Sports 1(HD),Now Sports 1-4K,Now Sports 1-HD,Now Sports 1-高清,Now Sports 1HD,"
+  },
+  {
+    "epgid": "Now Sports 2",
+    "name": "Now Sports 2,Now Sports 2 HD,Now Sports 2 超清,Now Sports 2 高清,Now Sports 2(HD),Now Sports 2-4K,Now Sports 2-HD,Now Sports 2-高清,Now Sports 2HD,"
+  },
+  {
+    "epgid": "Now Sports 3",
+    "name": "Now Sports 3,Now Sports 3 HD,Now Sports 3 超清,Now Sports 3 高清,Now Sports 3(HD),Now Sports 3-4K,Now Sports 3-HD,Now Sports 3-高清,Now Sports 3HD,"
+  },
+  {
+    "epgid": "Now Sports 4",
+    "name": "Now Sports 4,Now Sports 4 HD,Now Sports 4 超清,Now Sports 4 高清,Now Sports 4(HD),Now Sports 4-4K,Now Sports 4-HD,Now Sports 4-高清,Now Sports 4HD,"
+  },
+  {
+    "epgid": "Now Sports 4K 1",
+    "name": "Now Sports 4K 1,Now Sports 4K 1 HD,Now Sports 4K 1 超清,Now Sports 4K 1 高清,Now Sports 4K 1(HD),Now Sports 4K 1-4K,Now Sports 4K 1-HD,Now Sports 4K 1-高清,Now Sports 4K 1HD,"
+  },
+  {
+    "epgid": "Now Sports 4K 2",
+    "name": "Now Sports 4K 2,Now Sports 4K 2 HD,Now Sports 4K 2 超清,Now Sports 4K 2 高清,Now Sports 4K 2(HD),Now Sports 4K 2-4K,Now Sports 4K 2-HD,Now Sports 4K 2-高清,Now Sports 4K 2HD,"
+  },
+  {
+    "epgid": "Now Sports 4K 3",
+    "name": "Now Sports 4K 3,Now Sports 4K 3 HD,Now Sports 4K 3 超清,Now Sports 4K 3 高清,Now Sports 4K 3(HD),Now Sports 4K 3-4K,Now Sports 4K 3-HD,Now Sports 4K 3-高清,Now Sports 4K 3HD,"
+  },
+  {
+    "epgid": "Now Sports 4K 616",
+    "name": "Now Sports 4K 616,Now Sports 4K 616 HD,Now Sports 4K 616 超清,Now Sports 4K 616 高清,Now Sports 4K 616(HD),Now Sports 4K 616-4K,Now Sports 4K 616-HD,Now Sports 4K 616-高清,Now Sports 4K 616HD,"
+  },
+  {
+    "epgid": "Now Sports 4K 617",
+    "name": "Now Sports 4K 617,Now Sports 4K 617 HD,Now Sports 4K 617 超清,Now Sports 4K 617 高清,Now Sports 4K 617(HD),Now Sports 4K 617-4K,Now Sports 4K 617-HD,Now Sports 4K 617-高清,Now Sports 4K 617HD,"
+  },
+  {
+    "epgid": "Now Sports 5",
+    "name": "Now Sports 5,Now Sports 5 HD,Now Sports 5 超清,Now Sports 5 高清,Now Sports 5(HD),Now Sports 5-4K,Now Sports 5-HD,Now Sports 5-高清,Now Sports 5HD,"
+  },
+  {
+    "epgid": "Now Sports 6",
+    "name": "Now Sports 6,Now Sports 6 HD,Now Sports 6 超清,Now Sports 6 高清,Now Sports 6(HD),Now Sports 6-4K,Now Sports 6-HD,Now Sports 6-高清,Now Sports 6HD,"
+  },
+  {
+    "epgid": "Now Sports 618",
+    "name": "Now Sports 618,Now Sports 618 HD,Now Sports 618 超清,Now Sports 618 高清,Now Sports 618(HD),Now Sports 618-4K,Now Sports 618-HD,Now Sports 618-高清,Now Sports 618HD,"
+  },
+  {
+    "epgid": "Now Sports 619",
+    "name": "Now Sports 619,Now Sports 619 HD,Now Sports 619 超清,Now Sports 619 高清,Now Sports 619(HD),Now Sports 619-4K,Now Sports 619-HD,Now Sports 619-高清,Now Sports 619HD,"
+  },
+  {
+    "epgid": "Now Sports 641",
+    "name": "Now Sports 641,Now Sports 641 HD,Now Sports 641 超清,Now Sports 641 高清,Now Sports 641(HD),Now Sports 641-4K,Now Sports 641-HD,Now Sports 641-高清,Now Sports 641HD,"
+  },
+  {
+    "epgid": "Now Sports 647",
+    "name": "Now Sports 647,Now Sports 647 HD,Now Sports 647 超清,Now Sports 647 高清,Now Sports 647(HD),Now Sports 647-4K,Now Sports 647-HD,Now Sports 647-高清,Now Sports 647HD,"
+  },
+  {
+    "epgid": "Now Sports 651",
+    "name": "Now Sports 651,Now Sports 651 HD,Now Sports 651 超清,Now Sports 651 高清,Now Sports 651(HD),Now Sports 651-4K,Now Sports 651-HD,Now Sports 651-高清,Now Sports 651HD,"
+  },
+  {
+    "epgid": "Now Sports 652",
+    "name": "Now Sports 652,Now Sports 652 HD,Now Sports 652 超清,Now Sports 652 高清,Now Sports 652(HD),Now Sports 652-4K,Now Sports 652-HD,Now Sports 652-高清,Now Sports 652HD,"
+  },
+  {
+    "epgid": "Now Sports 7",
+    "name": "Now Sports 7,Now Sports 7 HD,Now Sports 7 超清,Now Sports 7 高清,Now Sports 7(HD),Now Sports 7-4K,Now Sports 7-HD,Now Sports 7-高清,Now Sports 7HD,"
+  },
+  {
+    "epgid": "Now Sports Plus",
+    "name": "Now Sports Plus,Now Sports Plus HD,Now Sports Plus 超清,Now Sports Plus 高清,Now Sports Plus(HD),Now Sports Plus-4K,Now Sports Plus-HD,Now Sports Plus-高清,Now Sports PlusHD,"
+  },
+  {
+    "epgid": "Now Sports Premier League TV",
+    "name": "Now Sports Premier League TV,Now Sports Premier League TV HD,Now Sports Premier League TV 超清,Now Sports Premier League TV 高清,Now Sports Premier League TV(HD),Now Sports Premier League TV-4K,Now Sports Premier League TV-HD,Now Sports Premier League TV-高清,Now Sports Premier League TVHD,"
+  },
+  {
+    "epgid": "Now Sports 精選",
+    "name": "Now Sports 精選,Now Sports 精選 HD,Now Sports 精選 超清,Now Sports 精選 高清,Now Sports 精選(HD),Now Sports 精選-4K,Now Sports 精選-HD,Now Sports 精選-高清,Now Sports 精選HD,"
+  },
+  {
+    "epgid": "Now Sports 英超1台",
+    "name": "Now Sports 英超1台,Now Sports 英超1台 HD,Now Sports 英超1台 超清,Now Sports 英超1台 高清,Now Sports 英超1台(HD),Now Sports 英超1台-4K,Now Sports 英超1台-HD,Now Sports 英超1台-高清,Now Sports 英超1台HD,"
+  },
+  {
+    "epgid": "Now Sports 英超2台",
+    "name": "Now Sports 英超2台,Now Sports 英超2台 HD,Now Sports 英超2台 超清,Now Sports 英超2台 高清,Now Sports 英超2台(HD),Now Sports 英超2台-4K,Now Sports 英超2台-HD,Now Sports 英超2台-高清,Now Sports 英超2台HD,"
+  },
+  {
+    "epgid": "Now Sports 英超3台",
+    "name": "Now Sports 英超3台,Now Sports 英超3台 HD,Now Sports 英超3台 超清,Now Sports 英超3台 高清,Now Sports 英超3台(HD),Now Sports 英超3台-4K,Now Sports 英超3台-HD,Now Sports 英超3台-高清,Now Sports 英超3台HD,"
+  },
+  {
+    "epgid": "Now Sports 英超4台",
+    "name": "Now Sports 英超4台,Now Sports 英超4台 HD,Now Sports 英超4台 超清,Now Sports 英超4台 高清,Now Sports 英超4台(HD),Now Sports 英超4台-4K,Now Sports 英超4台-HD,Now Sports 英超4台-高清,Now Sports 英超4台HD,"
+  },
+  {
+    "epgid": "Now Sports 英超5台",
+    "name": "Now Sports 英超5台,Now Sports 英超5台 HD,Now Sports 英超5台 超清,Now Sports 英超5台 高清,Now Sports 英超5台(HD),Now Sports 英超5台-4K,Now Sports 英超5台-HD,Now Sports 英超5台-高清,Now Sports 英超5台HD,"
+  },
+  {
+    "epgid": "Now Sports 英超6台",
+    "name": "Now Sports 英超6台,Now Sports 英超6台 HD,Now Sports 英超6台 超清,Now Sports 英超6台 高清,Now Sports 英超6台(HD),Now Sports 英超6台-4K,Now Sports 英超6台-HD,Now Sports 英超6台-高清,Now Sports 英超6台HD,"
+  },
+  {
+    "epgid": "Now Sports 英超7台",
+    "name": "Now Sports 英超7台,Now Sports 英超7台 HD,Now Sports 英超7台 超清,Now Sports 英超7台 高清,Now Sports 英超7台(HD),Now Sports 英超7台-4K,Now Sports 英超7台-HD,Now Sports 英超7台-高清,Now Sports 英超7台HD,"
+  },
+  {
+    "epgid": "Now 爆谷台",
+    "name": "Now 爆谷台,Now 爆谷台 HD,Now 爆谷台 超清,Now 爆谷台 高清,Now 爆谷台(HD),Now 爆谷台-4K,Now 爆谷台-HD,Now 爆谷台-高清,Now 爆谷台HD,"
+  },
+  {
+    "epgid": "Now668",
+    "name": "Now668,Now668 HD,Now668 超清,Now668 高清,Now668(HD),Now668-4K,Now668-HD,Now668-高清,Now668HD,"
+  },
+  {
+    "epgid": "NowJelli",
+    "name": "NowJelli,NowJelli HD,NowJelli 超清,NowJelli 高清,NowJelli(HD),NowJelli-4K,NowJelli-HD,NowJelli-高清,NowJelliHD,"
+  },
+  {
+    "epgid": "Now報價台",
+    "name": "Now報價台,Now報價台 HD,Now報價台 超清,Now報價台 高清,Now報價台(HD),Now報價台-4K,Now報價台-HD,Now報價台-高清,Now報價台HD,"
+  },
+  {
+    "epgid": "Now新聞台",
+    "name": "Now新聞台,Now新聞台 HD,Now新聞台 超清,Now新聞台 高清,Now新聞台(HD),Now新聞台-4K,Now新聞台-HD,Now新聞台-高清,Now新聞台HD,"
+  },
+  {
+    "epgid": "Now爆谷星影台",
+    "name": "Now爆谷星影台,Now爆谷星影台 HD,Now爆谷星影台 超清,Now爆谷星影台 高清,Now爆谷星影台(HD),Now爆谷星影台-4K,Now爆谷星影台-HD,Now爆谷星影台-高清,Now爆谷星影台HD,"
+  },
+  {
+    "epgid": "Now直播台",
+    "name": "Now直播台,Now直播台 HD,Now直播台 超清,Now直播台 高清,Now直播台(HD),Now直播台-4K,Now直播台-HD,Now直播台-高清,Now直播台HD,"
+  },
+  {
+    "epgid": "Now華劇台",
+    "name": "Now華劇台,Now華劇台 HD,Now華劇台 超清,Now華劇台 高清,Now華劇台(HD),Now華劇台-4K,Now華劇台-HD,Now華劇台-高清,Now華劇台HD,"
+  },
+  {
+    "epgid": "Now財經台",
+    "name": "Now財經台,Now財經台 HD,Now財經台 超清,Now財經台 高清,Now財經台(HD),Now財經台-4K,Now財經台-HD,Now財經台-高清,Now財經台HD,"
+  },
+  {
+    "epgid": "OUTtv HD",
+    "name": "OUTtv HD,OUTtv HD HD,OUTtv HD 超清,OUTtv HD 高清,OUTtv HD(HD),OUTtv HD-4K,OUTtv HD-HD,OUTtv HD-高清,OUTtv HDHD,"
+  },
+  {
+    "epgid": "PET CLUB TV HD",
+    "name": "PET CLUB TV HD,PET CLUB TV HD HD,PET CLUB TV HD 超清,PET CLUB TV HD 高清,PET CLUB TV HD(HD),PET CLUB TV HD-4K,PET CLUB TV HD-HD,PET CLUB TV HD-高清,PET CLUB TV HDHD,"
+  },
+  {
+    "epgid": "PULSE Documentaries",
+    "name": "PULSE Documentaries,PULSE Documentaries HD,PULSE Documentaries 超清,PULSE Documentaries 高清,PULSE Documentaries(HD),PULSE Documentaries-4K,PULSE Documentaries-HD,PULSE Documentaries-高清,PULSE DocumentariesHD,"
+  },
+  {
+    "epgid": "Pet Club TV",
+    "name": "Pet Club TV,Pet Club TV HD,Pet Club TV 超清,Pet Club TV 高清,Pet Club TV(HD),Pet Club TV-4K,Pet Club TV-HD,Pet Club TV-高清,Pet Club TVHD,"
+  },
+  {
+    "epgid": "Pet Club TV",
+    "name": "Pet Club TV,Pet Club TV HD,Pet Club TV 超清,Pet Club TV 高清,Pet Club TV(HD),Pet Club TV-4K,Pet Club TV-HD,Pet Club TV-高清,Pet Club TVHD,"
+  },
+  {
+    "epgid": "PopC",
+    "name": "PopC,PopC HD,PopC 超清,PopC 高清,PopC(HD),PopC-4K,PopC-HD,PopC-高清,PopCHD,"
+  },
+  {
+    "epgid": "Premier Sports",
+    "name": "Premier Sports,Premier Sports HD,Premier Sports 超清,Premier Sports 高清,Premier Sports(HD),Premier Sports-4K,Premier Sports-HD,Premier Sports-高清,Premier SportsHD,"
+  },
+  {
+    "epgid": "QHTV1",
+    "name": "QHTV1,QHTV1 HD,QHTV1 超清,QHTV1 高清,QHTV1(HD),QHTV1-4K,QHTV1-HD,QHTV1-高清,QHTV1HD,"
+  },
+  {
+    "epgid": "ROCK Action",
+    "name": "ROCK Action,ROCK Action HD,ROCK Action 超清,ROCK Action 高清,ROCK Action(HD),ROCK Action-4K,ROCK Action-HD,ROCK Action-高清,ROCK ActionHD,"
+  },
+  {
+    "epgid": "ROCK Action",
+    "name": "ROCK Action,ROCK Action HD,ROCK Action 超清,ROCK Action 高清,ROCK Action(HD),ROCK Action-4K,ROCK Action-HD,ROCK Action-高清,ROCK ActionHD,"
+  },
+  {
+    "epgid": "ROCK Action",
+    "name": "ROCK Action,ROCK Action HD,ROCK Action 超清,ROCK Action 高清,ROCK Action(HD),ROCK Action-4K,ROCK Action-HD,ROCK Action-高清,ROCK ActionHD,"
+  },
+  {
+    "epgid": "ROCK Action HD",
+    "name": "ROCK Action HD,ROCK Action HD HD,ROCK Action HD 超清,ROCK Action HD 高清,ROCK Action HD(HD),ROCK Action HD-4K,ROCK Action HD-HD,ROCK Action HD-高清,ROCK Action HDHD,"
+  },
+  {
+    "epgid": "ROCK ENTERTAINMENT",
+    "name": "ROCK ENTERTAINMENT,ROCK ENTERTAINMENT HD,ROCK ENTERTAINMENT 超清,ROCK ENTERTAINMENT 高清,ROCK ENTERTAINMENT(HD),ROCK ENTERTAINMENT-4K,ROCK ENTERTAINMENT-HD,ROCK ENTERTAINMENT-高清,ROCK ENTERTAINMENTHD,"
+  },
+  {
+    "epgid": "ROCK EXTREME",
+    "name": "ROCK EXTREME,ROCK EXTREME HD,ROCK EXTREME 超清,ROCK EXTREME 高清,ROCK EXTREME(HD),ROCK EXTREME-4K,ROCK EXTREME-HD,ROCK EXTREME-高清,ROCK EXTREMEHD,"
+  },
+  {
+    "epgid": "ROCK Entertainment",
+    "name": "ROCK Entertainment,ROCK Entertainment HD,ROCK Entertainment 超清,ROCK Entertainment 高清,ROCK Entertainment(HD),ROCK Entertainment-4K,ROCK Entertainment-HD,ROCK Entertainment-高清,ROCK EntertainmentHD,"
+  },
+  {
+    "epgid": "ROCK Entertainment",
+    "name": "ROCK Entertainment,ROCK Entertainment HD,ROCK Entertainment 超清,ROCK Entertainment 高清,ROCK Entertainment(HD),ROCK Entertainment-4K,ROCK Entertainment-HD,ROCK Entertainment-高清,ROCK EntertainmentHD,"
+  },
+  {
+    "epgid": "ROCK Entertainment",
+    "name": "ROCK Entertainment,ROCK Entertainment HD,ROCK Entertainment 超清,ROCK Entertainment 高清,ROCK Entertainment(HD),ROCK Entertainment-4K,ROCK Entertainment-HD,ROCK Entertainment-高清,ROCK EntertainmentHD,"
+  },
+  {
+    "epgid": "ROCK Extreme",
+    "name": "ROCK Extreme,ROCK Extreme HD,ROCK Extreme 超清,ROCK Extreme 高清,ROCK Extreme(HD),ROCK Extreme-4K,ROCK Extreme-HD,ROCK Extreme-高清,ROCK ExtremeHD,"
+  },
+  {
+    "epgid": "ROCK Extreme",
+    "name": "ROCK Extreme,ROCK Extreme HD,ROCK Extreme 超清,ROCK Extreme 高清,ROCK Extreme(HD),ROCK Extreme-4K,ROCK Extreme-HD,ROCK Extreme-高清,ROCK ExtremeHD,"
+  },
+  {
+    "epgid": "ROCK Xstream搖滾極限頻道",
+    "name": "ROCK Xstream搖滾極限頻道,ROCK Xstream搖滾極限頻道 HD,ROCK Xstream搖滾極限頻道 超清,ROCK Xstream搖滾極限頻道 高清,ROCK Xstream搖滾極限頻道(HD),ROCK Xstream搖滾極限頻道-4K,ROCK Xstream搖滾極限頻道-HD,ROCK Xstream搖滾極限頻道-高清,ROCK Xstream搖滾極限頻道HD,"
+  },
+  {
+    "epgid": "ROCK綜藝娛樂",
+    "name": "ROCK綜藝娛樂,ROCK綜藝娛樂 HD,ROCK綜藝娛樂 超清,ROCK綜藝娛樂 高清,ROCK綜藝娛樂(HD),ROCK綜藝娛樂-4K,ROCK綜藝娛樂-HD,ROCK綜藝娛樂-高清,ROCK綜藝娛樂HD,"
+  },
+  {
+    "epgid": "RT",
+    "name": "RT,RT HD,RT 超清,RT 高清,RT(HD),RT-4K,RT-HD,RT-高清,RTHD,"
+  },
+  {
+    "epgid": "Rialto Classic Movies (RCM)",
+    "name": "Rialto Classic Movies (RCM),Rialto Classic Movies (RCM) HD,Rialto Classic Movies (RCM) 超清,Rialto Classic Movies (RCM) 高清,Rialto Classic Movies (RCM)(HD),Rialto Classic Movies (RCM)-4K,Rialto Classic Movies (RCM)-HD,Rialto Classic Movies (RCM)-高清,Rialto Classic Movies (RCM)HD,"
+  },
+  {
+    "epgid": "SBN全球財經台",
+    "name": "SBN全球財經台,SBN全球財經台 HD,SBN全球財經台 超清,SBN全球財經台 高清,SBN全球財經台(HD),SBN全球財經台-4K,SBN全球財經台-HD,SBN全球財經台-高清,SBN全球財經台HD,"
+  },
+  {
+    "epgid": "SBN全球財經台",
+    "name": "SBN全球財經台,SBN全球財經台 HD,SBN全球財經台 超清,SBN全球財經台 高清,SBN全球財經台(HD),SBN全球財經台-4K,SBN全球財經台-HD,SBN全球財經台-高清,SBN全球財經台HD,"
+  },
+  {
+    "epgid": "SCTV1",
+    "name": "SCTV1,SCTV1 HD,SCTV1 超清,SCTV1 高清,SCTV1(HD),SCTV1-4K,SCTV1-HD,SCTV1-高清,SCTV1HD,"
+  },
+  {
+    "epgid": "STAR PLUS",
+    "name": "STAR PLUS,STAR PLUS HD,STAR PLUS 超清,STAR PLUS 高清,STAR PLUS(HD),STAR PLUS-4K,STAR PLUS-HD,STAR PLUS-高清,STAR PLUSHD,"
+  },
+  {
+    "epgid": "SUPER EYT",
+    "name": "SUPER EYT,SUPER EYT HD,SUPER EYT 超清,SUPER EYT 高清,SUPER EYT(HD),SUPER EYT-4K,SUPER EYT-HD,SUPER EYT-高清,SUPER EYTHD,"
+  },
+  {
+    "epgid": "SUPER FREE",
+    "name": "SUPER FREE,SUPER FREE HD,SUPER FREE 超清,SUPER FREE 高清,SUPER FREE(HD),SUPER FREE-4K,SUPER FREE-HD,SUPER FREE-高清,SUPER FREEHD,"
+  },
+  {
+    "epgid": "SUPER Kids Channel",
+    "name": "SUPER Kids Channel,SUPER Kids Channel HD,SUPER Kids Channel 超清,SUPER Kids Channel 高清,SUPER Kids Channel(HD),SUPER Kids Channel-4K,SUPER Kids Channel-HD,SUPER Kids Channel-高清,SUPER Kids ChannelHD,"
+  },
+  {
+    "epgid": "SUPER Music",
+    "name": "SUPER Music,SUPER Music HD,SUPER Music 超清,SUPER Music 高清,SUPER Music(HD),SUPER Music-4K,SUPER Music-HD,SUPER Music-高清,SUPER MusicHD,"
+  },
+  {
+    "epgid": "SUPER Sports",
+    "name": "SUPER Sports,SUPER Sports HD,SUPER Sports 超清,SUPER Sports 高清,SUPER Sports(HD),SUPER Sports-4K,SUPER Sports-HD,SUPER Sports-高清,SUPER SportsHD,"
+  },
+  {
+    "epgid": "SUPER劇場",
+    "name": "SUPER劇場,SUPER劇場 HD,SUPER劇場 超清,SUPER劇場 高清,SUPER劇場(HD),SUPER劇場-4K,SUPER劇場-HD,SUPER劇場-高清,SUPER劇場HD,"
+  },
+  {
+    "epgid": "SUPER煲劇",
+    "name": "SUPER煲劇,SUPER煲劇 HD,SUPER煲劇 超清,SUPER煲劇 高清,SUPER煲劇(HD),SUPER煲劇-4K,SUPER煲劇-HD,SUPER煲劇-高清,SUPER煲劇HD,"
+  },
+  {
+    "epgid": "SUPER獎門人",
+    "name": "SUPER獎門人,SUPER獎門人 HD,SUPER獎門人 超清,SUPER獎門人 高清,SUPER獎門人(HD),SUPER獎門人-4K,SUPER獎門人-HD,SUPER獎門人-高清,SUPER獎門人HD,"
+  },
+  {
+    "epgid": "SUPER話當年 (免費)",
+    "name": "SUPER話當年 (免費),SUPER話當年 (免費) HD,SUPER話當年 (免費) 超清,SUPER話當年 (免費) 高清,SUPER話當年 (免費)(HD),SUPER話當年 (免費)-4K,SUPER話當年 (免費)-HD,SUPER話當年 (免費)-高清,SUPER話當年 (免費)HD,"
+  },
+  {
+    "epgid": "SUPER識嘆",
+    "name": "SUPER識嘆,SUPER識嘆 HD,SUPER識嘆 超清,SUPER識嘆 高清,SUPER識嘆(HD),SUPER識嘆-4K,SUPER識嘆-HD,SUPER識嘆-高清,SUPER識嘆HD,"
+  },
+  {
+    "epgid": "SUPER識食",
+    "name": "SUPER識食,SUPER識食 HD,SUPER識食 超清,SUPER識食 高清,SUPER識食(HD),SUPER識食-4K,SUPER識食-HD,SUPER識食-高清,SUPER識食HD,"
+  },
+  {
+    "epgid": "SUPER金曲",
+    "name": "SUPER金曲,SUPER金曲 HD,SUPER金曲 超清,SUPER金曲 高清,SUPER金曲(HD),SUPER金曲-4K,SUPER金曲-HD,SUPER金曲-高清,SUPER金曲HD,"
+  },
+  {
+    "epgid": "Sky News",
+    "name": "Sky News,Sky News HD,Sky News 超清,Sky News 高清,Sky News(HD),Sky News-4K,Sky News-HD,Sky News-高清,Sky NewsHD,"
+  },
+  {
+    "epgid": "Smart 知識HD",
+    "name": "Smart 知識HD,Smart 知識HD HD,Smart 知識HD 超清,Smart 知識HD 高清,Smart 知識HD(HD),Smart 知識HD-4K,Smart 知識HD-HD,Smart 知識HD-高清,Smart 知識HDHD,"
+  },
+  {
+    "epgid": "Sony MAX",
+    "name": "Sony MAX,Sony MAX HD,Sony MAX 超清,Sony MAX 高清,Sony MAX(HD),Sony MAX-4K,Sony MAX-HD,Sony MAX-高清,Sony MAXHD,"
+  },
+  {
+    "epgid": "Sony SAB",
+    "name": "Sony SAB,Sony SAB HD,Sony SAB 超清,Sony SAB 高清,Sony SAB(HD),Sony SAB-4K,Sony SAB-HD,Sony SAB-高清,Sony SABHD,"
+  },
+  {
+    "epgid": "Sony TV (India)",
+    "name": "Sony TV (India),Sony TV (India) HD,Sony TV (India) 超清,Sony TV (India) 高清,Sony TV (India)(HD),Sony TV (India)-4K,Sony TV (India)-HD,Sony TV (India)-高清,Sony TV (India)HD,"
+  },
+  {
+    "epgid": "Star Bharat",
+    "name": "Star Bharat,Star Bharat HD,Star Bharat 超清,Star Bharat 高清,Star Bharat(HD),Star Bharat-4K,Star Bharat-HD,Star Bharat-高清,Star BharatHD,"
+  },
+  {
+    "epgid": "Star Gold",
+    "name": "Star Gold,Star Gold HD,Star Gold 超清,Star Gold 高清,Star Gold(HD),Star Gold-4K,Star Gold-HD,Star Gold-高清,Star GoldHD,"
+  },
+  {
+    "epgid": "TATV1",
+    "name": "TATV1,TATV1 HD,TATV1 超清,TATV1 高清,TATV1(HD),TATV1-4K,TATV1-HD,TATV1-高清,TATV1HD,"
+  },
+  {
+    "epgid": "TATV2",
+    "name": "TATV2,TATV2 HD,TATV2 超清,TATV2 高清,TATV2(HD),TATV2-4K,TATV2-HD,TATV2-高清,TATV2HD,"
+  },
+  {
+    "epgid": "TATV3",
+    "name": "TATV3,TATV3 HD,TATV3 超清,TATV3 高清,TATV3(HD),TATV3-4K,TATV3-HD,TATV3-高清,TATV3HD,"
+  },
+  {
+    "epgid": "TATV4",
+    "name": "TATV4,TATV4 HD,TATV4 超清,TATV4 高清,TATV4(HD),TATV4-4K,TATV4-HD,TATV4-高清,TATV4HD,"
+  },
+  {
+    "epgid": "TBC台中生活台",
+    "name": "TBC台中生活台,TBC台中生活台 HD,TBC台中生活台 超清,TBC台中生活台 高清,TBC台中生活台(HD),TBC台中生活台-4K,TBC台中生活台-HD,TBC台中生活台-高清,TBC台中生活台HD,"
+  },
+  {
+    "epgid": "TBC桃園生活台",
+    "name": "TBC桃園生活台,TBC桃園生活台 HD,TBC桃園生活台 超清,TBC桃園生活台 高清,TBC桃園生活台(HD),TBC桃園生活台-4K,TBC桃園生活台-HD,TBC桃園生活台-高清,TBC桃園生活台HD,"
+  },
+  {
+    "epgid": "TFC",
+    "name": "TFC,TFC HD,TFC 超清,TFC 高清,TFC(HD),TFC-4K,TFC-HD,TFC-高清,TFCHD,"
+  },
+  {
+    "epgid": "TLC旅遊生活頻道",
+    "name": "TLC旅遊生活頻道,TLC旅遊生活頻道 HD,TLC旅遊生活頻道 超清,TLC旅遊生活頻道 高清,TLC旅遊生活頻道(HD),TLC旅遊生活頻道-4K,TLC旅遊生活頻道-HD,TLC旅遊生活頻道-高清,TLC旅遊生活頻道HD,"
+  },
+  {
+    "epgid": "TLC旅遊生活頻道",
+    "name": "TLC旅遊生活頻道,TLC旅遊生活頻道 HD,TLC旅遊生活頻道 超清,TLC旅遊生活頻道 高清,TLC旅遊生活頻道(HD),TLC旅遊生活頻道-4K,TLC旅遊生活頻道-HD,TLC旅遊生活頻道-高清,TLC旅遊生活頻道HD,"
+  },
+  {
+    "epgid": "TRACE Sport Stars",
+    "name": "TRACE Sport Stars,TRACE Sport Stars HD,TRACE Sport Stars 超清,TRACE Sport Stars 高清,TRACE Sport Stars(HD),TRACE Sport Stars-4K,TRACE Sport Stars-HD,TRACE Sport Stars-高清,TRACE Sport StarsHD,"
+  },
+  {
+    "epgid": "TRACE Sport Stars",
+    "name": "TRACE Sport Stars,TRACE Sport Stars HD,TRACE Sport Stars 超清,TRACE Sport Stars 高清,TRACE Sport Stars(HD),TRACE Sport Stars-4K,TRACE Sport Stars-HD,TRACE Sport Stars-高清,TRACE Sport StarsHD,"
+  },
+  {
+    "epgid": "TRACE Sport Stars HD",
+    "name": "TRACE Sport Stars HD,TRACE Sport Stars HD HD,TRACE Sport Stars HD 超清,TRACE Sport Stars HD 高清,TRACE Sport Stars HD(HD),TRACE Sport Stars HD-4K,TRACE Sport Stars HD-HD,TRACE Sport Stars HD-高清,TRACE Sport Stars HDHD,"
+  },
+  {
+    "epgid": "TRACE Urban",
+    "name": "TRACE Urban,TRACE Urban HD,TRACE Urban 超清,TRACE Urban 高清,TRACE Urban(HD),TRACE Urban-4K,TRACE Urban-HD,TRACE Urban-高清,TRACE UrbanHD,"
+  },
+  {
+    "epgid": "TRACE Urban",
+    "name": "TRACE Urban,TRACE Urban HD,TRACE Urban 超清,TRACE Urban 高清,TRACE Urban(HD),TRACE Urban-4K,TRACE Urban-HD,TRACE Urban-高清,TRACE UrbanHD,"
+  },
+  {
+    "epgid": "TRACE Urban HD",
+    "name": "TRACE Urban HD,TRACE Urban HD HD,TRACE Urban HD 超清,TRACE Urban HD 高清,TRACE Urban HD(HD),TRACE Urban HD-4K,TRACE Urban HD-HD,TRACE Urban HD-高清,TRACE Urban HDHD,"
+  },
+  {
+    "epgid": "TV5MONDE",
+    "name": "TV5MONDE,TV5MONDE HD,TV5MONDE 超清,TV5MONDE 高清,TV5MONDE(HD),TV5MONDE-4K,TV5MONDE-HD,TV5MONDE-高清,TV5MONDEHD,"
+  },
+  {
+    "epgid": "TV5MONDE ASIE",
+    "name": "TV5MONDE ASIE,TV5MONDE ASIE HD,TV5MONDE ASIE 超清,TV5MONDE ASIE 高清,TV5MONDE ASIE(HD),TV5MONDE ASIE-4K,TV5MONDE ASIE-HD,TV5MONDE ASIE-高清,TV5MONDE ASIEHD,"
+  },
+  {
+    "epgid": "TV5MONDE STYLE HD 生活時尚",
+    "name": "TV5MONDE STYLE HD 生活時尚,TV5MONDE STYLE HD 生活時尚 HD,TV5MONDE STYLE HD 生活時尚 超清,TV5MONDE STYLE HD 生活時尚 高清,TV5MONDE STYLE HD 生活時尚(HD),TV5MONDE STYLE HD 生活時尚-4K,TV5MONDE STYLE HD 生活時尚-HD,TV5MONDE STYLE HD 生活時尚-高清,TV5MONDE STYLE HD 生活時尚HD,"
+  },
+  {
+    "epgid": "TV5MONDE STYLE HD 生活時尚",
+    "name": "TV5MONDE STYLE HD 生活時尚,TV5MONDE STYLE HD 生活時尚 HD,TV5MONDE STYLE HD 生活時尚 超清,TV5MONDE STYLE HD 生活時尚 高清,TV5MONDE STYLE HD 生活時尚(HD),TV5MONDE STYLE HD 生活時尚-4K,TV5MONDE STYLE HD 生活時尚-HD,TV5MONDE STYLE HD 生活時尚-高清,TV5MONDE STYLE HD 生活時尚HD,"
+  },
+  {
+    "epgid": "TV5MONDE Style",
+    "name": "TV5MONDE Style,TV5MONDE Style HD,TV5MONDE Style 超清,TV5MONDE Style 高清,TV5MONDE Style(HD),TV5MONDE Style-4K,TV5MONDE Style-HD,TV5MONDE Style-高清,TV5MONDE StyleHD,"
+  },
+  {
+    "epgid": "TVB Plus",
+    "name": "TVB Plus,TVB Plus HD,TVB Plus 超清,TVB Plus 高清,TVB Plus(HD),TVB Plus-4K,TVB Plus-HD,TVB Plus-高清,TVB PlusHD,"
+  },
+  {
+    "epgid": "TVBS",
+    "name": "TVBS,TVBS HD,TVBS 超清,TVBS 高清,TVBS(HD),TVBS-4K,TVBS-HD,TVBS-高清,TVBSHD,"
+  },
+  {
+    "epgid": "TVBS",
+    "name": "TVBS,TVBS HD,TVBS 超清,TVBS 高清,TVBS(HD),TVBS-4K,TVBS-HD,TVBS-高清,TVBSHD,"
+  },
+  {
+    "epgid": "TVBS",
+    "name": "TVBS,TVBS HD,TVBS 超清,TVBS 高清,TVBS(HD),TVBS-4K,TVBS-HD,TVBS-高清,TVBSHD,"
+  },
+  {
+    "epgid": "TVBS 新聞台",
+    "name": "TVBS 新聞台,TVBS 新聞台 HD,TVBS 新聞台 超清,TVBS 新聞台 高清,TVBS 新聞台(HD),TVBS 新聞台-4K,TVBS 新聞台-HD,TVBS 新聞台-高清,TVBS 新聞台HD,"
+  },
+  {
+    "epgid": "TVBS 新聞台",
+    "name": "TVBS 新聞台,TVBS 新聞台 HD,TVBS 新聞台 超清,TVBS 新聞台 高清,TVBS 新聞台(HD),TVBS 新聞台-4K,TVBS 新聞台-HD,TVBS 新聞台-高清,TVBS 新聞台HD,"
+  },
+  {
+    "epgid": "TVBS新聞",
+    "name": "TVBS新聞,TVBS新聞 HD,TVBS新聞 超清,TVBS新聞 高清,TVBS新聞(HD),TVBS新聞-4K,TVBS新聞-HD,TVBS新聞-高清,TVBS新聞HD,"
+  },
+  {
+    "epgid": "TVBS歡樂台",
+    "name": "TVBS歡樂台,TVBS歡樂台 HD,TVBS歡樂台 超清,TVBS歡樂台 高清,TVBS歡樂台(HD),TVBS歡樂台-4K,TVBS歡樂台-HD,TVBS歡樂台-高清,TVBS歡樂台HD,"
+  },
+  {
+    "epgid": "TVBS歡樂台",
+    "name": "TVBS歡樂台,TVBS歡樂台 HD,TVBS歡樂台 超清,TVBS歡樂台 高清,TVBS歡樂台(HD),TVBS歡樂台-4K,TVBS歡樂台-HD,TVBS歡樂台-高清,TVBS歡樂台HD,"
+  },
+  {
+    "epgid": "TVBS精采台",
+    "name": "TVBS精采台,TVBS精采台 HD,TVBS精采台 超清,TVBS精采台 高清,TVBS精采台(HD),TVBS精采台-4K,TVBS精采台-HD,TVBS精采台-高清,TVBS精采台HD,"
+  },
+  {
+    "epgid": "TVBS精采台HD",
+    "name": "TVBS精采台HD,TVBS精采台HD HD,TVBS精采台HD 超清,TVBS精采台HD 高清,TVBS精采台HD(HD),TVBS精采台HD-4K,TVBS精采台HD-HD,TVBS精采台HD-高清,TVBS精采台HDHD,"
+  },
+  {
+    "epgid": "TaiwanPlus",
+    "name": "TaiwanPlus,TaiwanPlus HD,TaiwanPlus 超清,TaiwanPlus 高清,TaiwanPlus(HD),TaiwanPlus-4K,TaiwanPlus-HD,TaiwanPlus-高清,TaiwanPlusHD,"
+  },
+  {
+    "epgid": "TaiwanPlus",
+    "name": "TaiwanPlus,TaiwanPlus HD,TaiwanPlus 超清,TaiwanPlus 高清,TaiwanPlus(HD),TaiwanPlus-4K,TaiwanPlus-HD,TaiwanPlus-高清,TaiwanPlusHD,"
+  },
+  {
+    "epgid": "The Indonesia Channel (免費)",
+    "name": "The Indonesia Channel (免費),The Indonesia Channel (免費) HD,The Indonesia Channel (免費) 超清,The Indonesia Channel (免費) 高清,The Indonesia Channel (免費)(HD),The Indonesia Channel (免費)-4K,The Indonesia Channel (免費)-HD,The Indonesia Channel (免費)-高清,The Indonesia Channel (免費)HD,"
+  },
+  {
+    "epgid": "Thrill",
+    "name": "Thrill,Thrill HD,Thrill 超清,Thrill 高清,Thrill(HD),Thrill-4K,Thrill-HD,Thrill-高清,ThrillHD,"
+  },
+  {
+    "epgid": "Travel Channel HD",
+    "name": "Travel Channel HD,Travel Channel HD HD,Travel Channel HD 超清,Travel Channel HD 高清,Travel Channel HD(HD),Travel Channel HD-4K,Travel Channel HD-HD,Travel Channel HD-高清,Travel Channel HDHD,"
+  },
+  {
+    "epgid": "ViVa1台",
+    "name": "ViVa1台,ViVa1台 HD,ViVa1台 超清,ViVa1台 高清,ViVa1台(HD),ViVa1台-4K,ViVa1台-HD,ViVa1台-高清,ViVa1台HD,"
+  },
+  {
+    "epgid": "Viu 頻道",
+    "name": "Viu 頻道,Viu 頻道 HD,Viu 頻道 超清,Viu 頻道 高清,Viu 頻道(HD),Viu 頻道-4K,Viu 頻道-HD,Viu 頻道-高清,Viu 頻道HD,"
+  },
+  {
+    "epgid": "Warner TV",
+    "name": "Warner TV,Warner TV HD,Warner TV 超清,Warner TV 高清,Warner TV(HD),Warner TV-4K,Warner TV-HD,Warner TV-高清,Warner TVHD,"
+  },
+  {
+    "epgid": "Warner TV HD",
+    "name": "Warner TV HD,Warner TV HD HD,Warner TV HD 超清,Warner TV HD 高清,Warner TV HD(HD),Warner TV HD-4K,Warner TV HD-HD,Warner TV HD-高清,Warner TV HDHD,"
+  },
+  {
+    "epgid": "XINYANG1",
+    "name": "XINYANG1,XINYANG1 HD,XINYANG1 超清,XINYANG1 高清,XINYANG1(HD),XINYANG1-4K,XINYANG1-HD,XINYANG1-高清,XINYANG1HD,"
+  },
+  {
+    "epgid": "XSJZTV1",
+    "name": "XSJZTV1,XSJZTV1 HD,XSJZTV1 超清,XSJZTV1 高清,XSJZTV1(HD),XSJZTV1-4K,XSJZTV1-HD,XSJZTV1-高清,XSJZTV1HD,"
+  },
+  {
+    "epgid": "ZHTV-1",
+    "name": "ZHTV-1,ZHTV-1 HD,ZHTV-1 超清,ZHTV-1 高清,ZHTV-1(HD),ZHTV-1-4K,ZHTV-1-HD,ZHTV-1-高清,ZHTV-1HD,"
+  },
+  {
+    "epgid": "Zee Cinema International",
+    "name": "Zee Cinema International,Zee Cinema International HD,Zee Cinema International 超清,Zee Cinema International 高清,Zee Cinema International(HD),Zee Cinema International-4K,Zee Cinema International-HD,Zee Cinema International-高清,Zee Cinema InternationalHD,"
+  },
+  {
+    "epgid": "Zee News",
+    "name": "Zee News,Zee News HD,Zee News 超清,Zee News 高清,Zee News(HD),Zee News-4K,Zee News-HD,Zee News-高清,Zee NewsHD,"
+  },
+  {
+    "epgid": "Zee TV",
+    "name": "Zee TV,Zee TV HD,Zee TV 超清,Zee TV 高清,Zee TV(HD),Zee TV-4K,Zee TV-HD,Zee TV-高清,Zee TVHD,"
+  },
+  {
+    "epgid": "ZooMoo",
+    "name": "ZooMoo,ZooMoo HD,ZooMoo 超清,ZooMoo 高清,ZooMoo(HD),ZooMoo-4K,ZooMoo-HD,ZooMoo-高清,ZooMooHD,"
+  },
+  {
+    "epgid": "Z頻道",
+    "name": "Z頻道,Z頻道 HD,Z頻道 超清,Z頻道 高清,Z頻道(HD),Z頻道-4K,Z頻道-HD,Z頻道-高清,Z頻道HD,"
+  },
+  {
+    "epgid": "amc電影台",
+    "name": "amc電影台,amc電影台 HD,amc電影台 超清,amc電影台 高清,amc電影台(HD),amc電影台-4K,amc電影台-HD,amc電影台-高清,amc電影台HD,"
+  },
+  {
+    "epgid": "amc電影台",
+    "name": "amc電影台,amc電影台 HD,amc電影台 超清,amc電影台 高清,amc電影台(HD),amc電影台-4K,amc電影台-HD,amc電影台-高清,amc電影台HD,"
+  },
+  {
+    "epgid": "amc電影台",
+    "name": "amc電影台,amc電影台 HD,amc電影台 超清,amc電影台 高清,amc電影台(HD),amc電影台-4K,amc電影台-HD,amc電影台-高清,amc電影台HD,"
+  },
+  {
+    "epgid": "beIN SPORTS 1",
+    "name": "beIN SPORTS 1,beIN SPORTS 1 HD,beIN SPORTS 1 超清,beIN SPORTS 1 高清,beIN SPORTS 1(HD),beIN SPORTS 1-4K,beIN SPORTS 1-HD,beIN SPORTS 1-高清,beIN SPORTS 1HD,"
+  },
+  {
+    "epgid": "beIN SPORTS 2",
+    "name": "beIN SPORTS 2,beIN SPORTS 2 HD,beIN SPORTS 2 超清,beIN SPORTS 2 高清,beIN SPORTS 2(HD),beIN SPORTS 2-4K,beIN SPORTS 2-HD,beIN SPORTS 2-高清,beIN SPORTS 2HD,"
+  },
+  {
+    "epgid": "beIN SPORTS 3",
+    "name": "beIN SPORTS 3,beIN SPORTS 3 HD,beIN SPORTS 3 超清,beIN SPORTS 3 高清,beIN SPORTS 3(HD),beIN SPORTS 3-4K,beIN SPORTS 3-HD,beIN SPORTS 3-高清,beIN SPORTS 3HD,"
+  },
+  {
+    "epgid": "beIN SPORTS 4",
+    "name": "beIN SPORTS 4,beIN SPORTS 4 HD,beIN SPORTS 4 超清,beIN SPORTS 4 高清,beIN SPORTS 4(HD),beIN SPORTS 4-4K,beIN SPORTS 4-HD,beIN SPORTS 4-高清,beIN SPORTS 4HD,"
+  },
+  {
+    "epgid": "beIN SPORTS 5",
+    "name": "beIN SPORTS 5,beIN SPORTS 5 HD,beIN SPORTS 5 超清,beIN SPORTS 5 高清,beIN SPORTS 5(HD),beIN SPORTS 5-4K,beIN SPORTS 5-HD,beIN SPORTS 5-高清,beIN SPORTS 5HD,"
+  },
+  {
+    "epgid": "beIN SPORTS 6",
+    "name": "beIN SPORTS 6,beIN SPORTS 6 HD,beIN SPORTS 6 超清,beIN SPORTS 6 高清,beIN SPORTS 6(HD),beIN SPORTS 6-4K,beIN SPORTS 6-HD,beIN SPORTS 6-高清,beIN SPORTS 6HD,"
+  },
+  {
+    "epgid": "euronews",
+    "name": "euronews,euronews HD,euronews 超清,euronews 高清,euronews(HD),euronews-4K,euronews-HD,euronews-高清,euronewsHD,"
+  },
+  {
+    "epgid": "fun探索娛樂台",
+    "name": "fun探索娛樂台,fun探索娛樂台 HD,fun探索娛樂台 超清,fun探索娛樂台 高清,fun探索娛樂台(HD),fun探索娛樂台-4K,fun探索娛樂台-HD,fun探索娛樂台-高清,fun探索娛樂台HD,"
+  },
+  {
+    "epgid": "momo1台HD",
+    "name": "momo1台HD,momo1台HD HD,momo1台HD 超清,momo1台HD 高清,momo1台HD(HD),momo1台HD-4K,momo1台HD-HD,momo1台HD-高清,momo1台HDHD,"
+  },
+  {
+    "epgid": "momo2台HD",
+    "name": "momo2台HD,momo2台HD HD,momo2台HD 超清,momo2台HD 高清,momo2台HD(HD),momo2台HD-4K,momo2台HD-HD,momo2台HD-高清,momo2台HDHD,"
+  },
+  {
+    "epgid": "momo綜合台HD",
+    "name": "momo綜合台HD,momo綜合台HD HD,momo綜合台HD 超清,momo綜合台HD 高清,momo綜合台HD(HD),momo綜合台HD-4K,momo綜合台HD-HD,momo綜合台HD-高清,momo綜合台HDHD,"
+  },
+  {
+    "epgid": "myTV SUPER 18台",
+    "name": "myTV SUPER 18台,myTV SUPER 18台 HD,myTV SUPER 18台 超清,myTV SUPER 18台 高清,myTV SUPER 18台(HD),myTV SUPER 18台-4K,myTV SUPER 18台-HD,myTV SUPER 18台-高清,myTV SUPER 18台HD,"
+  },
+  {
+    "epgid": "myTV SUPER直播足球2台",
+    "name": "myTV SUPER直播足球2台,myTV SUPER直播足球2台 HD,myTV SUPER直播足球2台 超清,myTV SUPER直播足球2台 高清,myTV SUPER直播足球2台(HD),myTV SUPER直播足球2台-4K,myTV SUPER直播足球2台-HD,myTV SUPER直播足球2台-高清,myTV SUPER直播足球2台HD,"
+  },
+  {
+    "epgid": "myTV SUPER直播足球3台",
+    "name": "myTV SUPER直播足球3台,myTV SUPER直播足球3台 HD,myTV SUPER直播足球3台 超清,myTV SUPER直播足球3台 高清,myTV SUPER直播足球3台(HD),myTV SUPER直播足球3台-4K,myTV SUPER直播足球3台-HD,myTV SUPER直播足球3台-高清,myTV SUPER直播足球3台HD,"
+  },
+  {
+    "epgid": "myTV SUPER直播足球4台",
+    "name": "myTV SUPER直播足球4台,myTV SUPER直播足球4台 HD,myTV SUPER直播足球4台 超清,myTV SUPER直播足球4台 高清,myTV SUPER直播足球4台(HD),myTV SUPER直播足球4台-4K,myTV SUPER直播足球4台-HD,myTV SUPER直播足球4台-高清,myTV SUPER直播足球4台HD,"
+  },
+  {
+    "epgid": "myTV SUPER直播足球5台",
+    "name": "myTV SUPER直播足球5台,myTV SUPER直播足球5台 HD,myTV SUPER直播足球5台 超清,myTV SUPER直播足球5台 高清,myTV SUPER直播足球5台(HD),myTV SUPER直播足球5台-4K,myTV SUPER直播足球5台-HD,myTV SUPER直播足球5台-高清,myTV SUPER直播足球5台HD,"
+  },
+  {
+    "epgid": "myTV SUPER直播足球6台",
+    "name": "myTV SUPER直播足球6台,myTV SUPER直播足球6台 HD,myTV SUPER直播足球6台 超清,myTV SUPER直播足球6台 高清,myTV SUPER直播足球6台(HD),myTV SUPER直播足球6台-4K,myTV SUPER直播足球6台-HD,myTV SUPER直播足球6台-高清,myTV SUPER直播足球6台HD,"
+  },
+  {
+    "epgid": "myTV SUPER直播足球7台",
+    "name": "myTV SUPER直播足球7台,myTV SUPER直播足球7台 HD,myTV SUPER直播足球7台 超清,myTV SUPER直播足球7台 高清,myTV SUPER直播足球7台(HD),myTV SUPER直播足球7台-4K,myTV SUPER直播足球7台-HD,myTV SUPER直播足球7台-高清,myTV SUPER直播足球7台HD,"
+  },
+  {
+    "epgid": "tvN",
+    "name": "tvN,tvN HD,tvN 超清,tvN 高清,tvN(HD),tvN-4K,tvN-HD,tvN-高清,tvNHD,"
+  },
+  {
+    "epgid": "tvN",
+    "name": "tvN,tvN HD,tvN 超清,tvN 高清,tvN(HD),tvN-4K,tvN-HD,tvN-高清,tvNHD,"
+  },
+  {
+    "epgid": "tvN",
+    "name": "tvN,tvN HD,tvN 超清,tvN 高清,tvN(HD),tvN-4K,tvN-HD,tvN-高清,tvNHD,"
+  },
+  {
+    "epgid": "tvN HD",
+    "name": "tvN HD,tvN HD HD,tvN HD 超清,tvN HD 高清,tvN HD(HD),tvN HD-4K,tvN HD-HD,tvN HD-高清,tvN HDHD,"
+  },
+  {
+    "epgid": "wedotv Movies HD",
+    "name": "wedotv Movies HD,wedotv Movies HD HD,wedotv Movies HD 超清,wedotv Movies HD 高清,wedotv Movies HD(HD),wedotv Movies HD-4K,wedotv Movies HD-HD,wedotv Movies HD-高清,wedotv Movies HDHD,"
+  },
+  {
+    "epgid": "三沙卫视",
+    "name": "三沙卫视,三沙卫视 HD,三沙卫视 超清,三沙卫视 高清,三沙卫视(HD),三沙卫视-4K,三沙卫视-HD,三沙卫视-高清,三沙卫视HD,"
+  },
+  {
+    "epgid": "三沙衛視",
+    "name": "三沙衛視,三沙衛視 HD,三沙衛視 超清,三沙衛視 高清,三沙衛視(HD),三沙衛視-4K,三沙衛視-HD,三沙衛視-高清,三沙衛視HD,"
+  },
+  {
+    "epgid": "三立台灣台",
+    "name": "三立台灣台,三立台灣台 HD,三立台灣台 超清,三立台灣台 高清,三立台灣台(HD),三立台灣台-4K,三立台灣台-HD,三立台灣台-高清,三立台灣台HD,"
+  },
+  {
+    "epgid": "三立戲劇台HD",
+    "name": "三立戲劇台HD,三立戲劇台HD HD,三立戲劇台HD 超清,三立戲劇台HD 高清,三立戲劇台HD(HD),三立戲劇台HD-4K,三立戲劇台HD-HD,三立戲劇台HD-高清,三立戲劇台HDHD,"
+  },
+  {
+    "epgid": "三立新聞iNEWS",
+    "name": "三立新聞iNEWS,三立新聞iNEWS HD,三立新聞iNEWS 超清,三立新聞iNEWS 高清,三立新聞iNEWS(HD),三立新聞iNEWS-4K,三立新聞iNEWS-HD,三立新聞iNEWS-高清,三立新聞iNEWSHD,"
+  },
+  {
+    "epgid": "三立新聞台",
+    "name": "三立新聞台,三立新聞台 HD,三立新聞台 超清,三立新聞台 高清,三立新聞台(HD),三立新聞台-4K,三立新聞台-HD,三立新聞台-高清,三立新聞台HD,"
+  },
+  {
+    "epgid": "三立綜合台",
+    "name": "三立綜合台,三立綜合台 HD,三立綜合台 超清,三立綜合台 高清,三立綜合台(HD),三立綜合台-4K,三立綜合台-HD,三立綜合台-高清,三立綜合台HD,"
+  },
+  {
+    "epgid": "三立綜合台HD",
+    "name": "三立綜合台HD,三立綜合台HD HD,三立綜合台HD 超清,三立綜合台HD 高清,三立綜合台HD(HD),三立綜合台HD-4K,三立綜合台HD-HD,三立綜合台HD-高清,三立綜合台HDHD,"
+  },
+  {
+    "epgid": "三立財經新聞台",
+    "name": "三立財經新聞台,三立財經新聞台 HD,三立財經新聞台 超清,三立財經新聞台 高清,三立財經新聞台(HD),三立財經新聞台-4K,三立財經新聞台-HD,三立財經新聞台-高清,三立財經新聞台HD,"
+  },
+  {
+    "epgid": "三立財經新聞台HD",
+    "name": "三立財經新聞台HD,三立財經新聞台HD HD,三立財經新聞台HD 超清,三立財經新聞台HD 高清,三立財經新聞台HD(HD),三立財經新聞台HD-4K,三立財經新聞台HD-HD,三立財經新聞台HD-高清,三立財經新聞台HDHD,"
+  },
+  {
+    "epgid": "三立都會台",
+    "name": "三立都會台,三立都會台 HD,三立都會台 超清,三立都會台 高清,三立都會台(HD),三立都會台-4K,三立都會台-HD,三立都會台-高清,三立都會台HD,"
+  },
+  {
+    "epgid": "三聖電視台",
+    "name": "三聖電視台,三聖電視台 HD,三聖電視台 超清,三聖電視台 高清,三聖電視台(HD),三聖電視台-4K,三聖電視台-HD,三聖電視台-高清,三聖電視台HD,"
+  },
+  {
+    "epgid": "三门峡1新闻综合",
+    "name": "三门峡1新闻综合,三门峡1新闻综合 HD,三门峡1新闻综合 超清,三门峡1新闻综合 高清,三门峡1新闻综合(HD),三门峡1新闻综合-4K,三门峡1新闻综合-HD,三门峡1新闻综合-高清,三门峡1新闻综合HD,"
+  },
+  {
+    "epgid": "三门峡2公共",
+    "name": "三门峡2公共,三门峡2公共 HD,三门峡2公共 超清,三门峡2公共 高清,三门峡2公共(HD),三门峡2公共-4K,三门峡2公共-HD,三门峡2公共-高清,三门峡2公共HD,"
+  },
+  {
+    "epgid": "上海",
+    "name": "上海,上海 HD,上海 超清,上海 高清,上海(HD),上海-4K,上海-HD,上海-高清,上海HD,"
+  },
+  {
+    "epgid": "上海教育台",
+    "name": "上海教育台,上海教育台 HD,上海教育台 超清,上海教育台 高清,上海教育台(HD),上海教育台-4K,上海教育台-HD,上海教育台-高清,上海教育台HD,"
+  },
+  {
+    "epgid": "上海纪实人文",
+    "name": "上海纪实人文,上海纪实人文 HD,上海纪实人文 超清,上海纪实人文 高清,上海纪实人文(HD),上海纪实人文-4K,上海纪实人文-HD,上海纪实人文-高清,上海纪实人文HD,"
+  },
+  {
+    "epgid": "上视东方影视",
+    "name": "上视东方影视,上视东方影视 HD,上视东方影视 超清,上视东方影视 高清,上视东方影视(HD),上视东方影视-4K,上视东方影视-HD,上视东方影视-高清,上视东方影视HD,"
+  },
+  {
+    "epgid": "东南卫视",
+    "name": "东南卫视,东南卫视 HD,东南卫视 超清,东南卫视 高清,东南卫视(HD),东南卫视-4K,东南卫视-HD,东南卫视-高清,东南卫视HD,"
+  },
+  {
+    "epgid": "东南卫视",
+    "name": "东南卫视,东南卫视 HD,东南卫视 超清,东南卫视 高清,东南卫视(HD),东南卫视-4K,东南卫视-HD,东南卫视-高清,东南卫视HD,"
+  },
+  {
+    "epgid": "东南卫视",
+    "name": "东南卫视,东南卫视 HD,东南卫视 超清,东南卫视 高清,东南卫视(HD),东南卫视-4K,东南卫视-HD,东南卫视-高清,东南卫视HD,"
+  },
+  {
+    "epgid": "东南卫视 高清",
+    "name": "东南卫视 高清,东南卫视 高清 HD,东南卫视 高清 超清,东南卫视 高清 高清,东南卫视 高清(HD),东南卫视 高清-4K,东南卫视 高清-HD,东南卫视 高清-高清,东南卫视 高清HD,"
+  },
+  {
+    "epgid": "东方卫视",
+    "name": "东方卫视,东方卫视 HD,东方卫视 超清,东方卫视 高清,东方卫视(HD),东方卫视-4K,东方卫视-HD,东方卫视-高清,东方卫视HD,"
+  },
+  {
+    "epgid": "东方卫视",
+    "name": "东方卫视,东方卫视 HD,东方卫视 超清,东方卫视 高清,东方卫视(HD),东方卫视-4K,东方卫视-HD,东方卫视-高清,东方卫视HD,"
+  },
+  {
+    "epgid": "东方卫视",
+    "name": "东方卫视,东方卫视 HD,东方卫视 超清,东方卫视 高清,东方卫视(HD),东方卫视-4K,东方卫视-HD,东方卫视-高清,东方卫视HD,"
+  },
+  {
+    "epgid": "东莞新闻",
+    "name": "东莞新闻,东莞新闻 HD,东莞新闻 超清,东莞新闻 高清,东莞新闻(HD),东莞新闻-4K,东莞新闻-HD,东莞新闻-高清,东莞新闻HD,"
+  },
+  {
+    "epgid": "东莞生活资讯",
+    "name": "东莞生活资讯,东莞生活资讯 HD,东莞生活资讯 超清,东莞生活资讯 高清,东莞生活资讯(HD),东莞生活资讯-4K,东莞生活资讯-HD,东莞生活资讯-高清,东莞生活资讯HD,"
+  },
+  {
+    "epgid": "中华特产",
+    "name": "中华特产,中华特产 HD,中华特产 超清,中华特产 高清,中华特产(HD),中华特产-4K,中华特产-HD,中华特产-高清,中华特产HD,"
+  },
+  {
+    "epgid": "中台灣生活網頻道",
+    "name": "中台灣生活網頻道,中台灣生活網頻道 HD,中台灣生活網頻道 超清,中台灣生活網頻道 高清,中台灣生活網頻道(HD),中台灣生活網頻道-4K,中台灣生活網頻道-HD,中台灣生活網頻道-高清,中台灣生活網頻道HD,"
+  },
+  {
+    "epgid": "中国天气",
+    "name": "中国天气,中国天气 HD,中国天气 超清,中国天气 高清,中国天气(HD),中国天气-4K,中国天气-HD,中国天气-高清,中国天气HD,"
+  },
+  {
+    "epgid": "中国教育2台",
+    "name": "中国教育2台,中国教育2台 HD,中国教育2台 超清,中国教育2台 高清,中国教育2台(HD),中国教育2台-4K,中国教育2台-HD,中国教育2台-高清,中国教育2台HD,"
+  },
+  {
+    "epgid": "中国教育4台",
+    "name": "中国教育4台,中国教育4台 HD,中国教育4台 超清,中国教育4台 高清,中国教育4台(HD),中国教育4台-4K,中国教育4台-HD,中国教育4台-高清,中国教育4台HD,"
+  },
+  {
+    "epgid": "中国教育一套",
+    "name": "中国教育一套,中国教育一套 HD,中国教育一套 超清,中国教育一套 高清,中国教育一套(HD),中国教育一套-4K,中国教育一套-HD,中国教育一套-高清,中国教育一套HD,"
+  },
+  {
+    "epgid": "中國中央電視台中文國際頻道",
+    "name": "中國中央電視台中文國際頻道,中國中央電視台中文國際頻道 HD,中國中央電視台中文國際頻道 超清,中國中央電視台中文國際頻道 高清,中國中央電視台中文國際頻道(HD),中國中央電視台中文國際頻道-4K,中國中央電視台中文國際頻道-HD,中國中央電視台中文國際頻道-高清,中國中央電視台中文國際頻道HD,"
+  },
+  {
+    "epgid": "中國中央電視台娛樂頻道",
+    "name": "中國中央電視台娛樂頻道,中國中央電視台娛樂頻道 HD,中國中央電視台娛樂頻道 超清,中國中央電視台娛樂頻道 高清,中國中央電視台娛樂頻道(HD),中國中央電視台娛樂頻道-4K,中國中央電視台娛樂頻道-HD,中國中央電視台娛樂頻道-高清,中國中央電視台娛樂頻道HD,"
+  },
+  {
+    "epgid": "中國中央電視台戲曲頻道",
+    "name": "中國中央電視台戲曲頻道,中國中央電視台戲曲頻道 HD,中國中央電視台戲曲頻道 超清,中國中央電視台戲曲頻道 高清,中國中央電視台戲曲頻道(HD),中國中央電視台戲曲頻道-4K,中國中央電視台戲曲頻道-HD,中國中央電視台戲曲頻道-高清,中國中央電視台戲曲頻道HD,"
+  },
+  {
+    "epgid": "中國環球電視網",
+    "name": "中國環球電視網,中國環球電視網 HD,中國環球電視網 超清,中國環球電視網 高清,中國環球電視網(HD),中國環球電視網-4K,中國環球電視網-HD,中國環球電視網-高清,中國環球電視網HD,"
+  },
+  {
+    "epgid": "中國電影頻道",
+    "name": "中國電影頻道,中國電影頻道 HD,中國電影頻道 超清,中國電影頻道 高清,中國電影頻道(HD),中國電影頻道-4K,中國電影頻道-HD,中國電影頻道-高清,中國電影頻道HD,"
+  },
+  {
+    "epgid": "中天亞洲台",
+    "name": "中天亞洲台,中天亞洲台 HD,中天亞洲台 超清,中天亞洲台 高清,中天亞洲台(HD),中天亞洲台-4K,中天亞洲台-HD,中天亞洲台-高清,中天亞洲台HD,"
+  },
+  {
+    "epgid": "中天娛樂台",
+    "name": "中天娛樂台,中天娛樂台 HD,中天娛樂台 超清,中天娛樂台 高清,中天娛樂台(HD),中天娛樂台-4K,中天娛樂台-HD,中天娛樂台-高清,中天娛樂台HD,"
+  },
+  {
+    "epgid": "中天新聞台",
+    "name": "中天新聞台,中天新聞台 HD,中天新聞台 超清,中天新聞台 高清,中天新聞台(HD),中天新聞台-4K,中天新聞台-HD,中天新聞台-高清,中天新聞台HD,"
+  },
+  {
+    "epgid": "中天新聞台",
+    "name": "中天新聞台,中天新聞台 HD,中天新聞台 超清,中天新聞台 高清,中天新聞台(HD),中天新聞台-4K,中天新聞台-HD,中天新聞台-高清,中天新聞台HD,"
+  },
+  {
+    "epgid": "中天綜合台",
+    "name": "中天綜合台,中天綜合台 HD,中天綜合台 超清,中天綜合台 高清,中天綜合台(HD),中天綜合台-4K,中天綜合台-HD,中天綜合台-高清,中天綜合台HD,"
+  },
+  {
+    "epgid": "中央台–珠江",
+    "name": "中央台–珠江,中央台–珠江 HD,中央台–珠江 超清,中央台–珠江 高清,中央台–珠江(HD),中央台–珠江-4K,中央台–珠江-HD,中央台–珠江-高清,中央台–珠江HD,"
+  },
+  {
+    "epgid": "中央電視台新聞頻道",
+    "name": "中央電視台新聞頻道,中央電視台新聞頻道 HD,中央電視台新聞頻道 超清,中央電視台新聞頻道 高清,中央電視台新聞頻道(HD),中央電視台新聞頻道-4K,中央電視台新聞頻道-HD,中央電視台新聞頻道-高清,中央電視台新聞頻道HD,"
+  },
+  {
+    "epgid": "中央電視台綜合頻道 (港澳版)",
+    "name": "中央電視台綜合頻道 (港澳版),中央電視台綜合頻道 (港澳版) HD,中央電視台綜合頻道 (港澳版) 超清,中央電視台綜合頻道 (港澳版) 高清,中央電視台綜合頻道 (港澳版)(HD),中央電視台綜合頻道 (港澳版)-4K,中央電視台綜合頻道 (港澳版)-HD,中央電視台綜合頻道 (港澳版)-高清,中央電視台綜合頻道 (港澳版)HD,"
+  },
+  {
+    "epgid": "中山公共",
+    "name": "中山公共,中山公共 HD,中山公共 超清,中山公共 高清,中山公共(HD),中山公共-4K,中山公共-HD,中山公共-高清,中山公共HD,"
+  },
+  {
+    "epgid": "中山教育",
+    "name": "中山教育,中山教育 HD,中山教育 超清,中山教育 高清,中山教育(HD),中山教育-4K,中山教育-HD,中山教育-高清,中山教育HD,"
+  },
+  {
+    "epgid": "中山综合",
+    "name": "中山综合,中山综合 HD,中山综合 超清,中山综合 高清,中山综合(HD),中山综合-4K,中山综合-HD,中山综合-高清,中山综合HD,"
+  },
+  {
+    "epgid": "中視",
+    "name": "中視,中視 HD,中視 超清,中視 高清,中視(HD),中視-4K,中視-HD,中視-高清,中視HD,"
+  },
+  {
+    "epgid": "中視",
+    "name": "中視,中視 HD,中視 超清,中視 高清,中視(HD),中視-4K,中視-HD,中視-高清,中視HD,"
+  },
+  {
+    "epgid": "中視HD",
+    "name": "中視HD,中視HD HD,中視HD 超清,中視HD 高清,中視HD(HD),中視HD-4K,中視HD-HD,中視HD-高清,中視HDHD,"
+  },
+  {
+    "epgid": "中視新聞",
+    "name": "中視新聞,中視新聞 HD,中視新聞 超清,中視新聞 高清,中視新聞(HD),中視新聞-4K,中視新聞-HD,中視新聞-高清,中視新聞HD,"
+  },
+  {
+    "epgid": "中視新聞",
+    "name": "中視新聞,中視新聞 HD,中視新聞 超清,中視新聞 高清,中視新聞(HD),中視新聞-4K,中視新聞-HD,中視新聞-高清,中視新聞HD,"
+  },
+  {
+    "epgid": "中視新聞HD",
+    "name": "中視新聞HD,中視新聞HD HD,中視新聞HD 超清,中視新聞HD 高清,中視新聞HD(HD),中視新聞HD-4K,中視新聞HD-HD,中視新聞HD-高清,中視新聞HDHD,"
+  },
+  {
+    "epgid": "中視新聞台",
+    "name": "中視新聞台,中視新聞台 HD,中視新聞台 超清,中視新聞台 高清,中視新聞台(HD),中視新聞台-4K,中視新聞台-HD,中視新聞台-高清,中視新聞台HD,"
+  },
+  {
+    "epgid": "中視經典台HD",
+    "name": "中視經典台HD,中視經典台HD HD,中視經典台HD 超清,中視經典台HD 高清,中視經典台HD(HD),中視經典台HD-4K,中視經典台HD-HD,中視經典台HD-高清,中視經典台HDHD,"
+  },
+  {
+    "epgid": "中視菁采台HD",
+    "name": "中視菁采台HD,中視菁采台HD HD,中視菁采台HD 超清,中視菁采台HD 高清,中視菁采台HD(HD),中視菁采台HD-4K,中視菁采台HD-HD,中視菁采台HD-高清,中視菁采台HDHD,"
+  },
+  {
+    "epgid": "乌鲁木齐都市",
+    "name": "乌鲁木齐都市,乌鲁木齐都市 HD,乌鲁木齐都市 超清,乌鲁木齐都市 高清,乌鲁木齐都市(HD),乌鲁木齐都市-4K,乌鲁木齐都市-HD,乌鲁木齐都市-高清,乌鲁木齐都市HD,"
+  },
+  {
+    "epgid": "乐山新闻综合",
+    "name": "乐山新闻综合,乐山新闻综合 HD,乐山新闻综合 超清,乐山新闻综合 高清,乐山新闻综合(HD),乐山新闻综合-4K,乐山新闻综合-HD,乐山新闻综合-高清,乐山新闻综合HD,"
+  },
+  {
+    "epgid": "乐游",
+    "name": "乐游,乐游 HD,乐游 超清,乐游 高清,乐游(HD),乐游-4K,乐游-HD,乐游-高清,乐游HD,"
+  },
+  {
+    "epgid": "云上电影院",
+    "name": "云上电影院,云上电影院 HD,云上电影院 超清,云上电影院 高清,云上电影院(HD),云上电影院-4K,云上电影院-HD,云上电影院-高清,云上电影院HD,"
+  },
+  {
+    "epgid": "云南卫视",
+    "name": "云南卫视,云南卫视 HD,云南卫视 超清,云南卫视 高清,云南卫视(HD),云南卫视-4K,云南卫视-HD,云南卫视-高清,云南卫视HD,"
+  },
+  {
+    "epgid": "云南卫视",
+    "name": "云南卫视,云南卫视 HD,云南卫视 超清,云南卫视 高清,云南卫视(HD),云南卫视-4K,云南卫视-HD,云南卫视-高清,云南卫视HD,"
+  },
+  {
+    "epgid": "云南卫视",
+    "name": "云南卫视,云南卫视 HD,云南卫视 超清,云南卫视 高清,云南卫视(HD),云南卫视-4K,云南卫视-HD,云南卫视-高清,云南卫视HD,"
+  },
+  {
+    "epgid": "云南康旅",
+    "name": "云南康旅,云南康旅 HD,云南康旅 超清,云南康旅 高清,云南康旅(HD),云南康旅-4K,云南康旅-HD,云南康旅-高清,云南康旅HD,"
+  },
+  {
+    "epgid": "云南影视",
+    "name": "云南影视,云南影视 HD,云南影视 超清,云南影视 高清,云南影视(HD),云南影视-4K,云南影视-HD,云南影视-高清,云南影视HD,"
+  },
+  {
+    "epgid": "亞洲劇台",
+    "name": "亞洲劇台,亞洲劇台 HD,亞洲劇台 超清,亞洲劇台 高清,亞洲劇台(HD),亞洲劇台-4K,亞洲劇台-HD,亞洲劇台-高清,亞洲劇台HD,"
+  },
+  {
+    "epgid": "亞洲新聞台",
+    "name": "亞洲新聞台,亞洲新聞台 HD,亞洲新聞台 超清,亞洲新聞台 高清,亞洲新聞台(HD),亞洲新聞台-4K,亞洲新聞台-HD,亞洲新聞台-高清,亞洲新聞台HD,"
+  },
+  {
+    "epgid": "亞洲新聞台",
+    "name": "亞洲新聞台,亞洲新聞台 HD,亞洲新聞台 超清,亞洲新聞台 高清,亞洲新聞台(HD),亞洲新聞台-4K,亞洲新聞台-HD,亞洲新聞台-高清,亞洲新聞台HD,"
+  },
+  {
+    "epgid": "亞洲旅遊HD",
+    "name": "亞洲旅遊HD,亞洲旅遊HD HD,亞洲旅遊HD 超清,亞洲旅遊HD 高清,亞洲旅遊HD(HD),亞洲旅遊HD-4K,亞洲旅遊HD-HD,亞洲旅遊HD-高清,亞洲旅遊HDHD,"
+  },
+  {
+    "epgid": "亞洲旅遊台",
+    "name": "亞洲旅遊台,亞洲旅遊台 HD,亞洲旅遊台 超清,亞洲旅遊台 高清,亞洲旅遊台(HD),亞洲旅遊台-4K,亞洲旅遊台-HD,亞洲旅遊台-高清,亞洲旅遊台HD,"
+  },
+  {
+    "epgid": "亞洲旅遊台",
+    "name": "亞洲旅遊台,亞洲旅遊台 HD,亞洲旅遊台 超清,亞洲旅遊台 高清,亞洲旅遊台(HD),亞洲旅遊台-4K,亞洲旅遊台-HD,亞洲旅遊台-高清,亞洲旅遊台HD,"
+  },
+  {
+    "epgid": "亞洲旅遊台",
+    "name": "亞洲旅遊台,亞洲旅遊台 HD,亞洲旅遊台 超清,亞洲旅遊台 高清,亞洲旅遊台(HD),亞洲旅遊台-4K,亞洲旅遊台-HD,亞洲旅遊台-高清,亞洲旅遊台HD,"
+  },
+  {
+    "epgid": "亞洲綜合HD",
+    "name": "亞洲綜合HD,亞洲綜合HD HD,亞洲綜合HD 超清,亞洲綜合HD 高清,亞洲綜合HD(HD),亞洲綜合HD-4K,亞洲綜合HD-HD,亞洲綜合HD-高清,亞洲綜合HDHD,"
+  },
+  {
+    "epgid": "亞洲美食台",
+    "name": "亞洲美食台,亞洲美食台 HD,亞洲美食台 超清,亞洲美食台 高清,亞洲美食台(HD),亞洲美食台-4K,亞洲美食台-HD,亞洲美食台-高清,亞洲美食台HD,"
+  },
+  {
+    "epgid": "亞洲美食頻道",
+    "name": "亞洲美食頻道,亞洲美食頻道 HD,亞洲美食頻道 超清,亞洲美食頻道 高清,亞洲美食頻道(HD),亞洲美食頻道-4K,亞洲美食頻道-HD,亞洲美食頻道-高清,亞洲美食頻道HD,"
+  },
+  {
+    "epgid": "人間衛視",
+    "name": "人間衛視,人間衛視 HD,人間衛視 超清,人間衛視 高清,人間衛視(HD),人間衛視-4K,人間衛視-HD,人間衛視-高清,人間衛視HD,"
+  },
+  {
+    "epgid": "人間衛視",
+    "name": "人間衛視,人間衛視 HD,人間衛視 超清,人間衛視 高清,人間衛視(HD),人間衛視-4K,人間衛視-HD,人間衛視-高清,人間衛視HD,"
+  },
+  {
+    "epgid": "人間衛視HD",
+    "name": "人間衛視HD,人間衛視HD HD,人間衛視HD 超清,人間衛視HD 高清,人間衛視HD(HD),人間衛視HD-4K,人間衛視HD-HD,人間衛視HD-高清,人間衛視HDHD,"
+  },
+  {
+    "epgid": "优优宝贝",
+    "name": "优优宝贝,优优宝贝 HD,优优宝贝 超清,优优宝贝 高清,优优宝贝(HD),优优宝贝-4K,优优宝贝-HD,优优宝贝-高清,优优宝贝HD,"
+  },
+  {
+    "epgid": "佛山公共",
+    "name": "佛山公共,佛山公共 HD,佛山公共 超清,佛山公共 高清,佛山公共(HD),佛山公共-4K,佛山公共-HD,佛山公共-高清,佛山公共HD,"
+  },
+  {
+    "epgid": "佛山南海",
+    "name": "佛山南海,佛山南海 HD,佛山南海 超清,佛山南海 高清,佛山南海(HD),佛山南海-4K,佛山南海-HD,佛山南海-高清,佛山南海HD,"
+  },
+  {
+    "epgid": "佛山综合",
+    "name": "佛山综合,佛山综合 HD,佛山综合 超清,佛山综合 高清,佛山综合(HD),佛山综合-4K,佛山综合-HD,佛山综合-高清,佛山综合HD,"
+  },
+  {
+    "epgid": "佛山顺德",
+    "name": "佛山顺德,佛山顺德 HD,佛山顺德 超清,佛山顺德 高清,佛山顺德(HD),佛山顺德-4K,佛山顺德-HD,佛山顺德-高清,佛山顺德HD,"
+  },
+  {
+    "epgid": "佛衛慈悲台",
+    "name": "佛衛慈悲台,佛衛慈悲台 HD,佛衛慈悲台 超清,佛衛慈悲台 高清,佛衛慈悲台(HD),佛衛慈悲台-4K,佛衛慈悲台-HD,佛衛慈悲台-高清,佛衛慈悲台HD,"
+  },
+  {
+    "epgid": "佛衛慈悲台",
+    "name": "佛衛慈悲台,佛衛慈悲台 HD,佛衛慈悲台 超清,佛衛慈悲台 高清,佛衛慈悲台(HD),佛衛慈悲台-4K,佛衛慈悲台-HD,佛衛慈悲台-高清,佛衛慈悲台HD,"
+  },
+  {
+    "epgid": "信吉藝文台HD",
+    "name": "信吉藝文台HD,信吉藝文台HD HD,信吉藝文台HD 超清,信吉藝文台HD 高清,信吉藝文台HD(HD),信吉藝文台HD-4K,信吉藝文台HD-HD,信吉藝文台HD-高清,信吉藝文台HDHD,"
+  },
+  {
+    "epgid": "信吉電視台",
+    "name": "信吉電視台,信吉電視台 HD,信吉電視台 超清,信吉電視台 高清,信吉電視台(HD),信吉電視台-4K,信吉電視台-HD,信吉電視台-高清,信吉電視台HD,"
+  },
+  {
+    "epgid": "信吉電視台",
+    "name": "信吉電視台,信吉電視台 HD,信吉電視台 超清,信吉電視台 高清,信吉電視台(HD),信吉電視台-4K,信吉電視台-HD,信吉電視台-高清,信吉電視台HD,"
+  },
+  {
+    "epgid": "信大電視台",
+    "name": "信大電視台,信大電視台 HD,信大電視台 超清,信大電視台 高清,信大電視台(HD),信大電視台-4K,信大電視台-HD,信大電視台-高清,信大電視台HD,"
+  },
+  {
+    "epgid": "信阳1综合",
+    "name": "信阳1综合,信阳1综合 HD,信阳1综合 超清,信阳1综合 高清,信阳1综合(HD),信阳1综合-4K,信阳1综合-HD,信阳1综合-高清,信阳1综合HD,"
+  },
+  {
+    "epgid": "全大電視台",
+    "name": "全大電視台,全大電視台 HD,全大電視台 超清,全大電視台 高清,全大電視台(HD),全大電視台-4K,全大電視台-HD,全大電視台-高清,全大電視台HD,"
+  },
+  {
+    "epgid": "八大優頻道",
+    "name": "八大優頻道,八大優頻道 HD,八大優頻道 超清,八大優頻道 高清,八大優頻道(HD),八大優頻道-4K,八大優頻道-HD,八大優頻道-高清,八大優頻道HD,"
+  },
+  {
+    "epgid": "八大娛樂台",
+    "name": "八大娛樂台,八大娛樂台 HD,八大娛樂台 超清,八大娛樂台 高清,八大娛樂台(HD),八大娛樂台-4K,八大娛樂台-HD,八大娛樂台-高清,八大娛樂台HD,"
+  },
+  {
+    "epgid": "八大戲劇台",
+    "name": "八大戲劇台,八大戲劇台 HD,八大戲劇台 超清,八大戲劇台 高清,八大戲劇台(HD),八大戲劇台-4K,八大戲劇台-HD,八大戲劇台-高清,八大戲劇台HD,"
+  },
+  {
+    "epgid": "八大第一台",
+    "name": "八大第一台,八大第一台 HD,八大第一台 超清,八大第一台 高清,八大第一台(HD),八大第一台-4K,八大第一台-HD,八大第一台-高清,八大第一台HD,"
+  },
+  {
+    "epgid": "八大精彩台",
+    "name": "八大精彩台,八大精彩台 HD,八大精彩台 超清,八大精彩台 高清,八大精彩台(HD),八大精彩台-4K,八大精彩台-HD,八大精彩台-高清,八大精彩台HD,"
+  },
+  {
+    "epgid": "八大綜合台",
+    "name": "八大綜合台,八大綜合台 HD,八大綜合台 超清,八大綜合台 高清,八大綜合台(HD),八大綜合台-4K,八大綜合台-HD,八大綜合台-高清,八大綜合台HD,"
+  },
+  {
+    "epgid": "八大綜藝台",
+    "name": "八大綜藝台,八大綜藝台 HD,八大綜藝台 超清,八大綜藝台 高清,八大綜藝台(HD),八大綜藝台-4K,八大綜藝台-HD,八大綜藝台-高清,八大綜藝台HD,"
+  },
+  {
+    "epgid": "八大綜藝台",
+    "name": "八大綜藝台,八大綜藝台 HD,八大綜藝台 超清,八大綜藝台 高清,八大綜藝台(HD),八大綜藝台-4K,八大綜藝台-HD,八大綜藝台-高清,八大綜藝台HD,"
+  },
+  {
+    "epgid": "公共電視",
+    "name": "公共電視,公共電視 HD,公共電視 超清,公共電視 高清,公共電視(HD),公共電視-4K,公共電視-HD,公共電視-高清,公共電視HD,"
+  },
+  {
+    "epgid": "公視(HD)",
+    "name": "公視(HD),公視(HD) HD,公視(HD) 超清,公視(HD) 高清,公視(HD)(HD),公視(HD)-4K,公視(HD)-HD,公視(HD)-高清,公視(HD)HD,"
+  },
+  {
+    "epgid": "公視兒少台HD",
+    "name": "公視兒少台HD,公視兒少台HD HD,公視兒少台HD 超清,公視兒少台HD 高清,公視兒少台HD(HD),公視兒少台HD-4K,公視兒少台HD-HD,公視兒少台HD-高清,公視兒少台HDHD,"
+  },
+  {
+    "epgid": "公視台語台",
+    "name": "公視台語台,公視台語台 HD,公視台語台 超清,公視台語台 高清,公視台語台(HD),公視台語台-4K,公視台語台-HD,公視台語台-高清,公視台語台HD,"
+  },
+  {
+    "epgid": "公視台語台HD",
+    "name": "公視台語台HD,公視台語台HD HD,公視台語台HD 超清,公視台語台HD 高清,公視台語台HD(HD),公視台語台HD-4K,公視台語台HD-HD,公視台語台HD-高清,公視台語台HDHD,"
+  },
+  {
+    "epgid": "公視戲劇",
+    "name": "公視戲劇,公視戲劇 HD,公視戲劇 超清,公視戲劇 高清,公視戲劇(HD),公視戲劇-4K,公視戲劇-HD,公視戲劇-高清,公視戲劇HD,"
+  },
+  {
+    "epgid": "六安公共",
+    "name": "六安公共,六安公共 HD,六安公共 超清,六安公共 高清,六安公共(HD),六安公共-4K,六安公共-HD,六安公共-高清,六安公共HD,"
+  },
+  {
+    "epgid": "六安公共 LIUANTV1",
+    "name": "六安公共 LIUANTV1,六安公共 LIUANTV1 HD,六安公共 LIUANTV1 超清,六安公共 LIUANTV1 高清,六安公共 LIUANTV1(HD),六安公共 LIUANTV1-4K,六安公共 LIUANTV1-HD,六安公共 LIUANTV1-高清,六安公共 LIUANTV1HD,"
+  },
+  {
+    "epgid": "六安新闻综合",
+    "name": "六安新闻综合,六安新闻综合 HD,六安新闻综合 超清,六安新闻综合 高清,六安新闻综合(HD),六安新闻综合-4K,六安新闻综合-HD,六安新闻综合-高清,六安新闻综合HD,"
+  },
+  {
+    "epgid": "六安都市生活",
+    "name": "六安都市生活,六安都市生活 HD,六安都市生活 超清,六安都市生活 高清,六安都市生活(HD),六安都市生活-4K,六安都市生活-HD,六安都市生活-高清,六安都市生活HD,"
+  },
+  {
+    "epgid": "兰州公共",
+    "name": "兰州公共,兰州公共 HD,兰州公共 超清,兰州公共 高清,兰州公共(HD),兰州公共-4K,兰州公共-HD,兰州公共-高清,兰州公共HD,"
+  },
+  {
+    "epgid": "兰州文旅",
+    "name": "兰州文旅,兰州文旅 HD,兰州文旅 超清,兰州文旅 高清,兰州文旅(HD),兰州文旅-4K,兰州文旅-HD,兰州文旅-高清,兰州文旅HD,"
+  },
+  {
+    "epgid": "兰州新闻综合",
+    "name": "兰州新闻综合,兰州新闻综合 HD,兰州新闻综合 超清,兰州新闻综合 高清,兰州新闻综合(HD),兰州新闻综合-4K,兰州新闻综合-HD,兰州新闻综合-高清,兰州新闻综合HD,"
+  },
+  {
+    "epgid": "兵团卫视",
+    "name": "兵团卫视,兵团卫视 HD,兵团卫视 超清,兵团卫视 高清,兵团卫视(HD),兵团卫视-4K,兵团卫视-HD,兵团卫视-高清,兵团卫视HD,"
+  },
+  {
+    "epgid": "兵团卫视",
+    "name": "兵团卫视,兵团卫视 HD,兵团卫视 超清,兵团卫视 高清,兵团卫视(HD),兵团卫视-4K,兵团卫视-HD,兵团卫视-高清,兵团卫视HD,"
+  },
+  {
+    "epgid": "兵团卫视",
+    "name": "兵团卫视,兵团卫视 HD,兵团卫视 超清,兵团卫视 高清,兵团卫视(HD),兵团卫视-4K,兵团卫视-HD,兵团卫视-高清,兵团卫视HD,"
+  },
+  {
+    "epgid": "内蒙卫视",
+    "name": "内蒙卫视,内蒙卫视 HD,内蒙卫视 超清,内蒙卫视 高清,内蒙卫视(HD),内蒙卫视-4K,内蒙卫视-HD,内蒙卫视-高清,内蒙卫视HD,"
+  },
+  {
+    "epgid": "内蒙古农牧",
+    "name": "内蒙古农牧,内蒙古农牧 HD,内蒙古农牧 超清,内蒙古农牧 高清,内蒙古农牧(HD),内蒙古农牧-4K,内蒙古农牧-HD,内蒙古农牧-高清,内蒙古农牧HD,"
+  },
+  {
+    "epgid": "内蒙古卫视",
+    "name": "内蒙古卫视,内蒙古卫视 HD,内蒙古卫视 超清,内蒙古卫视 高清,内蒙古卫视(HD),内蒙古卫视-4K,内蒙古卫视-HD,内蒙古卫视-高清,内蒙古卫视HD,"
+  },
+  {
+    "epgid": "内蒙古卫视",
+    "name": "内蒙古卫视,内蒙古卫视 HD,内蒙古卫视 超清,内蒙古卫视 高清,内蒙古卫视(HD),内蒙古卫视-4K,内蒙古卫视-HD,内蒙古卫视-高清,内蒙古卫视HD,"
+  },
+  {
+    "epgid": "内蒙古少儿",
+    "name": "内蒙古少儿,内蒙古少儿 HD,内蒙古少儿 超清,内蒙古少儿 高清,内蒙古少儿(HD),内蒙古少儿-4K,内蒙古少儿-HD,内蒙古少儿-高清,内蒙古少儿HD,"
+  },
+  {
+    "epgid": "内蒙古综合",
+    "name": "内蒙古综合,内蒙古综合 HD,内蒙古综合 超清,内蒙古综合 高清,内蒙古综合(HD),内蒙古综合-4K,内蒙古综合-HD,内蒙古综合-高清,内蒙古综合HD,"
+  },
+  {
+    "epgid": "冠軍夢想台",
+    "name": "冠軍夢想台,冠軍夢想台 HD,冠軍夢想台 超清,冠軍夢想台 高清,冠軍夢想台(HD),冠軍夢想台-4K,冠軍夢想台-HD,冠軍夢想台-高清,冠軍夢想台HD,"
+  },
+  {
+    "epgid": "冠軍電視台",
+    "name": "冠軍電視台,冠軍電視台 HD,冠軍電視台 超清,冠軍電視台 高清,冠軍電視台(HD),冠軍電視台-4K,冠軍電視台-HD,冠軍電視台-高清,冠軍電視台HD,"
+  },
+  {
+    "epgid": "冠軍電視台",
+    "name": "冠軍電視台,冠軍電視台 HD,冠軍電視台 超清,冠軍電視台 高清,冠軍電視台(HD),冠軍電視台-4K,冠軍電視台-HD,冠軍電視台-高清,冠軍電視台HD,"
+  },
+  {
+    "epgid": "冬奥纪实",
+    "name": "冬奥纪实,冬奥纪实 HD,冬奥纪实 超清,冬奥纪实 高清,冬奥纪实(HD),冬奥纪实-4K,冬奥纪实-HD,冬奥纪实-高清,冬奥纪实HD,"
+  },
+  {
+    "epgid": "凤凰卫视",
+    "name": "凤凰卫视,凤凰卫视 HD,凤凰卫视 超清,凤凰卫视 高清,凤凰卫视(HD),凤凰卫视-4K,凤凰卫视-HD,凤凰卫视-高清,凤凰卫视HD,"
+  },
+  {
+    "epgid": "創世電視",
+    "name": "創世電視,創世電視 HD,創世電視 超清,創世電視 高清,創世電視(HD),創世電視-4K,創世電視-HD,創世電視-高清,創世電視HD,"
+  },
+  {
+    "epgid": "动漫秀场",
+    "name": "动漫秀场,动漫秀场 HD,动漫秀场 超清,动漫秀场 高清,动漫秀场(HD),动漫秀场-4K,动漫秀场-HD,动漫秀场-高清,动漫秀场HD,"
+  },
+  {
+    "epgid": "劲爆体育",
+    "name": "劲爆体育,劲爆体育 HD,劲爆体育 超清,劲爆体育 高清,劲爆体育(HD),劲爆体育-4K,劲爆体育-HD,劲爆体育-高清,劲爆体育HD,"
+  },
+  {
+    "epgid": "動物星球",
+    "name": "動物星球,動物星球 HD,動物星球 超清,動物星球 高清,動物星球(HD),動物星球-4K,動物星球-HD,動物星球-高清,動物星球HD,"
+  },
+  {
+    "epgid": "動物星球頻道",
+    "name": "動物星球頻道,動物星球頻道 HD,動物星球頻道 超清,動物星球頻道 高清,動物星球頻道(HD),動物星球頻道-4K,動物星球頻道-HD,動物星球頻道-高清,動物星球頻道HD,"
+  },
+  {
+    "epgid": "北京体育休闲",
+    "name": "北京体育休闲,北京体育休闲 HD,北京体育休闲 超清,北京体育休闲 高清,北京体育休闲(HD),北京体育休闲-4K,北京体育休闲-HD,北京体育休闲-高清,北京体育休闲HD,"
+  },
+  {
+    "epgid": "北京卫视",
+    "name": "北京卫视,北京卫视 HD,北京卫视 超清,北京卫视 高清,北京卫视(HD),北京卫视-4K,北京卫视-HD,北京卫视-高清,北京卫视HD,"
+  },
+  {
+    "epgid": "北京卫视",
+    "name": "北京卫视,北京卫视 HD,北京卫视 超清,北京卫视 高清,北京卫视(HD),北京卫视-4K,北京卫视-HD,北京卫视-高清,北京卫视HD,"
+  },
+  {
+    "epgid": "北京卫视",
+    "name": "北京卫视,北京卫视 HD,北京卫视 超清,北京卫视 高清,北京卫视(HD),北京卫视-4K,北京卫视-HD,北京卫视-高清,北京卫视HD,"
+  },
+  {
+    "epgid": "北京影视",
+    "name": "北京影视,北京影视 HD,北京影视 超清,北京影视 高清,北京影视(HD),北京影视-4K,北京影视-HD,北京影视-高清,北京影视HD,"
+  },
+  {
+    "epgid": "北京文艺",
+    "name": "北京文艺,北京文艺 HD,北京文艺 超清,北京文艺 高清,北京文艺(HD),北京文艺-4K,北京文艺-HD,北京文艺-高清,北京文艺HD,"
+  },
+  {
+    "epgid": "北京新闻",
+    "name": "北京新闻,北京新闻 HD,北京新闻 超清,北京新闻 高清,北京新闻(HD),北京新闻-4K,北京新闻-HD,北京新闻-高清,北京新闻HD,"
+  },
+  {
+    "epgid": "北京生活",
+    "name": "北京生活,北京生活 HD,北京生活 超清,北京生活 高清,北京生活(HD),北京生活-4K,北京生活-HD,北京生活-高清,北京生活HD,"
+  },
+  {
+    "epgid": "北京纪实",
+    "name": "北京纪实,北京纪实 HD,北京纪实 超清,北京纪实 高清,北京纪实(HD),北京纪实-4K,北京纪实-HD,北京纪实-高清,北京纪实HD,"
+  },
+  {
+    "epgid": "北京财经",
+    "name": "北京财经,北京财经 HD,北京财经 超清,北京财经 高清,北京财经(HD),北京财经-4K,北京财经-HD,北京财经-高清,北京财经HD,"
+  },
+  {
+    "epgid": "北京電視台國際頻道",
+    "name": "北京電視台國際頻道,北京電視台國際頻道 HD,北京電視台國際頻道 超清,北京電視台國際頻道 高清,北京電視台國際頻道(HD),北京電視台國際頻道-4K,北京電視台國際頻道-HD,北京電視台國際頻道-高清,北京電視台國際頻道HD,"
+  },
+  {
+    "epgid": "北海新闻综合",
+    "name": "北海新闻综合,北海新闻综合 HD,北海新闻综合 超清,北海新闻综合 高清,北海新闻综合(HD),北海新闻综合-4K,北海新闻综合-HD,北海新闻综合-高清,北海新闻综合HD,"
+  },
+  {
+    "epgid": "北海经济科教",
+    "name": "北海经济科教,北海经济科教 HD,北海经济科教 超清,北海经济科教 高清,北海经济科教(HD),北海经济科教-4K,北海经济科教-HD,北海经济科教-高清,北海经济科教HD,"
+  },
+  {
+    "epgid": "十堰新闻综合",
+    "name": "十堰新闻综合,十堰新闻综合 HD,十堰新闻综合 超清,十堰新闻综合 高清,十堰新闻综合(HD),十堰新闻综合-4K,十堰新闻综合-HD,十堰新闻综合-高清,十堰新闻综合HD,"
+  },
+  {
+    "epgid": "十堰经济旅游",
+    "name": "十堰经济旅游,十堰经济旅游 HD,十堰经济旅游 超清,十堰经济旅游 高清,十堰经济旅游(HD),十堰经济旅游-4K,十堰经济旅游-HD,十堰经济旅游-高清,十堰经济旅游HD,"
+  },
+  {
+    "epgid": "十方法界",
+    "name": "十方法界,十方法界 HD,十方法界 超清,十方法界 高清,十方法界(HD),十方法界-4K,十方法界-HD,十方法界-高清,十方法界HD,"
+  },
+  {
+    "epgid": "千禧經典台",
+    "name": "千禧經典台,千禧經典台 HD,千禧經典台 超清,千禧經典台 高清,千禧經典台(HD),千禧經典台-4K,千禧經典台-HD,千禧經典台-高清,千禧經典台HD,"
+  },
+  {
+    "epgid": "半島國際新聞台",
+    "name": "半島國際新聞台,半島國際新聞台 HD,半島國際新聞台 超清,半島國際新聞台 高清,半島國際新聞台(HD),半島國際新聞台-4K,半島國際新聞台-HD,半島國際新聞台-高清,半島國際新聞台HD,"
+  },
+  {
+    "epgid": "半島英語新聞台Al Jazeera English HD",
+    "name": "半島英語新聞台Al Jazeera English HD,半島英語新聞台Al Jazeera English HD HD,半島英語新聞台Al Jazeera English HD 超清,半島英語新聞台Al Jazeera English HD 高清,半島英語新聞台Al Jazeera English HD(HD),半島英語新聞台Al Jazeera English HD-4K,半島英語新聞台Al Jazeera English HD-HD,半島英語新聞台Al Jazeera English HD-高清,半島英語新聞台Al Jazeera English HDHD,"
+  },
+  {
+    "epgid": "半島電視台英語頻道",
+    "name": "半島電視台英語頻道,半島電視台英語頻道 HD,半島電視台英語頻道 超清,半島電視台英語頻道 高清,半島電視台英語頻道(HD),半島電視台英語頻道-4K,半島電視台英語頻道-HD,半島電視台英語頻道-高清,半島電視台英語頻道HD,"
+  },
+  {
+    "epgid": "半島電視台英語頻道",
+    "name": "半島電視台英語頻道,半島電視台英語頻道 HD,半島電視台英語頻道 超清,半島電視台英語頻道 高清,半島電視台英語頻道(HD),半島電視台英語頻道-4K,半島電視台英語頻道-HD,半島電視台英語頻道-高清,半島電視台英語頻道HD,"
+  },
+  {
+    "epgid": "南京信息",
+    "name": "南京信息,南京信息 HD,南京信息 超清,南京信息 高清,南京信息(HD),南京信息-4K,南京信息-HD,南京信息-高清,南京信息HD,"
+  },
+  {
+    "epgid": "南京十八",
+    "name": "南京十八,南京十八 HD,南京十八 超清,南京十八 高清,南京十八(HD),南京十八-4K,南京十八-HD,南京十八-高清,南京十八HD,"
+  },
+  {
+    "epgid": "南京少儿",
+    "name": "南京少儿,南京少儿 HD,南京少儿 超清,南京少儿 高清,南京少儿(HD),南京少儿-4K,南京少儿-HD,南京少儿-高清,南京少儿HD,"
+  },
+  {
+    "epgid": "南京影视",
+    "name": "南京影视,南京影视 HD,南京影视 超清,南京影视 高清,南京影视(HD),南京影视-4K,南京影视-HD,南京影视-高清,南京影视HD,"
+  },
+  {
+    "epgid": "南京教科",
+    "name": "南京教科,南京教科 HD,南京教科 超清,南京教科 高清,南京教科(HD),南京教科-4K,南京教科-HD,南京教科-高清,南京教科HD,"
+  },
+  {
+    "epgid": "南京新闻综合",
+    "name": "南京新闻综合,南京新闻综合 HD,南京新闻综合 超清,南京新闻综合 高清,南京新闻综合(HD),南京新闻综合-4K,南京新闻综合-HD,南京新闻综合-高清,南京新闻综合HD,"
+  },
+  {
+    "epgid": "南京电视台",
+    "name": "南京电视台,南京电视台 HD,南京电视台 超清,南京电视台 高清,南京电视台(HD),南京电视台-4K,南京电视台-HD,南京电视台-高清,南京电视台HD,"
+  },
+  {
+    "epgid": "南充综合",
+    "name": "南充综合,南充综合 HD,南充综合 超清,南充综合 高清,南充综合(HD),南充综合-4K,南充综合-HD,南充综合-高清,南充综合HD,"
+  },
+  {
+    "epgid": "南方卫视",
+    "name": "南方卫视,南方卫视 HD,南方卫视 超清,南方卫视 高清,南方卫视(HD),南方卫视-4K,南方卫视-HD,南方卫视-高清,南方卫视HD,"
+  },
+  {
+    "epgid": "南方卫视",
+    "name": "南方卫视,南方卫视 HD,南方卫视 超清,南方卫视 高清,南方卫视(HD),南方卫视-4K,南方卫视-HD,南方卫视-高清,南方卫视HD,"
+  },
+  {
+    "epgid": "南昌新闻综合",
+    "name": "南昌新闻综合,南昌新闻综合 HD,南昌新闻综合 超清,南昌新闻综合 高清,南昌新闻综合(HD),南昌新闻综合-4K,南昌新闻综合-HD,南昌新闻综合-高清,南昌新闻综合HD,"
+  },
+  {
+    "epgid": "南昌资讯",
+    "name": "南昌资讯,南昌资讯 HD,南昌资讯 超清,南昌资讯 高清,南昌资讯(HD),南昌资讯-4K,南昌资讯-HD,南昌资讯-高清,南昌资讯HD,"
+  },
+  {
+    "epgid": "南昌都市",
+    "name": "南昌都市,南昌都市 HD,南昌都市 超清,南昌都市 高清,南昌都市(HD),南昌都市-4K,南昌都市-HD,南昌都市-高清,南昌都市HD,"
+  },
+  {
+    "epgid": "南桃園公用頻道",
+    "name": "南桃園公用頻道,南桃園公用頻道 HD,南桃園公用頻道 超清,南桃園公用頻道 高清,南桃園公用頻道(HD),南桃園公用頻道-4K,南桃園公用頻道-HD,南桃園公用頻道-高清,南桃園公用頻道HD,"
+  },
+  {
+    "epgid": "南桃園節目總表",
+    "name": "南桃園節目總表,南桃園節目總表 HD,南桃園節目總表 超清,南桃園節目總表 高清,南桃園節目總表(HD),南桃園節目總表-4K,南桃園節目總表-HD,南桃園節目總表-高清,南桃園節目總表HD,"
+  },
+  {
+    "epgid": "南通新闻综合",
+    "name": "南通新闻综合,南通新闻综合 HD,南通新闻综合 超清,南通新闻综合 高清,南通新闻综合(HD),南通新闻综合-4K,南通新闻综合-HD,南通新闻综合-高清,南通新闻综合HD,"
+  },
+  {
+    "epgid": "南阳3科教",
+    "name": "南阳3科教,南阳3科教 HD,南阳3科教 超清,南阳3科教 高清,南阳3科教(HD),南阳3科教-4K,南阳3科教-HD,南阳3科教-高清,南阳3科教HD,"
+  },
+  {
+    "epgid": "博斯無限二台",
+    "name": "博斯無限二台,博斯無限二台 HD,博斯無限二台 超清,博斯無限二台 高清,博斯無限二台(HD),博斯無限二台-4K,博斯無限二台-HD,博斯無限二台-高清,博斯無限二台HD,"
+  },
+  {
+    "epgid": "博斯無限二台",
+    "name": "博斯無限二台,博斯無限二台 HD,博斯無限二台 超清,博斯無限二台 高清,博斯無限二台(HD),博斯無限二台-4K,博斯無限二台-HD,博斯無限二台-高清,博斯無限二台HD,"
+  },
+  {
+    "epgid": "博斯無限二台",
+    "name": "博斯無限二台,博斯無限二台 HD,博斯無限二台 超清,博斯無限二台 高清,博斯無限二台(HD),博斯無限二台-4K,博斯無限二台-HD,博斯無限二台-高清,博斯無限二台HD,"
+  },
+  {
+    "epgid": "博斯無限台",
+    "name": "博斯無限台,博斯無限台 HD,博斯無限台 超清,博斯無限台 高清,博斯無限台(HD),博斯無限台-4K,博斯無限台-HD,博斯無限台-高清,博斯無限台HD,"
+  },
+  {
+    "epgid": "博斯無限台",
+    "name": "博斯無限台,博斯無限台 HD,博斯無限台 超清,博斯無限台 高清,博斯無限台(HD),博斯無限台-4K,博斯無限台-HD,博斯無限台-高清,博斯無限台HD,"
+  },
+  {
+    "epgid": "博斯無限台HD",
+    "name": "博斯無限台HD,博斯無限台HD HD,博斯無限台HD 超清,博斯無限台HD 高清,博斯無限台HD(HD),博斯無限台HD-4K,博斯無限台HD-HD,博斯無限台HD-高清,博斯無限台HDHD,"
+  },
+  {
+    "epgid": "博斯網球HD",
+    "name": "博斯網球HD,博斯網球HD HD,博斯網球HD 超清,博斯網球HD 高清,博斯網球HD(HD),博斯網球HD-4K,博斯網球HD-HD,博斯網球HD-高清,博斯網球HDHD,"
+  },
+  {
+    "epgid": "博斯網球台",
+    "name": "博斯網球台,博斯網球台 HD,博斯網球台 超清,博斯網球台 高清,博斯網球台(HD),博斯網球台-4K,博斯網球台-HD,博斯網球台-高清,博斯網球台HD,"
+  },
+  {
+    "epgid": "博斯網球台",
+    "name": "博斯網球台,博斯網球台 HD,博斯網球台 超清,博斯網球台 高清,博斯網球台(HD),博斯網球台-4K,博斯網球台-HD,博斯網球台-高清,博斯網球台HD,"
+  },
+  {
+    "epgid": "博斯運動一台",
+    "name": "博斯運動一台,博斯運動一台 HD,博斯運動一台 超清,博斯運動一台 高清,博斯運動一台(HD),博斯運動一台-4K,博斯運動一台-HD,博斯運動一台-高清,博斯運動一台HD,"
+  },
+  {
+    "epgid": "博斯運動一台",
+    "name": "博斯運動一台,博斯運動一台 HD,博斯運動一台 超清,博斯運動一台 高清,博斯運動一台(HD),博斯運動一台-4K,博斯運動一台-HD,博斯運動一台-高清,博斯運動一台HD,"
+  },
+  {
+    "epgid": "博斯運動一台",
+    "name": "博斯運動一台,博斯運動一台 HD,博斯運動一台 超清,博斯運動一台 高清,博斯運動一台(HD),博斯運動一台-4K,博斯運動一台-HD,博斯運動一台-高清,博斯運動一台HD,"
+  },
+  {
+    "epgid": "博斯運動二台",
+    "name": "博斯運動二台,博斯運動二台 HD,博斯運動二台 超清,博斯運動二台 高清,博斯運動二台(HD),博斯運動二台-4K,博斯運動二台-HD,博斯運動二台-高清,博斯運動二台HD,"
+  },
+  {
+    "epgid": "博斯運動二台",
+    "name": "博斯運動二台,博斯運動二台 HD,博斯運動二台 超清,博斯運動二台 高清,博斯運動二台(HD),博斯運動二台-4K,博斯運動二台-HD,博斯運動二台-高清,博斯運動二台HD,"
+  },
+  {
+    "epgid": "博斯運動二台HD",
+    "name": "博斯運動二台HD,博斯運動二台HD HD,博斯運動二台HD 超清,博斯運動二台HD 高清,博斯運動二台HD(HD),博斯運動二台HD-4K,博斯運動二台HD-HD,博斯運動二台HD-高清,博斯運動二台HDHD,"
+  },
+  {
+    "epgid": "博斯高球1台",
+    "name": "博斯高球1台,博斯高球1台 HD,博斯高球1台 超清,博斯高球1台 高清,博斯高球1台(HD),博斯高球1台-4K,博斯高球1台-HD,博斯高球1台-高清,博斯高球1台HD,"
+  },
+  {
+    "epgid": "博斯高球2台",
+    "name": "博斯高球2台,博斯高球2台 HD,博斯高球2台 超清,博斯高球2台 高清,博斯高球2台(HD),博斯高球2台-4K,博斯高球2台-HD,博斯高球2台-高清,博斯高球2台HD,"
+  },
+  {
+    "epgid": "博斯高球一台",
+    "name": "博斯高球一台,博斯高球一台 HD,博斯高球一台 超清,博斯高球一台 高清,博斯高球一台(HD),博斯高球一台-4K,博斯高球一台-HD,博斯高球一台-高清,博斯高球一台HD,"
+  },
+  {
+    "epgid": "博斯高球二台",
+    "name": "博斯高球二台,博斯高球二台 HD,博斯高球二台 超清,博斯高球二台 高清,博斯高球二台(HD),博斯高球二台-4K,博斯高球二台-HD,博斯高球二台-高清,博斯高球二台HD,"
+  },
+  {
+    "epgid": "博斯高球二台",
+    "name": "博斯高球二台,博斯高球二台 HD,博斯高球二台 超清,博斯高球二台 高清,博斯高球二台(HD),博斯高球二台-4K,博斯高球二台-HD,博斯高球二台-高清,博斯高球二台HD,"
+  },
+  {
+    "epgid": "博斯高球台",
+    "name": "博斯高球台,博斯高球台 HD,博斯高球台 超清,博斯高球台 高清,博斯高球台(HD),博斯高球台-4K,博斯高球台-HD,博斯高球台-高清,博斯高球台HD,"
+  },
+  {
+    "epgid": "博斯魅力HD",
+    "name": "博斯魅力HD,博斯魅力HD HD,博斯魅力HD 超清,博斯魅力HD 高清,博斯魅力HD(HD),博斯魅力HD-4K,博斯魅力HD-HD,博斯魅力HD-高清,博斯魅力HDHD,"
+  },
+  {
+    "epgid": "博斯魅力台",
+    "name": "博斯魅力台,博斯魅力台 HD,博斯魅力台 超清,博斯魅力台 高清,博斯魅力台(HD),博斯魅力台-4K,博斯魅力台-HD,博斯魅力台-高清,博斯魅力台HD,"
+  },
+  {
+    "epgid": "博斯魅力網",
+    "name": "博斯魅力網,博斯魅力網 HD,博斯魅力網 超清,博斯魅力網 高清,博斯魅力網(HD),博斯魅力網-4K,博斯魅力網-HD,博斯魅力網-高清,博斯魅力網HD,"
+  },
+  {
+    "epgid": "卡通頻道",
+    "name": "卡通頻道,卡通頻道 HD,卡通頻道 超清,卡通頻道 高清,卡通頻道(HD),卡通頻道-4K,卡通頻道-HD,卡通頻道-高清,卡通頻道HD,"
+  },
+  {
+    "epgid": "卡酷少儿",
+    "name": "卡酷少儿,卡酷少儿 HD,卡酷少儿 超清,卡酷少儿 高清,卡酷少儿(HD),卡酷少儿-4K,卡酷少儿-HD,卡酷少儿-高清,卡酷少儿HD,"
+  },
+  {
+    "epgid": "原住民族電視HD",
+    "name": "原住民族電視HD,原住民族電視HD HD,原住民族電視HD 超清,原住民族電視HD 高清,原住民族電視HD(HD),原住民族電視HD-4K,原住民族電視HD-HD,原住民族電視HD-高清,原住民族電視HDHD,"
+  },
+  {
+    "epgid": "原住民族電視台",
+    "name": "原住民族電視台,原住民族電視台 HD,原住民族電視台 超清,原住民族電視台 高清,原住民族電視台(HD),原住民族電視台-4K,原住民族電視台-HD,原住民族電視台-高清,原住民族電視台HD,"
+  },
+  {
+    "epgid": "原住民頻道",
+    "name": "原住民頻道,原住民頻道 HD,原住民頻道 超清,原住民頻道 高清,原住民頻道(HD),原住民頻道-4K,原住民頻道-HD,原住民頻道-高清,原住民頻道HD,"
+  },
+  {
+    "epgid": "厦门三套",
+    "name": "厦门三套,厦门三套 HD,厦门三套 超清,厦门三套 高清,厦门三套(HD),厦门三套-4K,厦门三套-HD,厦门三套-高清,厦门三套HD,"
+  },
+  {
+    "epgid": "厦门卫视",
+    "name": "厦门卫视,厦门卫视 HD,厦门卫视 超清,厦门卫视 高清,厦门卫视(HD),厦门卫视-4K,厦门卫视-HD,厦门卫视-高清,厦门卫视HD,"
+  },
+  {
+    "epgid": "厦门卫视",
+    "name": "厦门卫视,厦门卫视 HD,厦门卫视 超清,厦门卫视 高清,厦门卫视(HD),厦门卫视-4K,厦门卫视-HD,厦门卫视-高清,厦门卫视HD,"
+  },
+  {
+    "epgid": "厦门卫视",
+    "name": "厦门卫视,厦门卫视 HD,厦门卫视 超清,厦门卫视 高清,厦门卫视(HD),厦门卫视-4K,厦门卫视-HD,厦门卫视-高清,厦门卫视HD,"
+  },
+  {
+    "epgid": "厦门卫视 高清",
+    "name": "厦门卫视 高清,厦门卫视 高清 HD,厦门卫视 高清 超清,厦门卫视 高清 高清,厦门卫视 高清(HD),厦门卫视 高清-4K,厦门卫视 高清-HD,厦门卫视 高清-高清,厦门卫视 高清HD,"
+  },
+  {
+    "epgid": "厦门综合",
+    "name": "厦门综合,厦门综合 HD,厦门综合 超清,厦门综合 高清,厦门综合(HD),厦门综合-4K,厦门综合-HD,厦门综合-高清,厦门综合HD,"
+  },
+  {
+    "epgid": "古典音樂台HD",
+    "name": "古典音樂台HD,古典音樂台HD HD,古典音樂台HD 超清,古典音樂台HD 高清,古典音樂台HD(HD),古典音樂台HD-4K,古典音樂台HD-HD,古典音樂台HD-高清,古典音樂台HDHD,"
+  },
+  {
+    "epgid": "台州公共",
+    "name": "台州公共,台州公共 HD,台州公共 超清,台州公共 高清,台州公共(HD),台州公共-4K,台州公共-HD,台州公共-高清,台州公共HD,"
+  },
+  {
+    "epgid": "台州城市生活",
+    "name": "台州城市生活,台州城市生活 HD,台州城市生活 超清,台州城市生活 高清,台州城市生活(HD),台州城市生活-4K,台州城市生活-HD,台州城市生活-高清,台州城市生活HD,"
+  },
+  {
+    "epgid": "台州文化生活",
+    "name": "台州文化生活,台州文化生活 HD,台州文化生活 超清,台州文化生活 高清,台州文化生活(HD),台州文化生活-4K,台州文化生活-HD,台州文化生活-高清,台州文化生活HD,"
+  },
+  {
+    "epgid": "台州新闻综合",
+    "name": "台州新闻综合,台州新闻综合 HD,台州新闻综合 超清,台州新闻综合 高清,台州新闻综合(HD),台州新闻综合-4K,台州新闻综合-HD,台州新闻综合-高清,台州新闻综合HD,"
+  },
+  {
+    "epgid": "台灣戲劇HD",
+    "name": "台灣戲劇HD,台灣戲劇HD HD,台灣戲劇HD 超清,台灣戲劇HD 高清,台灣戲劇HD(HD),台灣戲劇HD-4K,台灣戲劇HD-HD,台灣戲劇HD-高清,台灣戲劇HDHD,"
+  },
+  {
+    "epgid": "台灣綜合台",
+    "name": "台灣綜合台,台灣綜合台 HD,台灣綜合台 超清,台灣綜合台 高清,台灣綜合台(HD),台灣綜合台-4K,台灣綜合台-HD,台灣綜合台-高清,台灣綜合台HD,"
+  },
+  {
+    "epgid": "台灣藝術台",
+    "name": "台灣藝術台,台灣藝術台 HD,台灣藝術台 超清,台灣藝術台 高清,台灣藝術台(HD),台灣藝術台-4K,台灣藝術台-HD,台灣藝術台-高清,台灣藝術台HD,"
+  },
+  {
+    "epgid": "台視",
+    "name": "台視,台視 HD,台視 超清,台視 高清,台視(HD),台視-4K,台視-HD,台視-高清,台視HD,"
+  },
+  {
+    "epgid": "台視HD",
+    "name": "台視HD,台視HD HD,台視HD 超清,台視HD 高清,台視HD(HD),台視HD-4K,台視HD-HD,台視HD-高清,台視HDHD,"
+  },
+  {
+    "epgid": "台視新聞HD",
+    "name": "台視新聞HD,台視新聞HD HD,台視新聞HD 超清,台視新聞HD 高清,台視新聞HD(HD),台視新聞HD-4K,台視新聞HD-HD,台視新聞HD-高清,台視新聞HDHD,"
+  },
+  {
+    "epgid": "台視新聞台",
+    "name": "台視新聞台,台視新聞台 HD,台視新聞台 超清,台視新聞台 高清,台視新聞台(HD),台視新聞台-4K,台視新聞台-HD,台視新聞台-高清,台視新聞台HD,"
+  },
+  {
+    "epgid": "台視綜合",
+    "name": "台視綜合,台視綜合 HD,台視綜合 超清,台視綜合 高清,台視綜合(HD),台視綜合-4K,台視綜合-HD,台視綜合-高清,台視綜合HD,"
+  },
+  {
+    "epgid": "台視綜合台",
+    "name": "台視綜合台,台視綜合台 HD,台視綜合台 超清,台視綜合台 高清,台視綜合台(HD),台視綜合台-4K,台視綜合台-HD,台視綜合台-高清,台視綜合台HD,"
+  },
+  {
+    "epgid": "台視財經HD",
+    "name": "台視財經HD,台視財經HD HD,台視財經HD 超清,台視財經HD 高清,台視財經HD(HD),台視財經HD-4K,台視財經HD-HD,台視財經HD-高清,台視財經HDHD,"
+  },
+  {
+    "epgid": "台視財經台",
+    "name": "台視財經台,台視財經台 HD,台視財經台 超清,台視財經台 高清,台視財經台(HD),台視財經台-4K,台視財經台-HD,台視財經台-高清,台視財經台HD,"
+  },
+  {
+    "epgid": "吉林乡村",
+    "name": "吉林乡村,吉林乡村 HD,吉林乡村 超清,吉林乡村 高清,吉林乡村(HD),吉林乡村-4K,吉林乡村-HD,吉林乡村-高清,吉林乡村HD,"
+  },
+  {
+    "epgid": "吉林卫视",
+    "name": "吉林卫视,吉林卫视 HD,吉林卫视 超清,吉林卫视 高清,吉林卫视(HD),吉林卫视-4K,吉林卫视-HD,吉林卫视-高清,吉林卫视HD,"
+  },
+  {
+    "epgid": "吉林卫视",
+    "name": "吉林卫视,吉林卫视 HD,吉林卫视 超清,吉林卫视 高清,吉林卫视(HD),吉林卫视-4K,吉林卫视-HD,吉林卫视-高清,吉林卫视HD,"
+  },
+  {
+    "epgid": "吉林卫视",
+    "name": "吉林卫视,吉林卫视 HD,吉林卫视 超清,吉林卫视 高清,吉林卫视(HD),吉林卫视-4K,吉林卫视-HD,吉林卫视-高清,吉林卫视HD,"
+  },
+  {
+    "epgid": "吉林市公共",
+    "name": "吉林市公共,吉林市公共 HD,吉林市公共 超清,吉林市公共 高清,吉林市公共(HD),吉林市公共-4K,吉林市公共-HD,吉林市公共-高清,吉林市公共HD,"
+  },
+  {
+    "epgid": "吉林市新闻",
+    "name": "吉林市新闻,吉林市新闻 HD,吉林市新闻 超清,吉林市新闻 高清,吉林市新闻(HD),吉林市新闻-4K,吉林市新闻-HD,吉林市新闻-高清,吉林市新闻HD,"
+  },
+  {
+    "epgid": "吉林市科教",
+    "name": "吉林市科教,吉林市科教 HD,吉林市科教 超清,吉林市科教 高清,吉林市科教(HD),吉林市科教-4K,吉林市科教-HD,吉林市科教-高清,吉林市科教HD,"
+  },
+  {
+    "epgid": "吉林影视",
+    "name": "吉林影视,吉林影视 HD,吉林影视 超清,吉林影视 高清,吉林影视(HD),吉林影视-4K,吉林影视-HD,吉林影视-高清,吉林影视HD,"
+  },
+  {
+    "epgid": "吉林生活",
+    "name": "吉林生活,吉林生活 HD,吉林生活 超清,吉林生活 高清,吉林生活(HD),吉林生活-4K,吉林生活-HD,吉林生活-高清,吉林生活HD,"
+  },
+  {
+    "epgid": "吉林综艺文化",
+    "name": "吉林综艺文化,吉林综艺文化 HD,吉林综艺文化 超清,吉林综艺文化 高清,吉林综艺文化(HD),吉林综艺文化-4K,吉林综艺文化-HD,吉林综艺文化-高清,吉林综艺文化HD,"
+  },
+  {
+    "epgid": "吉林都市",
+    "name": "吉林都市,吉林都市 HD,吉林都市 超清,吉林都市 高清,吉林都市(HD),吉林都市-4K,吉林都市-HD,吉林都市-高清,吉林都市HD,"
+  },
+  {
+    "epgid": "吉视乡村",
+    "name": "吉视乡村,吉视乡村 HD,吉视乡村 超清,吉视乡村 高清,吉视乡村(HD),吉视乡村-4K,吉视乡村-HD,吉视乡村-高清,吉视乡村HD,"
+  },
+  {
+    "epgid": "吉视影视",
+    "name": "吉视影视,吉视影视 HD,吉视影视 超清,吉视影视 高清,吉视影视(HD),吉视影视-4K,吉视影视-HD,吉视影视-高清,吉视影视HD,"
+  },
+  {
+    "epgid": "吉视生活",
+    "name": "吉视生活,吉视生活 HD,吉视生活 超清,吉视生活 高清,吉视生活(HD),吉视生活-4K,吉视生活-HD,吉视生活-高清,吉视生活HD,"
+  },
+  {
+    "epgid": "吉视综艺文化",
+    "name": "吉视综艺文化,吉视综艺文化 HD,吉视综艺文化 超清,吉视综艺文化 高清,吉视综艺文化(HD),吉视综艺文化-4K,吉视综艺文化-HD,吉视综艺文化-高清,吉视综艺文化HD,"
+  },
+  {
+    "epgid": "吉视都市",
+    "name": "吉视都市,吉视都市 HD,吉视都市 超清,吉视都市 高清,吉视都市(HD),吉视都市-4K,吉视都市-HD,吉视都市-高清,吉视都市HD,"
+  },
+  {
+    "epgid": "吴江新闻综合",
+    "name": "吴江新闻综合,吴江新闻综合 HD,吴江新闻综合 超清,吴江新闻综合 高清,吴江新闻综合(HD),吴江新闻综合-4K,吴江新闻综合-HD,吴江新闻综合-高清,吴江新闻综合HD,"
+  },
+  {
+    "epgid": "周口1新闻综合",
+    "name": "周口1新闻综合,周口1新闻综合 HD,周口1新闻综合 超清,周口1新闻综合 高清,周口1新闻综合(HD),周口1新闻综合-4K,周口1新闻综合-HD,周口1新闻综合-高清,周口1新闻综合HD,"
+  },
+  {
+    "epgid": "周口2公共",
+    "name": "周口2公共,周口2公共 HD,周口2公共 超清,周口2公共 高清,周口2公共(HD),周口2公共-4K,周口2公共-HD,周口2公共-高清,周口2公共HD,"
+  },
+  {
+    "epgid": "呼和浩特影视",
+    "name": "呼和浩特影视,呼和浩特影视 HD,呼和浩特影视 超清,呼和浩特影视 高清,呼和浩特影视(HD),呼和浩特影视-4K,呼和浩特影视-HD,呼和浩特影视-高清,呼和浩特影视HD,"
+  },
+  {
+    "epgid": "呼和浩特综合",
+    "name": "呼和浩特综合,呼和浩特综合 HD,呼和浩特综合 超清,呼和浩特综合 高清,呼和浩特综合(HD),呼和浩特综合-4K,呼和浩特综合-HD,呼和浩特综合-高清,呼和浩特综合HD,"
+  },
+  {
+    "epgid": "呼和浩特都市",
+    "name": "呼和浩特都市,呼和浩特都市 HD,呼和浩特都市 超清,呼和浩特都市 高清,呼和浩特都市(HD),呼和浩特都市-4K,呼和浩特都市-HD,呼和浩特都市-高清,呼和浩特都市HD,"
+  },
+  {
+    "epgid": "咪咕综合体育",
+    "name": "咪咕综合体育,咪咕综合体育 HD,咪咕综合体育 超清,咪咕综合体育 高清,咪咕综合体育(HD),咪咕综合体育-4K,咪咕综合体育-HD,咪咕综合体育-高清,咪咕综合体育HD,"
+  },
+  {
+    "epgid": "咪咕足球",
+    "name": "咪咕足球,咪咕足球 HD,咪咕足球 超清,咪咕足球 高清,咪咕足球(HD),咪咕足球-4K,咪咕足球-HD,咪咕足球-高清,咪咕足球HD,"
+  },
+  {
+    "epgid": "唯心電視HD",
+    "name": "唯心電視HD,唯心電視HD HD,唯心電視HD 超清,唯心電視HD 高清,唯心電視HD(HD),唯心電視HD-4K,唯心電視HD-HD,唯心電視HD-高清,唯心電視HDHD,"
+  },
+  {
+    "epgid": "唯心電視台",
+    "name": "唯心電視台,唯心電視台 HD,唯心電視台 超清,唯心電視台 高清,唯心電視台(HD),唯心電視台-4K,唯心電視台-HD,唯心電視台-高清,唯心電視台HD,"
+  },
+  {
+    "epgid": "四大名著剧场",
+    "name": "四大名著剧场,四大名著剧场 HD,四大名著剧场 超清,四大名著剧场 高清,四大名著剧场(HD),四大名著剧场-4K,四大名著剧场-HD,四大名著剧场-高清,四大名著剧场HD,"
+  },
+  {
+    "epgid": "四川卫视",
+    "name": "四川卫视,四川卫视 HD,四川卫视 超清,四川卫视 高清,四川卫视(HD),四川卫视-4K,四川卫视-HD,四川卫视-高清,四川卫视HD,"
+  },
+  {
+    "epgid": "四川卫视",
+    "name": "四川卫视,四川卫视 HD,四川卫视 超清,四川卫视 高清,四川卫视(HD),四川卫视-4K,四川卫视-HD,四川卫视-高清,四川卫视HD,"
+  },
+  {
+    "epgid": "四川卫视",
+    "name": "四川卫视,四川卫视 HD,四川卫视 超清,四川卫视 高清,四川卫视(HD),四川卫视-4K,四川卫视-HD,四川卫视-高清,四川卫视HD,"
+  },
+  {
+    "epgid": "四川卫视 高清",
+    "name": "四川卫视 高清,四川卫视 高清 HD,四川卫视 高清 超清,四川卫视 高清 高清,四川卫视 高清(HD),四川卫视 高清-4K,四川卫视 高清-HD,四川卫视 高清-高清,四川卫视 高清HD,"
+  },
+  {
+    "epgid": "四川经济",
+    "name": "四川经济,四川经济 HD,四川经济 超清,四川经济 高清,四川经济(HD),四川经济-4K,四川经济-HD,四川经济-高清,四川经济HD,"
+  },
+  {
+    "epgid": "國會頻道1",
+    "name": "國會頻道1,國會頻道1 HD,國會頻道1 超清,國會頻道1 高清,國會頻道1(HD),國會頻道1-4K,國會頻道1-HD,國會頻道1-高清,國會頻道1HD,"
+  },
+  {
+    "epgid": "國會頻道1HD",
+    "name": "國會頻道1HD,國會頻道1HD HD,國會頻道1HD 超清,國會頻道1HD 高清,國會頻道1HD(HD),國會頻道1HD-4K,國會頻道1HD-HD,國會頻道1HD-高清,國會頻道1HDHD,"
+  },
+  {
+    "epgid": "國會頻道1台",
+    "name": "國會頻道1台,國會頻道1台 HD,國會頻道1台 超清,國會頻道1台 高清,國會頻道1台(HD),國會頻道1台-4K,國會頻道1台-HD,國會頻道1台-高清,國會頻道1台HD,"
+  },
+  {
+    "epgid": "國會頻道2",
+    "name": "國會頻道2,國會頻道2 HD,國會頻道2 超清,國會頻道2 高清,國會頻道2(HD),國會頻道2-4K,國會頻道2-HD,國會頻道2-高清,國會頻道2HD,"
+  },
+  {
+    "epgid": "國會頻道2HD",
+    "name": "國會頻道2HD,國會頻道2HD HD,國會頻道2HD 超清,國會頻道2HD 高清,國會頻道2HD(HD),國會頻道2HD-4K,國會頻道2HD-HD,國會頻道2HD-高清,國會頻道2HDHD,"
+  },
+  {
+    "epgid": "國會頻道2台",
+    "name": "國會頻道2台,國會頻道2台 HD,國會頻道2台 超清,國會頻道2台 高清,國會頻道2台(HD),國會頻道2台-4K,國會頻道2台-HD,國會頻道2台-高清,國會頻道2台HD,"
+  },
+  {
+    "epgid": "國興衛視",
+    "name": "國興衛視,國興衛視 HD,國興衛視 超清,國興衛視 高清,國興衛視(HD),國興衛視-4K,國興衛視-HD,國興衛視-高清,國興衛視HD,"
+  },
+  {
+    "epgid": "壹電視新聞HD",
+    "name": "壹電視新聞HD,壹電視新聞HD HD,壹電視新聞HD 超清,壹電視新聞HD 高清,壹電視新聞HD(HD),壹電視新聞HD-4K,壹電視新聞HD-HD,壹電視新聞HD-高清,壹電視新聞HDHD,"
+  },
+  {
+    "epgid": "壹電視新聞台",
+    "name": "壹電視新聞台,壹電視新聞台 HD,壹電視新聞台 超清,壹電視新聞台 高清,壹電視新聞台(HD),壹電視新聞台-4K,壹電視新聞台-HD,壹電視新聞台-高清,壹電視新聞台HD,"
+  },
+  {
+    "epgid": "壹電視綜合 HD",
+    "name": "壹電視綜合 HD,壹電視綜合 HD HD,壹電視綜合 HD 超清,壹電視綜合 HD 高清,壹電視綜合 HD(HD),壹電視綜合 HD-4K,壹電視綜合 HD-HD,壹電視綜合 HD-高清,壹電視綜合 HDHD,"
+  },
+  {
+    "epgid": "壹電視資訊綜合台",
+    "name": "壹電視資訊綜合台,壹電視資訊綜合台 HD,壹電視資訊綜合台 超清,壹電視資訊綜合台 高清,壹電視資訊綜合台(HD),壹電視資訊綜合台-4K,壹電視資訊綜合台-HD,壹電視資訊綜合台-高清,壹電視資訊綜合台HD,"
+  },
+  {
+    "epgid": "壹電視電影台",
+    "name": "壹電視電影台,壹電視電影台 HD,壹電視電影台 超清,壹電視電影台 高清,壹電視電影台(HD),壹電視電影台-4K,壹電視電影台-HD,壹電視電影台-高清,壹電視電影台HD,"
+  },
+  {
+    "epgid": "壹電視電影台HD",
+    "name": "壹電視電影台HD,壹電視電影台HD HD,壹電視電影台HD 超清,壹電視電影台HD 高清,壹電視電影台HD(HD),壹電視電影台HD-4K,壹電視電影台HD-HD,壹電視電影台HD-高清,壹電視電影台HDHD,"
+  },
+  {
+    "epgid": "大台中生活頻道",
+    "name": "大台中生活頻道,大台中生活頻道 HD,大台中生活頻道 超清,大台中生活頻道 高清,大台中生活頻道(HD),大台中生活頻道-4K,大台中生活頻道-HD,大台中生活頻道-高清,大台中生活頻道HD,"
+  },
+  {
+    "epgid": "大庆新闻综合",
+    "name": "大庆新闻综合,大庆新闻综合 HD,大庆新闻综合 超清,大庆新闻综合 高清,大庆新闻综合(HD),大庆新闻综合-4K,大庆新闻综合-HD,大庆新闻综合-高清,大庆新闻综合HD,"
+  },
+  {
+    "epgid": "大愛二台",
+    "name": "大愛二台,大愛二台 HD,大愛二台 超清,大愛二台 高清,大愛二台(HD),大愛二台-4K,大愛二台-HD,大愛二台-高清,大愛二台HD,"
+  },
+  {
+    "epgid": "大愛二台",
+    "name": "大愛二台,大愛二台 HD,大愛二台 超清,大愛二台 高清,大愛二台(HD),大愛二台-4K,大愛二台-HD,大愛二台-高清,大愛二台HD,"
+  },
+  {
+    "epgid": "大愛二台HD",
+    "name": "大愛二台HD,大愛二台HD HD,大愛二台HD 超清,大愛二台HD 高清,大愛二台HD(HD),大愛二台HD-4K,大愛二台HD-HD,大愛二台HD-高清,大愛二台HDHD,"
+  },
+  {
+    "epgid": "大愛電視",
+    "name": "大愛電視,大愛電視 HD,大愛電視 超清,大愛電視 高清,大愛電視(HD),大愛電視-4K,大愛電視-HD,大愛電視-高清,大愛電視HD,"
+  },
+  {
+    "epgid": "大愛電視HD",
+    "name": "大愛電視HD,大愛電視HD HD,大愛電視HD 超清,大愛電視HD 高清,大愛電視HD(HD),大愛電視HD-4K,大愛電視HD-HD,大愛電視HD-高清,大愛電視HDHD,"
+  },
+  {
+    "epgid": "大愛電視台",
+    "name": "大愛電視台,大愛電視台 HD,大愛電視台 超清,大愛電視台 高清,大愛電視台(HD),大愛電視台-4K,大愛電視台-HD,大愛電視台-高清,大愛電視台HD,"
+  },
+  {
+    "epgid": "大湾区卫视",
+    "name": "大湾区卫视,大湾区卫视 HD,大湾区卫视 超清,大湾区卫视 高清,大湾区卫视(HD),大湾区卫视-4K,大湾区卫视-HD,大湾区卫视-高清,大湾区卫视HD,"
+  },
+  {
+    "epgid": "大灣區衛視",
+    "name": "大灣區衛視,大灣區衛視 HD,大灣區衛視 超清,大灣區衛視 高清,大灣區衛視(HD),大灣區衛視-4K,大灣區衛視-HD,大灣區衛視-高清,大灣區衛視HD,"
+  },
+  {
+    "epgid": "大立電視台",
+    "name": "大立電視台,大立電視台 HD,大立電視台 超清,大立電視台 高清,大立電視台(HD),大立電視台-4K,大立電視台-HD,大立電視台-高清,大立電視台HD,"
+  },
+  {
+    "epgid": "大立電視台 HD",
+    "name": "大立電視台 HD,大立電視台 HD HD,大立電視台 HD 超清,大立電視台 HD 高清,大立電視台 HD(HD),大立電視台 HD-4K,大立電視台 HD-HD,大立電視台 HD-高清,大立電視台 HDHD,"
+  },
+  {
+    "epgid": "天映經典頻道",
+    "name": "天映經典頻道,天映經典頻道 HD,天映經典頻道 超清,天映經典頻道 高清,天映經典頻道(HD),天映經典頻道-4K,天映經典頻道-HD,天映經典頻道-高清,天映經典頻道HD,"
+  },
+  {
+    "epgid": "天津体育",
+    "name": "天津体育,天津体育 HD,天津体育 超清,天津体育 高清,天津体育(HD),天津体育-4K,天津体育-HD,天津体育-高清,天津体育HD,"
+  },
+  {
+    "epgid": "天津卫视",
+    "name": "天津卫视,天津卫视 HD,天津卫视 超清,天津卫视 高清,天津卫视(HD),天津卫视-4K,天津卫视-HD,天津卫视-高清,天津卫视HD,"
+  },
+  {
+    "epgid": "天津卫视",
+    "name": "天津卫视,天津卫视 HD,天津卫视 超清,天津卫视 高清,天津卫视(HD),天津卫视-4K,天津卫视-HD,天津卫视-高清,天津卫视HD,"
+  },
+  {
+    "epgid": "天津卫视",
+    "name": "天津卫视,天津卫视 HD,天津卫视 超清,天津卫视 高清,天津卫视(HD),天津卫视-4K,天津卫视-HD,天津卫视-高清,天津卫视HD,"
+  },
+  {
+    "epgid": "天津卫视 高清",
+    "name": "天津卫视 高清,天津卫视 高清 HD,天津卫视 高清 超清,天津卫视 高清 高清,天津卫视 高清(HD),天津卫视 高清-4K,天津卫视 高清-HD,天津卫视 高清-高清,天津卫视 高清HD,"
+  },
+  {
+    "epgid": "天津少儿",
+    "name": "天津少儿,天津少儿 HD,天津少儿 超清,天津少儿 高清,天津少儿(HD),天津少儿-4K,天津少儿-HD,天津少儿-高清,天津少儿HD,"
+  },
+  {
+    "epgid": "天津影视",
+    "name": "天津影视,天津影视 HD,天津影视 超清,天津影视 高清,天津影视(HD),天津影视-4K,天津影视-HD,天津影视-高清,天津影视HD,"
+  },
+  {
+    "epgid": "天津教育",
+    "name": "天津教育,天津教育 HD,天津教育 超清,天津教育 高清,天津教育(HD),天津教育-4K,天津教育-HD,天津教育-高清,天津教育HD,"
+  },
+  {
+    "epgid": "天津文艺",
+    "name": "天津文艺,天津文艺 HD,天津文艺 超清,天津文艺 高清,天津文艺(HD),天津文艺-4K,天津文艺-HD,天津文艺-高清,天津文艺HD,"
+  },
+  {
+    "epgid": "天津新闻",
+    "name": "天津新闻,天津新闻 HD,天津新闻 超清,天津新闻 高清,天津新闻(HD),天津新闻-4K,天津新闻-HD,天津新闻-高清,天津新闻HD,"
+  },
+  {
+    "epgid": "天津都市",
+    "name": "天津都市,天津都市 HD,天津都市 超清,天津都市 高清,天津都市(HD),天津都市-4K,天津都市-HD,天津都市-高清,天津都市HD,"
+  },
+  {
+    "epgid": "天美麗電視台",
+    "name": "天美麗電視台,天美麗電視台 HD,天美麗電視台 超清,天美麗電視台 高清,天美麗電視台(HD),天美麗電視台-4K,天美麗電視台-HD,天美麗電視台-高清,天美麗電視台HD,"
+  },
+  {
+    "epgid": "天良綜合台",
+    "name": "天良綜合台,天良綜合台 HD,天良綜合台 超清,天良綜合台 高清,天良綜合台(HD),天良綜合台-4K,天良綜合台-HD,天良綜合台-高清,天良綜合台HD,"
+  },
+  {
+    "epgid": "天良綜合台 HD",
+    "name": "天良綜合台 HD,天良綜合台 HD HD,天良綜合台 HD 超清,天良綜合台 HD 高清,天良綜合台 HD(HD),天良綜合台 HD-4K,天良綜合台 HD-HD,天良綜合台 HD-高清,天良綜合台 HDHD,"
+  },
+  {
+    "epgid": "太原教育",
+    "name": "太原教育,太原教育 HD,太原教育 超清,太原教育 高清,太原教育(HD),太原教育-4K,太原教育-HD,太原教育-高清,太原教育HD,"
+  },
+  {
+    "epgid": "太原新闻综合",
+    "name": "太原新闻综合,太原新闻综合 HD,太原新闻综合 超清,太原新闻综合 高清,太原新闻综合(HD),太原新闻综合-4K,太原新闻综合-HD,太原新闻综合-高清,太原新闻综合HD,"
+  },
+  {
+    "epgid": "太原百姓",
+    "name": "太原百姓,太原百姓 HD,太原百姓 超清,太原百姓 高清,太原百姓(HD),太原百姓-4K,太原百姓-HD,太原百姓-高清,太原百姓HD,"
+  },
+  {
+    "epgid": "好消息",
+    "name": "好消息,好消息 HD,好消息 超清,好消息 高清,好消息(HD),好消息-4K,好消息-HD,好消息-高清,好消息HD,"
+  },
+  {
+    "epgid": "好消息2台",
+    "name": "好消息2台,好消息2台 HD,好消息2台 超清,好消息2台 高清,好消息2台(HD),好消息2台-4K,好消息2台-HD,好消息2台-高清,好消息2台HD,"
+  },
+  {
+    "epgid": "好消息HD",
+    "name": "好消息HD,好消息HD HD,好消息HD 超清,好消息HD 高清,好消息HD(HD),好消息HD-4K,好消息HD-HD,好消息HD-高清,好消息HDHD,"
+  },
+  {
+    "epgid": "好消息二台",
+    "name": "好消息二台,好消息二台 HD,好消息二台 超清,好消息二台 高清,好消息二台(HD),好消息二台-4K,好消息二台-HD,好消息二台-高清,好消息二台HD,"
+  },
+  {
+    "epgid": "好消息頻道",
+    "name": "好消息頻道,好消息頻道 HD,好消息頻道 超清,好消息頻道 高清,好消息頻道(HD),好消息頻道-4K,好消息頻道-HD,好消息頻道-高清,好消息頻道HD,"
+  },
+  {
+    "epgid": "好萊塢電影台",
+    "name": "好萊塢電影台,好萊塢電影台 HD,好萊塢電影台 超清,好萊塢電影台 高清,好萊塢電影台(HD),好萊塢電影台-4K,好萊塢電影台-HD,好萊塢電影台-高清,好萊塢電影台HD,"
+  },
+  {
+    "epgid": "威達超舜生活台",
+    "name": "威達超舜生活台,威達超舜生活台 HD,威達超舜生活台 超清,威達超舜生活台 高清,威達超舜生活台(HD),威達超舜生活台-4K,威達超舜生活台-HD,威達超舜生活台-高清,威達超舜生活台HD,"
+  },
+  {
+    "epgid": "娛樂新聞台",
+    "name": "娛樂新聞台,娛樂新聞台 HD,娛樂新聞台 超清,娛樂新聞台 高清,娛樂新聞台(HD),娛樂新聞台-4K,娛樂新聞台-HD,娛樂新聞台-高清,娛樂新聞台HD,"
+  },
+  {
+    "epgid": "孝感新闻综合",
+    "name": "孝感新闻综合,孝感新闻综合 HD,孝感新闻综合 超清,孝感新闻综合 高清,孝感新闻综合(HD),孝感新闻综合-4K,孝感新闻综合-HD,孝感新闻综合-高清,孝感新闻综合HD,"
+  },
+  {
+    "epgid": "孝感生活",
+    "name": "孝感生活,孝感生活 HD,孝感生活 超清,孝感生活 高清,孝感生活(HD),孝感生活-4K,孝感生活-HD,孝感生活-高清,孝感生活HD,"
+  },
+  {
+    "epgid": "宁夏公共",
+    "name": "宁夏公共,宁夏公共 HD,宁夏公共 超清,宁夏公共 高清,宁夏公共(HD),宁夏公共-4K,宁夏公共-HD,宁夏公共-高清,宁夏公共HD,"
+  },
+  {
+    "epgid": "宁夏卫视",
+    "name": "宁夏卫视,宁夏卫视 HD,宁夏卫视 超清,宁夏卫视 高清,宁夏卫视(HD),宁夏卫视-4K,宁夏卫视-HD,宁夏卫视-高清,宁夏卫视HD,"
+  },
+  {
+    "epgid": "宁夏卫视",
+    "name": "宁夏卫视,宁夏卫视 HD,宁夏卫视 超清,宁夏卫视 高清,宁夏卫视(HD),宁夏卫视-4K,宁夏卫视-HD,宁夏卫视-高清,宁夏卫视HD,"
+  },
+  {
+    "epgid": "宁夏卫视",
+    "name": "宁夏卫视,宁夏卫视 HD,宁夏卫视 超清,宁夏卫视 高清,宁夏卫视(HD),宁夏卫视-4K,宁夏卫视-HD,宁夏卫视-高清,宁夏卫视HD,"
+  },
+  {
+    "epgid": "宁夏少儿",
+    "name": "宁夏少儿,宁夏少儿 HD,宁夏少儿 超清,宁夏少儿 高清,宁夏少儿(HD),宁夏少儿-4K,宁夏少儿-HD,宁夏少儿-高清,宁夏少儿HD,"
+  },
+  {
+    "epgid": "宁夏教育",
+    "name": "宁夏教育,宁夏教育 HD,宁夏教育 超清,宁夏教育 高清,宁夏教育(HD),宁夏教育-4K,宁夏教育-HD,宁夏教育-高清,宁夏教育HD,"
+  },
+  {
+    "epgid": "宁夏经济",
+    "name": "宁夏经济,宁夏经济 HD,宁夏经济 超清,宁夏经济 高清,宁夏经济(HD),宁夏经济-4K,宁夏经济-HD,宁夏经济-高清,宁夏经济HD,"
+  },
+  {
+    "epgid": "安徽公共",
+    "name": "安徽公共,安徽公共 HD,安徽公共 超清,安徽公共 高清,安徽公共(HD),安徽公共-4K,安徽公共-HD,安徽公共-高清,安徽公共HD,"
+  },
+  {
+    "epgid": "安徽农业科教",
+    "name": "安徽农业科教,安徽农业科教 HD,安徽农业科教 超清,安徽农业科教 高清,安徽农业科教(HD),安徽农业科教-4K,安徽农业科教-HD,安徽农业科教-高清,安徽农业科教HD,"
+  },
+  {
+    "epgid": "安徽卫视",
+    "name": "安徽卫视,安徽卫视 HD,安徽卫视 超清,安徽卫视 高清,安徽卫视(HD),安徽卫视-4K,安徽卫视-HD,安徽卫视-高清,安徽卫视HD,"
+  },
+  {
+    "epgid": "安徽卫视",
+    "name": "安徽卫视,安徽卫视 HD,安徽卫视 超清,安徽卫视 高清,安徽卫视(HD),安徽卫视-4K,安徽卫视-HD,安徽卫视-高清,安徽卫视HD,"
+  },
+  {
+    "epgid": "安徽卫视",
+    "name": "安徽卫视,安徽卫视 HD,安徽卫视 超清,安徽卫视 高清,安徽卫视(HD),安徽卫视-4K,安徽卫视-HD,安徽卫视-高清,安徽卫视HD,"
+  },
+  {
+    "epgid": "安徽卫视 高清",
+    "name": "安徽卫视 高清,安徽卫视 高清 HD,安徽卫视 高清 超清,安徽卫视 高清 高清,安徽卫视 高清(HD),安徽卫视 高清-4K,安徽卫视 高清-HD,安徽卫视 高清-高清,安徽卫视 高清HD,"
+  },
+  {
+    "epgid": "安徽廣播電視台國際頻道",
+    "name": "安徽廣播電視台國際頻道,安徽廣播電視台國際頻道 HD,安徽廣播電視台國際頻道 超清,安徽廣播電視台國際頻道 高清,安徽廣播電視台國際頻道(HD),安徽廣播電視台國際頻道-4K,安徽廣播電視台國際頻道-HD,安徽廣播電視台國際頻道-高清,安徽廣播電視台國際頻道HD,"
+  },
+  {
+    "epgid": "安徽影视",
+    "name": "安徽影视,安徽影视 HD,安徽影视 超清,安徽影视 高清,安徽影视(HD),安徽影视-4K,安徽影视-HD,安徽影视-高清,安徽影视HD,"
+  },
+  {
+    "epgid": "安徽科教",
+    "name": "安徽科教,安徽科教 HD,安徽科教 超清,安徽科教 高清,安徽科教(HD),安徽科教-4K,安徽科教-HD,安徽科教-高清,安徽科教HD,"
+  },
+  {
+    "epgid": "安徽经济生活",
+    "name": "安徽经济生活,安徽经济生活 HD,安徽经济生活 超清,安徽经济生活 高清,安徽经济生活(HD),安徽经济生活-4K,安徽经济生活-HD,安徽经济生活-高清,安徽经济生活HD,"
+  },
+  {
+    "epgid": "安徽经视",
+    "name": "安徽经视,安徽经视 HD,安徽经视 超清,安徽经视 高清,安徽经视(HD),安徽经视-4K,安徽经视-HD,安徽经视-高清,安徽经视HD,"
+  },
+  {
+    "epgid": "安徽综艺",
+    "name": "安徽综艺,安徽综艺 HD,安徽综艺 超清,安徽综艺 高清,安徽综艺(HD),安徽综艺-4K,安徽综艺-HD,安徽综艺-高清,安徽综艺HD,"
+  },
+  {
+    "epgid": "安徽综艺体育",
+    "name": "安徽综艺体育,安徽综艺体育 HD,安徽综艺体育 超清,安徽综艺体育 高清,安徽综艺体育(HD),安徽综艺体育-4K,安徽综艺体育-HD,安徽综艺体育-高清,安徽综艺体育HD,"
+  },
+  {
+    "epgid": "宜宾新闻综合",
+    "name": "宜宾新闻综合,宜宾新闻综合 HD,宜宾新闻综合 超清,宜宾新闻综合 高清,宜宾新闻综合(HD),宜宾新闻综合-4K,宜宾新闻综合-HD,宜宾新闻综合-高清,宜宾新闻综合HD,"
+  },
+  {
+    "epgid": "宜昌旅游生活",
+    "name": "宜昌旅游生活,宜昌旅游生活 HD,宜昌旅游生活 超清,宜昌旅游生活 高清,宜昌旅游生活(HD),宜昌旅游生活-4K,宜昌旅游生活-HD,宜昌旅游生活-高清,宜昌旅游生活HD,"
+  },
+  {
+    "epgid": "宜昌综合",
+    "name": "宜昌综合,宜昌综合 HD,宜昌综合 超清,宜昌综合 高清,宜昌综合(HD),宜昌综合-4K,宜昌综合-HD,宜昌综合-高清,宜昌综合HD,"
+  },
+  {
+    "epgid": "宜春新闻综合",
+    "name": "宜春新闻综合,宜春新闻综合 HD,宜春新闻综合 超清,宜春新闻综合 高清,宜春新闻综合(HD),宜春新闻综合-4K,宜春新闻综合-HD,宜春新闻综合-高清,宜春新闻综合HD,"
+  },
+  {
+    "epgid": "客家生活",
+    "name": "客家生活,客家生活 HD,客家生活 超清,客家生活 高清,客家生活(HD),客家生活-4K,客家生活-HD,客家生活-高清,客家生活HD,"
+  },
+  {
+    "epgid": "客家電視HD",
+    "name": "客家電視HD,客家電視HD HD,客家電視HD 超清,客家電視HD 高清,客家電視HD(HD),客家電視HD-4K,客家電視HD-HD,客家電視HD-高清,客家電視HDHD,"
+  },
+  {
+    "epgid": "客家電視台",
+    "name": "客家電視台,客家電視台 HD,客家電視台 超清,客家電視台 高清,客家電視台(HD),客家電視台-4K,客家電視台-HD,客家電視台-高清,客家電視台HD,"
+  },
+  {
+    "epgid": "客家電視台",
+    "name": "客家電視台,客家電視台 HD,客家電視台 超清,客家電視台 高清,客家電視台(HD),客家電視台-4K,客家電視台-HD,客家電視台-高清,客家電視台HD,"
+  },
+  {
+    "epgid": "富立電視台",
+    "name": "富立電視台,富立電視台 HD,富立電視台 超清,富立電視台 高清,富立電視台(HD),富立電視台-4K,富立電視台-HD,富立電視台-高清,富立電視台HD,"
+  },
+  {
+    "epgid": "富立電視台HD",
+    "name": "富立電視台HD,富立電視台HD HD,富立電視台HD 超清,富立電視台HD 高清,富立電視台HD(HD),富立電視台HD-4K,富立電視台HD-HD,富立電視台HD-高清,富立電視台HDHD,"
+  },
+  {
+    "epgid": "寰宇HD綜合",
+    "name": "寰宇HD綜合,寰宇HD綜合 HD,寰宇HD綜合 超清,寰宇HD綜合 高清,寰宇HD綜合(HD),寰宇HD綜合-4K,寰宇HD綜合-HD,寰宇HD綜合-高清,寰宇HD綜合HD,"
+  },
+  {
+    "epgid": "寰宇新聞HD",
+    "name": "寰宇新聞HD,寰宇新聞HD HD,寰宇新聞HD 超清,寰宇新聞HD 高清,寰宇新聞HD(HD),寰宇新聞HD-4K,寰宇新聞HD-HD,寰宇新聞HD-高清,寰宇新聞HDHD,"
+  },
+  {
+    "epgid": "寰宇新聞台",
+    "name": "寰宇新聞台,寰宇新聞台 HD,寰宇新聞台 超清,寰宇新聞台 高清,寰宇新聞台(HD),寰宇新聞台-4K,寰宇新聞台-HD,寰宇新聞台-高清,寰宇新聞台HD,"
+  },
+  {
+    "epgid": "寰宇新聞台",
+    "name": "寰宇新聞台,寰宇新聞台 HD,寰宇新聞台 超清,寰宇新聞台 高清,寰宇新聞台(HD),寰宇新聞台-4K,寰宇新聞台-HD,寰宇新聞台-高清,寰宇新聞台HD,"
+  },
+  {
+    "epgid": "寰宇新聞台灣台",
+    "name": "寰宇新聞台灣台,寰宇新聞台灣台 HD,寰宇新聞台灣台 超清,寰宇新聞台灣台 高清,寰宇新聞台灣台(HD),寰宇新聞台灣台-4K,寰宇新聞台灣台-HD,寰宇新聞台灣台-高清,寰宇新聞台灣台HD,"
+  },
+  {
+    "epgid": "寰宇新聞台灣台",
+    "name": "寰宇新聞台灣台,寰宇新聞台灣台 HD,寰宇新聞台灣台 超清,寰宇新聞台灣台 高清,寰宇新聞台灣台(HD),寰宇新聞台灣台-4K,寰宇新聞台灣台-HD,寰宇新聞台灣台-高清,寰宇新聞台灣台HD,"
+  },
+  {
+    "epgid": "寰宇新聞台灣台HD",
+    "name": "寰宇新聞台灣台HD,寰宇新聞台灣台HD HD,寰宇新聞台灣台HD 超清,寰宇新聞台灣台HD 高清,寰宇新聞台灣台HD(HD),寰宇新聞台灣台HD-4K,寰宇新聞台灣台HD-HD,寰宇新聞台灣台HD-高清,寰宇新聞台灣台HDHD,"
+  },
+  {
+    "epgid": "寰宇財經HD",
+    "name": "寰宇財經HD,寰宇財經HD HD,寰宇財經HD 超清,寰宇財經HD 高清,寰宇財經HD(HD),寰宇財經HD-4K,寰宇財經HD-HD,寰宇財經HD-高清,寰宇財經HDHD,"
+  },
+  {
+    "epgid": "寵物頻道",
+    "name": "寵物頻道,寵物頻道 HD,寵物頻道 超清,寵物頻道 高清,寵物頻道(HD),寵物頻道-4K,寵物頻道-HD,寵物頻道-高清,寵物頻道HD,"
+  },
+  {
+    "epgid": "寶島文化台",
+    "name": "寶島文化台,寶島文化台 HD,寶島文化台 超清,寶島文化台 高清,寶島文化台(HD),寶島文化台-4K,寶島文化台-HD,寶島文化台-高清,寶島文化台HD,"
+  },
+  {
+    "epgid": "小公視",
+    "name": "小公視,小公視 HD,小公視 超清,小公視 高清,小公視(HD),小公視-4K,小公視-HD,小公視-高清,小公視HD,"
+  },
+  {
+    "epgid": "小尼克頻道",
+    "name": "小尼克頻道,小尼克頻道 HD,小尼克頻道 超清,小尼克頻道 高清,小尼克頻道(HD),小尼克頻道-4K,小尼克頻道-HD,小尼克頻道-高清,小尼克頻道HD,"
+  },
+  {
+    "epgid": "尼克兒童頻道",
+    "name": "尼克兒童頻道,尼克兒童頻道 HD,尼克兒童頻道 超清,尼克兒童頻道 高清,尼克兒童頻道(HD),尼克兒童頻道-4K,尼克兒童頻道-HD,尼克兒童頻道-高清,尼克兒童頻道HD,"
+  },
+  {
+    "epgid": "尼克兒童頻道",
+    "name": "尼克兒童頻道,尼克兒童頻道 HD,尼克兒童頻道 超清,尼克兒童頻道 高清,尼克兒童頻道(HD),尼克兒童頻道-4K,尼克兒童頻道-HD,尼克兒童頻道-高清,尼克兒童頻道HD,"
+  },
+  {
+    "epgid": "尼克兒童頻道HD",
+    "name": "尼克兒童頻道HD,尼克兒童頻道HD HD,尼克兒童頻道HD 超清,尼克兒童頻道HD 高清,尼克兒童頻道HD(HD),尼克兒童頻道HD-4K,尼克兒童頻道HD-HD,尼克兒童頻道HD-高清,尼克兒童頻道HDHD,"
+  },
+  {
+    "epgid": "山东卫视",
+    "name": "山东卫视,山东卫视 HD,山东卫视 超清,山东卫视 高清,山东卫视(HD),山东卫视-4K,山东卫视-HD,山东卫视-高清,山东卫视HD,"
+  },
+  {
+    "epgid": "山东卫视",
+    "name": "山东卫视,山东卫视 HD,山东卫视 超清,山东卫视 高清,山东卫视(HD),山东卫视-4K,山东卫视-HD,山东卫视-高清,山东卫视HD,"
+  },
+  {
+    "epgid": "山东卫视",
+    "name": "山东卫视,山东卫视 HD,山东卫视 超清,山东卫视 高清,山东卫视(HD),山东卫视-4K,山东卫视-HD,山东卫视-高清,山东卫视HD,"
+  },
+  {
+    "epgid": "山东卫视 高清",
+    "name": "山东卫视 高清,山东卫视 高清 HD,山东卫视 高清 超清,山东卫视 高清 高清,山东卫视 高清(HD),山东卫视 高清-4K,山东卫视 高清-HD,山东卫视 高清-高清,山东卫视 高清HD,"
+  },
+  {
+    "epgid": "山东教育",
+    "name": "山东教育,山东教育 HD,山东教育 超清,山东教育 高清,山东教育(HD),山东教育-4K,山东教育-HD,山东教育-高清,山东教育HD,"
+  },
+  {
+    "epgid": "山东教育卫视",
+    "name": "山东教育卫视,山东教育卫视 HD,山东教育卫视 超清,山东教育卫视 高清,山东教育卫视(HD),山东教育卫视-4K,山东教育卫视-HD,山东教育卫视-高清,山东教育卫视HD,"
+  },
+  {
+    "epgid": "山东教育台",
+    "name": "山东教育台,山东教育台 HD,山东教育台 超清,山东教育台 高清,山东教育台(HD),山东教育台-4K,山东教育台-HD,山东教育台-高清,山东教育台HD,"
+  },
+  {
+    "epgid": "山东生活",
+    "name": "山东生活,山东生活 HD,山东生活 超清,山东生活 高清,山东生活(HD),山东生活-4K,山东生活-HD,山东生活-高清,山东生活HD,"
+  },
+  {
+    "epgid": "山东综艺",
+    "name": "山东综艺,山东综艺 HD,山东综艺 超清,山东综艺 高清,山东综艺(HD),山东综艺-4K,山东综艺-HD,山东综艺-高清,山东综艺HD,"
+  },
+  {
+    "epgid": "山东齐鲁",
+    "name": "山东齐鲁,山东齐鲁 HD,山东齐鲁 超清,山东齐鲁 高清,山东齐鲁(HD),山东齐鲁-4K,山东齐鲁-HD,山东齐鲁-高清,山东齐鲁HD,"
+  },
+  {
+    "epgid": "山西公共",
+    "name": "山西公共,山西公共 HD,山西公共 超清,山西公共 高清,山西公共(HD),山西公共-4K,山西公共-HD,山西公共-高清,山西公共HD,"
+  },
+  {
+    "epgid": "山西卫视",
+    "name": "山西卫视,山西卫视 HD,山西卫视 超清,山西卫视 高清,山西卫视(HD),山西卫视-4K,山西卫视-HD,山西卫视-高清,山西卫视HD,"
+  },
+  {
+    "epgid": "山西卫视",
+    "name": "山西卫视,山西卫视 HD,山西卫视 超清,山西卫视 高清,山西卫视(HD),山西卫视-4K,山西卫视-HD,山西卫视-高清,山西卫视HD,"
+  },
+  {
+    "epgid": "山西卫视",
+    "name": "山西卫视,山西卫视 HD,山西卫视 超清,山西卫视 高清,山西卫视(HD),山西卫视-4K,山西卫视-HD,山西卫视-高清,山西卫视HD,"
+  },
+  {
+    "epgid": "山西卫视 高清",
+    "name": "山西卫视 高清,山西卫视 高清 HD,山西卫视 高清 超清,山西卫视 高清 高清,山西卫视 高清(HD),山西卫视 高清-4K,山西卫视 高清-HD,山西卫视 高清-高清,山西卫视 高清HD,"
+  },
+  {
+    "epgid": "山西影视",
+    "name": "山西影视,山西影视 HD,山西影视 超清,山西影视 高清,山西影视(HD),山西影视-4K,山西影视-HD,山西影视-高清,山西影视HD,"
+  },
+  {
+    "epgid": "山西文体生活",
+    "name": "山西文体生活,山西文体生活 HD,山西文体生活 超清,山西文体生活 高清,山西文体生活(HD),山西文体生活-4K,山西文体生活-HD,山西文体生活-高清,山西文体生活HD,"
+  },
+  {
+    "epgid": "山西社会与法治",
+    "name": "山西社会与法治,山西社会与法治 HD,山西社会与法治 超清,山西社会与法治 高清,山西社会与法治(HD),山西社会与法治-4K,山西社会与法治-HD,山西社会与法治-高清,山西社会与法治HD,"
+  },
+  {
+    "epgid": "山西经济",
+    "name": "山西经济,山西经济 HD,山西经济 超清,山西经济 高清,山西经济(HD),山西经济-4K,山西经济-HD,山西经济-高清,山西经济HD,"
+  },
+  {
+    "epgid": "崇左综合",
+    "name": "崇左综合,崇左综合 HD,崇左综合 超清,崇左综合 高清,崇左综合(HD),崇左综合-4K,崇左综合-HD,崇左综合-高清,崇左综合HD,"
+  },
+  {
+    "epgid": "常州新闻",
+    "name": "常州新闻,常州新闻 HD,常州新闻 超清,常州新闻 高清,常州新闻(HD),常州新闻-4K,常州新闻-HD,常州新闻-高清,常州新闻HD,"
+  },
+  {
+    "epgid": "平顶山1新闻综合",
+    "name": "平顶山1新闻综合,平顶山1新闻综合 HD,平顶山1新闻综合 超清,平顶山1新闻综合 高清,平顶山1新闻综合(HD),平顶山1新闻综合-4K,平顶山1新闻综合-HD,平顶山1新闻综合-高清,平顶山1新闻综合HD,"
+  },
+  {
+    "epgid": "平顶山2城市",
+    "name": "平顶山2城市,平顶山2城市 HD,平顶山2城市 超清,平顶山2城市 高清,平顶山2城市(HD),平顶山2城市-4K,平顶山2城市-HD,平顶山2城市-高清,平顶山2城市HD,"
+  },
+  {
+    "epgid": "平顶山3公共",
+    "name": "平顶山3公共,平顶山3公共 HD,平顶山3公共 超清,平顶山3公共 高清,平顶山3公共(HD),平顶山3公共-4K,平顶山3公共-HD,平顶山3公共-高清,平顶山3公共HD,"
+  },
+  {
+    "epgid": "年代MUCH TV",
+    "name": "年代MUCH TV,年代MUCH TV HD,年代MUCH TV 超清,年代MUCH TV 高清,年代MUCH TV(HD),年代MUCH TV-4K,年代MUCH TV-HD,年代MUCH TV-高清,年代MUCH TVHD,"
+  },
+  {
+    "epgid": "年代新聞台",
+    "name": "年代新聞台,年代新聞台 HD,年代新聞台 超清,年代新聞台 高清,年代新聞台(HD),年代新聞台-4K,年代新聞台-HD,年代新聞台-高清,年代新聞台HD,"
+  },
+  {
+    "epgid": "幸福空間居家台",
+    "name": "幸福空間居家台,幸福空間居家台 HD,幸福空間居家台 超清,幸福空間居家台 高清,幸福空間居家台(HD),幸福空間居家台-4K,幸福空間居家台-HD,幸福空間居家台-高清,幸福空間居家台HD,"
+  },
+  {
+    "epgid": "幸福空間居家台",
+    "name": "幸福空間居家台,幸福空間居家台 HD,幸福空間居家台 超清,幸福空間居家台 高清,幸福空間居家台(HD),幸福空間居家台-4K,幸福空間居家台-HD,幸福空間居家台-高清,幸福空間居家台HD,"
+  },
+  {
+    "epgid": "幸福空間居家台",
+    "name": "幸福空間居家台,幸福空間居家台 HD,幸福空間居家台 超清,幸福空間居家台 高清,幸福空間居家台(HD),幸福空間居家台-4K,幸福空間居家台-HD,幸福空間居家台-高清,幸福空間居家台HD,"
+  },
+  {
+    "epgid": "广东南方卫视",
+    "name": "广东南方卫视,广东南方卫视 HD,广东南方卫视 超清,广东南方卫视 高清,广东南方卫视(HD),广东南方卫视-4K,广东南方卫视-HD,广东南方卫视-高清,广东南方卫视HD,"
+  },
+  {
+    "epgid": "广东卫视",
+    "name": "广东卫视,广东卫视 HD,广东卫视 超清,广东卫视 高清,广东卫视(HD),广东卫视-4K,广东卫视-HD,广东卫视-高清,广东卫视HD,"
+  },
+  {
+    "epgid": "广东卫视",
+    "name": "广东卫视,广东卫视 HD,广东卫视 超清,广东卫视 高清,广东卫视(HD),广东卫视-4K,广东卫视-HD,广东卫视-高清,广东卫视HD,"
+  },
+  {
+    "epgid": "广东卫视",
+    "name": "广东卫视,广东卫视 HD,广东卫视 超清,广东卫视 高清,广东卫视(HD),广东卫视-4K,广东卫视-HD,广东卫视-高清,广东卫视HD,"
+  },
+  {
+    "epgid": "广东影视",
+    "name": "广东影视,广东影视 HD,广东影视 超清,广东影视 高清,广东影视(HD),广东影视-4K,广东影视-HD,广东影视-高清,广东影视HD,"
+  },
+  {
+    "epgid": "广元公共",
+    "name": "广元公共,广元公共 HD,广元公共 超清,广元公共 高清,广元公共(HD),广元公共-4K,广元公共-HD,广元公共-高清,广元公共HD,"
+  },
+  {
+    "epgid": "广元新闻综合",
+    "name": "广元新闻综合,广元新闻综合 HD,广元新闻综合 超清,广元新闻综合 高清,广元新闻综合(HD),广元新闻综合-4K,广元新闻综合-HD,广元新闻综合-高清,广元新闻综合HD,"
+  },
+  {
+    "epgid": "广州新闻",
+    "name": "广州新闻,广州新闻 HD,广州新闻 超清,广州新闻 高清,广州新闻(HD),广州新闻-4K,广州新闻-HD,广州新闻-高清,广州新闻HD,"
+  },
+  {
+    "epgid": "广州竞赛",
+    "name": "广州竞赛,广州竞赛 HD,广州竞赛 超清,广州竞赛 高清,广州竞赛(HD),广州竞赛-4K,广州竞赛-HD,广州竞赛-高清,广州竞赛HD,"
+  },
+  {
+    "epgid": "广州综合台",
+    "name": "广州综合台,广州综合台 HD,广州综合台 超清,广州综合台 高清,广州综合台(HD),广州综合台-4K,广州综合台-HD,广州综合台-高清,广州综合台HD,"
+  },
+  {
+    "epgid": "广西卫视",
+    "name": "广西卫视,广西卫视 HD,广西卫视 超清,广西卫视 高清,广西卫视(HD),广西卫视-4K,广西卫视-HD,广西卫视-高清,广西卫视HD,"
+  },
+  {
+    "epgid": "广西卫视",
+    "name": "广西卫视,广西卫视 HD,广西卫视 超清,广西卫视 高清,广西卫视(HD),广西卫视-4K,广西卫视-HD,广西卫视-高清,广西卫视HD,"
+  },
+  {
+    "epgid": "广西影视",
+    "name": "广西影视,广西影视 HD,广西影视 超清,广西影视 高清,广西影视(HD),广西影视-4K,广西影视-HD,广西影视-高清,广西影视HD,"
+  },
+  {
+    "epgid": "广西新闻",
+    "name": "广西新闻,广西新闻 HD,广西新闻 超清,广西新闻 高清,广西新闻(HD),广西新闻-4K,广西新闻-HD,广西新闻-高清,广西新闻HD,"
+  },
+  {
+    "epgid": "广西综艺旅游",
+    "name": "广西综艺旅游,广西综艺旅游 HD,广西综艺旅游 超清,广西综艺旅游 高清,广西综艺旅游(HD),广西综艺旅游-4K,广西综艺旅游-HD,广西综艺旅游-高清,广西综艺旅游HD,"
+  },
+  {
+    "epgid": "广西都市",
+    "name": "广西都市,广西都市 HD,广西都市 超清,广西都市 高清,广西都市(HD),广西都市-4K,广西都市-HD,广西都市-高清,广西都市HD,"
+  },
+  {
+    "epgid": "康巴卫视",
+    "name": "康巴卫视,康巴卫视 HD,康巴卫视 超清,康巴卫视 高清,康巴卫视(HD),康巴卫视-4K,康巴卫视-HD,康巴卫视-高清,康巴卫视HD,"
+  },
+  {
+    "epgid": "康巴卫视",
+    "name": "康巴卫视,康巴卫视 HD,康巴卫视 超清,康巴卫视 高清,康巴卫视(HD),康巴卫视-4K,康巴卫视-HD,康巴卫视-高清,康巴卫视HD,"
+  },
+  {
+    "epgid": "廣東廣播電視台大灣區衛視頻道",
+    "name": "廣東廣播電視台大灣區衛視頻道,廣東廣播電視台大灣區衛視頻道 HD,廣東廣播電視台大灣區衛視頻道 超清,廣東廣播電視台大灣區衛視頻道 高清,廣東廣播電視台大灣區衛視頻道(HD),廣東廣播電視台大灣區衛視頻道-4K,廣東廣播電視台大灣區衛視頻道-HD,廣東廣播電視台大灣區衛視頻道-高清,廣東廣播電視台大灣區衛視頻道HD,"
+  },
+  {
+    "epgid": "延边1台",
+    "name": "延边1台,延边1台 HD,延边1台 超清,延边1台 高清,延边1台(HD),延边1台-4K,延边1台-HD,延边1台-高清,延边1台HD,"
+  },
+  {
+    "epgid": "延边2台",
+    "name": "延边2台,延边2台 HD,延边2台 超清,延边2台 高清,延边2台(HD),延边2台-4K,延边2台-HD,延边2台-高清,延边2台HD,"
+  },
+  {
+    "epgid": "延边卫视",
+    "name": "延边卫视,延边卫视 HD,延边卫视 超清,延边卫视 高清,延边卫视(HD),延边卫视-4K,延边卫视-HD,延边卫视-高清,延边卫视HD,"
+  },
+  {
+    "epgid": "延边卫视",
+    "name": "延边卫视,延边卫视 HD,延边卫视 超清,延边卫视 高清,延边卫视(HD),延边卫视-4K,延边卫视-HD,延边卫视-高清,延边卫视HD,"
+  },
+  {
+    "epgid": "延边电视台",
+    "name": "延边电视台,延边电视台 HD,延边电视台 超清,延边电视台 高清,延边电视台(HD),延边电视台-4K,延边电视台-HD,延边电视台-高清,延边电视台HD,"
+  },
+  {
+    "epgid": "开封1新闻综合",
+    "name": "开封1新闻综合,开封1新闻综合 HD,开封1新闻综合 超清,开封1新闻综合 高清,开封1新闻综合(HD),开封1新闻综合-4K,开封1新闻综合-HD,开封1新闻综合-高清,开封1新闻综合HD,"
+  },
+  {
+    "epgid": "彩虹e台",
+    "name": "彩虹e台,彩虹e台 HD,彩虹e台 超清,彩虹e台 高清,彩虹e台(HD),彩虹e台-4K,彩虹e台-HD,彩虹e台-高清,彩虹e台HD,"
+  },
+  {
+    "epgid": "彩虹電影台",
+    "name": "彩虹電影台,彩虹電影台 HD,彩虹電影台 超清,彩虹電影台 高清,彩虹電影台(HD),彩虹電影台-4K,彩虹電影台-HD,彩虹電影台-高清,彩虹電影台HD,"
+  },
+  {
+    "epgid": "彩虹頻道",
+    "name": "彩虹頻道,彩虹頻道 HD,彩虹頻道 超清,彩虹頻道 高清,彩虹頻道(HD),彩虹頻道-4K,彩虹頻道-HD,彩虹頻道-高清,彩虹頻道HD,"
+  },
+  {
+    "epgid": "彭博財經台",
+    "name": "彭博財經台,彭博財經台 HD,彭博財經台 超清,彭博財經台 高清,彭博財經台(HD),彭博財經台-4K,彭博財經台-HD,彭博財經台-高清,彭博財經台HD,"
+  },
+  {
+    "epgid": "彰化生活台",
+    "name": "彰化生活台,彰化生活台 HD,彰化生活台 超清,彰化生活台 高清,彰化生活台(HD),彰化生活台-4K,彰化生活台-HD,彰化生活台-高清,彰化生活台HD,"
+  },
+  {
+    "epgid": "影迷數位紀實台",
+    "name": "影迷數位紀實台,影迷數位紀實台 HD,影迷數位紀實台 超清,影迷數位紀實台 高清,影迷數位紀實台(HD),影迷數位紀實台-4K,影迷數位紀實台-HD,影迷數位紀實台-高清,影迷數位紀實台HD,"
+  },
+  {
+    "epgid": "影迷數位紀實台HD",
+    "name": "影迷數位紀實台HD,影迷數位紀實台HD HD,影迷數位紀實台HD 超清,影迷數位紀實台HD 高清,影迷數位紀實台HD(HD),影迷數位紀實台HD-4K,影迷數位紀實台HD-HD,影迷數位紀實台HD-高清,影迷數位紀實台HDHD,"
+  },
+  {
+    "epgid": "影迷數位電影台",
+    "name": "影迷數位電影台,影迷數位電影台 HD,影迷數位電影台 超清,影迷數位電影台 高清,影迷數位電影台(HD),影迷數位電影台-4K,影迷數位電影台-HD,影迷數位電影台-高清,影迷數位電影台HD,"
+  },
+  {
+    "epgid": "影迷數位電影台HD",
+    "name": "影迷數位電影台HD,影迷數位電影台HD HD,影迷數位電影台HD 超清,影迷數位電影台HD 高清,影迷數位電影台HD(HD),影迷數位電影台HD-4K,影迷數位電影台HD-HD,影迷數位電影台HD-高清,影迷數位電影台HDHD,"
+  },
+  {
+    "epgid": "徐州文艺影视",
+    "name": "徐州文艺影视,徐州文艺影视 HD,徐州文艺影视 超清,徐州文艺影视 高清,徐州文艺影视(HD),徐州文艺影视-4K,徐州文艺影视-HD,徐州文艺影视-高清,徐州文艺影视HD,"
+  },
+  {
+    "epgid": "徐州新闻综合",
+    "name": "徐州新闻综合,徐州新闻综合 HD,徐州新闻综合 超清,徐州新闻综合 高清,徐州新闻综合(HD),徐州新闻综合-4K,徐州新闻综合-HD,徐州新闻综合-高清,徐州新闻综合HD,"
+  },
+  {
+    "epgid": "徐州经济生活",
+    "name": "徐州经济生活,徐州经济生活 HD,徐州经济生活 超清,徐州经济生活 高清,徐州经济生活(HD),徐州经济生活-4K,徐州经济生活-HD,徐州经济生活-高清,徐州经济生活HD,"
+  },
+  {
+    "epgid": "德國之聲",
+    "name": "德國之聲,德國之聲 HD,德國之聲 超清,德國之聲 高清,德國之聲(HD),德國之聲-4K,德國之聲-HD,德國之聲-高清,德國之聲HD,"
+  },
+  {
+    "epgid": "愛爾達娛樂台",
+    "name": "愛爾達娛樂台,愛爾達娛樂台 HD,愛爾達娛樂台 超清,愛爾達娛樂台 高清,愛爾達娛樂台(HD),愛爾達娛樂台-4K,愛爾達娛樂台-HD,愛爾達娛樂台-高清,愛爾達娛樂台HD,"
+  },
+  {
+    "epgid": "愛爾達影劇台HD",
+    "name": "愛爾達影劇台HD,愛爾達影劇台HD HD,愛爾達影劇台HD 超清,愛爾達影劇台HD 高清,愛爾達影劇台HD(HD),愛爾達影劇台HD-4K,愛爾達影劇台HD-HD,愛爾達影劇台HD-高清,愛爾達影劇台HDHD,"
+  },
+  {
+    "epgid": "愛爾達生活旅遊台",
+    "name": "愛爾達生活旅遊台,愛爾達生活旅遊台 HD,愛爾達生活旅遊台 超清,愛爾達生活旅遊台 高清,愛爾達生活旅遊台(HD),愛爾達生活旅遊台-4K,愛爾達生活旅遊台-HD,愛爾達生活旅遊台-高清,愛爾達生活旅遊台HD,"
+  },
+  {
+    "epgid": "愛爾達綜合台HD",
+    "name": "愛爾達綜合台HD,愛爾達綜合台HD HD,愛爾達綜合台HD 超清,愛爾達綜合台HD 高清,愛爾達綜合台HD(HD),愛爾達綜合台HD-4K,愛爾達綜合台HD-HD,愛爾達綜合台HD-高清,愛爾達綜合台HDHD,"
+  },
+  {
+    "epgid": "愛爾達體育1台",
+    "name": "愛爾達體育1台,愛爾達體育1台 HD,愛爾達體育1台 超清,愛爾達體育1台 高清,愛爾達體育1台(HD),愛爾達體育1台-4K,愛爾達體育1台-HD,愛爾達體育1台-高清,愛爾達體育1台HD,"
+  },
+  {
+    "epgid": "愛爾達體育2台",
+    "name": "愛爾達體育2台,愛爾達體育2台 HD,愛爾達體育2台 超清,愛爾達體育2台 高清,愛爾達體育2台(HD),愛爾達體育2台-4K,愛爾達體育2台-HD,愛爾達體育2台-高清,愛爾達體育2台HD,"
+  },
+  {
+    "epgid": "愛爾達體育3台",
+    "name": "愛爾達體育3台,愛爾達體育3台 HD,愛爾達體育3台 超清,愛爾達體育3台 高清,愛爾達體育3台(HD),愛爾達體育3台-4K,愛爾達體育3台-HD,愛爾達體育3台-高清,愛爾達體育3台HD,"
+  },
+  {
+    "epgid": "愛爾達體育4台",
+    "name": "愛爾達體育4台,愛爾達體育4台 HD,愛爾達體育4台 超清,愛爾達體育4台 高清,愛爾達體育4台(HD),愛爾達體育4台-4K,愛爾達體育4台-HD,愛爾達體育4台-高清,愛爾達體育4台HD,"
+  },
+  {
+    "epgid": "戲曲台",
+    "name": "戲曲台,戲曲台 HD,戲曲台 超清,戲曲台 高清,戲曲台(HD),戲曲台-4K,戲曲台-HD,戲曲台-高清,戲曲台HD,"
+  },
+  {
+    "epgid": "戶外頻道",
+    "name": "戶外頻道,戶外頻道 HD,戶外頻道 超清,戶外頻道 高清,戶外頻道(HD),戶外頻道-4K,戶外頻道-HD,戶外頻道-高清,戶外頻道HD,"
+  },
+  {
+    "epgid": "揭阳综合",
+    "name": "揭阳综合,揭阳综合 HD,揭阳综合 超清,揭阳综合 高清,揭阳综合(HD),揭阳综合-4K,揭阳综合-HD,揭阳综合-高清,揭阳综合HD,"
+  },
+  {
+    "epgid": "攀枝花新闻综合",
+    "name": "攀枝花新闻综合,攀枝花新闻综合 HD,攀枝花新闻综合 超清,攀枝花新闻综合 高清,攀枝花新闻综合(HD),攀枝花新闻综合-4K,攀枝花新闻综合-HD,攀枝花新闻综合-高清,攀枝花新闻综合HD,"
+  },
+  {
+    "epgid": "新乡2公共",
+    "name": "新乡2公共,新乡2公共 HD,新乡2公共 超清,新乡2公共 高清,新乡2公共(HD),新乡2公共-4K,新乡2公共-HD,新乡2公共-高清,新乡2公共HD,"
+  },
+  {
+    "epgid": "新乡3影视",
+    "name": "新乡3影视,新乡3影视 HD,新乡3影视 超清,新乡3影视 高清,新乡3影视(HD),新乡3影视-4K,新乡3影视-HD,新乡3影视-高清,新乡3影视HD,"
+  },
+  {
+    "epgid": "新乡4生活",
+    "name": "新乡4生活,新乡4生活 HD,新乡4生活 超清,新乡4生活 高清,新乡4生活(HD),新乡4生活-4K,新乡4生活-HD,新乡4生活-高清,新乡4生活HD,"
+  },
+  {
+    "epgid": "新余公共",
+    "name": "新余公共,新余公共 HD,新余公共 超清,新余公共 高清,新余公共(HD),新余公共-4K,新余公共-HD,新余公共-高清,新余公共HD,"
+  },
+  {
+    "epgid": "新余新闻综合",
+    "name": "新余新闻综合,新余新闻综合 HD,新余新闻综合 超清,新余新闻综合 高清,新余新闻综合(HD),新余新闻综合-4K,新余新闻综合-HD,新余新闻综合-高清,新余新闻综合HD,"
+  },
+  {
+    "epgid": "新天地民俗台",
+    "name": "新天地民俗台,新天地民俗台 HD,新天地民俗台 超清,新天地民俗台 高清,新天地民俗台(HD),新天地民俗台-4K,新天地民俗台-HD,新天地民俗台-高清,新天地民俗台HD,"
+  },
+  {
+    "epgid": "新天地民俗台 HD",
+    "name": "新天地民俗台 HD,新天地民俗台 HD HD,新天地民俗台 HD 超清,新天地民俗台 HD 高清,新天地民俗台 HD(HD),新天地民俗台 HD-4K,新天地民俗台 HD-HD,新天地民俗台 HD-高清,新天地民俗台 HDHD,"
+  },
+  {
+    "epgid": "新片放映厅",
+    "name": "新片放映厅,新片放映厅 HD,新片放映厅 超清,新片放映厅 高清,新片放映厅(HD),新片放映厅-4K,新片放映厅-HD,新片放映厅-高清,新片放映厅HD,"
+  },
+  {
+    "epgid": "新疆卫视",
+    "name": "新疆卫视,新疆卫视 HD,新疆卫视 超清,新疆卫视 高清,新疆卫视(HD),新疆卫视-4K,新疆卫视-HD,新疆卫视-高清,新疆卫视HD,"
+  },
+  {
+    "epgid": "新疆卫视",
+    "name": "新疆卫视,新疆卫视 HD,新疆卫视 超清,新疆卫视 高清,新疆卫视(HD),新疆卫视-4K,新疆卫视-HD,新疆卫视-高清,新疆卫视HD,"
+  },
+  {
+    "epgid": "新疆卫视",
+    "name": "新疆卫视,新疆卫视 HD,新疆卫视 超清,新疆卫视 高清,新疆卫视(HD),新疆卫视-4K,新疆卫视-HD,新疆卫视-高清,新疆卫视HD,"
+  },
+  {
+    "epgid": "新疆汉语影视",
+    "name": "新疆汉语影视,新疆汉语影视 HD,新疆汉语影视 超清,新疆汉语影视 高清,新疆汉语影视(HD),新疆汉语影视-4K,新疆汉语影视-HD,新疆汉语影视-高清,新疆汉语影视HD,"
+  },
+  {
+    "epgid": "新疆汉语综艺",
+    "name": "新疆汉语综艺,新疆汉语综艺 HD,新疆汉语综艺 超清,新疆汉语综艺 高清,新疆汉语综艺(HD),新疆汉语综艺-4K,新疆汉语综艺-HD,新疆汉语综艺-高清,新疆汉语综艺HD,"
+  },
+  {
+    "epgid": "旅游卫视",
+    "name": "旅游卫视,旅游卫视 HD,旅游卫视 超清,旅游卫视 高清,旅游卫视(HD),旅游卫视-4K,旅游卫视-HD,旅游卫视-高清,旅游卫视HD,"
+  },
+  {
+    "epgid": "日照新闻综合",
+    "name": "日照新闻综合,日照新闻综合 HD,日照新闻综合 超清,日照新闻综合 高清,日照新闻综合(HD),日照新闻综合-4K,日照新闻综合-HD,日照新闻综合-高清,日照新闻综合HD,"
+  },
+  {
+    "epgid": "日照科教",
+    "name": "日照科教,日照科教 HD,日照科教 超清,日照科教 高清,日照科教(HD),日照科教-4K,日照科教-HD,日照科教-高清,日照科教HD,"
+  },
+  {
+    "epgid": "明珠台",
+    "name": "明珠台,明珠台 HD,明珠台 超清,明珠台 高清,明珠台(HD),明珠台-4K,明珠台-HD,明珠台-高清,明珠台HD,"
+  },
+  {
+    "epgid": "星空购物",
+    "name": "星空购物,星空购物 HD,星空购物 超清,星空购物 高清,星空购物(HD),星空购物-4K,星空购物-HD,星空购物-高清,星空购物HD,"
+  },
+  {
+    "epgid": "時尚運動X",
+    "name": "時尚運動X,時尚運動X HD,時尚運動X 超清,時尚運動X 高清,時尚運動X(HD),時尚運動X-4K,時尚運動X-HD,時尚運動X-高清,時尚運動XHD,"
+  },
+  {
+    "epgid": "時尚運動X",
+    "name": "時尚運動X,時尚運動X HD,時尚運動X 超清,時尚運動X 高清,時尚運動X(HD),時尚運動X-4K,時尚運動X-HD,時尚運動X-高清,時尚運動XHD,"
+  },
+  {
+    "epgid": "智林體育HD",
+    "name": "智林體育HD,智林體育HD HD,智林體育HD 超清,智林體育HD 高清,智林體育HD(HD),智林體育HD-4K,智林體育HD-HD,智林體育HD-高清,智林體育HDHD,"
+  },
+  {
+    "epgid": "智林體育台",
+    "name": "智林體育台,智林體育台 HD,智林體育台 超清,智林體育台 高清,智林體育台(HD),智林體育台-4K,智林體育台-HD,智林體育台-高清,智林體育台HD,"
+  },
+  {
+    "epgid": "曼聯電視頻道",
+    "name": "曼聯電視頻道,曼聯電視頻道 HD,曼聯電視頻道 超清,曼聯電視頻道 高清,曼聯電視頻道(HD),曼聯電視頻道-4K,曼聯電視頻道-HD,曼聯電視頻道-高清,曼聯電視頻道HD,"
+  },
+  {
+    "epgid": "曼迪日本台HD",
+    "name": "曼迪日本台HD,曼迪日本台HD HD,曼迪日本台HD 超清,曼迪日本台HD 高清,曼迪日本台HD(HD),曼迪日本台HD-4K,曼迪日本台HD-HD,曼迪日本台HD-高清,曼迪日本台HDHD,"
+  },
+  {
+    "epgid": "来宾综合",
+    "name": "来宾综合,来宾综合 HD,来宾综合 超清,来宾综合 高清,来宾综合(HD),来宾综合-4K,来宾综合-HD,来宾综合-高清,来宾综合HD,"
+  },
+  {
+    "epgid": "杭州导视",
+    "name": "杭州导视,杭州导视 HD,杭州导视 超清,杭州导视 高清,杭州导视(HD),杭州导视-4K,杭州导视-HD,杭州导视-高清,杭州导视HD,"
+  },
+  {
+    "epgid": "杭州影视",
+    "name": "杭州影视,杭州影视 HD,杭州影视 超清,杭州影视 高清,杭州影视(HD),杭州影视-4K,杭州影视-HD,杭州影视-高清,杭州影视HD,"
+  },
+  {
+    "epgid": "杭州房产",
+    "name": "杭州房产,杭州房产 HD,杭州房产 超清,杭州房产 高清,杭州房产(HD),杭州房产-4K,杭州房产-HD,杭州房产-高清,杭州房产HD,"
+  },
+  {
+    "epgid": "杭州文化",
+    "name": "杭州文化,杭州文化 HD,杭州文化 超清,杭州文化 高清,杭州文化(HD),杭州文化-4K,杭州文化-HD,杭州文化-高清,杭州文化HD,"
+  },
+  {
+    "epgid": "杭州生活",
+    "name": "杭州生活,杭州生活 HD,杭州生活 超清,杭州生活 高清,杭州生活(HD),杭州生活-4K,杭州生活-HD,杭州生活-高清,杭州生活HD,"
+  },
+  {
+    "epgid": "杭州综合",
+    "name": "杭州综合,杭州综合 HD,杭州综合 超清,杭州综合 高清,杭州综合(HD),杭州综合-4K,杭州综合-HD,杭州综合-高清,杭州综合HD,"
+  },
+  {
+    "epgid": "杭州西湖明珠",
+    "name": "杭州西湖明珠,杭州西湖明珠 HD,杭州西湖明珠 超清,杭州西湖明珠 高清,杭州西湖明珠(HD),杭州西湖明珠-4K,杭州西湖明珠-HD,杭州西湖明珠-高清,杭州西湖明珠HD,"
+  },
+  {
+    "epgid": "東方衛視國際頻道",
+    "name": "東方衛視國際頻道,東方衛視國際頻道 HD,東方衛視國際頻道 超清,東方衛視國際頻道 高清,東方衛視國際頻道(HD),東方衛視國際頻道-4K,東方衛視國際頻道-HD,東方衛視國際頻道-高清,東方衛視國際頻道HD,"
+  },
+  {
+    "epgid": "東方衛視國際頻道",
+    "name": "東方衛視國際頻道,東方衛視國際頻道 HD,東方衛視國際頻道 超清,東方衛視國際頻道 高清,東方衛視國際頻道(HD),東方衛視國際頻道-4K,東方衛視國際頻道-HD,東方衛視國際頻道-高清,東方衛視國際頻道HD,"
+  },
+  {
+    "epgid": "東森幼幼台",
+    "name": "東森幼幼台,東森幼幼台 HD,東森幼幼台 超清,東森幼幼台 高清,東森幼幼台(HD),東森幼幼台-4K,東森幼幼台-HD,東森幼幼台-高清,東森幼幼台HD,"
+  },
+  {
+    "epgid": "東森戲劇台",
+    "name": "東森戲劇台,東森戲劇台 HD,東森戲劇台 超清,東森戲劇台 高清,東森戲劇台(HD),東森戲劇台-4K,東森戲劇台-HD,東森戲劇台-高清,東森戲劇台HD,"
+  },
+  {
+    "epgid": "東森新聞台",
+    "name": "東森新聞台,東森新聞台 HD,東森新聞台 超清,東森新聞台 高清,東森新聞台(HD),東森新聞台-4K,東森新聞台-HD,東森新聞台-高清,東森新聞台HD,"
+  },
+  {
+    "epgid": "東森新聞台",
+    "name": "東森新聞台,東森新聞台 HD,東森新聞台 超清,東森新聞台 高清,東森新聞台(HD),東森新聞台-4K,東森新聞台-HD,東森新聞台-高清,東森新聞台HD,"
+  },
+  {
+    "epgid": "東森洋片台",
+    "name": "東森洋片台,東森洋片台 HD,東森洋片台 超清,東森洋片台 高清,東森洋片台(HD),東森洋片台-4K,東森洋片台-HD,東森洋片台-高清,東森洋片台HD,"
+  },
+  {
+    "epgid": "東森綜合台",
+    "name": "東森綜合台,東森綜合台 HD,東森綜合台 超清,東森綜合台 高清,東森綜合台(HD),東森綜合台-4K,東森綜合台-HD,東森綜合台-高清,東森綜合台HD,"
+  },
+  {
+    "epgid": "東森財經新聞台",
+    "name": "東森財經新聞台,東森財經新聞台 HD,東森財經新聞台 超清,東森財經新聞台 高清,東森財經新聞台(HD),東森財經新聞台-4K,東森財經新聞台-HD,東森財經新聞台-高清,東森財經新聞台HD,"
+  },
+  {
+    "epgid": "東森財經新聞台",
+    "name": "東森財經新聞台,東森財經新聞台 HD,東森財經新聞台 超清,東森財經新聞台 高清,東森財經新聞台(HD),東森財經新聞台-4K,東森財經新聞台-HD,東森財經新聞台-高清,東森財經新聞台HD,"
+  },
+  {
+    "epgid": "東森購物1台",
+    "name": "東森購物1台,東森購物1台 HD,東森購物1台 超清,東森購物1台 高清,東森購物1台(HD),東森購物1台-4K,東森購物1台-HD,東森購物1台-高清,東森購物1台HD,"
+  },
+  {
+    "epgid": "東森購物1台HD",
+    "name": "東森購物1台HD,東森購物1台HD HD,東森購物1台HD 超清,東森購物1台HD 高清,東森購物1台HD(HD),東森購物1台HD-4K,東森購物1台HD-HD,東森購物1台HD-高清,東森購物1台HDHD,"
+  },
+  {
+    "epgid": "東森購物2台",
+    "name": "東森購物2台,東森購物2台 HD,東森購物2台 超清,東森購物2台 高清,東森購物2台(HD),東森購物2台-4K,東森購物2台-HD,東森購物2台-高清,東森購物2台HD,"
+  },
+  {
+    "epgid": "東森購物2台HD",
+    "name": "東森購物2台HD,東森購物2台HD HD,東森購物2台HD 超清,東森購物2台HD 高清,東森購物2台HD(HD),東森購物2台HD-4K,東森購物2台HD-HD,東森購物2台HD-高清,東森購物2台HDHD,"
+  },
+  {
+    "epgid": "東森購物3台",
+    "name": "東森購物3台,東森購物3台 HD,東森購物3台 超清,東森購物3台 高清,東森購物3台(HD),東森購物3台-4K,東森購物3台-HD,東森購物3台-高清,東森購物3台HD,"
+  },
+  {
+    "epgid": "東森購物3台HD",
+    "name": "東森購物3台HD,東森購物3台HD HD,東森購物3台HD 超清,東森購物3台HD 高清,東森購物3台HD(HD),東森購物3台HD-4K,東森購物3台HD-HD,東森購物3台HD-高清,東森購物3台HDHD,"
+  },
+  {
+    "epgid": "東森購物4台HD",
+    "name": "東森購物4台HD,東森購物4台HD HD,東森購物4台HD 超清,東森購物4台HD 高清,東森購物4台HD(HD),東森購物4台HD-4K,東森購物4台HD-HD,東森購物4台HD-高清,東森購物4台HDHD,"
+  },
+  {
+    "epgid": "東森購物5台",
+    "name": "東森購物5台,東森購物5台 HD,東森購物5台 超清,東森購物5台 高清,東森購物5台(HD),東森購物5台-4K,東森購物5台-HD,東森購物5台-高清,東森購物5台HD,"
+  },
+  {
+    "epgid": "東森購物5台HD",
+    "name": "東森購物5台HD,東森購物5台HD HD,東森購物5台HD 超清,東森購物5台HD 高清,東森購物5台HD(HD),東森購物5台HD-4K,東森購物5台HD-HD,東森購物5台HD-高清,東森購物5台HDHD,"
+  },
+  {
+    "epgid": "東森購物一台",
+    "name": "東森購物一台,東森購物一台 HD,東森購物一台 超清,東森購物一台 高清,東森購物一台(HD),東森購物一台-4K,東森購物一台-HD,東森購物一台-高清,東森購物一台HD,"
+  },
+  {
+    "epgid": "東森購物三台",
+    "name": "東森購物三台,東森購物三台 HD,東森購物三台 超清,東森購物三台 高清,東森購物三台(HD),東森購物三台-4K,東森購物三台-HD,東森購物三台-高清,東森購物三台HD,"
+  },
+  {
+    "epgid": "東森購物二台",
+    "name": "東森購物二台,東森購物二台 HD,東森購物二台 超清,東森購物二台 高清,東森購物二台(HD),東森購物二台-4K,東森購物二台-HD,東森購物二台-高清,東森購物二台HD,"
+  },
+  {
+    "epgid": "東森購物四台",
+    "name": "東森購物四台,東森購物四台 HD,東森購物四台 超清,東森購物四台 高清,東森購物四台(HD),東森購物四台-4K,東森購物四台-HD,東森購物四台-高清,東森購物四台HD,"
+  },
+  {
+    "epgid": "東森超視",
+    "name": "東森超視,東森超視 HD,東森超視 超清,東森超視 高清,東森超視(HD),東森超視-4K,東森超視-HD,東森超視-高清,東森超視HD,"
+  },
+  {
+    "epgid": "東森電影台",
+    "name": "東森電影台,東森電影台 HD,東森電影台 超清,東森電影台 高清,東森電影台(HD),東森電影台-4K,東森電影台-HD,東森電影台-高清,東森電影台HD,"
+  },
+  {
+    "epgid": "東風衛視",
+    "name": "東風衛視,東風衛視 HD,東風衛視 超清,東風衛視 高清,東風衛視(HD),東風衛視-4K,東風衛視-HD,東風衛視-高清,東風衛視HD,"
+  },
+  {
+    "epgid": "松原综合",
+    "name": "松原综合,松原综合 HD,松原综合 超清,松原综合 高清,松原综合(HD),松原综合-4K,松原综合-HD,松原综合-高清,松原综合HD,"
+  },
+  {
+    "epgid": "松視1台",
+    "name": "松視1台,松視1台 HD,松視1台 超清,松視1台 高清,松視1台(HD),松視1台-4K,松視1台-HD,松視1台-高清,松視1台HD,"
+  },
+  {
+    "epgid": "松視2台",
+    "name": "松視2台,松視2台 HD,松視2台 超清,松視2台 高清,松視2台(HD),松視2台-4K,松視2台-HD,松視2台-高清,松視2台HD,"
+  },
+  {
+    "epgid": "松視3台",
+    "name": "松視3台,松視3台 HD,松視3台 超清,松視3台 高清,松視3台(HD),松視3台-4K,松視3台-HD,松視3台-高清,松視3台HD,"
+  },
+  {
+    "epgid": "松視4台",
+    "name": "松視4台,松視4台 HD,松視4台 超清,松視4台 高清,松視4台(HD),松視4台-4K,松視4台-HD,松視4台-高清,松視4台HD,"
+  },
+  {
+    "epgid": "柳州新闻综合",
+    "name": "柳州新闻综合,柳州新闻综合 HD,柳州新闻综合 超清,柳州新闻综合 高清,柳州新闻综合(HD),柳州新闻综合-4K,柳州新闻综合-HD,柳州新闻综合-高清,柳州新闻综合HD,"
+  },
+  {
+    "epgid": "梅州-1",
+    "name": "梅州-1,梅州-1 HD,梅州-1 超清,梅州-1 高清,梅州-1(HD),梅州-1-4K,梅州-1-HD,梅州-1-高清,梅州-1HD,"
+  },
+  {
+    "epgid": "梅迪奇藝術",
+    "name": "梅迪奇藝術,梅迪奇藝術 HD,梅迪奇藝術 超清,梅迪奇藝術 高清,梅迪奇藝術(HD),梅迪奇藝術-4K,梅迪奇藝術-HD,梅迪奇藝術-高清,梅迪奇藝術HD,"
+  },
+  {
+    "epgid": "梨园",
+    "name": "梨园,梨园 HD,梨园 超清,梨园 高清,梨园(HD),梨园-4K,梨园-HD,梨园-高清,梨园HD,"
+  },
+  {
+    "epgid": "樂活頻道",
+    "name": "樂活頻道,樂活頻道 HD,樂活頻道 超清,樂活頻道 高清,樂活頻道(HD),樂活頻道-4K,樂活頻道-HD,樂活頻道-高清,樂活頻道HD,"
+  },
+  {
+    "epgid": "樂視台",
+    "name": "樂視台,樂視台 HD,樂視台 超清,樂視台 高清,樂視台(HD),樂視台-4K,樂視台-HD,樂視台-高清,樂視台HD,"
+  },
+  {
+    "epgid": "歌手2024",
+    "name": "歌手2024,歌手2024 HD,歌手2024 超清,歌手2024 高清,歌手2024(HD),歌手2024-4K,歌手2024-HD,歌手2024-高清,歌手2024HD,"
+  },
+  {
+    "epgid": "正德電視台",
+    "name": "正德電視台,正德電視台 HD,正德電視台 超清,正德電視台 高清,正德電視台(HD),正德電視台-4K,正德電視台-HD,正德電視台-高清,正德電視台HD,"
+  },
+  {
+    "epgid": "正德電視台HD",
+    "name": "正德電視台HD,正德電視台HD HD,正德電視台HD 超清,正德電視台HD 高清,正德電視台HD(HD),正德電視台HD-4K,正德電視台HD-HD,正德電視台HD-高清,正德電視台HDHD,"
+  },
+  {
+    "epgid": "歷史頻道",
+    "name": "歷史頻道,歷史頻道 HD,歷史頻道 超清,歷史頻道 高清,歷史頻道(HD),歷史頻道-4K,歷史頻道-HD,歷史頻道-高清,歷史頻道HD,"
+  },
+  {
+    "epgid": "歷史頻道HD",
+    "name": "歷史頻道HD,歷史頻道HD HD,歷史頻道HD 超清,歷史頻道HD 高清,歷史頻道HD(HD),歷史頻道HD-4K,歷史頻道HD-HD,歷史頻道HD-高清,歷史頻道HDHD,"
+  },
+  {
+    "epgid": "民視",
+    "name": "民視,民視 HD,民視 超清,民視 高清,民視(HD),民視-4K,民視-HD,民視-高清,民視HD,"
+  },
+  {
+    "epgid": "民視",
+    "name": "民視,民視 HD,民視 超清,民視 高清,民視(HD),民視-4K,民視-HD,民視-高清,民視HD,"
+  },
+  {
+    "epgid": "民視HD",
+    "name": "民視HD,民視HD HD,民視HD 超清,民視HD 高清,民視HD(HD),民視HD-4K,民視HD-HD,民視HD-高清,民視HDHD,"
+  },
+  {
+    "epgid": "民視台灣台",
+    "name": "民視台灣台,民視台灣台 HD,民視台灣台 超清,民視台灣台 高清,民視台灣台(HD),民視台灣台-4K,民視台灣台-HD,民視台灣台-高清,民視台灣台HD,"
+  },
+  {
+    "epgid": "民視台灣台",
+    "name": "民視台灣台,民視台灣台 HD,民視台灣台 超清,民視台灣台 高清,民視台灣台(HD),民視台灣台-4K,民視台灣台-HD,民視台灣台-高清,民視台灣台HD,"
+  },
+  {
+    "epgid": "民視台灣台",
+    "name": "民視台灣台,民視台灣台 HD,民視台灣台 超清,民視台灣台 高清,民視台灣台(HD),民視台灣台-4K,民視台灣台-HD,民視台灣台-高清,民視台灣台HD,"
+  },
+  {
+    "epgid": "民視台灣台HD",
+    "name": "民視台灣台HD,民視台灣台HD HD,民視台灣台HD 超清,民視台灣台HD 高清,民視台灣台HD(HD),民視台灣台HD-4K,民視台灣台HD-HD,民視台灣台HD-高清,民視台灣台HDHD,"
+  },
+  {
+    "epgid": "民視影劇台",
+    "name": "民視影劇台,民視影劇台 HD,民視影劇台 超清,民視影劇台 高清,民視影劇台(HD),民視影劇台-4K,民視影劇台-HD,民視影劇台-高清,民視影劇台HD,"
+  },
+  {
+    "epgid": "民視新聞台",
+    "name": "民視新聞台,民視新聞台 HD,民視新聞台 超清,民視新聞台 高清,民視新聞台(HD),民視新聞台-4K,民視新聞台-HD,民視新聞台-高清,民視新聞台HD,"
+  },
+  {
+    "epgid": "民視新聞台",
+    "name": "民視新聞台,民視新聞台 HD,民視新聞台 超清,民視新聞台 高清,民視新聞台(HD),民視新聞台-4K,民視新聞台-HD,民視新聞台-高清,民視新聞台HD,"
+  },
+  {
+    "epgid": "民視新聞台",
+    "name": "民視新聞台,民視新聞台 HD,民視新聞台 超清,民視新聞台 高清,民視新聞台(HD),民視新聞台-4K,民視新聞台-HD,民視新聞台-高清,民視新聞台HD,"
+  },
+  {
+    "epgid": "民視新聞台HD",
+    "name": "民視新聞台HD,民視新聞台HD HD,民視新聞台HD 超清,民視新聞台HD 高清,民視新聞台HD(HD),民視新聞台HD-4K,民視新聞台HD-HD,民視新聞台HD-高清,民視新聞台HDHD,"
+  },
+  {
+    "epgid": "民視旅遊台",
+    "name": "民視旅遊台,民視旅遊台 HD,民視旅遊台 超清,民視旅遊台 高清,民視旅遊台(HD),民視旅遊台-4K,民視旅遊台-HD,民視旅遊台-高清,民視旅遊台HD,"
+  },
+  {
+    "epgid": "民視無線台",
+    "name": "民視無線台,民視無線台 HD,民視無線台 超清,民視無線台 高清,民視無線台(HD),民視無線台-4K,民視無線台-HD,民視無線台-高清,民視無線台HD,"
+  },
+  {
+    "epgid": "民視第一台",
+    "name": "民視第一台,民視第一台 HD,民視第一台 超清,民視第一台 高清,民視第一台(HD),民視第一台-4K,民視第一台-HD,民視第一台-高清,民視第一台HD,"
+  },
+  {
+    "epgid": "民視第一台",
+    "name": "民視第一台,民視第一台 HD,民視第一台 超清,民視第一台 高清,民視第一台(HD),民視第一台-4K,民視第一台-HD,民視第一台-高清,民視第一台HD,"
+  },
+  {
+    "epgid": "民視第一台",
+    "name": "民視第一台,民視第一台 HD,民視第一台 超清,民視第一台 高清,民視第一台(HD),民視第一台-4K,民視第一台-HD,民視第一台-高清,民視第一台HD,"
+  },
+  {
+    "epgid": "民視第一台HD",
+    "name": "民視第一台HD,民視第一台HD HD,民視第一台HD 超清,民視第一台HD 高清,民視第一台HD(HD),民視第一台HD-4K,民視第一台HD-HD,民視第一台HD-高清,民視第一台HDHD,"
+  },
+  {
+    "epgid": "民視綜藝台",
+    "name": "民視綜藝台,民視綜藝台 HD,民視綜藝台 超清,民視綜藝台 高清,民視綜藝台(HD),民視綜藝台-4K,民視綜藝台-HD,民視綜藝台-高清,民視綜藝台HD,"
+  },
+  {
+    "epgid": "求索生活",
+    "name": "求索生活,求索生活 HD,求索生活 超清,求索生活 高清,求索生活(HD),求索生活-4K,求索生活-HD,求索生活-高清,求索生活HD,"
+  },
+  {
+    "epgid": "求索纪录",
+    "name": "求索纪录,求索纪录 HD,求索纪录 超清,求索纪录 高清,求索纪录(HD),求索纪录-4K,求索纪录-HD,求索纪录-高清,求索纪录HD,"
+  },
+  {
+    "epgid": "汕头文旅体育",
+    "name": "汕头文旅体育,汕头文旅体育 HD,汕头文旅体育 超清,汕头文旅体育 高清,汕头文旅体育(HD),汕头文旅体育-4K,汕头文旅体育-HD,汕头文旅体育-高清,汕头文旅体育HD,"
+  },
+  {
+    "epgid": "汕头经济生活",
+    "name": "汕头经济生活,汕头经济生活 HD,汕头经济生活 超清,汕头经济生活 高清,汕头经济生活(HD),汕头经济生活-4K,汕头经济生活-HD,汕头经济生活-高清,汕头经济生活HD,"
+  },
+  {
+    "epgid": "汕头综合",
+    "name": "汕头综合,汕头综合 HD,汕头综合 超清,汕头综合 高清,汕头综合(HD),汕头综合-4K,汕头综合-HD,汕头综合-高清,汕头综合HD,"
+  },
+  {
+    "epgid": "汕尾新闻综合",
+    "name": "汕尾新闻综合,汕尾新闻综合 HD,汕尾新闻综合 超清,汕尾新闻综合 高清,汕尾新闻综合(HD),汕尾新闻综合-4K,汕尾新闻综合-HD,汕尾新闻综合-高清,汕尾新闻综合HD,"
+  },
+  {
+    "epgid": "江苏休闲体育",
+    "name": "江苏休闲体育,江苏休闲体育 HD,江苏休闲体育 超清,江苏休闲体育 高清,江苏休闲体育(HD),江苏休闲体育-4K,江苏休闲体育-HD,江苏休闲体育-高清,江苏休闲体育HD,"
+  },
+  {
+    "epgid": "江苏优漫卡通",
+    "name": "江苏优漫卡通,江苏优漫卡通 HD,江苏优漫卡通 超清,江苏优漫卡通 高清,江苏优漫卡通(HD),江苏优漫卡通-4K,江苏优漫卡通-HD,江苏优漫卡通-高清,江苏优漫卡通HD,"
+  },
+  {
+    "epgid": "江苏卫视",
+    "name": "江苏卫视,江苏卫视 HD,江苏卫视 超清,江苏卫视 高清,江苏卫视(HD),江苏卫视-4K,江苏卫视-HD,江苏卫视-高清,江苏卫视HD,"
+  },
+  {
+    "epgid": "江苏卫视",
+    "name": "江苏卫视,江苏卫视 HD,江苏卫视 超清,江苏卫视 高清,江苏卫视(HD),江苏卫视-4K,江苏卫视-HD,江苏卫视-高清,江苏卫视HD,"
+  },
+  {
+    "epgid": "江苏卫视",
+    "name": "江苏卫视,江苏卫视 HD,江苏卫视 超清,江苏卫视 高清,江苏卫视(HD),江苏卫视-4K,江苏卫视-HD,江苏卫视-高清,江苏卫视HD,"
+  },
+  {
+    "epgid": "江苏卫视 高清",
+    "name": "江苏卫视 高清,江苏卫视 高清 HD,江苏卫视 高清 超清,江苏卫视 高清 高清,江苏卫视 高清(HD),江苏卫视 高清-4K,江苏卫视 高清-HD,江苏卫视 高清-高清,江苏卫视 高清HD,"
+  },
+  {
+    "epgid": "江苏国际",
+    "name": "江苏国际,江苏国际 HD,江苏国际 超清,江苏国际 高清,江苏国际(HD),江苏国际-4K,江苏国际-HD,江苏国际-高清,江苏国际HD,"
+  },
+  {
+    "epgid": "江苏城市",
+    "name": "江苏城市,江苏城市 HD,江苏城市 超清,江苏城市 高清,江苏城市(HD),江苏城市-4K,江苏城市-HD,江苏城市-高清,江苏城市HD,"
+  },
+  {
+    "epgid": "江苏影视",
+    "name": "江苏影视,江苏影视 HD,江苏影视 超清,江苏影视 高清,江苏影视(HD),江苏影视-4K,江苏影视-HD,江苏影视-高清,江苏影视HD,"
+  },
+  {
+    "epgid": "江苏综艺",
+    "name": "江苏综艺,江苏综艺 HD,江苏综艺 超清,江苏综艺 高清,江苏综艺(HD),江苏综艺-4K,江苏综艺-HD,江苏综艺-高清,江苏综艺HD,"
+  },
+  {
+    "epgid": "江蘇電視台國際頻道",
+    "name": "江蘇電視台國際頻道,江蘇電視台國際頻道 HD,江蘇電視台國際頻道 超清,江蘇電視台國際頻道 高清,江蘇電視台國際頻道(HD),江蘇電視台國際頻道-4K,江蘇電視台國際頻道-HD,江蘇電視台國際頻道-高清,江蘇電視台國際頻道HD,"
+  },
+  {
+    "epgid": "江西公共农业",
+    "name": "江西公共农业,江西公共农业 HD,江西公共农业 超清,江西公共农业 高清,江西公共农业(HD),江西公共农业-4K,江西公共农业-HD,江西公共农业-高清,江西公共农业HD,"
+  },
+  {
+    "epgid": "江西卫视",
+    "name": "江西卫视,江西卫视 HD,江西卫视 超清,江西卫视 高清,江西卫视(HD),江西卫视-4K,江西卫视-HD,江西卫视-高清,江西卫视HD,"
+  },
+  {
+    "epgid": "江西卫视",
+    "name": "江西卫视,江西卫视 HD,江西卫视 超清,江西卫视 高清,江西卫视(HD),江西卫视-4K,江西卫视-HD,江西卫视-高清,江西卫视HD,"
+  },
+  {
+    "epgid": "江西卫视",
+    "name": "江西卫视,江西卫视 HD,江西卫视 超清,江西卫视 高清,江西卫视(HD),江西卫视-4K,江西卫视-HD,江西卫视-高清,江西卫视HD,"
+  },
+  {
+    "epgid": "江西少儿",
+    "name": "江西少儿,江西少儿 HD,江西少儿 超清,江西少儿 高清,江西少儿(HD),江西少儿-4K,江西少儿-HD,江西少儿-高清,江西少儿HD,"
+  },
+  {
+    "epgid": "江西新闻",
+    "name": "江西新闻,江西新闻 HD,江西新闻 超清,江西新闻 高清,江西新闻(HD),江西新闻-4K,江西新闻-HD,江西新闻-高清,江西新闻HD,"
+  },
+  {
+    "epgid": "江西移动",
+    "name": "江西移动,江西移动 HD,江西移动 超清,江西移动 高清,江西移动(HD),江西移动-4K,江西移动-HD,江西移动-高清,江西移动HD,"
+  },
+  {
+    "epgid": "江西经济生活",
+    "name": "江西经济生活,江西经济生活 HD,江西经济生活 超清,江西经济生活 高清,江西经济生活(HD),江西经济生活-4K,江西经济生活-HD,江西经济生活-高清,江西经济生活HD,"
+  },
+  {
+    "epgid": "江西都市",
+    "name": "江西都市,江西都市 HD,江西都市 超清,江西都市 高清,江西都市(HD),江西都市-4K,江西都市-HD,江西都市-高清,江西都市HD,"
+  },
+  {
+    "epgid": "江门综合",
+    "name": "江门综合,江门综合 HD,江门综合 超清,江门综合 高清,江门综合(HD),江门综合-4K,江门综合-HD,江门综合-高清,江门综合HD,"
+  },
+  {
+    "epgid": "汽摩",
+    "name": "汽摩,汽摩 HD,汽摩 超清,汽摩 高清,汽摩(HD),汽摩-4K,汽摩-HD,汽摩-高清,汽摩HD,"
+  },
+  {
+    "epgid": "河北农民",
+    "name": "河北农民,河北农民 HD,河北农民 超清,河北农民 高清,河北农民(HD),河北农民-4K,河北农民-HD,河北农民-高清,河北农民HD,"
+  },
+  {
+    "epgid": "河北卫视",
+    "name": "河北卫视,河北卫视 HD,河北卫视 超清,河北卫视 高清,河北卫视(HD),河北卫视-4K,河北卫视-HD,河北卫视-高清,河北卫视HD,"
+  },
+  {
+    "epgid": "河北卫视",
+    "name": "河北卫视,河北卫视 HD,河北卫视 超清,河北卫视 高清,河北卫视(HD),河北卫视-4K,河北卫视-HD,河北卫视-高清,河北卫视HD,"
+  },
+  {
+    "epgid": "河北卫视",
+    "name": "河北卫视,河北卫视 HD,河北卫视 超清,河北卫视 高清,河北卫视(HD),河北卫视-4K,河北卫视-HD,河北卫视-高清,河北卫视HD,"
+  },
+  {
+    "epgid": "河北卫视 高清",
+    "name": "河北卫视 高清,河北卫视 高清 HD,河北卫视 高清 超清,河北卫视 高清 高清,河北卫视 高清(HD),河北卫视 高清-4K,河北卫视 高清-HD,河北卫视 高清-高清,河北卫视 高清HD,"
+  },
+  {
+    "epgid": "河北少儿科教",
+    "name": "河北少儿科教,河北少儿科教 HD,河北少儿科教 超清,河北少儿科教 高清,河北少儿科教(HD),河北少儿科教-4K,河北少儿科教-HD,河北少儿科教-高清,河北少儿科教HD,"
+  },
+  {
+    "epgid": "河北影视",
+    "name": "河北影视,河北影视 HD,河北影视 超清,河北影视 高清,河北影视(HD),河北影视-4K,河北影视-HD,河北影视-高清,河北影视HD,"
+  },
+  {
+    "epgid": "河北经济",
+    "name": "河北经济,河北经济 HD,河北经济 超清,河北经济 高清,河北经济(HD),河北经济-4K,河北经济-HD,河北经济-高清,河北经济HD,"
+  },
+  {
+    "epgid": "河北都市",
+    "name": "河北都市,河北都市 HD,河北都市 超清,河北都市 高清,河北都市(HD),河北都市-4K,河北都市-HD,河北都市-高清,河北都市HD,"
+  },
+  {
+    "epgid": "河南公共",
+    "name": "河南公共,河南公共 HD,河南公共 超清,河南公共 高清,河南公共(HD),河南公共-4K,河南公共-HD,河南公共-高清,河南公共HD,"
+  },
+  {
+    "epgid": "河南卫视",
+    "name": "河南卫视,河南卫视 HD,河南卫视 超清,河南卫视 高清,河南卫视(HD),河南卫视-4K,河南卫视-HD,河南卫视-高清,河南卫视HD,"
+  },
+  {
+    "epgid": "河南卫视",
+    "name": "河南卫视,河南卫视 HD,河南卫视 超清,河南卫视 高清,河南卫视(HD),河南卫视-4K,河南卫视-HD,河南卫视-高清,河南卫视HD,"
+  },
+  {
+    "epgid": "河南卫视",
+    "name": "河南卫视,河南卫视 HD,河南卫视 超清,河南卫视 高清,河南卫视(HD),河南卫视-4K,河南卫视-HD,河南卫视-高清,河南卫视HD,"
+  },
+  {
+    "epgid": "河南新闻",
+    "name": "河南新闻,河南新闻 HD,河南新闻 超清,河南新闻 高清,河南新闻(HD),河南新闻-4K,河南新闻-HD,河南新闻-高清,河南新闻HD,"
+  },
+  {
+    "epgid": "河南民生",
+    "name": "河南民生,河南民生 HD,河南民生 超清,河南民生 高清,河南民生(HD),河南民生-4K,河南民生-HD,河南民生-高清,河南民生HD,"
+  },
+  {
+    "epgid": "河南法治",
+    "name": "河南法治,河南法治 HD,河南法治 超清,河南法治 高清,河南法治(HD),河南法治-4K,河南法治-HD,河南法治-高清,河南法治HD,"
+  },
+  {
+    "epgid": "河南电视剧",
+    "name": "河南电视剧,河南电视剧 HD,河南电视剧 超清,河南电视剧 高清,河南电视剧(HD),河南电视剧-4K,河南电视剧-HD,河南电视剧-高清,河南电视剧HD,"
+  },
+  {
+    "epgid": "河源公共",
+    "name": "河源公共,河源公共 HD,河源公共 超清,河源公共 高清,河源公共(HD),河源公共-4K,河源公共-HD,河源公共-高清,河源公共HD,"
+  },
+  {
+    "epgid": "法治天地",
+    "name": "法治天地,法治天地 HD,法治天地 超清,法治天地 高清,法治天地(HD),法治天地-4K,法治天地-HD,法治天地-高清,法治天地HD,"
+  },
+  {
+    "epgid": "泸州新闻综合",
+    "name": "泸州新闻综合,泸州新闻综合 HD,泸州新闻综合 超清,泸州新闻综合 高清,泸州新闻综合(HD),泸州新闻综合-4K,泸州新闻综合-HD,泸州新闻综合-高清,泸州新闻综合HD,"
+  },
+  {
+    "epgid": "济南综合",
+    "name": "济南综合,济南综合 HD,济南综合 超清,济南综合 高清,济南综合(HD),济南综合-4K,济南综合-HD,济南综合-高清,济南综合HD,"
+  },
+  {
+    "epgid": "济南鲁中",
+    "name": "济南鲁中,济南鲁中 HD,济南鲁中 超清,济南鲁中 高清,济南鲁中(HD),济南鲁中-4K,济南鲁中-HD,济南鲁中-高清,济南鲁中HD,"
+  },
+  {
+    "epgid": "浙江NEWS",
+    "name": "浙江NEWS,浙江NEWS HD,浙江NEWS 超清,浙江NEWS 高清,浙江NEWS(HD),浙江NEWS-4K,浙江NEWS-HD,浙江NEWS-高清,浙江NEWSHD,"
+  },
+  {
+    "epgid": "浙江公共新闻",
+    "name": "浙江公共新闻,浙江公共新闻 HD,浙江公共新闻 超清,浙江公共新闻 高清,浙江公共新闻(HD),浙江公共新闻-4K,浙江公共新闻-HD,浙江公共新闻-高清,浙江公共新闻HD,"
+  },
+  {
+    "epgid": "浙江卫视",
+    "name": "浙江卫视,浙江卫视 HD,浙江卫视 超清,浙江卫视 高清,浙江卫视(HD),浙江卫视-4K,浙江卫视-HD,浙江卫视-高清,浙江卫视HD,"
+  },
+  {
+    "epgid": "浙江卫视",
+    "name": "浙江卫视,浙江卫视 HD,浙江卫视 超清,浙江卫视 高清,浙江卫视(HD),浙江卫视-4K,浙江卫视-HD,浙江卫视-高清,浙江卫视HD,"
+  },
+  {
+    "epgid": "浙江卫视",
+    "name": "浙江卫视,浙江卫视 HD,浙江卫视 超清,浙江卫视 高清,浙江卫视(HD),浙江卫视-4K,浙江卫视-HD,浙江卫视-高清,浙江卫视HD,"
+  },
+  {
+    "epgid": "浙江少儿",
+    "name": "浙江少儿,浙江少儿 HD,浙江少儿 超清,浙江少儿 高清,浙江少儿(HD),浙江少儿-4K,浙江少儿-HD,浙江少儿-高清,浙江少儿HD,"
+  },
+  {
+    "epgid": "浙江影视",
+    "name": "浙江影视,浙江影视 HD,浙江影视 超清,浙江影视 高清,浙江影视(HD),浙江影视-4K,浙江影视-HD,浙江影视-高清,浙江影视HD,"
+  },
+  {
+    "epgid": "浙江教科影视",
+    "name": "浙江教科影视,浙江教科影视 HD,浙江教科影视 超清,浙江教科影视 高清,浙江教科影视(HD),浙江教科影视-4K,浙江教科影视-HD,浙江教科影视-高清,浙江教科影视HD,"
+  },
+  {
+    "epgid": "浙江教育",
+    "name": "浙江教育,浙江教育 HD,浙江教育 超清,浙江教育 高清,浙江教育(HD),浙江教育-4K,浙江教育-HD,浙江教育-高清,浙江教育HD,"
+  },
+  {
+    "epgid": "浙江民生",
+    "name": "浙江民生,浙江民生 HD,浙江民生 超清,浙江民生 高清,浙江民生(HD),浙江民生-4K,浙江民生-HD,浙江民生-高清,浙江民生HD,"
+  },
+  {
+    "epgid": "浙江经济生活",
+    "name": "浙江经济生活,浙江经济生活 HD,浙江经济生活 超清,浙江经济生活 高清,浙江经济生活(HD),浙江经济生活-4K,浙江经济生活-HD,浙江经济生活-高清,浙江经济生活HD,"
+  },
+  {
+    "epgid": "浙江经视",
+    "name": "浙江经视,浙江经视 HD,浙江经视 超清,浙江经视 高清,浙江经视(HD),浙江经视-4K,浙江经视-HD,浙江经视-高清,浙江经视HD,"
+  },
+  {
+    "epgid": "浙江钱江都市",
+    "name": "浙江钱江都市,浙江钱江都市 HD,浙江钱江都市 超清,浙江钱江都市 高清,浙江钱江都市(HD),浙江钱江都市-4K,浙江钱江都市-HD,浙江钱江都市-高清,浙江钱江都市HD,"
+  },
+  {
+    "epgid": "浙江電視台國際頻道",
+    "name": "浙江電視台國際頻道,浙江電視台國際頻道 HD,浙江電視台國際頻道 超清,浙江電視台國際頻道 高清,浙江電視台國際頻道(HD),浙江電視台國際頻道-4K,浙江電視台國際頻道-HD,浙江電視台國際頻道-高清,浙江電視台國際頻道HD,"
+  },
+  {
+    "epgid": "海南卫视",
+    "name": "海南卫视,海南卫视 HD,海南卫视 超清,海南卫视 高清,海南卫视(HD),海南卫视-4K,海南卫视-HD,海南卫视-高清,海南卫视HD,"
+  },
+  {
+    "epgid": "海南卫视",
+    "name": "海南卫视,海南卫视 HD,海南卫视 超清,海南卫视 高清,海南卫视(HD),海南卫视-4K,海南卫视-HD,海南卫视-高清,海南卫视HD,"
+  },
+  {
+    "epgid": "海南自贸",
+    "name": "海南自贸,海南自贸 HD,海南自贸 超清,海南自贸 高清,海南自贸(HD),海南自贸-4K,海南自贸-HD,海南自贸-高清,海南自贸HD,"
+  },
+  {
+    "epgid": "海峡卫视",
+    "name": "海峡卫视,海峡卫视 HD,海峡卫视 超清,海峡卫视 高清,海峡卫视(HD),海峡卫视-4K,海峡卫视-HD,海峡卫视-高清,海峡卫视HD,"
+  },
+  {
+    "epgid": "海峡卫视",
+    "name": "海峡卫视,海峡卫视 HD,海峡卫视 超清,海峡卫视 高清,海峡卫视(HD),海峡卫视-4K,海峡卫视-HD,海峡卫视-高清,海峡卫视HD,"
+  },
+  {
+    "epgid": "海豚綜合台",
+    "name": "海豚綜合台,海豚綜合台 HD,海豚綜合台 超清,海豚綜合台 高清,海豚綜合台(HD),海豚綜合台-4K,海豚綜合台-HD,海豚綜合台-高清,海豚綜合台HD,"
+  },
+  {
+    "epgid": "淮南公共",
+    "name": "淮南公共,淮南公共 HD,淮南公共 超清,淮南公共 高清,淮南公共(HD),淮南公共-4K,淮南公共-HD,淮南公共-高清,淮南公共HD,"
+  },
+  {
+    "epgid": "淮南新闻综合",
+    "name": "淮南新闻综合,淮南新闻综合 HD,淮南新闻综合 超清,淮南新闻综合 高清,淮南新闻综合(HD),淮南新闻综合-4K,淮南新闻综合-HD,淮南新闻综合-高清,淮南新闻综合HD,"
+  },
+  {
+    "epgid": "深圳卫视",
+    "name": "深圳卫视,深圳卫视 HD,深圳卫视 超清,深圳卫视 高清,深圳卫视(HD),深圳卫视-4K,深圳卫视-HD,深圳卫视-高清,深圳卫视HD,"
+  },
+  {
+    "epgid": "深圳卫视",
+    "name": "深圳卫视,深圳卫视 HD,深圳卫视 超清,深圳卫视 高清,深圳卫视(HD),深圳卫视-4K,深圳卫视-HD,深圳卫视-高清,深圳卫视HD,"
+  },
+  {
+    "epgid": "深圳卫视",
+    "name": "深圳卫视,深圳卫视 HD,深圳卫视 超清,深圳卫视 高清,深圳卫视(HD),深圳卫视-4K,深圳卫视-HD,深圳卫视-高清,深圳卫视HD,"
+  },
+  {
+    "epgid": "深圳少儿",
+    "name": "深圳少儿,深圳少儿 HD,深圳少儿 超清,深圳少儿 高清,深圳少儿(HD),深圳少儿-4K,深圳少儿-HD,深圳少儿-高清,深圳少儿HD,"
+  },
+  {
+    "epgid": "深圳移动",
+    "name": "深圳移动,深圳移动 HD,深圳移动 超清,深圳移动 高清,深圳移动(HD),深圳移动-4K,深圳移动-HD,深圳移动-高清,深圳移动HD,"
+  },
+  {
+    "epgid": "深圳衛視",
+    "name": "深圳衛視,深圳衛視 HD,深圳衛視 超清,深圳衛視 高清,深圳衛視(HD),深圳衛視-4K,深圳衛視-HD,深圳衛視-高清,深圳衛視HD,"
+  },
+  {
+    "epgid": "深圳衛視國際頻道",
+    "name": "深圳衛視國際頻道,深圳衛視國際頻道 HD,深圳衛視國際頻道 超清,深圳衛視國際頻道 高清,深圳衛視國際頻道(HD),深圳衛視國際頻道-4K,深圳衛視國際頻道-HD,深圳衛視國際頻道-高清,深圳衛視國際頻道HD,"
+  },
+  {
+    "epgid": "深圳都市",
+    "name": "深圳都市,深圳都市 HD,深圳都市 超清,深圳都市 高清,深圳都市(HD),深圳都市-4K,深圳都市-HD,深圳都市-高清,深圳都市HD,"
+  },
+  {
+    "epgid": "清远新闻综合",
+    "name": "清远新闻综合,清远新闻综合 HD,清远新闻综合 超清,清远新闻综合 高清,清远新闻综合(HD),清远新闻综合-4K,清远新闻综合-HD,清远新闻综合-高清,清远新闻综合HD,"
+  },
+  {
+    "epgid": "測試頻道",
+    "name": "測試頻道,測試頻道 HD,測試頻道 超清,測試頻道 高清,測試頻道(HD),測試頻道-4K,測試頻道-HD,測試頻道-高清,測試頻道HD,"
+  },
+  {
+    "epgid": "港台电视31",
+    "name": "港台电视31,港台电视31 HD,港台电视31 超清,港台电视31 高清,港台电视31(HD),港台电视31-4K,港台电视31-HD,港台电视31-高清,港台电视31HD,"
+  },
+  {
+    "epgid": "港台电视32",
+    "name": "港台电视32,港台电视32 HD,港台电视32 超清,港台电视32 高清,港台电视32(HD),港台电视32-4K,港台电视32-HD,港台电视32-高清,港台电视32HD,"
+  },
+  {
+    "epgid": "港台电视33",
+    "name": "港台电视33,港台电视33 HD,港台电视33 超清,港台电视33 高清,港台电视33(HD),港台电视33-4K,港台电视33-HD,港台电视33-高清,港台电视33HD,"
+  },
+  {
+    "epgid": "港台电视34",
+    "name": "港台电视34,港台电视34 HD,港台电视34 超清,港台电视34 高清,港台电视34(HD),港台电视34-4K,港台电视34-HD,港台电视34-高清,港台电视34HD,"
+  },
+  {
+    "epgid": "港台电视35",
+    "name": "港台电视35,港台电视35 HD,港台电视35 超清,港台电视35 高清,港台电视35(HD),港台电视35-4K,港台电视35-HD,港台电视35-高清,港台电视35HD,"
+  },
+  {
+    "epgid": "游戏风云",
+    "name": "游戏风云,游戏风云 HD,游戏风云 超清,游戏风云 高清,游戏风云(HD),游戏风云-4K,游戏风云-HD,游戏风云-高清,游戏风云HD,"
+  },
+  {
+    "epgid": "湖北卫视",
+    "name": "湖北卫视,湖北卫视 HD,湖北卫视 超清,湖北卫视 高清,湖北卫视(HD),湖北卫视-4K,湖北卫视-HD,湖北卫视-高清,湖北卫视HD,"
+  },
+  {
+    "epgid": "湖北卫视",
+    "name": "湖北卫视,湖北卫视 HD,湖北卫视 超清,湖北卫视 高清,湖北卫视(HD),湖北卫视-4K,湖北卫视-HD,湖北卫视-高清,湖北卫视HD,"
+  },
+  {
+    "epgid": "湖北卫视",
+    "name": "湖北卫视,湖北卫视 HD,湖北卫视 超清,湖北卫视 高清,湖北卫视(HD),湖北卫视-4K,湖北卫视-HD,湖北卫视-高清,湖北卫视HD,"
+  },
+  {
+    "epgid": "湖北卫视 高清",
+    "name": "湖北卫视 高清,湖北卫视 高清 HD,湖北卫视 高清 超清,湖北卫视 高清 高清,湖北卫视 高清(HD),湖北卫视 高清-4K,湖北卫视 高清-HD,湖北卫视 高清-高清,湖北卫视 高清HD,"
+  },
+  {
+    "epgid": "湖南卫视",
+    "name": "湖南卫视,湖南卫视 HD,湖南卫视 超清,湖南卫视 高清,湖南卫视(HD),湖南卫视-4K,湖南卫视-HD,湖南卫视-高清,湖南卫视HD,"
+  },
+  {
+    "epgid": "湖南卫视",
+    "name": "湖南卫视,湖南卫视 HD,湖南卫视 超清,湖南卫视 高清,湖南卫视(HD),湖南卫视-4K,湖南卫视-HD,湖南卫视-高清,湖南卫视HD,"
+  },
+  {
+    "epgid": "湖南卫视",
+    "name": "湖南卫视,湖南卫视 HD,湖南卫视 超清,湖南卫视 高清,湖南卫视(HD),湖南卫视-4K,湖南卫视-HD,湖南卫视-高清,湖南卫视HD,"
+  },
+  {
+    "epgid": "湖南卫视国际",
+    "name": "湖南卫视国际,湖南卫视国际 HD,湖南卫视国际 超清,湖南卫视国际 高清,湖南卫视国际(HD),湖南卫视国际-4K,湖南卫视国际-HD,湖南卫视国际-高清,湖南卫视国际HD,"
+  },
+  {
+    "epgid": "湖南国际",
+    "name": "湖南国际,湖南国际 HD,湖南国际 超清,湖南国际 高清,湖南国际(HD),湖南国际-4K,湖南国际-HD,湖南国际-高清,湖南国际HD,"
+  },
+  {
+    "epgid": "湖南娱乐",
+    "name": "湖南娱乐,湖南娱乐 HD,湖南娱乐 超清,湖南娱乐 高清,湖南娱乐(HD),湖南娱乐-4K,湖南娱乐-HD,湖南娱乐-高清,湖南娱乐HD,"
+  },
+  {
+    "epgid": "湖南爱晚",
+    "name": "湖南爱晚,湖南爱晚 HD,湖南爱晚 超清,湖南爱晚 高清,湖南爱晚(HD),湖南爱晚-4K,湖南爱晚-HD,湖南爱晚-高清,湖南爱晚HD,"
+  },
+  {
+    "epgid": "湖南电影",
+    "name": "湖南电影,湖南电影 HD,湖南电影 超清,湖南电影 高清,湖南电影(HD),湖南电影-4K,湖南电影-HD,湖南电影-高清,湖南电影HD,"
+  },
+  {
+    "epgid": "湖南电视剧",
+    "name": "湖南电视剧,湖南电视剧 HD,湖南电视剧 超清,湖南电视剧 高清,湖南电视剧(HD),湖南电视剧-4K,湖南电视剧-HD,湖南电视剧-高清,湖南电视剧HD,"
+  },
+  {
+    "epgid": "湖南经视",
+    "name": "湖南经视,湖南经视 HD,湖南经视 超清,湖南经视 高清,湖南经视(HD),湖南经视-4K,湖南经视-HD,湖南经视-高清,湖南经视HD,"
+  },
+  {
+    "epgid": "湖南電視台國際頻道",
+    "name": "湖南電視台國際頻道,湖南電視台國際頻道 HD,湖南電視台國際頻道 超清,湖南電視台國際頻道 高清,湖南電視台國際頻道(HD),湖南電視台國際頻道-4K,湖南電視台國際頻道-HD,湖南電視台國際頻道-高清,湖南電視台國際頻道HD,"
+  },
+  {
+    "epgid": "湛江公共",
+    "name": "湛江公共,湛江公共 HD,湛江公共 超清,湛江公共 高清,湛江公共(HD),湛江公共-4K,湛江公共-HD,湛江公共-高清,湛江公共HD,"
+  },
+  {
+    "epgid": "湛江综合",
+    "name": "湛江综合,湛江综合 HD,湛江综合 超清,湛江综合 高清,湛江综合(HD),湛江综合-4K,湛江综合-HD,湛江综合-高清,湛江综合HD,"
+  },
+  {
+    "epgid": "滨州综合",
+    "name": "滨州综合,滨州综合 HD,滨州综合 超清,滨州综合 高清,滨州综合(HD),滨州综合-4K,滨州综合-HD,滨州综合-高清,滨州综合HD,"
+  },
+  {
+    "epgid": "滾動力 rollor",
+    "name": "滾動力 rollor,滾動力 rollor HD,滾動力 rollor 超清,滾動力 rollor 高清,滾動力 rollor(HD),滾動力 rollor-4K,滾動力 rollor-HD,滾動力 rollor-高清,滾動力 rollorHD,"
+  },
+  {
+    "epgid": "滾動力rollor",
+    "name": "滾動力rollor,滾動力rollor HD,滾動力rollor 超清,滾動力rollor 高清,滾動力rollor(HD),滾動力rollor-4K,滾動力rollor-HD,滾動力rollor-高清,滾動力rollorHD,"
+  },
+  {
+    "epgid": "漳州新闻",
+    "name": "漳州新闻,漳州新闻 HD,漳州新闻 超清,漳州新闻 高清,漳州新闻(HD),漳州新闻-4K,漳州新闻-HD,漳州新闻-高清,漳州新闻HD,"
+  },
+  {
+    "epgid": "潘朵啦高畫質玩美台",
+    "name": "潘朵啦高畫質玩美台,潘朵啦高畫質玩美台 HD,潘朵啦高畫質玩美台 超清,潘朵啦高畫質玩美台 高清,潘朵啦高畫質玩美台(HD),潘朵啦高畫質玩美台-4K,潘朵啦高畫質玩美台-HD,潘朵啦高畫質玩美台-高清,潘朵啦高畫質玩美台HD,"
+  },
+  {
+    "epgid": "潘朵啦高畫質粉紅台",
+    "name": "潘朵啦高畫質粉紅台,潘朵啦高畫質粉紅台 HD,潘朵啦高畫質粉紅台 超清,潘朵啦高畫質粉紅台 高清,潘朵啦高畫質粉紅台(HD),潘朵啦高畫質粉紅台-4K,潘朵啦高畫質粉紅台-HD,潘朵啦高畫質粉紅台-高清,潘朵啦高畫質粉紅台HD,"
+  },
+  {
+    "epgid": "潮安综合",
+    "name": "潮安综合,潮安综合 HD,潮安综合 超清,潮安综合 高清,潮安综合(HD),潮安综合-4K,潮安综合-HD,潮安综合-高清,潮安综合HD,"
+  },
+  {
+    "epgid": "潮州民生",
+    "name": "潮州民生,潮州民生 HD,潮州民生 超清,潮州民生 高清,潮州民生(HD),潮州民生-4K,潮州民生-HD,潮州民生-高清,潮州民生HD,"
+  },
+  {
+    "epgid": "潮州综合",
+    "name": "潮州综合,潮州综合 HD,潮州综合 超清,潮州综合 高清,潮州综合(HD),潮州综合-4K,潮州综合-HD,潮州综合-高清,潮州综合HD,"
+  },
+  {
+    "epgid": "澳视体育",
+    "name": "澳视体育,澳视体育 HD,澳视体育 超清,澳视体育 高清,澳视体育(HD),澳视体育-4K,澳视体育-HD,澳视体育-高清,澳视体育HD,"
+  },
+  {
+    "epgid": "澳视卫星",
+    "name": "澳视卫星,澳视卫星 HD,澳视卫星 超清,澳视卫星 高清,澳视卫星(HD),澳视卫星-4K,澳视卫星-HD,澳视卫星-高清,澳视卫星HD,"
+  },
+  {
+    "epgid": "澳视澳门",
+    "name": "澳视澳门,澳视澳门 HD,澳视澳门 超清,澳视澳门 高清,澳视澳门(HD),澳视澳门-4K,澳视澳门-HD,澳视澳门-高清,澳视澳门HD,"
+  },
+  {
+    "epgid": "澳视综艺",
+    "name": "澳视综艺,澳视综艺 HD,澳视综艺 超清,澳视综艺 高清,澳视综艺(HD),澳视综艺-4K,澳视综艺-HD,澳视综艺-高清,澳视综艺HD,"
+  },
+  {
+    "epgid": "澳视葡文",
+    "name": "澳视葡文,澳视葡文 HD,澳视葡文 超清,澳视葡文 高清,澳视葡文(HD),澳视葡文-4K,澳视葡文-HD,澳视葡文-高清,澳视葡文HD,"
+  },
+  {
+    "epgid": "澳视资讯",
+    "name": "澳视资讯,澳视资讯 HD,澳视资讯 超清,澳视资讯 高清,澳视资讯(HD),澳视资讯-4K,澳视资讯-HD,澳视资讯-高清,澳视资讯HD,"
+  },
+  {
+    "epgid": "無綫新聞台",
+    "name": "無綫新聞台,無綫新聞台 HD,無綫新聞台 超清,無綫新聞台 高清,無綫新聞台(HD),無綫新聞台-4K,無綫新聞台-HD,無綫新聞台-高清,無綫新聞台HD,"
+  },
+  {
+    "epgid": "無線衛星亞洲台",
+    "name": "無線衛星亞洲台,無線衛星亞洲台 HD,無線衛星亞洲台 超清,無線衛星亞洲台 高清,無線衛星亞洲台(HD),無線衛星亞洲台-4K,無線衛星亞洲台-HD,無線衛星亞洲台-高清,無線衛星亞洲台HD,"
+  },
+  {
+    "epgid": "無線衛星新聞台",
+    "name": "無線衛星新聞台,無線衛星新聞台 HD,無線衛星新聞台 超清,無線衛星新聞台 高清,無線衛星新聞台(HD),無線衛星新聞台-4K,無線衛星新聞台-HD,無線衛星新聞台-高清,無線衛星新聞台HD,"
+  },
+  {
+    "epgid": "熊貓 TV",
+    "name": "熊貓 TV,熊貓 TV HD,熊貓 TV 超清,熊貓 TV 高清,熊貓 TV(HD),熊貓 TV-4K,熊貓 TV-HD,熊貓 TV-高清,熊貓 TVHD,"
+  },
+  {
+    "epgid": "玉林新闻综合",
+    "name": "玉林新闻综合,玉林新闻综合 HD,玉林新闻综合 超清,玉林新闻综合 高清,玉林新闻综合(HD),玉林新闻综合-4K,玉林新闻综合-HD,玉林新闻综合-高清,玉林新闻综合HD,"
+  },
+  {
+    "epgid": "玩家頻道",
+    "name": "玩家頻道,玩家頻道 HD,玩家頻道 超清,玩家頻道 高清,玩家頻道(HD),玩家頻道-4K,玩家頻道-HD,玩家頻道-高清,玩家頻道HD,"
+  },
+  {
+    "epgid": "环球旅游",
+    "name": "环球旅游,环球旅游 HD,环球旅游 超清,环球旅游 高清,环球旅游(HD),环球旅游-4K,环球旅游-HD,环球旅游-高清,环球旅游HD,"
+  },
+  {
+    "epgid": "珠江频道",
+    "name": "珠江频道,珠江频道 HD,珠江频道 超清,珠江频道 高清,珠江频道(HD),珠江频道-4K,珠江频道-HD,珠江频道-高清,珠江频道HD,"
+  },
+  {
+    "epgid": "珠海-1",
+    "name": "珠海-1,珠海-1 HD,珠海-1 超清,珠海-1 高清,珠海-1(HD),珠海-1-4K,珠海-1-HD,珠海-1-高清,珠海-1HD,"
+  },
+  {
+    "epgid": "珠海新闻",
+    "name": "珠海新闻,珠海新闻 HD,珠海新闻 超清,珠海新闻 高清,珠海新闻(HD),珠海新闻-4K,珠海新闻-HD,珠海新闻-高清,珠海新闻HD,"
+  },
+  {
+    "epgid": "甘肃卫视",
+    "name": "甘肃卫视,甘肃卫视 HD,甘肃卫视 超清,甘肃卫视 高清,甘肃卫视(HD),甘肃卫视-4K,甘肃卫视-HD,甘肃卫视-高清,甘肃卫视HD,"
+  },
+  {
+    "epgid": "甘肃卫视",
+    "name": "甘肃卫视,甘肃卫视 HD,甘肃卫视 超清,甘肃卫视 高清,甘肃卫视(HD),甘肃卫视-4K,甘肃卫视-HD,甘肃卫视-高清,甘肃卫视HD,"
+  },
+  {
+    "epgid": "甘肃卫视",
+    "name": "甘肃卫视,甘肃卫视 HD,甘肃卫视 超清,甘肃卫视 高清,甘肃卫视(HD),甘肃卫视-4K,甘肃卫视-HD,甘肃卫视-高清,甘肃卫视HD,"
+  },
+  {
+    "epgid": "甘肃少儿",
+    "name": "甘肃少儿,甘肃少儿 HD,甘肃少儿 超清,甘肃少儿 高清,甘肃少儿(HD),甘肃少儿-4K,甘肃少儿-HD,甘肃少儿-高清,甘肃少儿HD,"
+  },
+  {
+    "epgid": "甘肃文化影视",
+    "name": "甘肃文化影视,甘肃文化影视 HD,甘肃文化影视 超清,甘肃文化影视 高清,甘肃文化影视(HD),甘肃文化影视-4K,甘肃文化影视-HD,甘肃文化影视-高清,甘肃文化影视HD,"
+  },
+  {
+    "epgid": "生态环境",
+    "name": "生态环境,生态环境 HD,生态环境 超清,生态环境 高清,生态环境(HD),生态环境-4K,生态环境-HD,生态环境-高清,生态环境HD,"
+  },
+  {
+    "epgid": "生活时尚",
+    "name": "生活时尚,生活时尚 HD,生活时尚 超清,生活时尚 高清,生活时尚(HD),生活时尚-4K,生活时尚-HD,生活时尚-高清,生活时尚HD,"
+  },
+  {
+    "epgid": "电视指南",
+    "name": "电视指南,电视指南 HD,电视指南 超清,电视指南 高清,电视指南(HD),电视指南-4K,电视指南-HD,电视指南-高清,电视指南HD,"
+  },
+  {
+    "epgid": "番薯衛星電視台",
+    "name": "番薯衛星電視台,番薯衛星電視台 HD,番薯衛星電視台 超清,番薯衛星電視台 高清,番薯衛星電視台(HD),番薯衛星電視台-4K,番薯衛星電視台-HD,番薯衛星電視台-高清,番薯衛星電視台HD,"
+  },
+  {
+    "epgid": "番薯電視台",
+    "name": "番薯電視台,番薯電視台 HD,番薯電視台 超清,番薯電視台 高清,番薯電視台(HD),番薯電視台-4K,番薯電視台-HD,番薯電視台-高清,番薯電視台HD,"
+  },
+  {
+    "epgid": "百色综合",
+    "name": "百色综合,百色综合 HD,百色综合 超清,百色综合 高清,百色综合(HD),百色综合-4K,百色综合-HD,百色综合-高清,百色综合HD,"
+  },
+  {
+    "epgid": "眉山综合",
+    "name": "眉山综合,眉山综合 HD,眉山综合 超清,眉山综合 高清,眉山综合(HD),眉山综合-4K,眉山综合-HD,眉山综合-高清,眉山综合HD,"
+  },
+  {
+    "epgid": "石家庄娱乐",
+    "name": "石家庄娱乐,石家庄娱乐 HD,石家庄娱乐 超清,石家庄娱乐 高清,石家庄娱乐(HD),石家庄娱乐-4K,石家庄娱乐-HD,石家庄娱乐-高清,石家庄娱乐HD,"
+  },
+  {
+    "epgid": "石家庄新闻综合",
+    "name": "石家庄新闻综合,石家庄新闻综合 HD,石家庄新闻综合 超清,石家庄新闻综合 高清,石家庄新闻综合(HD),石家庄新闻综合-4K,石家庄新闻综合-HD,石家庄新闻综合-高清,石家庄新闻综合HD,"
+  },
+  {
+    "epgid": "石家庄生活",
+    "name": "石家庄生活,石家庄生活 HD,石家庄生活 超清,石家庄生活 高清,石家庄生活(HD),石家庄生活-4K,石家庄生活-HD,石家庄生活-高清,石家庄生活HD,"
+  },
+  {
+    "epgid": "石家庄都市",
+    "name": "石家庄都市,石家庄都市 HD,石家庄都市 超清,石家庄都市 高清,石家庄都市(HD),石家庄都市-4K,石家庄都市-HD,石家庄都市-高清,石家庄都市HD,"
+  },
+  {
+    "epgid": "福州1-新闻",
+    "name": "福州1-新闻,福州1-新闻 HD,福州1-新闻 超清,福州1-新闻 高清,福州1-新闻(HD),福州1-新闻-4K,福州1-新闻-HD,福州1-新闻-高清,福州1-新闻HD,"
+  },
+  {
+    "epgid": "福州2套-影视",
+    "name": "福州2套-影视,福州2套-影视 HD,福州2套-影视 超清,福州2套-影视 高清,福州2套-影视(HD),福州2套-影视-4K,福州2套-影视-HD,福州2套-影视-高清,福州2套-影视HD,"
+  },
+  {
+    "epgid": "福州3-生活",
+    "name": "福州3-生活,福州3-生活 HD,福州3-生活 超清,福州3-生活 高清,福州3-生活(HD),福州3-生活-4K,福州3-生活-HD,福州3-生活-高清,福州3-生活HD,"
+  },
+  {
+    "epgid": "福建少儿",
+    "name": "福建少儿,福建少儿 HD,福建少儿 超清,福建少儿 高清,福建少儿(HD),福建少儿-4K,福建少儿-HD,福建少儿-高清,福建少儿HD,"
+  },
+  {
+    "epgid": "福建新闻",
+    "name": "福建新闻,福建新闻 HD,福建新闻 超清,福建新闻 高清,福建新闻(HD),福建新闻-4K,福建新闻-HD,福建新闻-高清,福建新闻HD,"
+  },
+  {
+    "epgid": "福建海峽衛視國際頻道",
+    "name": "福建海峽衛視國際頻道,福建海峽衛視國際頻道 HD,福建海峽衛視國際頻道 超清,福建海峽衛視國際頻道 高清,福建海峽衛視國際頻道(HD),福建海峽衛視國際頻道-4K,福建海峽衛視國際頻道-HD,福建海峽衛視國際頻道-高清,福建海峽衛視國際頻道HD,"
+  },
+  {
+    "epgid": "福建综合",
+    "name": "福建综合,福建综合 HD,福建综合 超清,福建综合 高清,福建综合(HD),福建综合-4K,福建综合-HD,福建综合-高清,福建综合HD,"
+  },
+  {
+    "epgid": "第一财经",
+    "name": "第一财经,第一财经 HD,第一财经 超清,第一财经 高清,第一财经(HD),第一财经-4K,第一财经-HD,第一财经-高清,第一财经HD,"
+  },
+  {
+    "epgid": "粵語片台",
+    "name": "粵語片台,粵語片台 HD,粵語片台 超清,粵語片台 高清,粵語片台(HD),粵語片台-4K,粵語片台-HD,粵語片台-高清,粵語片台HD,"
+  },
+  {
+    "epgid": "精選動漫台",
+    "name": "精選動漫台,精選動漫台 HD,精選動漫台 超清,精選動漫台 高清,精選動漫台(HD),精選動漫台-4K,精選動漫台-HD,精選動漫台-高清,精選動漫台HD,"
+  },
+  {
+    "epgid": "紅豆電視台",
+    "name": "紅豆電視台,紅豆電視台 HD,紅豆電視台 超清,紅豆電視台 高清,紅豆電視台(HD),紅豆電視台-4K,紅豆電視台-HD,紅豆電視台-高清,紅豆電視台HD,"
+  },
+  {
+    "epgid": "經典卡通台",
+    "name": "經典卡通台,經典卡通台 HD,經典卡通台 超清,經典卡通台 高清,經典卡通台(HD),經典卡通台-4K,經典卡通台-HD,經典卡通台-高清,經典卡通台HD,"
+  },
+  {
+    "epgid": "經典電影台",
+    "name": "經典電影台,經典電影台 HD,經典電影台 超清,經典電影台 高清,經典電影台(HD),經典電影台-4K,經典電影台-HD,經典電影台-高清,經典電影台HD,"
+  },
+  {
+    "epgid": "緯來戲劇台",
+    "name": "緯來戲劇台,緯來戲劇台 HD,緯來戲劇台 超清,緯來戲劇台 高清,緯來戲劇台(HD),緯來戲劇台-4K,緯來戲劇台-HD,緯來戲劇台-高清,緯來戲劇台HD,"
+  },
+  {
+    "epgid": "緯來日本台",
+    "name": "緯來日本台,緯來日本台 HD,緯來日本台 超清,緯來日本台 高清,緯來日本台(HD),緯來日本台-4K,緯來日本台-HD,緯來日本台-高清,緯來日本台HD,"
+  },
+  {
+    "epgid": "緯來精采HD",
+    "name": "緯來精采HD,緯來精采HD HD,緯來精采HD 超清,緯來精采HD 高清,緯來精采HD(HD),緯來精采HD-4K,緯來精采HD-HD,緯來精采HD-高清,緯來精采HDHD,"
+  },
+  {
+    "epgid": "緯來綜合台",
+    "name": "緯來綜合台,緯來綜合台 HD,緯來綜合台 超清,緯來綜合台 高清,緯來綜合台(HD),緯來綜合台-4K,緯來綜合台-HD,緯來綜合台-高清,緯來綜合台HD,"
+  },
+  {
+    "epgid": "緯來育樂台",
+    "name": "緯來育樂台,緯來育樂台 HD,緯來育樂台 超清,緯來育樂台 高清,緯來育樂台(HD),緯來育樂台-4K,緯來育樂台-HD,緯來育樂台-高清,緯來育樂台HD,"
+  },
+  {
+    "epgid": "緯來電影台",
+    "name": "緯來電影台,緯來電影台 HD,緯來電影台 超清,緯來電影台 高清,緯來電影台(HD),緯來電影台-4K,緯來電影台-HD,緯來電影台-高清,緯來電影台HD,"
+  },
+  {
+    "epgid": "緯來體育台",
+    "name": "緯來體育台,緯來體育台 HD,緯來體育台 超清,緯來體育台 高清,緯來體育台(HD),緯來體育台-4K,緯來體育台-HD,緯來體育台-高清,緯來體育台HD,"
+  },
+  {
+    "epgid": "红色轮播",
+    "name": "红色轮播,红色轮播 HD,红色轮播 超清,红色轮播 高清,红色轮播(HD),红色轮播-4K,红色轮播-HD,红色轮播-高清,红色轮播HD,"
+  },
+  {
+    "epgid": "纪实科教",
+    "name": "纪实科教,纪实科教 HD,纪实科教 超清,纪实科教 高清,纪实科教(HD),纪实科教-4K,纪实科教-HD,纪实科教-高清,纪实科教HD,"
+  },
+  {
+    "epgid": "经济科教",
+    "name": "经济科教,经济科教 HD,经济科教 超清,经济科教 高清,经济科教(HD),经济科教-4K,经济科教-HD,经济科教-高清,经济科教HD,"
+  },
+  {
+    "epgid": "绵阳影视科技",
+    "name": "绵阳影视科技,绵阳影视科技 HD,绵阳影视科技 超清,绵阳影视科技 高清,绵阳影视科技(HD),绵阳影视科技-4K,绵阳影视科技-HD,绵阳影视科技-高清,绵阳影视科技HD,"
+  },
+  {
+    "epgid": "罪案 + 偵緝",
+    "name": "罪案 + 偵緝,罪案 + 偵緝 HD,罪案 + 偵緝 超清,罪案 + 偵緝 高清,罪案 + 偵緝(HD),罪案 + 偵緝-4K,罪案 + 偵緝-HD,罪案 + 偵緝-高清,罪案 + 偵緝HD,"
+  },
+  {
+    "epgid": "罪案偵緝頻道",
+    "name": "罪案偵緝頻道,罪案偵緝頻道 HD,罪案偵緝頻道 超清,罪案偵緝頻道 高清,罪案偵緝頻道(HD),罪案偵緝頻道-4K,罪案偵緝頻道-HD,罪案偵緝頻道-高清,罪案偵緝頻道HD,"
+  },
+  {
+    "epgid": "罪案偵緝頻道HD",
+    "name": "罪案偵緝頻道HD,罪案偵緝頻道HD HD,罪案偵緝頻道HD 超清,罪案偵緝頻道HD 高清,罪案偵緝頻道HD(HD),罪案偵緝頻道HD-4K,罪案偵緝頻道HD-HD,罪案偵緝頻道HD-高清,罪案偵緝頻道HDHD,"
+  },
+  {
+    "epgid": "美亞電影HD",
+    "name": "美亞電影HD,美亞電影HD HD,美亞電影HD 超清,美亞電影HD 高清,美亞電影HD(HD),美亞電影HD-4K,美亞電影HD-HD,美亞電影HD-高清,美亞電影HDHD,"
+  },
+  {
+    "epgid": "美亞電影台",
+    "name": "美亞電影台,美亞電影台 HD,美亞電影台 超清,美亞電影台 高清,美亞電影台(HD),美亞電影台-4K,美亞電影台-HD,美亞電影台-高清,美亞電影台HD,"
+  },
+  {
+    "epgid": "美好1台HD",
+    "name": "美好1台HD,美好1台HD HD,美好1台HD 超清,美好1台HD 高清,美好1台HD(HD),美好1台HD-4K,美好1台HD-HD,美好1台HD-高清,美好1台HDHD,"
+  },
+  {
+    "epgid": "美好2台",
+    "name": "美好2台,美好2台 HD,美好2台 超清,美好2台 高清,美好2台(HD),美好2台-4K,美好2台-HD,美好2台-高清,美好2台HD,"
+  },
+  {
+    "epgid": "美食星球HD",
+    "name": "美食星球HD,美食星球HD HD,美食星球HD 超清,美食星球HD 高清,美食星球HD(HD),美食星球HD-4K,美食星球HD-HD,美食星球HD-高清,美食星球HDHD,"
+  },
+  {
+    "epgid": "美麗人生購物台",
+    "name": "美麗人生購物台,美麗人生購物台 HD,美麗人生購物台 超清,美麗人生購物台 高清,美麗人生購物台(HD),美麗人生購物台-4K,美麗人生購物台-HD,美麗人生購物台-高清,美麗人生購物台HD,"
+  },
+  {
+    "epgid": "翡翠台",
+    "name": "翡翠台,翡翠台 HD,翡翠台 超清,翡翠台 高清,翡翠台(HD),翡翠台-4K,翡翠台-HD,翡翠台-高清,翡翠台HD,"
+  },
+  {
+    "epgid": "翡翠台",
+    "name": "翡翠台,翡翠台 HD,翡翠台 超清,翡翠台 高清,翡翠台(HD),翡翠台-4K,翡翠台-HD,翡翠台-高清,翡翠台HD,"
+  },
+  {
+    "epgid": "肇庆新闻",
+    "name": "肇庆新闻,肇庆新闻 HD,肇庆新闻 超清,肇庆新闻 高清,肇庆新闻(HD),肇庆新闻-4K,肇庆新闻-HD,肇庆新闻-高清,肇庆新闻HD,"
+  },
+  {
+    "epgid": "肇庆生活服务",
+    "name": "肇庆生活服务,肇庆生活服务 HD,肇庆生活服务 超清,肇庆生活服务 高清,肇庆生活服务(HD),肇庆生活服务-4K,肇庆生活服务-HD,肇庆生活服务-高清,肇庆生活服务HD,"
+  },
+  {
+    "epgid": "自贡公共",
+    "name": "自贡公共,自贡公共 HD,自贡公共 超清,自贡公共 高清,自贡公共(HD),自贡公共-4K,自贡公共-HD,自贡公共-高清,自贡公共HD,"
+  },
+  {
+    "epgid": "自贡综合",
+    "name": "自贡综合,自贡综合 HD,自贡综合 超清,自贡综合 高清,自贡综合(HD),自贡综合-4K,自贡综合-HD,自贡综合-高清,自贡综合HD,"
+  },
+  {
+    "epgid": "苏州文化生活-苏州新闻综合-苏州生活资讯-苏州社会经济",
+    "name": "苏州文化生活-苏州新闻综合-苏州生活资讯-苏州社会经济,苏州文化生活-苏州新闻综合-苏州生活资讯-苏州社会经济 HD,苏州文化生活-苏州新闻综合-苏州生活资讯-苏州社会经济 超清,苏州文化生活-苏州新闻综合-苏州生活资讯-苏州社会经济 高清,苏州文化生活-苏州新闻综合-苏州生活资讯-苏州社会经济(HD),苏州文化生活-苏州新闻综合-苏州生活资讯-苏州社会经济-4K,苏州文化生活-苏州新闻综合-苏州生活资讯-苏州社会经济-HD,苏州文化生活-苏州新闻综合-苏州生活资讯-苏州社会经济-高清,苏州文化生活-苏州新闻综合-苏州生活资讯-苏州社会经济HD,"
+  },
+  {
+    "epgid": "苏州新闻综合",
+    "name": "苏州新闻综合,苏州新闻综合 HD,苏州新闻综合 超清,苏州新闻综合 高清,苏州新闻综合(HD),苏州新闻综合-4K,苏州新闻综合-HD,苏州新闻综合-高清,苏州新闻综合HD,"
+  },
+  {
+    "epgid": "苏州社会经济",
+    "name": "苏州社会经济,苏州社会经济 HD,苏州社会经济 超清,苏州社会经济 高清,苏州社会经济(HD),苏州社会经济-4K,苏州社会经济-HD,苏州社会经济-高清,苏州社会经济HD,"
+  },
+  {
+    "epgid": "茂名公共",
+    "name": "茂名公共,茂名公共 HD,茂名公共 超清,茂名公共 高清,茂名公共(HD),茂名公共-4K,茂名公共-HD,茂名公共-高清,茂名公共HD,"
+  },
+  {
+    "epgid": "茂名综合",
+    "name": "茂名综合,茂名综合 HD,茂名综合 超清,茂名综合 高清,茂名综合(HD),茂名综合-4K,茂名综合-HD,茂名综合-高清,茂名综合HD,"
+  },
+  {
+    "epgid": "荆门科教文旅",
+    "name": "荆门科教文旅,荆门科教文旅 HD,荆门科教文旅 超清,荆门科教文旅 高清,荆门科教文旅(HD),荆门科教文旅-4K,荆门科教文旅-HD,荆门科教文旅-高清,荆门科教文旅HD,"
+  },
+  {
+    "epgid": "華藏衛視",
+    "name": "華藏衛視,華藏衛視 HD,華藏衛視 超清,華藏衛視 高清,華藏衛視(HD),華藏衛視-4K,華藏衛視-HD,華藏衛視-高清,華藏衛視HD,"
+  },
+  {
+    "epgid": "華藏衛視HD",
+    "name": "華藏衛視HD,華藏衛視HD HD,華藏衛視HD 超清,華藏衛視HD 高清,華藏衛視HD(HD),華藏衛視HD-4K,華藏衛視HD-HD,華藏衛視HD-高清,華藏衛視HDHD,"
+  },
+  {
+    "epgid": "華藝中文台",
+    "name": "華藝中文台,華藝中文台 HD,華藝中文台 超清,華藝中文台 高清,華藝中文台(HD),華藝中文台-4K,華藝中文台-HD,華藝中文台-高清,華藝中文台HD,"
+  },
+  {
+    "epgid": "華藝中文台",
+    "name": "華藝中文台,華藝中文台 HD,華藝中文台 超清,華藝中文台 高清,華藝中文台(HD),華藝中文台-4K,華藝中文台-HD,華藝中文台-高清,華藝中文台HD,"
+  },
+  {
+    "epgid": "華藝台灣台",
+    "name": "華藝台灣台,華藝台灣台 HD,華藝台灣台 超清,華藝台灣台 高清,華藝台灣台(HD),華藝台灣台-4K,華藝台灣台-HD,華藝台灣台-高清,華藝台灣台HD,"
+  },
+  {
+    "epgid": "華藝台灣台 HD",
+    "name": "華藝台灣台 HD,華藝台灣台 HD HD,華藝台灣台 HD 超清,華藝台灣台 HD 高清,華藝台灣台 HD(HD),華藝台灣台 HD-4K,華藝台灣台 HD-HD,華藝台灣台 HD-高清,華藝台灣台 HDHD,"
+  },
+  {
+    "epgid": "華藝影劇台",
+    "name": "華藝影劇台,華藝影劇台 HD,華藝影劇台 超清,華藝影劇台 高清,華藝影劇台(HD),華藝影劇台-4K,華藝影劇台-HD,華藝影劇台-高清,華藝影劇台HD,"
+  },
+  {
+    "epgid": "華視",
+    "name": "華視,華視 HD,華視 超清,華視 高清,華視(HD),華視-4K,華視-HD,華視-高清,華視HD,"
+  },
+  {
+    "epgid": "華視",
+    "name": "華視,華視 HD,華視 超清,華視 高清,華視(HD),華視-4K,華視-HD,華視-高清,華視HD,"
+  },
+  {
+    "epgid": "華視HD",
+    "name": "華視HD,華視HD HD,華視HD 超清,華視HD 高清,華視HD(HD),華視HD-4K,華視HD-HD,華視HD-高清,華視HDHD,"
+  },
+  {
+    "epgid": "華視教育體育文化台",
+    "name": "華視教育體育文化台,華視教育體育文化台 HD,華視教育體育文化台 超清,華視教育體育文化台 高清,華視教育體育文化台(HD),華視教育體育文化台-4K,華視教育體育文化台-HD,華視教育體育文化台-高清,華視教育體育文化台HD,"
+  },
+  {
+    "epgid": "華視教育體育文化台",
+    "name": "華視教育體育文化台,華視教育體育文化台 HD,華視教育體育文化台 超清,華視教育體育文化台 高清,華視教育體育文化台(HD),華視教育體育文化台-4K,華視教育體育文化台-HD,華視教育體育文化台-高清,華視教育體育文化台HD,"
+  },
+  {
+    "epgid": "華視新聞",
+    "name": "華視新聞,華視新聞 HD,華視新聞 超清,華視新聞 高清,華視新聞(HD),華視新聞-4K,華視新聞-HD,華視新聞-高清,華視新聞HD,"
+  },
+  {
+    "epgid": "華視新聞",
+    "name": "華視新聞,華視新聞 HD,華視新聞 超清,華視新聞 高清,華視新聞(HD),華視新聞-4K,華視新聞-HD,華視新聞-高清,華視新聞HD,"
+  },
+  {
+    "epgid": "華視新聞資訊HD",
+    "name": "華視新聞資訊HD,華視新聞資訊HD HD,華視新聞資訊HD 超清,華視新聞資訊HD 高清,華視新聞資訊HD(HD),華視新聞資訊HD-4K,華視新聞資訊HD-HD,華視新聞資訊HD-高清,華視新聞資訊HDHD,"
+  },
+  {
+    "epgid": "華語劇台",
+    "name": "華語劇台,華語劇台 HD,華語劇台 超清,華語劇台 高清,華語劇台(HD),華語劇台-4K,華語劇台-HD,華語劇台-高清,華語劇台HD,"
+  },
+  {
+    "epgid": "襄阳公共",
+    "name": "襄阳公共,襄阳公共 HD,襄阳公共 超清,襄阳公共 高清,襄阳公共(HD),襄阳公共-4K,襄阳公共-HD,襄阳公共-高清,襄阳公共HD,"
+  },
+  {
+    "epgid": "襄阳经济生活",
+    "name": "襄阳经济生活,襄阳经济生活 HD,襄阳经济生活 超清,襄阳经济生活 高清,襄阳经济生活(HD),襄阳经济生活-4K,襄阳经济生活-HD,襄阳经济生活-高清,襄阳经济生活HD,"
+  },
+  {
+    "epgid": "襄阳综合",
+    "name": "襄阳综合,襄阳综合 HD,襄阳综合 超清,襄阳综合 高清,襄阳综合(HD),襄阳综合-4K,襄阳综合-HD,襄阳综合-高清,襄阳综合HD,"
+  },
+  {
+    "epgid": "西宁生活",
+    "name": "西宁生活,西宁生活 HD,西宁生活 超清,西宁生活 高清,西宁生活(HD),西宁生活-4K,西宁生活-HD,西宁生活-高清,西宁生活HD,"
+  },
+  {
+    "epgid": "西宁综合",
+    "name": "西宁综合,西宁综合 HD,西宁综合 超清,西宁综合 高清,西宁综合(HD),西宁综合-4K,西宁综合-HD,西宁综合-高清,西宁综合HD,"
+  },
+  {
+    "epgid": "西安丝路",
+    "name": "西安丝路,西安丝路 HD,西安丝路 超清,西安丝路 高清,西安丝路(HD),西安丝路-4K,西安丝路-HD,西安丝路-高清,西安丝路HD,"
+  },
+  {
+    "epgid": "西安影视",
+    "name": "西安影视,西安影视 HD,西安影视 超清,西安影视 高清,西安影视(HD),西安影视-4K,西安影视-HD,西安影视-高清,西安影视HD,"
+  },
+  {
+    "epgid": "西安新闻综合",
+    "name": "西安新闻综合,西安新闻综合 HD,西安新闻综合 超清,西安新闻综合 高清,西安新闻综合(HD),西安新闻综合-4K,西安新闻综合-HD,西安新闻综合-高清,西安新闻综合HD,"
+  },
+  {
+    "epgid": "西安移动电视",
+    "name": "西安移动电视,西安移动电视 HD,西安移动电视 超清,西安移动电视 高清,西安移动电视(HD),西安移动电视-4K,西安移动电视-HD,西安移动电视-高清,西安移动电视HD,"
+  },
+  {
+    "epgid": "西安都市",
+    "name": "西安都市,西安都市 HD,西安都市 超清,西安都市 高清,西安都市(HD),西安都市-4K,西安都市-HD,西安都市-高清,西安都市HD,"
+  },
+  {
+    "epgid": "西藏卫视",
+    "name": "西藏卫视,西藏卫视 HD,西藏卫视 超清,西藏卫视 高清,西藏卫视(HD),西藏卫视-4K,西藏卫视-HD,西藏卫视-高清,西藏卫视HD,"
+  },
+  {
+    "epgid": "西藏卫视",
+    "name": "西藏卫视,西藏卫视 HD,西藏卫视 超清,西藏卫视 高清,西藏卫视(HD),西藏卫视-4K,西藏卫视-HD,西藏卫视-高清,西藏卫视HD,"
+  },
+  {
+    "epgid": "西藏卫视",
+    "name": "西藏卫视,西藏卫视 HD,西藏卫视 超清,西藏卫视 高清,西藏卫视(HD),西藏卫视-4K,西藏卫视-HD,西藏卫视-高清,西藏卫视HD,"
+  },
+  {
+    "epgid": "西藏影视文化",
+    "name": "西藏影视文化,西藏影视文化 HD,西藏影视文化 超清,西藏影视文化 高清,西藏影视文化(HD),西藏影视文化-4K,西藏影视文化-HD,西藏影视文化-高清,西藏影视文化HD,"
+  },
+  {
+    "epgid": "西藏藏语卫视",
+    "name": "西藏藏语卫视,西藏藏语卫视 HD,西藏藏语卫视 超清,西藏藏语卫视 高清,西藏藏语卫视(HD),西藏藏语卫视-4K,西藏藏语卫视-HD,西藏藏语卫视-高清,西藏藏语卫视HD,"
+  },
+  {
+    "epgid": "視納華仁紀實台HD",
+    "name": "視納華仁紀實台HD,視納華仁紀實台HD HD,視納華仁紀實台HD 超清,視納華仁紀實台HD 高清,視納華仁紀實台HD(HD),視納華仁紀實台HD-4K,視納華仁紀實台HD-HD,視納華仁紀實台HD-高清,視納華仁紀實台HDHD,"
+  },
+  {
+    "epgid": "視納華仁紀實頻道",
+    "name": "視納華仁紀實頻道,視納華仁紀實頻道 HD,視納華仁紀實頻道 超清,視納華仁紀實頻道 高清,視納華仁紀實頻道(HD),視納華仁紀實頻道-4K,視納華仁紀實頻道-HD,視納華仁紀實頻道-高清,視納華仁紀實頻道HD,"
+  },
+  {
+    "epgid": "誠心電視台",
+    "name": "誠心電視台,誠心電視台 HD,誠心電視台 超清,誠心電視台 高清,誠心電視台(HD),誠心電視台-4K,誠心電視台-HD,誠心電視台-高清,誠心電視台HD,"
+  },
+  {
+    "epgid": "许昌1新闻综合",
+    "name": "许昌1新闻综合,许昌1新闻综合 HD,许昌1新闻综合 超清,许昌1新闻综合 高清,许昌1新闻综合(HD),许昌1新闻综合-4K,许昌1新闻综合-HD,许昌1新闻综合-高清,许昌1新闻综合HD,"
+  },
+  {
+    "epgid": "豬哥亮歌廳秀",
+    "name": "豬哥亮歌廳秀,豬哥亮歌廳秀 HD,豬哥亮歌廳秀 超清,豬哥亮歌廳秀 高清,豬哥亮歌廳秀(HD),豬哥亮歌廳秀-4K,豬哥亮歌廳秀-HD,豬哥亮歌廳秀-高清,豬哥亮歌廳秀HD,"
+  },
+  {
+    "epgid": "贵州公共",
+    "name": "贵州公共,贵州公共 HD,贵州公共 超清,贵州公共 高清,贵州公共(HD),贵州公共-4K,贵州公共-HD,贵州公共-高清,贵州公共HD,"
+  },
+  {
+    "epgid": "贵州卫视",
+    "name": "贵州卫视,贵州卫视 HD,贵州卫视 超清,贵州卫视 高清,贵州卫视(HD),贵州卫视-4K,贵州卫视-HD,贵州卫视-高清,贵州卫视HD,"
+  },
+  {
+    "epgid": "贵州卫视",
+    "name": "贵州卫视,贵州卫视 HD,贵州卫视 超清,贵州卫视 高清,贵州卫视(HD),贵州卫视-4K,贵州卫视-HD,贵州卫视-高清,贵州卫视HD,"
+  },
+  {
+    "epgid": "贵州卫视",
+    "name": "贵州卫视,贵州卫视 HD,贵州卫视 超清,贵州卫视 高清,贵州卫视(HD),贵州卫视-4K,贵州卫视-HD,贵州卫视-高清,贵州卫视HD,"
+  },
+  {
+    "epgid": "贵州大众生活",
+    "name": "贵州大众生活,贵州大众生活 HD,贵州大众生活 超清,贵州大众生活 高清,贵州大众生活(HD),贵州大众生活-4K,贵州大众生活-HD,贵州大众生活-高清,贵州大众生活HD,"
+  },
+  {
+    "epgid": "贵州影视文艺",
+    "name": "贵州影视文艺,贵州影视文艺 HD,贵州影视文艺 超清,贵州影视文艺 高清,贵州影视文艺(HD),贵州影视文艺-4K,贵州影视文艺-HD,贵州影视文艺-高清,贵州影视文艺HD,"
+  },
+  {
+    "epgid": "贵州科教",
+    "name": "贵州科教,贵州科教 HD,贵州科教 超清,贵州科教 高清,贵州科教(HD),贵州科教-4K,贵州科教-HD,贵州科教-高清,贵州科教HD,"
+  },
+  {
+    "epgid": "贵州科教健康",
+    "name": "贵州科教健康,贵州科教健康 HD,贵州科教健康 超清,贵州科教健康 高清,贵州科教健康(HD),贵州科教健康-4K,贵州科教健康-HD,贵州科教健康-高清,贵州科教健康HD,"
+  },
+  {
+    "epgid": "贵阳综合",
+    "name": "贵阳综合,贵阳综合 HD,贵阳综合 超清,贵阳综合 高清,贵阳综合(HD),贵阳综合-4K,贵阳综合-HD,贵阳综合-高清,贵阳综合HD,"
+  },
+  {
+    "epgid": "赣州公共",
+    "name": "赣州公共,赣州公共 HD,赣州公共 超清,赣州公共 高清,赣州公共(HD),赣州公共-4K,赣州公共-HD,赣州公共-高清,赣州公共HD,"
+  },
+  {
+    "epgid": "赣州教育",
+    "name": "赣州教育,赣州教育 HD,赣州教育 超清,赣州教育 高清,赣州教育(HD),赣州教育-4K,赣州教育-HD,赣州教育-高清,赣州教育HD,"
+  },
+  {
+    "epgid": "赣州新闻综合",
+    "name": "赣州新闻综合,赣州新闻综合 HD,赣州新闻综合 超清,赣州新闻综合 高清,赣州新闻综合(HD),赣州新闻综合-4K,赣州新闻综合-HD,赣州新闻综合-高清,赣州新闻综合HD,"
+  },
+  {
+    "epgid": "車迷TV",
+    "name": "車迷TV,車迷TV HD,車迷TV 超清,車迷TV 高清,車迷TV(HD),車迷TV-4K,車迷TV-HD,車迷TV-高清,車迷TVHD,"
+  },
+  {
+    "epgid": "車迷TV HD",
+    "name": "車迷TV HD,車迷TV HD HD,車迷TV HD 超清,車迷TV HD 高清,車迷TV HD(HD),車迷TV HD-4K,車迷TV HD-HD,車迷TV HD-高清,車迷TV HDHD,"
+  },
+  {
+    "epgid": "辽宁卫视",
+    "name": "辽宁卫视,辽宁卫视 HD,辽宁卫视 超清,辽宁卫视 高清,辽宁卫视(HD),辽宁卫视-4K,辽宁卫视-HD,辽宁卫视-高清,辽宁卫视HD,"
+  },
+  {
+    "epgid": "辽宁卫视",
+    "name": "辽宁卫视,辽宁卫视 HD,辽宁卫视 超清,辽宁卫视 高清,辽宁卫视(HD),辽宁卫视-4K,辽宁卫视-HD,辽宁卫视-高清,辽宁卫视HD,"
+  },
+  {
+    "epgid": "辽宁卫视",
+    "name": "辽宁卫视,辽宁卫视 HD,辽宁卫视 超清,辽宁卫视 高清,辽宁卫视(HD),辽宁卫视-4K,辽宁卫视-HD,辽宁卫视-高清,辽宁卫视HD,"
+  },
+  {
+    "epgid": "辽宁卫视 高清",
+    "name": "辽宁卫视 高清,辽宁卫视 高清 HD,辽宁卫视 高清 超清,辽宁卫视 高清 高清,辽宁卫视 高清(HD),辽宁卫视 高清-4K,辽宁卫视 高清-HD,辽宁卫视 高清-高清,辽宁卫视 高清HD,"
+  },
+  {
+    "epgid": "追剧少女",
+    "name": "追剧少女,追剧少女 HD,追剧少女 超清,追剧少女 高清,追剧少女(HD),追剧少女-4K,追剧少女-HD,追剧少女-高清,追剧少女HD,"
+  },
+  {
+    "epgid": "遂宁公共",
+    "name": "遂宁公共,遂宁公共 HD,遂宁公共 超清,遂宁公共 高清,遂宁公共(HD),遂宁公共-4K,遂宁公共-HD,遂宁公共-高清,遂宁公共HD,"
+  },
+  {
+    "epgid": "遂宁综合",
+    "name": "遂宁综合,遂宁综合 HD,遂宁综合 超清,遂宁综合 高清,遂宁综合(HD),遂宁综合-4K,遂宁综合-HD,遂宁综合-高清,遂宁综合HD,"
+  },
+  {
+    "epgid": "運通財經綜合台",
+    "name": "運通財經綜合台,運通財經綜合台 HD,運通財經綜合台 超清,運通財經綜合台 高清,運通財經綜合台(HD),運通財經綜合台-4K,運通財經綜合台-HD,運通財經綜合台-高清,運通財經綜合台HD,"
+  },
+  {
+    "epgid": "達文西頻道",
+    "name": "達文西頻道,達文西頻道 HD,達文西頻道 超清,達文西頻道 高清,達文西頻道(HD),達文西頻道-4K,達文西頻道-HD,達文西頻道-高清,達文西頻道HD,"
+  },
+  {
+    "epgid": "達文西頻道",
+    "name": "達文西頻道,達文西頻道 HD,達文西頻道 超清,達文西頻道 高清,達文西頻道(HD),達文西頻道-4K,達文西頻道-HD,達文西頻道-高清,達文西頻道HD,"
+  },
+  {
+    "epgid": "達文西頻道HD",
+    "name": "達文西頻道HD,達文西頻道HD HD,達文西頻道HD 超清,達文西頻道HD 高清,達文西頻道HD(HD),達文西頻道HD-4K,達文西頻道HD-HD,達文西頻道HD-高清,達文西頻道HDHD,"
+  },
+  {
+    "epgid": "郑州商都",
+    "name": "郑州商都,郑州商都 HD,郑州商都 超清,郑州商都 高清,郑州商都(HD),郑州商都-4K,郑州商都-HD,郑州商都-高清,郑州商都HD,"
+  },
+  {
+    "epgid": "郑州妇女",
+    "name": "郑州妇女,郑州妇女 HD,郑州妇女 超清,郑州妇女 高清,郑州妇女(HD),郑州妇女-4K,郑州妇女-HD,郑州妇女-高清,郑州妇女HD,"
+  },
+  {
+    "epgid": "郑州戏曲",
+    "name": "郑州戏曲,郑州戏曲 HD,郑州戏曲 超清,郑州戏曲 高清,郑州戏曲(HD),郑州戏曲-4K,郑州戏曲-HD,郑州戏曲-高清,郑州戏曲HD,"
+  },
+  {
+    "epgid": "郑州文体",
+    "name": "郑州文体,郑州文体 HD,郑州文体 超清,郑州文体 高清,郑州文体(HD),郑州文体-4K,郑州文体-HD,郑州文体-高清,郑州文体HD,"
+  },
+  {
+    "epgid": "郑州新闻",
+    "name": "郑州新闻,郑州新闻 HD,郑州新闻 超清,郑州新闻 高清,郑州新闻(HD),郑州新闻-4K,郑州新闻-HD,郑州新闻-高清,郑州新闻HD,"
+  },
+  {
+    "epgid": "郑州生活",
+    "name": "郑州生活,郑州生活 HD,郑州生活 超清,郑州生活 高清,郑州生活(HD),郑州生活-4K,郑州生活-HD,郑州生活-高清,郑州生活HD,"
+  },
+  {
+    "epgid": "都市剧场",
+    "name": "都市剧场,都市剧场 HD,都市剧场 超清,都市剧场 高清,都市剧场(HD),都市剧场-4K,都市剧场-HD,都市剧场-高清,都市剧场HD,"
+  },
+  {
+    "epgid": "采昌影劇台",
+    "name": "采昌影劇台,采昌影劇台 HD,采昌影劇台 超清,采昌影劇台 高清,采昌影劇台(HD),采昌影劇台-4K,采昌影劇台-HD,采昌影劇台-高清,采昌影劇台HD,"
+  },
+  {
+    "epgid": "采昌影劇台HD",
+    "name": "采昌影劇台HD,采昌影劇台HD HD,采昌影劇台HD 超清,采昌影劇台HD 高清,采昌影劇台HD(HD),采昌影劇台HD-4K,采昌影劇台HD-HD,采昌影劇台HD-高清,采昌影劇台HDHD,"
+  },
+  {
+    "epgid": "重庆农村",
+    "name": "重庆农村,重庆农村 HD,重庆农村 超清,重庆农村 高清,重庆农村(HD),重庆农村-4K,重庆农村-HD,重庆农村-高清,重庆农村HD,"
+  },
+  {
+    "epgid": "重庆卫视",
+    "name": "重庆卫视,重庆卫视 HD,重庆卫视 超清,重庆卫视 高清,重庆卫视(HD),重庆卫视-4K,重庆卫视-HD,重庆卫视-高清,重庆卫视HD,"
+  },
+  {
+    "epgid": "重庆卫视",
+    "name": "重庆卫视,重庆卫视 HD,重庆卫视 超清,重庆卫视 高清,重庆卫视(HD),重庆卫视-4K,重庆卫视-HD,重庆卫视-高清,重庆卫视HD,"
+  },
+  {
+    "epgid": "重庆卫视",
+    "name": "重庆卫视,重庆卫视 HD,重庆卫视 超清,重庆卫视 高清,重庆卫视(HD),重庆卫视-4K,重庆卫视-HD,重庆卫视-高清,重庆卫视HD,"
+  },
+  {
+    "epgid": "重庆卫视 高清",
+    "name": "重庆卫视 高清,重庆卫视 高清 HD,重庆卫视 高清 超清,重庆卫视 高清 高清,重庆卫视 高清(HD),重庆卫视 高清-4K,重庆卫视 高清-HD,重庆卫视 高清-高清,重庆卫视 高清HD,"
+  },
+  {
+    "epgid": "重庆国际",
+    "name": "重庆国际,重庆国际 HD,重庆国际 超清,重庆国际 高清,重庆国际(HD),重庆国际-4K,重庆国际-HD,重庆国际-高清,重庆国际HD,"
+  },
+  {
+    "epgid": "重庆娱乐",
+    "name": "重庆娱乐,重庆娱乐 HD,重庆娱乐 超清,重庆娱乐 高清,重庆娱乐(HD),重庆娱乐-4K,重庆娱乐-HD,重庆娱乐-高清,重庆娱乐HD,"
+  },
+  {
+    "epgid": "重庆少儿",
+    "name": "重庆少儿,重庆少儿 HD,重庆少儿 超清,重庆少儿 高清,重庆少儿(HD),重庆少儿-4K,重庆少儿-HD,重庆少儿-高清,重庆少儿HD,"
+  },
+  {
+    "epgid": "重庆影视",
+    "name": "重庆影视,重庆影视 HD,重庆影视 超清,重庆影视 高清,重庆影视(HD),重庆影视-4K,重庆影视-HD,重庆影视-高清,重庆影视HD,"
+  },
+  {
+    "epgid": "重庆文体娱乐",
+    "name": "重庆文体娱乐,重庆文体娱乐 HD,重庆文体娱乐 超清,重庆文体娱乐 高清,重庆文体娱乐(HD),重庆文体娱乐-4K,重庆文体娱乐-HD,重庆文体娱乐-高清,重庆文体娱乐HD,"
+  },
+  {
+    "epgid": "重庆新闻",
+    "name": "重庆新闻,重庆新闻 HD,重庆新闻 超清,重庆新闻 高清,重庆新闻(HD),重庆新闻-4K,重庆新闻-HD,重庆新闻-高清,重庆新闻HD,"
+  },
+  {
+    "epgid": "重庆时尚生活",
+    "name": "重庆时尚生活,重庆时尚生活 HD,重庆时尚生活 超清,重庆时尚生活 高清,重庆时尚生活(HD),重庆时尚生活-4K,重庆时尚生活-HD,重庆时尚生活-高清,重庆时尚生活HD,"
+  },
+  {
+    "epgid": "重庆社会与法",
+    "name": "重庆社会与法,重庆社会与法 HD,重庆社会与法 超清,重庆社会与法 高清,重庆社会与法(HD),重庆社会与法-4K,重庆社会与法-HD,重庆社会与法-高清,重庆社会与法HD,"
+  },
+  {
+    "epgid": "金光布袋戲",
+    "name": "金光布袋戲,金光布袋戲 HD,金光布袋戲 超清,金光布袋戲 高清,金光布袋戲(HD),金光布袋戲-4K,金光布袋戲-HD,金光布袋戲-高清,金光布袋戲HD,"
+  },
+  {
+    "epgid": "金华新闻",
+    "name": "金华新闻,金华新闻 HD,金华新闻 超清,金华新闻 高清,金华新闻(HD),金华新闻-4K,金华新闻-HD,金华新闻-高清,金华新闻HD,"
+  },
+  {
+    "epgid": "金色学堂",
+    "name": "金色学堂,金色学堂 HD,金色学堂 超清,金色学堂 高清,金色学堂(HD),金色学堂-4K,金色学堂-HD,金色学堂-高清,金色学堂HD,"
+  },
+  {
+    "epgid": "鏡電視新聞台",
+    "name": "鏡電視新聞台,鏡電視新聞台 HD,鏡電視新聞台 超清,鏡電視新聞台 高清,鏡電視新聞台(HD),鏡電視新聞台-4K,鏡電視新聞台-HD,鏡電視新聞台-高清,鏡電視新聞台HD,"
+  },
+  {
+    "epgid": "鏡電視新聞台",
+    "name": "鏡電視新聞台,鏡電視新聞台 HD,鏡電視新聞台 超清,鏡電視新聞台 高清,鏡電視新聞台(HD),鏡電視新聞台-4K,鏡電視新聞台-HD,鏡電視新聞台-高清,鏡電視新聞台HD,"
+  },
+  {
+    "epgid": "鏡電視新聞台",
+    "name": "鏡電視新聞台,鏡電視新聞台 HD,鏡電視新聞台 超清,鏡電視新聞台 高清,鏡電視新聞台(HD),鏡電視新聞台-4K,鏡電視新聞台-HD,鏡電視新聞台-高清,鏡電視新聞台HD,"
+  },
+  {
+    "epgid": "钦州综合",
+    "name": "钦州综合,钦州综合 HD,钦州综合 超清,钦州综合 高清,钦州综合(HD),钦州综合-4K,钦州综合-HD,钦州综合-高清,钦州综合HD,"
+  },
+  {
+    "epgid": "钱江",
+    "name": "钱江,钱江 HD,钱江 超清,钱江 高清,钱江(HD),钱江-4K,钱江-HD,钱江-高清,钱江HD,"
+  },
+  {
+    "epgid": "银川公共",
+    "name": "银川公共,银川公共 HD,银川公共 超清,银川公共 高清,银川公共(HD),银川公共-4K,银川公共-HD,银川公共-高清,银川公共HD,"
+  },
+  {
+    "epgid": "银川生活",
+    "name": "银川生活,银川生活 HD,银川生活 超清,银川生活 高清,银川生活(HD),银川生活-4K,银川生活-HD,银川生活-高清,银川生活HD,"
+  },
+  {
+    "epgid": "锦州公共",
+    "name": "锦州公共,锦州公共 HD,锦州公共 超清,锦州公共 高清,锦州公共(HD),锦州公共-4K,锦州公共-HD,锦州公共-高清,锦州公共HD,"
+  },
+  {
+    "epgid": "锦州新闻",
+    "name": "锦州新闻,锦州新闻 HD,锦州新闻 超清,锦州新闻 高清,锦州新闻(HD),锦州新闻-4K,锦州新闻-HD,锦州新闻-高清,锦州新闻HD,"
+  },
+  {
+    "epgid": "锦州都市",
+    "name": "锦州都市,锦州都市 HD,锦州都市 超清,锦州都市 高清,锦州都市(HD),锦州都市-4K,锦州都市-HD,锦州都市-高清,锦州都市HD,"
+  },
+  {
+    "epgid": "长春市民",
+    "name": "长春市民,长春市民 HD,长春市民 超清,长春市民 高清,长春市民(HD),长春市民-4K,长春市民-HD,长春市民-高清,长春市民HD,"
+  },
+  {
+    "epgid": "长春文旅体育",
+    "name": "长春文旅体育,长春文旅体育 HD,长春文旅体育 超清,长春文旅体育 高清,长春文旅体育(HD),长春文旅体育-4K,长春文旅体育-HD,长春文旅体育-高清,长春文旅体育HD,"
+  },
+  {
+    "epgid": "长春汽车",
+    "name": "长春汽车,长春汽车 HD,长春汽车 超清,长春汽车 高清,长春汽车(HD),长春汽车-4K,长春汽车-HD,长春汽车-高清,长春汽车HD,"
+  },
+  {
+    "epgid": "长春经济",
+    "name": "长春经济,长春经济 HD,长春经济 超清,长春经济 高清,长春经济(HD),长春经济-4K,长春经济-HD,长春经济-高清,长春经济HD,"
+  },
+  {
+    "epgid": "长春综合",
+    "name": "长春综合,长春综合 HD,长春综合 超清,长春综合 高清,长春综合(HD),长春综合-4K,长春综合-HD,长春综合-高清,长春综合HD,"
+  },
+  {
+    "epgid": "长沙影视",
+    "name": "长沙影视,长沙影视 HD,长沙影视 超清,长沙影视 高清,长沙影视(HD),长沙影视-4K,长沙影视-HD,长沙影视-高清,长沙影视HD,"
+  },
+  {
+    "epgid": "长沙政法",
+    "name": "长沙政法,长沙政法 HD,长沙政法 超清,长沙政法 高清,长沙政法(HD),长沙政法-4K,长沙政法-HD,长沙政法-高清,长沙政法HD,"
+  },
+  {
+    "epgid": "防城港新闻综合",
+    "name": "防城港新闻综合,防城港新闻综合 HD,防城港新闻综合 超清,防城港新闻综合 高清,防城港新闻综合(HD),防城港新闻综合-4K,防城港新闻综合-HD,防城港新闻综合-高清,防城港新闻综合HD,"
+  },
+  {
+    "epgid": "阳江-1",
+    "name": "阳江-1,阳江-1 HD,阳江-1 超清,阳江-1 高清,阳江-1(HD),阳江-1-4K,阳江-1-HD,阳江-1-高清,阳江-1HD,"
+  },
+  {
+    "epgid": "阳江1",
+    "name": "阳江1,阳江1 HD,阳江1 超清,阳江1 高清,阳江1(HD),阳江1-4K,阳江1-HD,阳江1-高清,阳江1HD,"
+  },
+  {
+    "epgid": "陕西一套",
+    "name": "陕西一套,陕西一套 HD,陕西一套 超清,陕西一套 高清,陕西一套(HD),陕西一套-4K,陕西一套-HD,陕西一套-高清,陕西一套HD,"
+  },
+  {
+    "epgid": "陕西七套",
+    "name": "陕西七套,陕西七套 HD,陕西七套 超清,陕西七套 高清,陕西七套(HD),陕西七套-4K,陕西七套-HD,陕西七套-高清,陕西七套HD,"
+  },
+  {
+    "epgid": "陕西三套",
+    "name": "陕西三套,陕西三套 HD,陕西三套 超清,陕西三套 高清,陕西三套(HD),陕西三套-4K,陕西三套-HD,陕西三套-高清,陕西三套HD,"
+  },
+  {
+    "epgid": "陕西二套",
+    "name": "陕西二套,陕西二套 HD,陕西二套 超清,陕西二套 高清,陕西二套(HD),陕西二套-4K,陕西二套-HD,陕西二套-高清,陕西二套HD,"
+  },
+  {
+    "epgid": "陕西五套",
+    "name": "陕西五套,陕西五套 HD,陕西五套 超清,陕西五套 高清,陕西五套(HD),陕西五套-4K,陕西五套-HD,陕西五套-高清,陕西五套HD,"
+  },
+  {
+    "epgid": "陕西八套",
+    "name": "陕西八套,陕西八套 HD,陕西八套 超清,陕西八套 高清,陕西八套(HD),陕西八套-4K,陕西八套-HD,陕西八套-高清,陕西八套HD,"
+  },
+  {
+    "epgid": "陕西六套",
+    "name": "陕西六套,陕西六套 HD,陕西六套 超清,陕西六套 高清,陕西六套(HD),陕西六套-4K,陕西六套-HD,陕西六套-高清,陕西六套HD,"
+  },
+  {
+    "epgid": "陕西农林卫视",
+    "name": "陕西农林卫视,陕西农林卫视 HD,陕西农林卫视 超清,陕西农林卫视 高清,陕西农林卫视(HD),陕西农林卫视-4K,陕西农林卫视-HD,陕西农林卫视-高清,陕西农林卫视HD,"
+  },
+  {
+    "epgid": "陕西卫视",
+    "name": "陕西卫视,陕西卫视 HD,陕西卫视 超清,陕西卫视 高清,陕西卫视(HD),陕西卫视-4K,陕西卫视-HD,陕西卫视-高清,陕西卫视HD,"
+  },
+  {
+    "epgid": "陕西卫视",
+    "name": "陕西卫视,陕西卫视 HD,陕西卫视 超清,陕西卫视 高清,陕西卫视(HD),陕西卫视-4K,陕西卫视-HD,陕西卫视-高清,陕西卫视HD,"
+  },
+  {
+    "epgid": "陕西卫视",
+    "name": "陕西卫视,陕西卫视 HD,陕西卫视 超清,陕西卫视 高清,陕西卫视(HD),陕西卫视-4K,陕西卫视-HD,陕西卫视-高清,陕西卫视HD,"
+  },
+  {
+    "epgid": "陕西四套",
+    "name": "陕西四套,陕西四套 HD,陕西四套 超清,陕西四套 高清,陕西四套(HD),陕西四套-4K,陕西四套-HD,陕西四套-高清,陕西四套HD,"
+  },
+  {
+    "epgid": "陕西影视",
+    "name": "陕西影视,陕西影视 HD,陕西影视 超清,陕西影视 高清,陕西影视(HD),陕西影视-4K,陕西影视-HD,陕西影视-高清,陕西影视HD,"
+  },
+  {
+    "epgid": "随州农村",
+    "name": "随州农村,随州农村 HD,随州农村 超清,随州农村 高清,随州农村(HD),随州农村-4K,随州农村-HD,随州农村-高清,随州农村HD,"
+  },
+  {
+    "epgid": "随州综合",
+    "name": "随州综合,随州综合 HD,随州综合 超清,随州综合 高清,随州综合(HD),随州综合-4K,随州综合-HD,随州综合-高清,随州综合HD,"
+  },
+  {
+    "epgid": "雲南瀾湄國際衛視",
+    "name": "雲南瀾湄國際衛視,雲南瀾湄國際衛視 HD,雲南瀾湄國際衛視 超清,雲南瀾湄國際衛視 高清,雲南瀾湄國際衛視(HD),雲南瀾湄國際衛視-4K,雲南瀾湄國際衛視-HD,雲南瀾湄國際衛視-高清,雲南瀾湄國際衛視HD,"
+  },
+  {
+    "epgid": "電影原聲台CMusic",
+    "name": "電影原聲台CMusic,電影原聲台CMusic HD,電影原聲台CMusic 超清,電影原聲台CMusic 高清,電影原聲台CMusic(HD),電影原聲台CMusic-4K,電影原聲台CMusic-HD,電影原聲台CMusic-高清,電影原聲台CMusicHD,"
+  },
+  {
+    "epgid": "霹靂台灣台",
+    "name": "霹靂台灣台,霹靂台灣台 HD,霹靂台灣台 超清,霹靂台灣台 高清,霹靂台灣台(HD),霹靂台灣台-4K,霹靂台灣台-HD,霹靂台灣台-高清,霹靂台灣台HD,"
+  },
+  {
+    "epgid": "青海卫视",
+    "name": "青海卫视,青海卫视 HD,青海卫视 超清,青海卫视 高清,青海卫视(HD),青海卫视-4K,青海卫视-HD,青海卫视-高清,青海卫视HD,"
+  },
+  {
+    "epgid": "青海卫视",
+    "name": "青海卫视,青海卫视 HD,青海卫视 超清,青海卫视 高清,青海卫视(HD),青海卫视-4K,青海卫视-HD,青海卫视-高清,青海卫视HD,"
+  },
+  {
+    "epgid": "青海卫视",
+    "name": "青海卫视,青海卫视 HD,青海卫视 超清,青海卫视 高清,青海卫视(HD),青海卫视-4K,青海卫视-HD,青海卫视-高清,青海卫视HD,"
+  },
+  {
+    "epgid": "青海经视",
+    "name": "青海经视,青海经视 HD,青海经视 超清,青海经视 高清,青海经视(HD),青海经视-4K,青海经视-HD,青海经视-高清,青海经视HD,"
+  },
+  {
+    "epgid": "青海都市",
+    "name": "青海都市,青海都市 HD,青海都市 超清,青海都市 高清,青海都市(HD),青海都市-4K,青海都市-HD,青海都市-高清,青海都市HD,"
+  },
+  {
+    "epgid": "靖天卡通台",
+    "name": "靖天卡通台,靖天卡通台 HD,靖天卡通台 超清,靖天卡通台 高清,靖天卡通台(HD),靖天卡通台-4K,靖天卡通台-HD,靖天卡通台-高清,靖天卡通台HD,"
+  },
+  {
+    "epgid": "靖天卡通台",
+    "name": "靖天卡通台,靖天卡通台 HD,靖天卡通台 超清,靖天卡通台 高清,靖天卡通台(HD),靖天卡通台-4K,靖天卡通台-HD,靖天卡通台-高清,靖天卡通台HD,"
+  },
+  {
+    "epgid": "靖天卡通台 HD",
+    "name": "靖天卡通台 HD,靖天卡通台 HD HD,靖天卡通台 HD 超清,靖天卡通台 HD 高清,靖天卡通台 HD(HD),靖天卡通台 HD-4K,靖天卡通台 HD-HD,靖天卡通台 HD-高清,靖天卡通台 HDHD,"
+  },
+  {
+    "epgid": "靖天戲劇HD",
+    "name": "靖天戲劇HD,靖天戲劇HD HD,靖天戲劇HD 超清,靖天戲劇HD 高清,靖天戲劇HD(HD),靖天戲劇HD-4K,靖天戲劇HD-HD,靖天戲劇HD-高清,靖天戲劇HDHD,"
+  },
+  {
+    "epgid": "靖天戲劇台",
+    "name": "靖天戲劇台,靖天戲劇台 HD,靖天戲劇台 超清,靖天戲劇台 高清,靖天戲劇台(HD),靖天戲劇台-4K,靖天戲劇台-HD,靖天戲劇台-高清,靖天戲劇台HD,"
+  },
+  {
+    "epgid": "靖天日本HD",
+    "name": "靖天日本HD,靖天日本HD HD,靖天日本HD 超清,靖天日本HD 高清,靖天日本HD(HD),靖天日本HD-4K,靖天日本HD-HD,靖天日本HD-高清,靖天日本HDHD,"
+  },
+  {
+    "epgid": "靖天日本台",
+    "name": "靖天日本台,靖天日本台 HD,靖天日本台 超清,靖天日本台 高清,靖天日本台(HD),靖天日本台-4K,靖天日本台-HD,靖天日本台-高清,靖天日本台HD,"
+  },
+  {
+    "epgid": "靖天日本台",
+    "name": "靖天日本台,靖天日本台 HD,靖天日本台 超清,靖天日本台 高清,靖天日本台(HD),靖天日本台-4K,靖天日本台-HD,靖天日本台-高清,靖天日本台HD,"
+  },
+  {
+    "epgid": "靖天映畫",
+    "name": "靖天映畫,靖天映畫 HD,靖天映畫 超清,靖天映畫 高清,靖天映畫(HD),靖天映畫-4K,靖天映畫-HD,靖天映畫-高清,靖天映畫HD,"
+  },
+  {
+    "epgid": "靖天映畫",
+    "name": "靖天映畫,靖天映畫 HD,靖天映畫 超清,靖天映畫 高清,靖天映畫(HD),靖天映畫-4K,靖天映畫-HD,靖天映畫-高清,靖天映畫HD,"
+  },
+  {
+    "epgid": "靖天映畫HD",
+    "name": "靖天映畫HD,靖天映畫HD HD,靖天映畫HD 超清,靖天映畫HD 高清,靖天映畫HD(HD),靖天映畫HD-4K,靖天映畫HD-HD,靖天映畫HD-高清,靖天映畫HDHD,"
+  },
+  {
+    "epgid": "靖天歡樂台",
+    "name": "靖天歡樂台,靖天歡樂台 HD,靖天歡樂台 超清,靖天歡樂台 高清,靖天歡樂台(HD),靖天歡樂台-4K,靖天歡樂台-HD,靖天歡樂台-高清,靖天歡樂台HD,"
+  },
+  {
+    "epgid": "靖天綜合台",
+    "name": "靖天綜合台,靖天綜合台 HD,靖天綜合台 超清,靖天綜合台 高清,靖天綜合台(HD),靖天綜合台-4K,靖天綜合台-HD,靖天綜合台-高清,靖天綜合台HD,"
+  },
+  {
+    "epgid": "靖天綜合台",
+    "name": "靖天綜合台,靖天綜合台 HD,靖天綜合台 超清,靖天綜合台 高清,靖天綜合台(HD),靖天綜合台-4K,靖天綜合台-HD,靖天綜合台-高清,靖天綜合台HD,"
+  },
+  {
+    "epgid": "靖天綜合台HD",
+    "name": "靖天綜合台HD,靖天綜合台HD HD,靖天綜合台HD 超清,靖天綜合台HD 高清,靖天綜合台HD(HD),靖天綜合台HD-4K,靖天綜合台HD-HD,靖天綜合台HD-高清,靖天綜合台HDHD,"
+  },
+  {
+    "epgid": "靖天育樂HD",
+    "name": "靖天育樂HD,靖天育樂HD HD,靖天育樂HD 超清,靖天育樂HD 高清,靖天育樂HD(HD),靖天育樂HD-4K,靖天育樂HD-HD,靖天育樂HD-高清,靖天育樂HDHD,"
+  },
+  {
+    "epgid": "靖天育樂台",
+    "name": "靖天育樂台,靖天育樂台 HD,靖天育樂台 超清,靖天育樂台 高清,靖天育樂台(HD),靖天育樂台-4K,靖天育樂台-HD,靖天育樂台-高清,靖天育樂台HD,"
+  },
+  {
+    "epgid": "靖天育樂台",
+    "name": "靖天育樂台,靖天育樂台 HD,靖天育樂台 超清,靖天育樂台 高清,靖天育樂台(HD),靖天育樂台-4K,靖天育樂台-HD,靖天育樂台-高清,靖天育樂台HD,"
+  },
+  {
+    "epgid": "靖天資訊HD",
+    "name": "靖天資訊HD,靖天資訊HD HD,靖天資訊HD 超清,靖天資訊HD 高清,靖天資訊HD(HD),靖天資訊HD-4K,靖天資訊HD-HD,靖天資訊HD-高清,靖天資訊HDHD,"
+  },
+  {
+    "epgid": "靖天資訊台",
+    "name": "靖天資訊台,靖天資訊台 HD,靖天資訊台 超清,靖天資訊台 高清,靖天資訊台(HD),靖天資訊台-4K,靖天資訊台-HD,靖天資訊台-高清,靖天資訊台HD,"
+  },
+  {
+    "epgid": "靖天資訊台",
+    "name": "靖天資訊台,靖天資訊台 HD,靖天資訊台 超清,靖天資訊台 高清,靖天資訊台(HD),靖天資訊台-4K,靖天資訊台-HD,靖天資訊台-高清,靖天資訊台HD,"
+  },
+  {
+    "epgid": "靖天電影HD",
+    "name": "靖天電影HD,靖天電影HD HD,靖天電影HD 超清,靖天電影HD 高清,靖天電影HD(HD),靖天電影HD-4K,靖天電影HD-HD,靖天電影HD-高清,靖天電影HDHD,"
+  },
+  {
+    "epgid": "靖天電影台",
+    "name": "靖天電影台,靖天電影台 HD,靖天電影台 超清,靖天電影台 高清,靖天電影台(HD),靖天電影台-4K,靖天電影台-HD,靖天電影台-高清,靖天電影台HD,"
+  },
+  {
+    "epgid": "靖天電影台",
+    "name": "靖天電影台,靖天電影台 HD,靖天電影台 超清,靖天電影台 高清,靖天電影台(HD),靖天電影台-4K,靖天電影台-HD,靖天電影台-高清,靖天電影台HD,"
+  },
+  {
+    "epgid": "靖洋卡通Nice Bingo",
+    "name": "靖洋卡通Nice Bingo,靖洋卡通Nice Bingo HD,靖洋卡通Nice Bingo 超清,靖洋卡通Nice Bingo 高清,靖洋卡通Nice Bingo(HD),靖洋卡通Nice Bingo-4K,靖洋卡通Nice Bingo-HD,靖洋卡通Nice Bingo-高清,靖洋卡通Nice BingoHD,"
+  },
+  {
+    "epgid": "靖洋卡通台",
+    "name": "靖洋卡通台,靖洋卡通台 HD,靖洋卡通台 超清,靖洋卡通台 高清,靖洋卡通台(HD),靖洋卡通台-4K,靖洋卡通台-HD,靖洋卡通台-高清,靖洋卡通台HD,"
+  },
+  {
+    "epgid": "靖洋卡通台Nice Bingo HD",
+    "name": "靖洋卡通台Nice Bingo HD,靖洋卡通台Nice Bingo HD HD,靖洋卡通台Nice Bingo HD 超清,靖洋卡通台Nice Bingo HD 高清,靖洋卡通台Nice Bingo HD(HD),靖洋卡通台Nice Bingo HD-4K,靖洋卡通台Nice Bingo HD-HD,靖洋卡通台Nice Bingo HD-高清,靖洋卡通台Nice Bingo HDHD,"
+  },
+  {
+    "epgid": "靖洋戲劇HD",
+    "name": "靖洋戲劇HD,靖洋戲劇HD HD,靖洋戲劇HD 超清,靖洋戲劇HD 高清,靖洋戲劇HD(HD),靖洋戲劇HD-4K,靖洋戲劇HD-HD,靖洋戲劇HD-高清,靖洋戲劇HDHD,"
+  },
+  {
+    "epgid": "靖洋戲劇台",
+    "name": "靖洋戲劇台,靖洋戲劇台 HD,靖洋戲劇台 超清,靖洋戲劇台 高清,靖洋戲劇台(HD),靖洋戲劇台-4K,靖洋戲劇台-HD,靖洋戲劇台-高清,靖洋戲劇台HD,"
+  },
+  {
+    "epgid": "靖洋戲劇台",
+    "name": "靖洋戲劇台,靖洋戲劇台 HD,靖洋戲劇台 超清,靖洋戲劇台 高清,靖洋戲劇台(HD),靖洋戲劇台-4K,靖洋戲劇台-HD,靖洋戲劇台-高清,靖洋戲劇台HD,"
+  },
+  {
+    "epgid": "非凡商業台",
+    "name": "非凡商業台,非凡商業台 HD,非凡商業台 超清,非凡商業台 高清,非凡商業台(HD),非凡商業台-4K,非凡商業台-HD,非凡商業台-高清,非凡商業台HD,"
+  },
+  {
+    "epgid": "非凡新聞台",
+    "name": "非凡新聞台,非凡新聞台 HD,非凡新聞台 超清,非凡新聞台 高清,非凡新聞台(HD),非凡新聞台-4K,非凡新聞台-HD,非凡新聞台-高清,非凡新聞台HD,"
+  },
+  {
+    "epgid": "鞍山新闻综合",
+    "name": "鞍山新闻综合,鞍山新闻综合 HD,鞍山新闻综合 超清,鞍山新闻综合 高清,鞍山新闻综合(HD),鞍山新闻综合-4K,鞍山新闻综合-HD,鞍山新闻综合-高清,鞍山新闻综合HD,"
+  },
+  {
+    "epgid": "韓國娛樂台 KMTV",
+    "name": "韓國娛樂台 KMTV,韓國娛樂台 KMTV HD,韓國娛樂台 KMTV 超清,韓國娛樂台 KMTV 高清,韓國娛樂台 KMTV(HD),韓國娛樂台 KMTV-4K,韓國娛樂台 KMTV-HD,韓國娛樂台 KMTV-高清,韓國娛樂台 KMTVHD,"
+  },
+  {
+    "epgid": "韓國娛樂台KMTV",
+    "name": "韓國娛樂台KMTV,韓國娛樂台KMTV HD,韓國娛樂台KMTV 超清,韓國娛樂台KMTV 高清,韓國娛樂台KMTV(HD),韓國娛樂台KMTV-4K,韓國娛樂台KMTV-HD,韓國娛樂台KMTV-高清,韓國娛樂台KMTVHD,"
+  },
+  {
+    "epgid": "韓國娛樂台KMTV HD",
+    "name": "韓國娛樂台KMTV HD,韓國娛樂台KMTV HD HD,韓國娛樂台KMTV HD 超清,韓國娛樂台KMTV HD 高清,韓國娛樂台KMTV HD(HD),韓國娛樂台KMTV HD-4K,韓國娛樂台KMTV HD-HD,韓國娛樂台KMTV HD-高清,韓國娛樂台KMTV HDHD,"
+  },
+  {
+    "epgid": "韓國阿里郎",
+    "name": "韓國阿里郎,韓國阿里郎 HD,韓國阿里郎 超清,韓國阿里郎 高清,韓國阿里郎(HD),韓國阿里郎-4K,韓國阿里郎-HD,韓國阿里郎-高清,韓國阿里郎HD,"
+  },
+  {
+    "epgid": "韶关新闻",
+    "name": "韶关新闻,韶关新闻 HD,韶关新闻 超清,韶关新闻 高清,韶关新闻(HD),韶关新闻-4K,韶关新闻-HD,韶关新闻-高清,韶关新闻HD,"
+  },
+  {
+    "epgid": "頻道總表",
+    "name": "頻道總表,頻道總表 HD,頻道總表 超清,頻道總表 高清,頻道總表(HD),頻道總表-4K,頻道總表-HD,頻道總表-高清,頻道總表HD,"
+  },
+  {
+    "epgid": "香蕉台",
+    "name": "香蕉台,香蕉台 HD,香蕉台 超清,香蕉台 高清,香蕉台(HD),香蕉台-4K,香蕉台-HD,香蕉台-高清,香蕉台HD,"
+  },
+  {
+    "epgid": "驚豔成人電影台",
+    "name": "驚豔成人電影台,驚豔成人電影台 HD,驚豔成人電影台 超清,驚豔成人電影台 高清,驚豔成人電影台(HD),驚豔成人電影台-4K,驚豔成人電影台-HD,驚豔成人電影台-高清,驚豔成人電影台HD,"
+  },
+  {
+    "epgid": "驻马店3科教",
+    "name": "驻马店3科教,驻马店3科教 HD,驻马店3科教 超清,驻马店3科教 高清,驻马店3科教(HD),驻马店3科教-4K,驻马店3科教-HD,驻马店3科教-高清,驻马店3科教HD,"
+  },
+  {
+    "epgid": "高尔夫网球",
+    "name": "高尔夫网球,高尔夫网球 HD,高尔夫网球 超清,高尔夫网球 高清,高尔夫网球(HD),高尔夫网球-4K,高尔夫网球-HD,高尔夫网球-高清,高尔夫网球HD,"
+  },
+  {
+    "epgid": "高點育樂台",
+    "name": "高點育樂台,高點育樂台 HD,高點育樂台 超清,高點育樂台 高清,高點育樂台(HD),高點育樂台-4K,高點育樂台-HD,高點育樂台-高清,高點育樂台HD,"
+  },
+  {
+    "epgid": "高點育樂台",
+    "name": "高點育樂台,高點育樂台 HD,高點育樂台 超清,高點育樂台 高清,高點育樂台(HD),高點育樂台-4K,高點育樂台-HD,高點育樂台-高清,高點育樂台HD,"
+  },
+  {
+    "epgid": "高點電視台",
+    "name": "高點電視台,高點電視台 HD,高點電視台 超清,高點電視台 高清,高點電視台(HD),高點電視台-4K,高點電視台-HD,高點電視台-高清,高點電視台HD,"
+  },
+  {
+    "epgid": "魅力足球",
+    "name": "魅力足球,魅力足球 HD,魅力足球 超清,魅力足球 高清,魅力足球(HD),魅力足球-4K,魅力足球-HD,魅力足球-高清,魅力足球HD,"
+  },
+  {
+    "epgid": "鳳凰衛視中文台",
+    "name": "鳳凰衛視中文台,鳳凰衛視中文台 HD,鳳凰衛視中文台 超清,鳳凰衛視中文台 高清,鳳凰衛視中文台(HD),鳳凰衛視中文台-4K,鳳凰衛視中文台-HD,鳳凰衛視中文台-高清,鳳凰衛視中文台HD,"
+  },
+  {
+    "epgid": "鳳凰衛視資訊台",
+    "name": "鳳凰衛視資訊台,鳳凰衛視資訊台 HD,鳳凰衛視資訊台 超清,鳳凰衛視資訊台 高清,鳳凰衛視資訊台(HD),鳳凰衛視資訊台-4K,鳳凰衛視資訊台-HD,鳳凰衛視資訊台-高清,鳳凰衛視資訊台HD,"
+  },
+  {
+    "epgid": "麥哲倫頻道 HD",
+    "name": "麥哲倫頻道 HD,麥哲倫頻道 HD HD,麥哲倫頻道 HD 超清,麥哲倫頻道 HD 高清,麥哲倫頻道 HD(HD),麥哲倫頻道 HD-4K,麥哲倫頻道 HD-HD,麥哲倫頻道 HD-高清,麥哲倫頻道 HDHD,"
+  },
+  {
+    "epgid": "黃金翡翠台",
+    "name": "黃金翡翠台,黃金翡翠台 HD,黃金翡翠台 超清,黃金翡翠台 高清,黃金翡翠台(HD),黃金翡翠台-4K,黃金翡翠台-HD,黃金翡翠台-高清,黃金翡翠台HD,"
+  },
+  {
+    "epgid": "黃金華劇台",
+    "name": "黃金華劇台,黃金華劇台 HD,黃金華劇台 超清,黃金華劇台 高清,黃金華劇台(HD),黃金華劇台-4K,黃金華劇台-HD,黃金華劇台-高清,黃金華劇台HD,"
+  },
+  {
+    "epgid": "黄冈新闻综合",
+    "name": "黄冈新闻综合,黄冈新闻综合 HD,黄冈新闻综合 超清,黄冈新闻综合 高清,黄冈新闻综合(HD),黄冈新闻综合-4K,黄冈新闻综合-HD,黄冈新闻综合-高清,黄冈新闻综合HD,"
+  },
+  {
+    "epgid": "黄冈生活",
+    "name": "黄冈生活,黄冈生活 HD,黄冈生活 超清,黄冈生活 高清,黄冈生活(HD),黄冈生活-4K,黄冈生活-HD,黄冈生活-高清,黄冈生活HD,"
+  },
+  {
+    "epgid": "黄河卫视",
+    "name": "黄河卫视,黄河卫视 HD,黄河卫视 超清,黄河卫视 高清,黄河卫视(HD),黄河卫视-4K,黄河卫视-HD,黄河卫视-高清,黄河卫视HD,"
+  },
+  {
+    "epgid": "黄河卫视",
+    "name": "黄河卫视,黄河卫视 HD,黄河卫视 超清,黄河卫视 高清,黄河卫视(HD),黄河卫视-4K,黄河卫视-HD,黄河卫视-高清,黄河卫视HD,"
+  },
+  {
+    "epgid": "黄石新闻综合",
+    "name": "黄石新闻综合,黄石新闻综合 HD,黄石新闻综合 超清,黄石新闻综合 高清,黄石新闻综合(HD),黄石新闻综合-4K,黄石新闻综合-HD,黄石新闻综合-高清,黄石新闻综合HD,"
+  },
+  {
+    "epgid": "黄石都市",
+    "name": "黄石都市,黄石都市 HD,黄石都市 超清,黄石都市 高清,黄石都市(HD),黄石都市-4K,黄石都市-HD,黄石都市-高清,黄石都市HD,"
+  },
+  {
+    "epgid": "黑龙江卫视",
+    "name": "黑龙江卫视,黑龙江卫视 HD,黑龙江卫视 超清,黑龙江卫视 高清,黑龙江卫视(HD),黑龙江卫视-4K,黑龙江卫视-HD,黑龙江卫视-高清,黑龙江卫视HD,"
+  },
+  {
+    "epgid": "黑龙江卫视",
+    "name": "黑龙江卫视,黑龙江卫视 HD,黑龙江卫视 超清,黑龙江卫视 高清,黑龙江卫视(HD),黑龙江卫视-4K,黑龙江卫视-HD,黑龙江卫视-高清,黑龙江卫视HD,"
+  },
+  {
+    "epgid": "黑龙江卫视",
+    "name": "黑龙江卫视,黑龙江卫视 HD,黑龙江卫视 超清,黑龙江卫视 高清,黑龙江卫视(HD),黑龙江卫视-4K,黑龙江卫视-HD,黑龙江卫视-高清,黑龙江卫视HD,"
+  },
+  {
+    "epgid": "黑龙江少儿",
+    "name": "黑龙江少儿,黑龙江少儿 HD,黑龙江少儿 超清,黑龙江少儿 高清,黑龙江少儿(HD),黑龙江少儿-4K,黑龙江少儿-HD,黑龙江少儿-高清,黑龙江少儿HD,"
+  },
+  {
+    "epgid": "黑龙江影视",
+    "name": "黑龙江影视,黑龙江影视 HD,黑龙江影视 超清,黑龙江影视 高清,黑龙江影视(HD),黑龙江影视-4K,黑龙江影视-HD,黑龙江影视-高清,黑龙江影视HD,"
+  },
+  {
+    "epgid": "黑龙江文体",
+    "name": "黑龙江文体,黑龙江文体 HD,黑龙江文体 超清,黑龙江文体 高清,黑龙江文体(HD),黑龙江文体-4K,黑龙江文体-HD,黑龙江文体-高清,黑龙江文体HD,"
+  },
+  {
+    "epgid": "黑龙江新闻法制",
+    "name": "黑龙江新闻法制,黑龙江新闻法制 HD,黑龙江新闻法制 超清,黑龙江新闻法制 高清,黑龙江新闻法制(HD),黑龙江新闻法制-4K,黑龙江新闻法制-HD,黑龙江新闻法制-高清,黑龙江新闻法制HD,"
+  },
+  {
+    "epgid": "黑龙江新闻法治",
+    "name": "黑龙江新闻法治,黑龙江新闻法治 HD,黑龙江新闻法治 超清,黑龙江新闻法治 高清,黑龙江新闻法治(HD),黑龙江新闻法治-4K,黑龙江新闻法治-HD,黑龙江新闻法治-高清,黑龙江新闻法治HD,"
+  },
+  {
+    "epgid": "黑龙江都市",
+    "name": "黑龙江都市,黑龙江都市 HD,黑龙江都市 超清,黑龙江都市 高清,黑龙江都市(HD),黑龙江都市-4K,黑龙江都市-HD,黑龙江都市-高清,黑龙江都市HD,"
+  },
+  {
+    "epgid": "龍華偶像HD",
+    "name": "龍華偶像HD,龍華偶像HD HD,龍華偶像HD 超清,龍華偶像HD 高清,龍華偶像HD(HD),龍華偶像HD-4K,龍華偶像HD-HD,龍華偶像HD-高清,龍華偶像HDHD,"
+  },
+  {
+    "epgid": "龍華動畫HD",
+    "name": "龍華動畫HD,龍華動畫HD HD,龍華動畫HD 超清,龍華動畫HD 高清,龍華動畫HD(HD),龍華動畫HD-4K,龍華動畫HD-HD,龍華動畫HD-高清,龍華動畫HDHD,"
+  },
+  {
+    "epgid": "龍華影劇HD",
+    "name": "龍華影劇HD,龍華影劇HD HD,龍華影劇HD 超清,龍華影劇HD 高清,龍華影劇HD(HD),龍華影劇HD-4K,龍華影劇HD-HD,龍華影劇HD-高清,龍華影劇HDHD,"
+  },
+  {
+    "epgid": "龍華戲劇HD",
+    "name": "龍華戲劇HD,龍華戲劇HD HD,龍華戲劇HD 超清,龍華戲劇HD 高清,龍華戲劇HD(HD),龍華戲劇HD-4K,龍華戲劇HD-HD,龍華戲劇HD-高清,龍華戲劇HDHD,"
+  },
+  {
+    "epgid": "龍華洋片HD",
+    "name": "龍華洋片HD,龍華洋片HD HD,龍華洋片HD 超清,龍華洋片HD 高清,龍華洋片HD(HD),龍華洋片HD-4K,龍華洋片HD-HD,龍華洋片HD-高清,龍華洋片HDHD,"
+  },
+  {
+    "epgid": "龍華經典HD",
+    "name": "龍華經典HD,龍華經典HD HD,龍華經典HD 超清,龍華經典HD 高清,龍華經典HD(HD),龍華經典HD-4K,龍華經典HD-HD,龍華經典HD-高清,龍華經典HDHD,"
+  },
+  {
+    "epgid": "龍華電影HD",
+    "name": "龍華電影HD,龍華電影HD HD,龍華電影HD 超清,龍華電影HD 高清,龍華電影HD(HD),龍華電影HD-4K,龍華電影HD-HD,龍華電影HD-高清,龍華電影HDHD,"
+  },
+  {
+    "epgid": "龙岩综合",
+    "name": "龙岩综合,龙岩综合 HD,龙岩综合 超清,龙岩综合 高清,龙岩综合(HD),龙岩综合-4K,龙岩综合-HD,龙岩综合-高清,龙岩综合HD,"
+     }
+  ]
+}
