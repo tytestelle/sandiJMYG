@@ -262,16 +262,19 @@ def save_data(content, filename):
 # ===================== 加载 epg_data/epg_data.json 别名映射 =====================
 def load_epgid_alias_map():
     """
-    从仓库 epg_data/epg_data.json 读取精确别名映射：alias -> epgid
-    逻辑：epg_data.json 内容一旦变化，就写入新的 epg_data.json.hash；
-          内容没变则保持原 hash 不动。
+    从仓库根目录 epg_data/epg_data.json 读取精确别名映射：alias -> epgid。
+    只负责读取和解析，不写 hash —— epg_data.json.hash 由独立的 workflow 维护。
     """
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    json_path = os.path.join(script_dir, 'epg_data', 'epg_data.json')
+    # 脚本位于 scripts/ 下，epg_data.json 位于仓库根的 epg_data/ 下，需要回退一级
+    repo_root = os.path.dirname(script_dir)
+    json_path = os.path.join(repo_root, 'epg_data', 'epg_data.json')
 
     if not os.path.exists(json_path):
         print(f"⚠️ 未找到 epg_data.json: {json_path}")
         return {}
+
+    print(f"📂 使用 epg_data.json: {json_path}")
 
     # ---- 读取原始内容 ----
     try:
@@ -280,30 +283,6 @@ def load_epgid_alias_map():
     except Exception as e:
         print(f"❌ 读取 epg_data.json 失败: {e}")
         return {}
-
-    # ---- 计算新的 hash ----
-    new_hash = hashlib.md5(raw_content.encode('utf-8')).hexdigest()
-    hash_path = json_path + '.hash'
-
-    # ---- 读取旧 hash ----
-    old_hash = None
-    if os.path.exists(hash_path):
-        try:
-            with open(hash_path, 'r', encoding='utf-8') as f:
-                old_hash = f.read().strip()
-        except Exception:
-            old_hash = None
-
-    # ---- 内容变化 → 写入新 hash；没变 → 保持原 hash 不动 ----
-    if new_hash != old_hash:
-        try:
-            with open(hash_path, 'w', encoding='utf-8') as f:
-                f.write(new_hash)
-            print(f"💾 epg_data.json 已更新，写入新 hash: {new_hash}")
-        except Exception as e:
-            print(f"⚠️ 写入 epg_data.json.hash 失败: {e}")
-    else:
-        print(f"⏭️ epg_data.json 内容无变化，hash 保持不变: {new_hash}")
 
     # ---- 解析 JSON ----
     try:
@@ -333,7 +312,7 @@ def load_epgid_alias_map():
     print(f"📋 已加载 epg_data.json 精确别名: {len(alias_map)} 条")
     return alias_map
 
-# ===================== 新增：精准替换中国大陆 EPG 的央视 display-name =====================
+# ===================== 精准替换中国大陆 EPG 的央视 display-name =====================
 def apply_epgid_display_names(xml_content, alias_map, only_cctv=True):
     """
     只处理中国大陆 EPG。
