@@ -259,21 +259,57 @@ def save_data(content, filename):
         f.write(md5_hash)
     print(f"💾 已保存: {filename} (大小: {len(content_bytes)/1024/1024:.2f} MB, MD5: {md5_hash})")
 
-# ===================== 新增：加载 epg_data.json 别名映射 =====================
+# ===================== 加载 epg_data/epg_data.json 别名映射 =====================
 def load_epgid_alias_map():
-    """从脚本同目录的 epg_data.json 读取精确别名映射：alias -> epgid"""
+    """
+    从仓库 epg_data/epg_data.json 读取精确别名映射：alias -> epgid
+    逻辑：epg_data.json 内容一旦变化，就写入新的 epg_data.json.hash；
+          内容没变则保持原 hash 不动。
+    """
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    json_path = os.path.join(script_dir, 'epg_data.json')
+    json_path = os.path.join(script_dir, 'epg_data', 'epg_data.json')
 
     if not os.path.exists(json_path):
         print(f"⚠️ 未找到 epg_data.json: {json_path}")
         return {}
 
+    # ---- 读取原始内容 ----
     try:
         with open(json_path, 'r', encoding='utf-8-sig') as f:
-            data = json.load(f)
+            raw_content = f.read()
     except Exception as e:
         print(f"❌ 读取 epg_data.json 失败: {e}")
+        return {}
+
+    # ---- 计算新的 hash ----
+    new_hash = hashlib.md5(raw_content.encode('utf-8')).hexdigest()
+    hash_path = json_path + '.hash'
+
+    # ---- 读取旧 hash ----
+    old_hash = None
+    if os.path.exists(hash_path):
+        try:
+            with open(hash_path, 'r', encoding='utf-8') as f:
+                old_hash = f.read().strip()
+        except Exception:
+            old_hash = None
+
+    # ---- 内容变化 → 写入新 hash；没变 → 保持原 hash 不动 ----
+    if new_hash != old_hash:
+        try:
+            with open(hash_path, 'w', encoding='utf-8') as f:
+                f.write(new_hash)
+            print(f"💾 epg_data.json 已更新，写入新 hash: {new_hash}")
+        except Exception as e:
+            print(f"⚠️ 写入 epg_data.json.hash 失败: {e}")
+    else:
+        print(f"⏭️ epg_data.json 内容无变化，hash 保持不变: {new_hash}")
+
+    # ---- 解析 JSON ----
+    try:
+        data = json.loads(raw_content)
+    except Exception as e:
+        print(f"❌ 解析 epg_data.json 失败: {e}")
         return {}
 
     alias_map = {}
@@ -380,7 +416,7 @@ def main():
     tw = simple_timezone_fix(raw_tw)
     hk = simple_timezone_fix(raw_hk)
 
-    # ===== 新增：先处理中国大陆节目预告，把央视 display-name 精准改成 epgid =====
+    # ===== 先处理中国大陆节目预告，把央视 display-name 精准改成 epgid =====
     alias_map = load_epgid_alias_map()
     if cn:
         cn = apply_epgid_display_names(cn, alias_map, only_cctv=True)
