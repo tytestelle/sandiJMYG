@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: '0 16,22,4,10 * * *'  # 北京时间 0点,6点,12点,18点
   workflow_dispatch:
+  push:
+    paths:
+      - 'epg_data/epg_data.json'   # epg_data.json 变化时触发
 
 jobs:
   update-epg:
@@ -32,7 +35,11 @@ jobs:
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
         git add epg_data/
-        git diff --cached --quiet || git commit -m "🔄 EPG Update $(date +'%Y-%m-%d %H:%M')"
-        git push
+        if git diff --cached --quiet; then
+          echo "没有变化，跳过提交"
+        else
+          git commit -m "🔄 EPG Update $(date +'%Y-%m-%d %H:%M') [skip ci]"
+          git push
+        fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # 使用内置令牌
