@@ -4,15 +4,16 @@ on:
   schedule:
     - cron: '0 16,22,4,10 * * *'  # 北京时间 0点,6点,12点,18点
   workflow_dispatch:
-  push:
-    paths:
-      - 'epg_data/epg_data.json'   # epg_data.json 变化时触发
+
+concurrency:
+  group: epg-workflow
+  cancel-in-progress: false
 
 jobs:
   update-epg:
     runs-on: ubuntu-latest
     permissions:
-      contents: write          # 允许推送代码
+      contents: write
 
     steps:
     - name: Checkout repository
@@ -42,4 +43,4 @@ jobs:
           git push
         fi
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # 使用内置令牌
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
