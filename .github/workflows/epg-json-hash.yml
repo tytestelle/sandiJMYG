@@ -1,0 +1,52 @@
+name: EPG JSON Hash Update
+
+on:
+  push:
+    paths:
+      - 'epg_data/epg_data.json'
+  workflow_dispatch:
+
+concurrency:
+  group: epg-workflow
+  cancel-in-progress: false
+
+jobs:
+  update-hash:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Compute epg_data.json hash
+      run: |
+        python - <<'PY'
+        import hashlib, pathlib
+        p = pathlib.Path('epg_data/epg_data.json')
+        if not p.exists():
+            raise SystemExit("epg_data/epg_data.json not found")
+        h = hashlib.md5(p.read_bytes()).hexdigest()
+        pathlib.Path(str(p) + '.hash').write_text(h, encoding='utf-8')
+        print("new hash:", h)
+        PY
+
+    - name: Commit and push hash
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add epg_data/epg_data.json.hash
+        if git diff --cached --quiet; then
+          echo "hash 无变化，跳过提交"
+        else
+          git commit -m "🔑 Update epg_data.json hash [skip ci]"
+          git push
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
