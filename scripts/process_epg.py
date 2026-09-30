@@ -312,76 +312,133 @@ def load_epgid_alias_map():
     print(f"📋 已加载 epg_data.json 精确别名: {len(alias_map)} 条")
     return alias_map
 
-# ===================== 精准替换中国大陆 EPG 的央视 display-name =====================
-def apply_epgid_display_names(xml_content, alias_map, only_cctv=True):
+# ===================== 精准合并央视同一 epgid 下的多个频道 =====================
+def _set_first_display_name(channel_elem, new_name):
     """
-    只处理中国大陆 EPG。
-    对 <channel> 的 <display-name> 做精确匹配：
-    display-name 文本 strip 后必须完全等于 epg_data.json 中 name 里的某个别名。
-    命中后，只把匹配上的那一个 display-name 的文本改成对应 epgid，
+    把一个 <channel> 的第一个非空 <display-name> 的文本设为 new_name，
     并把它移动到第一位，方便后续去重时取到它。
-    其他 display-name 保持原样。
+    """
+    dns = channel_elem.findall('display-name')
+    if not dns:
+        return
+
+    # 找到第一个非空的 display-name 作为替换目标
+    target_idx = 0
+    for i, dn in enumerate(dns):
+        if (dn.text or '').strip():
+            target_idx = i
+            break
+
+    dns[target_idx].text = new_name
+
+    # 如果匹配的不是第一个，就把它移到第一位
+    if target_idx != 0:
+        infos = [(dn.tag, dict(dn.attrib), dn.text) for dn in dns]
+        for dn in dns:
+            channel_elem.remove(dn)
+        order = [target_idx] + [i for i in range(len(infos)) if i != target_idx]
+        for pos, i in enumerate(order):
+            tag, attrib, text = infos[i]
+            new_dn = ET.Element(tag, attrib)
+            new_dn.text = text
+            channel_elem.insert(pos, new_dn)
+
+
+def merge_cctv_channels_by_epgid(xml_content, alias_map):
+    """
+    在合并前，对央视频道做特殊处理：
+    1. 扫描所有 <channel> 的 <display-name>，精准匹配 alias_map，确定该频道归属哪个 epgid
+    2. 按 epgid 分组，找出同一 epgid 下的所有频道
+    3. 统计每个频道挂载的 programme 数量，选节目最多的作为主频道
+    4. 把同组其他频道的 programme 的 channel 属性统一改为主频道的 id
+    5. 把主频道的第一位 display-name 改为 epgid，删除同组其他 <channel> 元素
     """
     if not xml_content or not alias_map:
         return xml_content
 
-    print("🔧 精准替换中国大陆 EPG 的央视 display-name 为 epgid...")
+    print("🔧 合并同一央视 epgid 的多个频道...")
 
     try:
         root = ET.fromstring(xml_content)
     except Exception as e:
-        print(f"❌ 解析中国大陆 EPG 失败: {e}")
+        print(f"❌ 解析 CN EPG 失败: {e}")
         return xml_content
 
-    changed = 0
+    # ---- 第一步：建立 channel_id -> epgid 的映射 ----
+    channel_to_epgid = {}          # 原始 channel id -> epgid
+    channel_elements = {}          # 原始 channel id -> <channel> 元素
 
     for ch in root.findall('channel'):
-        display_names = ch.findall('display-name')
-        if not display_names:
+        cid = ch.get('id')
+        if not cid:
             continue
 
-        match_index = -1
-        matched_epgid = None
-
-        # 逐个 display-name 精准匹配，命中第一个即停止
-        for i, dn in enumerate(display_names):
+        channel_elements[cid] = ch
+        for dn in ch.findall('display-name'):
             text = (dn.text or '').strip()
             if not text:
                 continue
-
             epgid = alias_map.get(text)
-            if not epgid:
-                continue
+            if epgid and epgid.upper().startswith('CCTV'):
+                channel_to_epgid[cid] = epgid
+                break
 
-            if only_cctv and not epgid.upper().startswith('CCTV'):
-                continue
+    if not channel_to_epgid:
+        print("   ℹ️ 未发现匹配央视 epgid 的频道")
+        return xml_content
 
-            match_index = i
-            matched_epgid = epgid
-            break
+    # ---- 第二步：按 epgid 分组 ----
+    epgid_to_channel_ids = defaultdict(list)
+    for cid, epgid in channel_to_epgid.items():
+        epgid_to_channel_ids[epgid].append(cid)
 
-        # 没匹配到，跳过
-        if match_index < 0:
+    # ---- 第三步：统计每个频道的 programme 数量 ----
+    channel_prog_count = defaultdict(int)
+    for prog in root.findall('programme'):
+        cid = prog.get('channel')
+        if cid:
+            channel_prog_count[cid] += 1
+
+    # ---- 第四步：对每个分组，选节目最多的频道作为主频道 ----
+    removed_channel_ids = set()
+    remapped_prog_count = 0
+
+    for epgid, cids in epgid_to_channel_ids.items():
+        if len(cids) <= 1:
+            # 只有一个频道，只需确保它的 display-name 被替换即可
+            main_cid = cids[0]
+            _set_first_display_name(channel_elements[main_cid], epgid)
             continue
 
-        # 只改匹配上的那一个 display-name 的文本为 epgid
-        display_names[match_index].text = matched_epgid
+        # 按节目数量降序排列，节目最多的作为主频道
+        sorted_cids = sorted(cids, key=lambda c: channel_prog_count.get(c, 0), reverse=True)
+        main_cid = sorted_cids[0]
+        main_ch = channel_elements[main_cid]
 
-        # 如果匹配的不是第一个，就把它移到第一位（后续去重取第一个）
-        if match_index != 0:
-            infos = [(dn.tag, dict(dn.attrib), dn.text) for dn in display_names]
-            for dn in display_names:
-                ch.remove(dn)
-            new_order = [match_index] + [i for i in range(len(infos)) if i != match_index]
-            for pos, i in enumerate(new_order):
-                tag, attrib, text = infos[i]
-                new_dn = ET.Element(tag, attrib)
-                new_dn.text = text
-                ch.insert(pos, new_dn)
+        print(f"   📺 {epgid}: 发现 {len(cids)} 个频道，主频道 id={main_cid} "
+              f"(节目数={channel_prog_count.get(main_cid, 0)})，"
+              f"其余: {[(c, channel_prog_count.get(c, 0)) for c in sorted_cids[1:]]}")
 
-        changed += 1
+        # 把主频道的 display-name 替换为 epgid
+        _set_first_display_name(main_ch, epgid)
 
-    print(f"   ✅ 已替换 {changed} 个央视频道的 display-name 为 epgid")
+        # 把同组其他频道的 programme 重定向到主频道
+        for other_cid in sorted_cids[1:]:
+            for prog in root.findall('programme'):
+                if prog.get('channel') == other_cid:
+                    prog.set('channel', main_cid)   # 保留主频道的原始 id
+                    remapped_prog_count += 1
+            removed_channel_ids.add(other_cid)
+
+    # ---- 第五步：删除多余的 <channel> 元素 ----
+    for ch in list(root.findall('channel')):
+        cid = ch.get('id')
+        if cid in removed_channel_ids:
+            root.remove(ch)
+
+    print(f"   ✅ 合并完成：重映射 {remapped_prog_count} 个节目，"
+          f"删除 {len(removed_channel_ids)} 个冗余频道")
+
     return '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(root, encoding='utf-8').decode()
 
 # ===================== 主函数 =====================
@@ -395,10 +452,10 @@ def main():
     tw = simple_timezone_fix(raw_tw)
     hk = simple_timezone_fix(raw_hk)
 
-    # ===== 先处理中国大陆节目预告，把央视 display-name 精准改成 epgid =====
+    # ===== 先处理中国大陆节目预告：合并同一央视 epgid 的多个频道 =====
     alias_map = load_epgid_alias_map()
     if cn:
-        cn = apply_epgid_display_names(cn, alias_map, only_cctv=True)
+        cn = merge_cctv_channels_by_epgid(cn, alias_map)
 
     # 抓取 Kbro 节目列表
     kbro_programs = fetch_kbro_programs(days=7)
