@@ -292,7 +292,6 @@ def load_epgid_alias_map():
     return alias_map
 
 # ===================== 央视归一化辅助 =====================
-# 从字符串里提取 CCTV 频道号：'CCTV-1 综合' -> '1'，'CCTV-5+ 体育赛事' -> '5+'，'CCTV-16奥林匹克' -> '16'
 CCTV_NUM_RE = re.compile(r'CCTV[\s\-_]*(\d+\+?)', re.IGNORECASE)
 
 
@@ -306,37 +305,36 @@ def extract_cctv_num(s):
 
 
 def pick_shortest_epgid(candidates):
-    """同一 CCTV 频道号下有多个 epgid 时，取最短的（最基础的）。"""
     if not candidates:
         return None
     return min(candidates, key=len)
 
 
-# ===================== 在原始 CN XML 里归一化央视 =====================
+# ===================== 阶段 2: 在 CN XML 里归一化央视 =====================
 def normalize_cctv_in_cn(xml_content, alias_map, only_cctv=True):
     """
-    只处理中国大陆 EPG。
-
-    从原始 XML 里直接做央视归一化：
-      1) 遍历所有 <channel>，从 <display-name> 里提取 CCTV 频道号；
+    在原始 CN XML 内部做央视归一化：
+      1) 遍历所有 <channel>，从 <display-name> 提取 CCTV 频道号；
       2) 按频道号分组；
-      3) 每组按 (覆盖天数, 节目条数) 打分，选出数据最全的那个 channel 作为主频道；
-      4) 把主频道的 id 改成 epg_data.json 中同频道号的 epgid，
+      3) 每组按 (覆盖天数, 节目条数) 打分，保留数据最全的那个 channel；
+      4) 保留 channel 的 id 改成 epg_data.json 中同频道号的 epgid，
          display-name 也改成 epgid 并移到第一位；
-      5) 同组其它 channel 的 programme 的 channel 属性一并改成 epgid
-         （这样数据全部合并到 epgid 名下），然后把那些空壳 channel 移除；
-      6) 时间重叠留给后面的 deduplicate_epg 处理。
+      5) 同组其它 channel 的 programme channel 属性一并改成 epgid
+         （数据全部合并到 epgid 名下），然后移除那些空壳 channel；
+      6) 时间重叠留给后面的 deduplicate_epg 去重。
+
+    返回: (新 XML 字符串, 改动计数 dict)
     """
     if not xml_content or not alias_map:
-        return xml_content
+        return xml_content, {"renamed_ch": 0, "renamed_prog": 0, "removed_ch": 0, "groups": 0}
 
-    print("🔧 在原始 CN EPG 中归一化央视频道...")
+    print("🔧 阶段 2: 在 CN EPG 中归一化央视频道...")
 
     try:
         root = ET.fromstring(xml_content)
     except Exception as e:
         print(f"❌ 解析 CN EPG 失败: {e}")
-        return xml_content
+        return xml_content, {"renamed_ch": 0, "renamed_prog": 0, "removed_ch": 0, "groups": 0}
 
     # ---- 1. 构建 CCTV 频道号 -> epgid 映射 ----
     num_to_epgids = defaultdict(list)
@@ -391,17 +389,16 @@ def normalize_cctv_in_cn(xml_content, alias_map, only_cctv=True):
             continue
         num_to_channels[found_num].append(ch)
 
-    # ---- 4. 每组选出主频道，记录要改名的 id、要移除的 channel ----
-    id_rename_map = {}          # old_id -> epgid
-    channels_to_remove = []     # 需要移除的 channel 元素
-    main_channel_and_epgid = [] # [(main_ch, epgid, num), ...]
+    # ---- 4. 每组选出主频道 ----
+    id_rename_map = {}
+    channels_to_remove = []
+    main_channel_and_epgid = []
 
     for num, channels in num_to_channels.items():
         epgid = num_to_epgid.get(num)
         if not epgid:
             continue
 
-        # 打印该频道号下的所有候选
         print(f"   📺 CCTV-{num} 候选（目标 epgid={epgid!r}）:")
         for ch in channels:
             cid = ch.get('id')
@@ -414,7 +411,6 @@ def normalize_cctv_in_cn(xml_content, alias_map, only_cctv=True):
             days, cnt = channel_score(cid)
             print(f"      id={cid!r} 名称={dn_text!r} 天数={days} 节目数={cnt}")
 
-        # 选出数据最全的
         channels_sorted = sorted(channels, key=lambda ch: channel_score(ch.get('id')), reverse=True)
         best_ch = channels_sorted[0]
         best_id = best_ch.get('id')
@@ -422,13 +418,11 @@ def normalize_cctv_in_cn(xml_content, alias_map, only_cctv=True):
 
         print(f"   🎯 CCTV-{num}: 保留 id={best_id!r}（天数={best_days} 节目数={best_cnt}）-> epgid={epgid!r}")
 
-        # 全部同组的 programme 都改到 epgid 名下（数据合并）
         for ch in channels:
             old_id = ch.get('id')
             if old_id != epgid:
                 id_rename_map[old_id] = epgid
 
-        # 除主频道外，其它都标记移除
         for ch in channels:
             if ch is not best_ch:
                 channels_to_remove.append(ch)
@@ -436,9 +430,9 @@ def normalize_cctv_in_cn(xml_content, alias_map, only_cctv=True):
         main_channel_and_epgid.append((best_ch, epgid, num))
 
     # ---- 5. 应用 id 重命名到 channel 和 programme ----
+    renamed_ch = 0
+    renamed_prog = 0
     if id_rename_map:
-        renamed_ch = 0
-        renamed_prog = 0
         for ch in root.findall('channel'):
             cid = ch.get('id')
             if cid in id_rename_map:
@@ -452,12 +446,12 @@ def normalize_cctv_in_cn(xml_content, alias_map, only_cctv=True):
         print(f"   ✅ 已重命名 {renamed_ch} 个 <channel>，更新 {renamed_prog} 条 <programme> 引用")
 
     # ---- 6. 移除重复的空壳 channel ----
-    if channels_to_remove:
-        removed = 0
-        for ch in channels_to_remove:
-            if ch in list(root):
-                root.remove(ch)
-                removed += 1
+    removed = 0
+    for ch in channels_to_remove:
+        if ch in list(root):
+            root.remove(ch)
+            removed += 1
+    if removed:
         print(f"   🧹 移除了 {removed} 个重复频道")
 
     # ---- 7. 主频道 display-name 改成 epgid 并移到第一位 ----
@@ -468,7 +462,6 @@ def normalize_cctv_in_cn(xml_content, alias_map, only_cctv=True):
         if not display_names:
             continue
 
-        # 找到含 CCTV 频道号的那个 display-name
         match_idx = -1
         for i, dn in enumerate(display_names):
             text = (dn.text or '').strip()
@@ -491,13 +484,57 @@ def normalize_cctv_in_cn(xml_content, alias_map, only_cctv=True):
                 new_dn.text = text
                 best_ch.insert(pos, new_dn)
 
-    print(f"   ✅ 央视归一化完成")
+    stats = {
+        "renamed_ch": renamed_ch,
+        "renamed_prog": renamed_prog,
+        "removed_ch": removed,
+        "groups": len(main_channel_and_epgid),
+    }
+    print(f"   ✅ 央视归一化完成: 改组 {stats['groups']} 组，改名 {renamed_ch} 频道，更新 {renamed_prog} 节目，移除 {removed} 空壳")
 
-    return '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(root, encoding='utf-8').decode()
+    return '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(root, encoding='utf-8').decode(), stats
+
+# ===================== 输出校验 =====================
+def verify_cctv_output(xml_content, label=""):
+    print(f"🔎 校验 {label} 中 CCTV 频道数据覆盖情况...")
+    try:
+        root = ET.fromstring(xml_content)
+    except Exception as e:
+        print(f"❌ 校验解析失败: {e}")
+        return
+
+    prog_days = defaultdict(set)
+    prog_count = defaultdict(int)
+    for prog in root.findall('programme'):
+        cid = prog.get('channel')
+        start = prog.get('start', '')
+        if not cid:
+            continue
+        prog_count[cid] += 1
+        if len(start) >= 8:
+            prog_days[cid].add(start[:8])
+
+    found_any = False
+    for ch in root.findall('channel'):
+        cid = ch.get('id')
+        if not cid or not cid.upper().startswith('CCTV'):
+            continue
+        found_any = True
+        days = len(prog_days.get(cid, ()))
+        cnt = prog_count.get(cid, 0)
+        flag = "  ⚠️ 数据不齐（≤1 天）" if days <= 1 else ""
+        print(f"      id={cid!r} 天数={days} 节目数={cnt}{flag}")
+    if not found_any:
+        print("      ⚠️ 没有任何 CCTV-* 频道！")
 
 # ===================== 主函数 =====================
 def main():
-    print("🚀 开始处理EPG数据...")
+    print("=" * 60)
+    print("🚀 开始处理 EPG 数据")
+    print("=" * 60)
+
+    # ================= 阶段 1: 下载 =================
+    print("\n📥 阶段 1: 下载原始 EPG...")
     raw_cn = safe_download('https://epg.pw/xmltv/epg_CN.xml')
     raw_tw = safe_download('https://epg.pw/xmltv/epg_TW.xml')
     raw_hk = safe_download('https://epg.pw/xmltv/epg_HK.xml')
@@ -506,27 +543,39 @@ def main():
     tw = simple_timezone_fix(raw_tw)
     hk = simple_timezone_fix(raw_hk)
 
-    # ===== 在原始 CN XML 里直接归一化央视 =====
-    alias_map = load_epgid_alias_map()
-    if cn:
-        cn = normalize_cctv_in_cn(cn, alias_map, only_cctv=True)
+    if not cn:
+        print("❌ CN EPG 下载失败，无法继续")
+        return
 
-    # 抓取 Kbro 节目
+    # ================= 阶段 2: 在 CN 里归一化央视 =================
+    print("\n🔧 阶段 2: 在 CN EPG 中归一化央视频道（先改 CN，再合并）...")
+    alias_map = load_epgid_alias_map()
+    cn, stats = normalize_cctv_in_cn(cn, alias_map, only_cctv=True)
+
+    if stats["renamed_ch"] == 0 and stats["removed_ch"] == 0:
+        print("   ⚠️⚠️⚠️ 警告: CN EPG 中没有任何央视频道被修改！")
+        print("   ⚠️⚠️⚠️ 这意味着最终输出会和原来一样，hash 不会变。")
+        print("   ⚠️⚠️⚠️ 请检查下面几点：")
+        print("        1. epg_data.json 里是否有 CCTV-* 的 epgid")
+        print("        2. CN EPG 里央视频道的 display-name 是否含 'CCTV-数字'")
+        print("        3. 是否有同名/重复的央视频道被识别")
+    else:
+        print(f"   ✅ CN EPG 已修改: {stats}")
+
+    # 校验修改后的 CN
+    verify_cctv_output(cn, label="CN EPG（归一化后）")
+
+    # ================= 阶段 3: 合并 =================
+    print("\n🔄 阶段 3: 合并 CN + TW + HK...")
     kbro_programs = fetch_kbro_programs(days=7)
     if not kbro_programs:
         print("⚠️ 未抓取到任何节目，退出")
         return
-
     new_programs_str = format_programs(kbro_programs)
 
-    sources = []
-    if cn: sources.append(('CN', cn))
+    sources = [('CN', cn)]
     if tw: sources.append(('TW', tw))
     if hk: sources.append(('HK', hk))
-
-    if not sources:
-        print("❌ 所有 epg.pw 源下载失败")
-        return
 
     merged_content = simple_merge(sources)
 
@@ -535,13 +584,15 @@ def main():
     merged_content = re.sub(pattern, new_programs_str + '\n', merged_content, flags=re.DOTALL)
     print("   ✅ 替换完成")
 
+    # ================= 阶段 4: 保存 =================
+    print("\n💾 阶段 4: 保存输出...")
     save_data(merged_content, 'epg_merged.xml')
     cleaned_content = clean_unused_channels(merged_content)
     save_data(cleaned_content, 'epg_merged_clean.xml')
     perfect_content = deduplicate_epg(cleaned_content)
     save_data(perfect_content, 'epg_perfect.xml')
 
-    print("✅ 处理完成！")
+    print("\n✅ 处理完成！")
 
 if __name__ == '__main__':
     main()
