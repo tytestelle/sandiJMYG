@@ -15,14 +15,13 @@ EPG 订阅地址
 
 下面是三个的。也就是本仓库的原始链接
 https://github.com/tytestelle/sandiJMYG/blob/main/epg_data/epg_merged.xml
-EPG 订阅地址
-🦄️ 🦄️ 在您的播放器中使用以下订阅地址：
+EPG 订阅地址🦄️ 🦄️ 
+🦄️ 🦄️ 在您的播放器中使用以下订阅地址：🦄️ 🦄️
 https://raw.githubusercontent.com/tytestelle/sandiJMYG/main/epg_data/epg_merged.xml
 
 
-
-
-
+🦄️ 🦄️🦄️ 🦄️🦄️ 🦄️🦄️ 🦄️🦄️ 🦄️🦄️ 🦄️🦄️ 🦄️🦄️ 🦄️🦄️ 🦄️🦄️ 🦄️🦄️ 🦄️🦄️ 🦄️🦄️ 🦄️🦄️ 🦄️🦄️ 🦄️🦄️ 🦄️
+🦄️ 🐞 🏮 🐼 🐯 🦊 🐱 🐘 🦖 🐉 🐇 🐤 🦟 🐷 🐔 🐻 🐶 🍤 🐴 🐒 🦢 🐂 🐄 🐎 🐌 🐢 🦑 🐟 🐬 🐣 🧠 💯 ✔️ 🈚 🉑 ⚠️ 👍
 
 https://raw.githubusercontent.com/tytestelle/sandiJMYG/main/epg_data/epg_perfect.xm
 
