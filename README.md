@@ -21,6 +21,9 @@ https://raw.githubusercontent.com/tytestelle/sandiJMYG/main/epg_data/epg_merged.
 
 
 🦄️ 🦄️🦄️ 🦄️🦄️ 🦄️🦄️ 🦄️🦄️ 🦄️🦄️ 🦄️🦄️ 🦄️🦄️ 🦄️🦄️ 🦄️🦄️ 🦄️🦄️ 🦄️🦄️ 🦄️🦄️ 🦄️🦄️ 🦄️🦄️ 🦄️🦄️ 🦄️
+
+https://raw.githubusercontent.com/tytestelle/sandiJMYG/main/epg_data/epg_data.json
+
 🦄️ 🐞 🏮 🐼 🐯 🦊 🐱 🐘 🦖 🐉 🐇 🐤 🦟 🐷 🐔 🐻 🐶 🍤 🐴 🐒 🦢 🐂 🐄 🐎 🐌 🐢 🦑 🐟 🐬 🐣 🧠 💯 ✔️ 🈚 🉑 ⚠️ 👍
 
 https://raw.githubusercontent.com/tytestelle/sandiJMYG/main/epg_data/epg_perfect.xm
