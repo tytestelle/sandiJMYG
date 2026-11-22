@@ -19,14 +19,15 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Setup Python with uv
+    - name: Setup Python environment with uv
       uses: astral-sh/setup-uv@v6
       with:
         python-version: '3.12'
+        activate-environment: true   # 自动创建并激活受管理的虚拟环境
 
     - name: Install dependencies
       run: |
-        uv pip install --system requests pytz lxml
+        uv pip install requests pytz lxml
 
     - name: Process EPG data
       run: python scripts/process_epg.py
