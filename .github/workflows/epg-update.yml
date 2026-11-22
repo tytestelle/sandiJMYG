@@ -2,7 +2,7 @@ name: EPG Data Update
 
 on:
   schedule:
-    - cron: '0 16,22,4,10 * * *'  # 北京时间 0点,6点,12点,18点
+    - cron: '0 16,22,4,10 * * *'
   workflow_dispatch:
 
 concurrency:
@@ -19,14 +19,14 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Setup Python
-      uses: actions/setup-python@v4
+    - name: Setup Python with uv
+      uses: astral-sh/setup-uv@v6
       with:
-        python-version: '3.9'
+        python-version: '3.12'
 
     - name: Install dependencies
       run: |
-        pip install requests pytz lxml
+        uv pip install --system requests pytz lxml
 
     - name: Process EPG data
       run: python scripts/process_epg.py
